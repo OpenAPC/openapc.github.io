@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+title:       Datasets on fee-based Open Access Publishing
+email:       najko.jahn@uni-bielefeld.de
+author:      Najko Jahn
+description: "Collection APCs and making the available as Open Data"
+baseurl:     
+url:         "https://openapc.github.io"
 
 # Google analytics
 google_analytics:
@@ -19,8 +19,8 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: false
-github_username:
+show_social_icons: true
+github_username: "openapc"
 stackoverflow_id:
 twitter_username:
 google_plus_id:
