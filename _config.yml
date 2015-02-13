@@ -1,6 +1,6 @@
 # Site settings
 title:       Datasets on fee-based Open Access Publishing
-email:       najko.jahn@uni-bielefeld.de
+email:       openapc@uni-bielefeld.de
 author:      Najko Jahn
 description: "Collection APCs and making the available as Open Data"
 baseurl:     
@@ -16,7 +16,7 @@ show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: "openapc"
 
 # Social icons
 show_social_icons: true
