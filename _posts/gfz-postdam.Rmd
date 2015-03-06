@@ -1,0 +1,94 @@
+---
+layout:     post
+author:		Najko Jahn
+title:      GFZ Potsdam joins openapc.github.io!
+date:       2015-03-06 11:21:29
+summary:    
+categories: general
+comments: true
+---
+
+```{r, echo =FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+
+The [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/) has joined [openapc.github.io](https://openapc.github.io) and is sharing its expenditures for Open Access publications in peer-reviewed journals.
+
+Contact person is [Roland Bertelmann](http://www.gfz-potsdam.de/en/scientific-services/library-information-service/staff/profil/roland-bertelmann/), Head of Library and Information Services LIS.
+
+### Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$Institution == "GFZ-Potsdam",]
+my.apc <- droplevels(my.apc)
+```
+
+The data set covers publication fees for `r nrow(my.apc)` articles paid in 2013 and 2014. Total expenditure was `r sum(my.apc$EURO)`€ and the average fee paid `r sum(my.apc$EURO)/nrow(my.apc)`€.
+
+The following table shows the payments made to publishers (including taxes)
+
+```{r, echo = FALSE}
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$Publisher, length),
+             tapply(my.apc$EURO, my.apc$Publisher, sum),
+             tapply(my.apc$EURO, my.apc$Publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher
+
+```{r tree_gfz, echo=FALSE, message = FALSE}
+tt <- aggregate(my.apc$EURO, by = list(my.apc$Publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year
+
+```{r box_gfz_year, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher
+
+```{r box_gfz_publisher, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```

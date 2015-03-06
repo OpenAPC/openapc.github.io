@@ -4,7 +4,23 @@ title: About
 permalink: /about/
 ---
 
+```{r, echo =FALSE}
 
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
 
 The aim of this repository is:
 
@@ -43,48 +59,117 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
 
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
 
-At the moment, the dataset releases information on 1 676 articles, with total expenditure of 2e+06€. Average fee is 1 202€.
+my.apc <- download_apc()
+my.apc <- droplevels(my.apc)
+```
+
+At the moment, the dataset releases information on `r nrow(my.apc)` articles, with total expenditure of `r sum(my.apc$EURO)`€. Average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
 
 View dataset on [GitHub](https://github.com/openapc/openapc-de/blob/master/data/apc_de.csv).
 
+```{r, echo=FALSE, results='asis', message = FALSE}
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|             15932|           996|
-|Bielefeld U      |      160|            187296|          1171|
-|Duisburg-Essen U |      106|            120575|          1138|
-|FZJ - ZB         |       76|             90411|          1190|
-|GFZ-Potsdam      |       60|             58509|           975|
-|Hannover U       |       42|             53516|          1274|
-|KIT              |      194|            228626|          1178|
-|Konstanz U       |       85|            107776|          1268|
-|Leipzig U        |       60|             79603|          1327|
-|MPG              |      710|            885732|          1248|
-|Regensburg U     |      163|            182610|          1120|
-|TU Clausthal     |        4|              3771|           943|
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
+             tapply(my.apc$EURO, my.apc$Institution, sum),
+             tapply(my.apc$EURO, my.apc$Institution, mean))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
 
 
 ## Sample Visualisations
 
 ### Distribution over publishers by university
 
-![plot of chunk uni_publisher](/figure/uni_publisher-1.png) 
+```{r uni_publisher, fig.width=10.5, fig.height=4.5}
+require(ggplot2)
+
+#load data
+my.apc <- my.apc <- download_apc()
+
+#only unis
+my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam"),]
+
+## Choose only publisher with at least 5 publication (abritary)
+
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, Uni = my.apc$Institution), sum)
+
+## Plot by publisher
+
+p <- ggplot(my.df, aes(Publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
+  scale_y_continuous(limits=c(0, 350000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+  scale_fill_brewer(palette = "Set3") + theme_bw(base_size = 18) + 
+  theme(legend.position="right", legend.text = element_text(size = 6, colour = "black"))
+
+p
+```
 
 ### Comparing fees paid by univeristy and research institution
 
-![plot of chunk box_all](/figure/box_all-1.png) 
+```{r box_all, echo = FALSE}
+my.apc <- download_apc()
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw(base_size = 18)
+q
+
+```
 
 
 ### Average fees paid by publisher
 
-![plot of chunk box_publisher](/figure/box_publisher-1.png) 
+```{r box_publisher, echo=FALSE}
+my.apc <- download_apc()
+
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw(base_size = 18)
+
+q
+```
 
 
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
-![plot of chunk box_mpdl_springer](/figure/box_mpdl_springer-1.png) 
+```{r box_mpdl_springer, echo=FALSE}
+
+my.apc <- download_apc()
+
+mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$Publisher == "Springer Science + Business Media",]
+q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw(base_size = 18)
+
+q
+```
 
 For more examples see also [http://openapc.github.io/openapc-de/](http://openapc.github.io/openapc-de/)
 
