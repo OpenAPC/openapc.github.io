@@ -56,12 +56,12 @@ The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` 
 The following table shows the payments Leipzig University Library has made to the publishers (including taxes)
 
 ```{r}
-my.apc$Publisher <- factor(my.apc$Publisher, 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$publisher <- factor(my.apc$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
 
-df.summary <-cbind(tapply(my.apc$EURO, my.apc$Publisher, length),
-             tapply(my.apc$EURO, my.apc$Publisher, sum),
-             tapply(my.apc$EURO, my.apc$Publisher, mean))
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$publisher, length),
+             tapply(my.apc$EURO, my.apc$publisher, sum),
+             tapply(my.apc$EURO, my.apc$publisher, mean))
 
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
@@ -71,7 +71,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 ### Fees paid per publisher
 
 ```{r tree_leipzig}
-tt <- aggregate(my.apc$EURO, by = list(my.apc$Publisher), sum)
+tt <- aggregate(my.apc$EURO, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 ```
@@ -89,7 +89,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ```{r box_leipzig_publisher, echo = FALSE, message = FALSE}
 require(ggplot2)
-q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
 q + xlab("Publisher") + ylab("APC")
 ```
