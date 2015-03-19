@@ -6,6 +6,8 @@ permalink: /about/
 
 
 
+## About 
+
 The aim of this repository is:
 
 - to release datasets on fees paid for Open Access journal articles by German Universities under an Open Database License
@@ -20,9 +22,11 @@ So far, the following German universities have agreed to share information on pa
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
+- [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
@@ -45,26 +49,47 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 1 676 articles, with total expenditure of 2e+06€. Average fee is 1 202€.
+At the moment, the dataset releases information on 2 166 articles, with total expenditure of 2 635 859.84€. Average fee is 1 216.9€.
 
-View dataset on [GitHub](https://github.com/openapc/openapc-de/blob/master/data/apc_de.csv).
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
 |                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------|--------:|-----------------:|-------------:|
 |Bamberg U        |       16|             15932|           996|
 |Bielefeld U      |      160|            187296|          1171|
-|Duisburg-Essen U |      106|            120575|          1138|
+|Duisburg-Essen U |      114|            130989|          1149|
+|FU Berlin        |       45|             56074|          1246|
 |FZJ - ZB         |       76|             90411|          1190|
-|GFZ-Potsdam      |       60|             58509|           975|
+|GFZ-Potsdam      |       60|             69625|          1160|
+|Goettingen U     |      156|            191827|          1230|
 |Hannover U       |       42|             53516|          1274|
 |KIT              |      194|            228626|          1178|
 |Konstanz U       |       85|            107776|          1268|
 |Leipzig U        |       60|             79603|          1327|
-|MPG              |      710|            885732|          1248|
+|MPG              |      991|           1237804|          1249|
 |Regensburg U     |      163|            182610|          1120|
 |TU Clausthal     |        4|              3771|           943|
 
+## Use of external sources
+
+Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
+
+
+
+|Source     |variable  |description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
+|CrossRef   |`issn_print` |ISSN print |
+|CrossRef   |`issn_electronic`  |ISSN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|EuropePMC    |`pmid`  |PubMed ID                 |
+|EuropePMC    |`pmcid` |PubMed Central ID         |
+|Web of Science |`ut` |Web of Science record ID             |
+|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -72,7 +97,8 @@ View dataset on [GitHub](https://github.com/openapc/openapc-de/blob/master/data/
 
 ![plot of chunk uni_publisher](/figure/uni_publisher-1.png) 
 
-### Comparing fees paid by univeristy and research institution
+
+### Comparing fees paid by university and research institution
 
 ![plot of chunk box_all](/figure/box_all-1.png) 
 
@@ -85,6 +111,7 @@ View dataset on [GitHub](https://github.com/openapc/openapc-de/blob/master/data/
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
 ![plot of chunk box_mpdl_springer](/figure/box_mpdl_springer-1.png) 
+
 
 For more examples see also [http://openapc.github.io/openapc-de/](http://openapc.github.io/openapc-de/)
 
@@ -105,8 +132,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Bertelmann, Roland; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -116,7 +143,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Roland Bertelmann, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
+Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
