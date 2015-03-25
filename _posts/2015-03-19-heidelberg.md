@@ -23,14 +23,14 @@ The present dataset contains information on publication fees paid from the budge
 
 
 
-The dataset covers publication fees for 85 articles, which the fund covered in 2014 so far. Total expenditure amounts to 113 254€ and the average fee is 1 332€.
+The dataset covers publication fees for 83 articles, which the fund covered in 2014 so far. Total expenditure amounts to 112 238€ and the average fee is 1 352€.
 
 The following table shows the payments the [University Library Heidelberg](http://www.ub.uni-heidelberg.de/Englisch/Welcome.html) has made to the publishers (including taxes)
 
 
 |                                     | Articles| Fees paid in EURO| Mean Fee paid|
 |:------------------------------------|--------:|-----------------:|-------------:|
-|Springer Science + Business Media    |       42|             59812|          1424|
+|Springer Science + Business Media    |       39|             57228|          1467|
 |Public Library of Science (PLoS)     |       10|             11906|          1191|
 |Frontiers Media SA                   |        8|             11777|          1472|
 |Copernicus GmbH                      |        7|              8298|          1185|
@@ -42,6 +42,7 @@ The following table shows the payments the [University Library Heidelberg](http:
 |Wiley-Blackwell                      |        1|              1618|          1618|
 |Scientific Research Publishing, Inc, |        1|               610|           610|
 |S. Karger AG                         |        1|              1959|          1959|
+|OMICS Publishing Group               |        1|              1569|          1569|
 |Nature Publishing Group              |        1|              1245|          1245|
 |Acta Dermato-Venereologica           |        1|              1428|          1428|
 
