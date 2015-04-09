@@ -1,0 +1,93 @@
+---
+layout:     post
+author:    Najko Jahn
+title:      Bayreuth University Library joins openapc.github.io
+date:       2015-04-09 15:21:29
+summary:    
+categories: general
+comments: true
+---
+
+
+```{r, echo =FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+We welcome [Bayreuth University Library](http://www.ub.uni-bayreuth.de/en/index.html) as our new contributing institution. The library is in charge of the [University's Open Access Publishing Fund](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html). The fund is supported by the DFG under its [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+
+Contact persons are [Clemens Engelhardt](http://www.ub.uni-bayreuth.de/de/team/Engelhardt_Clemens/index.html) and [Stephanie Kroiß](http://www.ub.uni-bayreuth.de/de/team/Kroiss_Stephanie/index.html).
+
+## Cost Data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$Institution == "Bayreuth U",]
+my.apc <- droplevels(my.apc)
+```
+
+The [present dataset](https://github.com/OpenAPC/openapc-de/commit/0be8afc4b3ad67977244268e9770791410dc9cfb#diff-2c884d723400f4723e3f3651ae3a2119)  covers publication fees paid between 2012 and 2014 for `r format(nrow(my.apc), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+
+The following table shows the payments [Bayreuth University Library](https://www.tu-harburg.de/) has made to the publishers (including taxes).
+
+```{r}
+my.apc$publisher <- factor(my.apc$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$publisher, length),
+             tapply(my.apc$EURO, my.apc$publisher, sum),
+             tapply(my.apc$EURO, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_bayreuth}
+tt <- aggregate(my.apc$EURO, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_bayreuth_year, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_bayreuth_publisher, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip() 
+q + xlab("Publisher") + ylab("APC")
+```
