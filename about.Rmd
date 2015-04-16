@@ -96,9 +96,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ## Use of external sources
 
-Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
-
-
+External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
 
 |Source     |variable  |description                     |
 |:--------------|:---------|:-----------------------------------------------|

@@ -50,7 +50,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 556 articles, with total expenditure of 3 154 397€. Average fee is 1 234.1€.
+At the moment, the dataset releases information on 2 674 articles, with total expenditure of 3 304 238€. Average fee is 1 235.7€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -66,21 +66,19 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |GFZ-Potsdam      |       60|             69625|          1160|
 |Goettingen U     |      126|            159186|          1263|
 |Hamburg TUHH     |       10|             11911|          1191|
-|Hannover U       |       49|             63175|          1289|
+|Hannover U       |       50|             63908|          1278|
 |Heidelberg U     |       83|            112238|          1352|
 |KIT              |      296|            350114|          1183|
 |Konstanz U       |       85|            107776|          1268|
 |Leipzig U        |       60|             79603|          1327|
 |MPG              |     1046|           1315614|          1258|
 |Muenchen LMU     |      106|            153553|          1449|
-|Regensburg U     |      163|            182610|          1120|
+|Regensburg U     |      280|            331718|          1185|
 |TU Clausthal     |        4|              3771|           943|
 
 ## Use of external sources
 
-Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
-
-
+External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
 
 |Source     |variable  |description                     |
 |:--------------|:---------|:-----------------------------------------------|
