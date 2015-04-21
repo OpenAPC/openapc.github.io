@@ -1,9 +1,9 @@
 ---
 layout:     post
 author:  	Najko Jahn
-title:      University Library of Ludwig-Maximilians-Universität München releases expenditures for BioMed Central publications
+title:      University Library of Ludwig-Maximilians-Universität München updates  BioMed Central expenditures
 
-date:       2015-03-23 11:21:29
+date:       2015-04-21 11:21:29
 summary:    
 categories: general
 comments: true
@@ -26,8 +26,9 @@ knitr::knit_hooks$set(inline = function(x) {
   prettyNum(x, big.mark=" ")
 })
 ```
+The [University Library of Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/index.html) has updated [its dataset](http://openapc.github.io/general/2015/03/23/lmu/) about [author fees paid for publishing in BioMed Central journals](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html).
 
-The [University Library of Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/index.html) provides [institutional funding for Open Access publications](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html) in BioMed Central journals. BioMed Central is part of Springer Science + Business Media. 
+BioMed Central is part of Springer Science + Business Media.
 
 Contact person is [Andrea Dorner](http://epub.ub.uni-muenchen.de/contact.html)
 
@@ -52,9 +53,20 @@ my.apc <- my.apc[my.apc$Institution == "Muenchen LMU",]
 my.apc <- droplevels(my.apc)
 ``````
 
-The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Springer journals by LMU Munich researchers, which the University Library covered in 2013 and 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Springer journals by LMU Munich researchers, which the University Library covered between 2008 and 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+
+
+###  Average costs per year (in EURO)
+
+```{r box_lmu_2_springer_year}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 1/10, size = 4)
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
 
 The following table shows the distribution over BioMed Central journal titles.
+
 
 
 ```{r}
@@ -68,15 +80,3 @@ df.summary <-cbind(tapply(my.apc$EURO, my.apc$journal, length),
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Average Fee paid")
 knitr::kable(as.data.frame(df.summary), digits = 2)
 ```
-
-
-###  Average costs per year (in EURO)
-
-```{r box_lmu_springer_year}
-require(ggplot2)
-q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 1/10, size = 4)
-q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
-q + xlab("Funding period") + ylab("APC")
-```
-
-

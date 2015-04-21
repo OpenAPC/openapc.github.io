@@ -1,8 +1,8 @@
 ---
 layout:     post
 author:		Najko Jahn
-title:      University of Kosntanz provides 2014 dataset!
-date:       2015-04-16 11:21:29
+title:      University of Konstanz provides 2014 dataset!
+date:       2015-04-21 11:07:29
 summary:    
 categories: general
 comments: true
@@ -78,7 +78,7 @@ q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(
 q + xlab("Publisher") + ylab("APC")
 ```
 
-The following table shows the payments Konstanz University Library has made (including taxes).
+The following table shows the payments Konstanz University Library has made (including taxes).-
 
 ```{r}
 my.apc$publisher <- factor(my.apc$publisher, 
