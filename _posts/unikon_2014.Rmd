@@ -52,7 +52,7 @@ my.apc <- droplevels(my.apc)
 The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles, which the fund covered between 2012 and 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
 
 
-### Fees paid per publisher between 2012 -2012 (in EURO)
+### Fees paid per publisher between 2012 -2014 (in EURO)
 
 ```{r tree_unikon}
 tt <- aggregate(my.apc$EURO, by = list(my.apc$publisher), sum)
