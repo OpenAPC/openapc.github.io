@@ -53,7 +53,7 @@ my.apc <- my.apc[my.apc$Institution == "Muenchen LMU",]
 my.apc <- droplevels(my.apc)
 ``````
 
-The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Springer journals by LMU Munich researchers, which the University Library covered between 2008 and 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Springer journals by LMU Munich researchers, which the University Library managed between 2008 and 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
 
 
 ###  Average costs per year (in EURO)
