@@ -1,0 +1,63 @@
+---
+layout:     post
+author:    Najko Jahn
+title:      Max Planck Digital Library calls for transition to Gold Open Access
+date:       2015-04-29 09:21:29
+summary:    
+categories: general
+comments: true
+---
+
+```{r, echo =FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+In a recent [White Paper](http://hdl.handle.net/11858/00-001M-0000-0026-C274-7), [Max Planck Digital Library](https://www.mpdl.mpg.de/en/) discusses scenarios under which libraries can support the transition of journals from toll-access to Open Access. The study considers mean APCs paid and relates those figures to subscription costs and  the number of journal articles published on a country and institutional level. The authors conclude that a move from subscription to open access journal publishing is possible without added expense.
+
+OpenAPC is one of the datasets, which the study refers to:
+
+>  For instance, we at the Max Planck Digital Library have begun to upload our APC data to a workspace on GitHub, provided by the OpenAPC initiative under the guidance of Bielefeld University. So far we have documented over 1,046 of our APC invoices; the total spend (including taxes) of some EUR 1.3 million results in an average APC value of EUR 1,258 for the Max Planck Society. Similar values are also reported by several of the German universities that are being supported by the German Research Foundation (DFG) to build up their own publication funds. They upload their APC data to the same system, bringing the total record to 2,387 articles, with a total expenditure of almost EUR 3 million and an average APC fee of EUR 1,239.6
+
+The following figure shows the APC breakdown by university and research society.
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+```
+
+```{r box_all_white_paper, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_classic()
+
+``` 
+ 
+OpenAPC continuously adds new APC datasets. The present dataset covers `r format(nrow(my.apc), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+
+
+
+
+
