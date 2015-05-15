@@ -1,0 +1,89 @@
+---
+layout:     post
+author:		Najko Jahn
+title:      MDC Berlin joins openapc.github.io!
+date:       2015-05-15 11:21:29
+summary:    
+categories: general
+comments: true
+---
+
+```{r, echo =FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+
+The [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/en) has joined [openapc.github.io](https://openapc.github.io) and is sharing its expenditures for publications in both Open Access and toll-access journals.
+
+Contact person is [Dr.Dorothea Busjahn](https://www.mdc-berlin.de/1161898/de/about_the_mdc/structure/administration/library/teammember).
+
+### Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$Institution == "MDC",]
+my.apc <- droplevels(my.apc)
+my.hybrid <- my.apc[my.apc$is_hybrid == TRUE,]
+my.oa <- my.apc[my.apc$is_hybrid == FALSE,]
+```
+
+#### Open Access
+
+The data set covers publication fees for `r nrow(my.oa)` Open Access journal articles paid in 2014. Total expenditure was `r sum(my.oa$EURO)`€ and the average fee paid `r sum(my.oa$EURO)/nrow(my.apc)`€.
+
+#### Hybrid 
+
+In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access". The dataset covers `r nrow(my.hybrid)` hybrid open access articles. Total expenditure amounts to `r format(sum(my.hybrid$EURO), scientific=FALSE)`€. Average fee is `r format(sum(my.hybrid$EURO)/nrow(my.hybrid), digits = 5)`€ and the median `r median(my.hybrid$EURO)`€.
+
+
+### Fees paid per publisher
+
+```{r tree_MDC, echo=FALSE, message = FALSE}
+tt <- aggregate(my.apc$EURO, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year
+
+```{r box_MDC_year, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher
+
+```{r box_MDC_publisher, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
