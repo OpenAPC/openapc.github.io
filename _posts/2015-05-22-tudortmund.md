@@ -11,7 +11,7 @@ comments: true
 
 
 
-The [Technische Universität Dortmund](https://www.tu-dortmund.de/uni/Uni/index.html) has joined [openapc.github.io](https://openapc.github.io) and is sharing its expenditures for publications in Open Access journals. The university library is in charge of the [Open Access Publication Funds of the TU Dortmund](https://www.ub.uni-dortmund.de/open-access/index.html), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+The [Technische Universität Dortmund](https://www.tu-dortmund.de/uni/Uni/index.html) has joined [openapc.github.io](https://openapc.github.io) and is sharing its expenditures for publications in Open Access journals. The university library is in charge of the [Open Access Publication Funds of the TU Dortmund](https://www.ub.uni-dortmund.de/open-access/index.html).
 
 
 Contact person is Dr. Kathrin Höhner <mailto:open-access@ub.tu-dortmund.de>
