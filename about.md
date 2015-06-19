@@ -25,6 +25,7 @@ So far, the following German universities have agreed to share information on pa
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
+- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
@@ -57,13 +58,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  3 706 751€ for  3 029 articles were paid by the participating unviversities. Average  fee is 1 223.8€ and the median 1 190€.
+In total,  4 045 281€ for  3 281 articles were paid by the participating unviversities. Average  fee is 1 232.9€ and the median 1 200€.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 016 articles in open access journals which charge publication fees. Total expenditure amounts to  3 682 458€. Average  fee is 1 221€ and the median 1 190€.
+At the moment, the dataset releases information on 3 268 articles in open access journals which charge publication fees. Total expenditure amounts to  4 020 987€. Average  fee is 1 230.4€ and the median 1 199€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -79,6 +80,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FU Berlin                                   |       45|             56074|          1246|   1177|
 |FZJ - ZB                                    |       76|             90411|          1190|   1080|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      126|            159186|          1263|   1245|
 |Hamburg TUHH                                |       10|             11911|          1191|   1149|
 |Hannover U                                  |       50|             63908|          1278|   1194|
@@ -89,7 +91,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Leipzig U                                   |       60|             79603|          1327|   1305|
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |      992|           1231441|          1241|   1170|
-|Muenchen LMU                                |      305|            370007|          1213|   1266|
+|Muenchen LMU                                |      314|            382455|          1218|   1266|
 |Regensburg U                                |      280|            331718|          1185|   1183|
 |TU Chemnitz                                 |       15|             17441|          1163|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
