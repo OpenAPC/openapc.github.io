@@ -49,7 +49,7 @@ my.apc <- my.apc[my.apc$Institution == "Giessen U",]
 my.apc <- droplevels(my.apc)
 ```
 
-The data set covers publication fees for `r nrow(my.apc)` Open Access journal articles paid in 2014. Total expenditure was `r sum(my.apc$EURO)`€ and the average fee paid `r sum(my.apc$EURO)/nrow(my.apc)`€.
+The data set covers publication fees for `r nrow(my.apc)` Open Access journal articles. Total expenditure is `r sum(my.apc$EURO)`€ and the average fee paid `r sum(my.apc$EURO)/nrow(my.apc)`€.
 
 ### Fees paid per publisher (in €)
 
