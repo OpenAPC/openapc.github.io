@@ -34,6 +34,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
+- [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
@@ -58,13 +59,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 045 281€ for  3 281 articles were paid by the participating unviversities. Average  fee is 1 232.9€ and the median 1 200€.
+In total,  4 058 377€ for  3 299 articles were paid by the participating unviversities. Average  fee is 1 230.2€ and the median 1 196€.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 268 articles in open access journals which charge publication fees. Total expenditure amounts to  4 020 987€. Average  fee is 1 230.4€ and the median 1 199€.
+At the moment, the dataset releases information on 3 286 articles in open access journals which charge publication fees. Total expenditure amounts to  4 034 083€. Average  fee is 1 227.7€ and the median 1 196€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -78,7 +79,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            130989|          1149|   1194|
 |FU Berlin                                   |       45|             56074|          1246|   1177|
-|FZJ - ZB                                    |       76|             90411|          1190|   1080|
+|FZJ - ZB                                    |       71|             80621|          1136|   1067|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      126|            159186|          1263|   1245|
@@ -86,6 +87,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                  |       50|             63908|          1278|   1194|
 |Heidelberg U                                |       83|            112238|          1352|   1418|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
+|Kassel U                                    |       23|             22886|           995|   1059|
 |KIT                                         |      293|            345311|          1179|   1176|
 |Konstanz U                                  |      131|            163374|          1247|   1260|
 |Leipzig U                                   |       60|             79603|          1327|   1305|
@@ -167,10 +169,13 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 ## How to cite?
 
-Bielefeld University Library archives a remote including version history. To cite:
+When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
 
-Apel, Jochen; Becker, Hans-Georg; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris; Kroiss, Stephanie; Kuehle, Gerrit; Lucht-Roussel, Kathrin;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Ruckelshausen, Florian; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Please do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.
+
+Bielefeld University Library archives a copy (including commit history). To cite:
+
+{Contributors:} *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -180,7 +185,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
