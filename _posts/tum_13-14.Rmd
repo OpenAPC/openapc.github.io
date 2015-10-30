@@ -1,0 +1,80 @@
+---
+layout:     post
+author:		Najko Jahn
+title:      Technische Universität München joins openapc.github.io!
+date:       2015-10-30 14:21:29
+summary:    
+categories: general
+comments: true
+---
+
+```{r, echo =FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+[Technische Universität München (TUM)](https://www.tum.de/en/homepage/) supports the publication of research findings in Open Access journals through its [TUM Open Access Publishing Fund
+](http://www.ub.tum.de/en/publication-fund). The fund has been financially supported by the DFG [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+
+Contact person is Agnes Geißelmann <mailto:open-access@ub.tum.de>.
+
+### Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$Institution == "TU Muenchen",]
+my.apc <- droplevels(my.apc)
+```
+
+The data set covers publication fees for `r nrow(my.apc)` Open Access journal articles. Total expenditure is `r sum(my.apc$EURO)`€ and the average fee paid `r sum(my.apc$EURO)/nrow(my.apc)`€.
+
+### Fees paid per publisher (in €)
+
+```{r tree_jlu, echo=FALSE, message = FALSE}
+tt <- aggregate(my.apc$EURO, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in €)
+
+```{r box_jlu_year, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in €)
+
+```{r box_jlu_publisher, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 9) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```

@@ -32,6 +32,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität München](http://www.ub.tum.de/en/publication-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
@@ -60,13 +61,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 345 486€ for  3 515 articles were paid by the participating unviversities. Average  fee is 1 236.3€ and the median 1 201€.
+In total,  4 474 463 € for  3 618 articles were paid by the participating unviversities. Average  fee is 1 236.7 € and the median 1 202 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 502 articles in open access journals which charge publication fees. Total expenditure amounts to  4 321 193€. Average  fee is 1 233.9€ and the median 1 200€.
+At the moment, the dataset releases information on 3 605 articles in open access journals which charge publication fees. Total expenditure amounts to  4 450 169 €. Average  fee is 1 234.4 € and the median 1 201 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -78,7 +79,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bielefeld U                                 |      160|            187296|          1171|   1160|
 |Bochum U                                    |       25|             27689|          1108|   1216|
 |Dortmund TU                                 |        9|              8238|           915|    900|
-|Duisburg-Essen U                            |      114|            130989|          1149|   1194|
+|Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |       45|             56074|          1246|   1177|
 |FZJ - ZB                                    |       94|            109701|          1167|   1091|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
@@ -100,12 +101,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |       78|             96046|          1231|   1242|
 |TU Ilmenau                                  |        4|              4043|          1011|   1201|
+|TU Muenchen                                 |      103|            123054|          1195|   1269|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
+The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293 €. Average  fee is 1 868.7 € and the median 1 785 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -187,7 +189,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 

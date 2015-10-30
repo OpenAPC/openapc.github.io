@@ -48,6 +48,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität München](http://www.ub.tum.de/en/publication-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
@@ -90,7 +91,7 @@ my.apc <- droplevels(my.apc)
 ```
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  `r format(sum(my.apc$EURO), scientific=FALSE)`€ for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+In total,  `r format(sum(my.apc$EURO), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
 
 ### Open Access Journals
 
@@ -99,7 +100,7 @@ my.apc <- download_apc()
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 ```
 
-At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -123,7 +124,7 @@ my.apc <- download_apc()
 my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
 ```
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -283,7 +284,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
