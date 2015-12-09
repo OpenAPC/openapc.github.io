@@ -1,0 +1,38 @@
+---
+layout:     post
+author:    Najko Jahn
+title:      TU Chemnitz releases its 2015 expenditure
+date:       2015-12-09 16:21:29
+summary:    
+categories: general
+comments: true
+---
+
+
+
+
+[Technische Universität Chemnitz](https://www.tu-chemnitz.de/) has contributed its cost information for 2015. Chemnitz University Library is in charge of the [University's Open Access Publishing Fund](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+
+Contact person is Ute Blumtritt <mailto:ute.blumtritt@bibliothek.tu-chemnitz.de>
+
+## About the dataset
+
+The present dataset contains information on publication fees paid in 2014 and 2015. 
+
+## Cost Data
+
+
+
+The data set covers publication fees for 36 Open Access journal articles. Total expenditure is 37 342€ and the average fee paid 1 037€.
+
+### Fees paid per publisher (in €)
+
+![plot of chunk tree_tuchemnitz15](/figure/tree_tuchemnitz15-1.png) 
+
+###  Average costs per year (in €)
+
+![plot of chunk box_tuchemnitz15_year](/figure/box_tuchemnitz15_year-1.png) 
+
+###  Average costs per publisher (in €)
+
+![plot of chunk box_tuchemnitz15_publisher](/figure/box_tuchemnitz15_publisher-1.png) 
