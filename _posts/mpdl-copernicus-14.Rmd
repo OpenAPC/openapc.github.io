@@ -50,7 +50,7 @@ my.apc <- my.apc[my.apc$Institution == "MPG" & my.apc$publisher == "Copernicus G
 my.apc <- droplevels(my.apc)
 ``````
 
-The data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Copernicus journals by MPG researchers, which MPDL covered from 2007 until 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
+The data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Copernicus journals by MPG researchers, which MPDL covered from 2008 until 2014. Total expenditure amounts to `r sum(my.apc$EURO)`€ and the average fee is `r sum(my.apc$EURO)/nrow(my.apc)`€.
 
 The following table shows the distribution over Copernicus journal titles.
 

@@ -20,7 +20,7 @@ Please note that article processing charges funded locally by Max Planck Institu
 
 
 
-The data set covers publication fees for 464 articles published in Copernicus journals by MPG researchers, which MPDL covered from 2007 until 2014. Total expenditure amounts to 709 340€ and the average fee is 1 529€.
+The data set covers publication fees for 464 articles published in Copernicus journals by MPG researchers, which MPDL covered from 2008 until 2014. Total expenditure amounts to 709 340€ and the average fee is 1 529€.
 
 The following table shows the distribution over Copernicus journal titles.
 
