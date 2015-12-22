@@ -23,7 +23,7 @@ The present dataset contains information on publication fees paid in 2014 and 20
 
 
 
-The data set covers publication fees for 36 Open Access journal articles. Total expenditure is 37 342€ and the average fee paid 1 037€.
+The data set covers publication fees for 36 Open Access journal articles. Total expenditure is 37 826€ and the average fee paid 1 051€.
 
 ### Fees paid per publisher (in €)
 
