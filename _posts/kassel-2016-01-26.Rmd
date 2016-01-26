@@ -1,0 +1,85 @@
+---
+layout:     post
+author:		Christoph Broschinski
+title:      University of Kassel updates its 2015 expenditures
+date:       2016-01-26 14:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+```{r, echo =FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+
+The [University of Kassel](http://www.uni-kassel.de/uni/internationales/english-version/university/about-us.html) has updated its APC expenditures for the year 2015.
+The [University Library](http://www.uni-kassel.de/ub/index.php) is in charge of the [Open Access Publication Funds of the university](http://www.uni-kassel.de/ub/index.php?id=37384),
+which is receiving support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+
+
+Contact person is Dr. Tobias Pohlmann <mailto:pohlmann@bibliothek.uni-kassel.de>.
+
+### Cost data for University of Kassel in 2015
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc_2015 <- my.apc[my.apc$institution == "Kassel U" & my.apc$period == 2015, ]
+my.apc_2015 <- droplevels(my.apc_2015)
+my.apc <- my.apc[my.apc$institution == "Kassel U", ]
+my.apc <- droplevels(my.apc)
+``````
+
+With the recent submission, University of Kassel's APC data for the year 2015 is now complete.
+2015 total expenditure amounts to `r sum(my.apc_2015$euro)`€ and the average fee is `r sum(my.apc_2015$euro)/nrow(my.apc_2015)`€. 
+
+```{r}
+my.apc_2015$journal <- factor(my.apc_2015$journal, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc_2015$journal)))))))
+
+df.summary <-cbind(tapply(my.apc_2015$euro, my.apc_2015$journal_full_title, length),
+             tapply(my.apc_2015$euro, my.apc_2015$journal_full_title, sum),
+             tapply(my.apc_2015$euro, my.apc_2015$journal_full_title, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Average Fee paid")
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+
+### Cost data for University of Kassel overall
+
+The data set covers publication fees for `r nrow(my.apc)` Open Access journal articles. Total expenditure was `r sum(my.apc$euro)`€ and the average fee paid `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+
+```{r box_kassel_year_2015, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
