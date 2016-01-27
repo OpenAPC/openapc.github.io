@@ -75,7 +75,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 The data set covers publication fees for `r nrow(my.apc)` Open Access journal articles. Total expenditure was `r sum(my.apc$euro)`€ and the average fee paid `r sum(my.apc$euro)/nrow(my.apc)`€.
 
-# Fees paid per publisher (in €)
+#### Fees paid per publisher (in €)
 
 ```{r tree_kassel_2015, echo=FALSE, message = FALSE}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
@@ -83,7 +83,7 @@ colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 ```
 
-#  Average costs per year (in €)
+#### Average costs per year (in €)
 
 ```{r box_kassel_year_2015, echo=FALSE, message = FALSE}
 require(ggplot2)
