@@ -53,7 +53,7 @@ my.apc <- my.apc[my.apc$institution == "Wuerzburg U",]
 my.apc <- droplevels(my.apc)
 ```
 
-The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles, which the fund covered in 2014 so far. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+The dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
 
 The following table shows the payments [University of Würzburg](https://www.uni-wuerzburg.de) has made to publishers (including VAT).
 

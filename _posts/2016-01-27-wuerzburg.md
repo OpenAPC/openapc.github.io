@@ -23,7 +23,7 @@ The initial dataset contributed by University of Würzburg contains information 
 
 
 
-The dataset covers publication fees for 112 articles, which the fund covered in 2014 so far. Total expenditure amounts to 138 907€ and the average fee is 1 240€.
+The dataset covers publication fees for 112 articles. Total expenditure amounts to 138 907€ and the average fee is 1 240€.
 
 The following table shows the payments [University of Würzburg](https://www.uni-wuerzburg.de) has made to publishers (including VAT).
 
