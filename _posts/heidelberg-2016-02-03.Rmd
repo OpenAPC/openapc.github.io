@@ -1,0 +1,105 @@
+---
+layout:     post
+author:     Christoph Broschinski
+title:      University Library Heidelberg joins openapc.github.io
+date:       2016-02-03 10:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo =FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+[Heidelberg University](https://www.uni-heidelberg.de) has updated its APC expenditures for the year 2015. The recent contribution completes Heidelberg's APC data for the year 2014 and provides a large dataset for the 2015 period.
+
+[University Library Heidelberg](http://www.ub.uni-heidelberg.de/Englisch/Welcome.html) is in charge of the [Heidelberg University Open Access Publishing Fund](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html).
+
+Contact person is Dr. Jochen Apel, Heidelberg University Library, 0049(0)6221-54-4249, <apel@ub.uni-heidelberg.de>.
+
+## About the dataset
+
+The new dataset contains information on publication fees paid from the budget of Heidelberg University's open access publishing fund for 2015. The fund is part of DFG's Open Access Publishing Programme.  Due to a pre-pay membership with BioMed Central (leading to a discount of 20% on publication fees from this publisher) a few funding applications from 2015 are still pending, because the respective article manuscripts are still under review. Nevertheless the corresponding financial resources were spent already in 2015 in order to top up the BioMed Central membership account. Thus, the present dataset for 2015 is not complete yet. Comprehensive data will be released as soon as possible. For more information please see the fund's website mentioned above.
+
+## Cost Data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc_2015 <- my.apc[my.apc$institution == "Heidelberg U" & my.apc$period == 2015, ]
+my.apc_2015 <- droplevels(my.apc_2015)
+my.apc <- my.apc[my.apc$institution == "Heidelberg U", ]
+my.apc <- droplevels(my.apc)
+```
+
+The dataset covers publication fees for `r format(nrow(my.apc_2015), big.mark =",")` articles, which the fund covered in 2015 so far. Total expenditure amounts to `r sum(my.apc_2015$euro)`€ and the average fee is `r sum(my.apc_2015$euro)/nrow(my.apc_2015)`€.
+
+The following table shows the payments the [University Library Heidelberg](http://www.ub.uni-heidelberg.de/Englisch/Welcome.html) has made to publishers in 2015 (including taxes).
+
+```{r}
+my.apc_2015$publisher <- factor(my.apc_2015$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc_2015$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc_2015$euro, my.apc_2015$publisher, length),
+             tapply(my.apc_2015$euro, my.apc_2015$publisher, sum),
+             tapply(my.apc_2015$euro, my.apc_2015$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contributions included, the overall APC data for Heidelberg University now looks as follows: 
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_heidelberg-2016-02-03}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_heidelberg_yeear-2016-02-03, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_heidelberg_publisher-2016-02-03, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
