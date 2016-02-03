@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      University Library Heidelberg joins openapc.github.io
+title:      Heidelberg University updates its APC expenditures for 2014 and 2015
 date:       2016-02-03 9:00:00
 summary:    
 categories: [general, openAPC]
@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-[Heidelberg University](https://www.uni-heidelberg.de) has updated its APC expenditures for the year 2015. The recent contribution completes Heidelberg's APC data for the year 2014 and provides a large dataset for the 2015 period.
+[Heidelberg University](https://www.uni-heidelberg.de) has updated its APC expenditures. The recent contribution completes Heidelberg's APC data for the year 2014 and provides a large dataset for the 2015 period.
 
 [University Library Heidelberg](http://www.ub.uni-heidelberg.de/Englisch/Welcome.html) is in charge of the [Heidelberg University Open Access Publishing Fund](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html).
 
