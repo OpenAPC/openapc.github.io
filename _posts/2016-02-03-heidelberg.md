@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 title:      University Library Heidelberg joins openapc.github.io
-date:       2016-02-03 10:00:00
+date:       2016-02-03 9:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
