@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 title:      University of Würzburg updates its 2015 APC expenditures
-date:       2016-02-03 10:00:00
+date:       2016-02-11 10:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
