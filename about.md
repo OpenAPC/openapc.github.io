@@ -39,6 +39,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
+- [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
 ## Participating Research Society Funds in Germany
 
@@ -48,7 +49,7 @@ Participating Research Organizations:
 
 - [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
 
-The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
+The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
@@ -61,13 +62,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  5 660 040 € for  4 583 articles were paid by the participating unviversities. Average  fee is 1 235 € and the median 1 184 €.
+In total,  7 648 925 € for  6 000 articles were paid by the participating unviversities. Average  fee is 1 274.8 € and the median 1 205 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 4 570 articles in open access journals which charge publication fees. Total expenditure amounts to  5 635 746 €. Average  fee is 1 233.2 € and the median 1 184 €.
+At the moment, the dataset releases information on 5 947 articles in open access journals which charge publication fees. Total expenditure amounts to  7 561 084 €. Average  fee is 1 271.4 € and the median 1 203 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -76,38 +77,39 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
-|Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Bielefeld U                                 |      262|            321475|          1227|   1232|
 |Bochum U                                    |       25|             27689|          1108|   1216|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
-|FU Berlin                                   |       45|             56074|          1246|   1177|
+|FU Berlin                                   |      104|            139284|          1339|   1283|
 |FZJ - ZB                                    |       94|            109701|          1167|   1091|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      313|            409930|          1310|   1285|
 |Hamburg TUHH                                |       10|             11911|          1191|   1149|
-|Hannover U                                  |       67|             87255|          1302|   1238|
-|Heidelberg U                                |       83|            112238|          1352|   1418|
+|Hannover U                                  |       69|             90259|          1308|   1241|
+|Heidelberg U                                |      215|            308348|          1434|   1500|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
-|Kassel U                                    |       23|             22886|           995|   1059|
+|Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      293|            345311|          1179|   1176|
-|Konstanz U                                  |      131|            163374|          1247|   1260|
+|Konstanz U                                  |      223|            304182|          1364|   1342|
 |Leipzig U                                   |       60|             79603|          1327|   1305|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |     1921|           2376528|          1237|   1140|
-|Muenchen LMU                                |      314|            382455|          1218|   1266|
+|MPG                                         |     2641|           3364310|          1274|   1165|
+|Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Regensburg U                                |      280|            331718|          1185|   1183|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |       78|             96046|          1231|   1242|
 |TU Ilmenau                                  |        4|              4043|          1011|   1201|
 |TU Muenchen                                 |      103|            123054|          1195|   1269|
+|Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293 €. Average  fee is 1 868.7 € and the median 1 785 €.
+The dataset covers 53 hybrid open access articles. Total expenditure amounts to  87 842 €. Average  fee is 1 657.4 € and the median 1 673 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -116,6 +118,8 @@ The following institutions have contributed its expenditures for hybrid open acc
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
+|MPG                                         |       40|             63548|          1589|   1669|
+
 ## Use of external sources
 
 External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
@@ -128,11 +132,11 @@ External sources were used to compile the dataset. This allows for disambiguated
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
 |CrossRef   |`license_ref`  |License of the article     |
-|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
 |EuropePMC    |`pmid`  |PubMed ID                 |
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
-|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
+|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -165,7 +169,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
 
-## Licence
+## License
 
 The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
 
@@ -189,7 +193,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
