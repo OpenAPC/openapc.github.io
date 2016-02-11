@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 title:      Bielefeld University updates its 2015 APC expenditures
-date:       2016-02-11 10:00:00
+date:       2016-02-11 14:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
