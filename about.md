@@ -62,13 +62,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  7 648 925 € for  6 000 articles were paid by the participating unviversities. Average  fee is 1 274.8 € and the median 1 205 €.
+In total,  8 019 641 € for  6 268 articles were paid by the participating unviversities. Average  fee is 1 279.5 € and the median 1 208 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 5 947 articles in open access journals which charge publication fees. Total expenditure amounts to  7 561 084 €. Average  fee is 1 271.4 € and the median 1 203 €.
+At the moment, the dataset releases information on 6 215 articles in open access journals which charge publication fees. Total expenditure amounts to  7 931 799 €. Average  fee is 1 276.2 € and the median 1 207 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -78,7 +78,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      262|            321475|          1227|   1232|
-|Bochum U                                    |       25|             27689|          1108|   1216|
+|Bochum U                                    |       70|             91951|          1314|   1437|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      104|            139284|          1339|   1283|
@@ -93,9 +93,9 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      293|            345311|          1179|   1176|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
-|Leipzig U                                   |       60|             79603|          1327|   1305|
+|Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |     2641|           3364310|          1274|   1165|
+|MPG                                         |     2756|           3513989|          1275|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Regensburg U                                |      280|            331718|          1185|   1183|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
@@ -106,6 +106,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
+
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
@@ -119,7 +120,6 @@ The following institutions have contributed its expenditures for hybrid open acc
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
 |MPG                                         |       40|             63548|          1589|   1669|
-
 ## Use of external sources
 
 External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
