@@ -4,3 +4,6 @@ _site
 .Rhistory
 # Ignore the config file that's used for gh-pages.
 _config.gh-pages.yml
+#ignore tmps
+/tmp
+/Rmd/tmp
