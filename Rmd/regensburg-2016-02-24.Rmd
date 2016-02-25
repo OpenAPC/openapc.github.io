@@ -1,0 +1,139 @@
+---
+layout:     post
+author:     Christoph Broschinski
+title:      University of Regensburg provides 3 new APC datasets
+date:       2016-02-24 14:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo =FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+[University of Regensburg](http://www.uni-regensburg.de/index.html.en) has provided its APC expenditures for the 2010, 2011 and 2015 periods.
+
+[Regensburg University Library](http://www.uni-regensburg.de/library/index.html) is in charge of the [central publication  fund at University of Regensburg](http://oa.uni-regensburg.de/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+
+Contact person is Dr. Gernot Deinzer <mailto:gernot.deinzer@bibliothek.uni-regensburg.de>
+
+## Cost Data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc_2015 <- my.apc[my.apc$institution == "Regensburg U" & my.apc$period == 2015, ]
+my.apc_2015 <- droplevels(my.apc_2015)
+my.apc_2011 <- my.apc[my.apc$institution == "Regensburg U" & my.apc$period == 2011, ]
+my.apc_2011 <- droplevels(my.apc_2011)
+my.apc_2010 <- my.apc[my.apc$institution == "Regensburg U" & my.apc$period == 2010, ]
+my.apc_2010 <- droplevels(my.apc_2010)
+my.apc <- my.apc[my.apc$institution == "Regensburg U", ]
+my.apc <- droplevels(my.apc)
+```
+
+The first new dataset covers publication fees for `r format(nrow(my.apc_2015), big.mark =",")` articles, which the fund covered in 2015 so far. Total expenditure amounts to `r sum(my.apc_2015$euro)`€ and the average fee is `r sum(my.apc_2015$euro)/nrow(my.apc_2015)`€.
+
+The following table shows the payments [Regensburg University Library](http://www.uni-regensburg.de/library/index.html) has made to publishers in 2015.
+
+```{r}
+my.apc_2015$publisher <- factor(my.apc_2015$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc_2015$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc_2015$euro, my.apc_2015$publisher, length),
+             tapply(my.apc_2015$euro, my.apc_2015$publisher, sum),
+             tapply(my.apc_2015$euro, my.apc_2015$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+<br />
+  
+The second new dataset covers publication fees for `r format(nrow(my.apc_2011), big.mark =",")` articles from the 2011 period. Total expenditure amounts to `r sum(my.apc_2011$euro)`€ and the average fee is `r sum(my.apc_2011$euro)/nrow(my.apc_2011)`€:
+
+```{r}
+my.apc_2011$publisher <- factor(my.apc_2011$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc_2011$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc_2011$euro, my.apc_2011$publisher, length),
+             tapply(my.apc_2011$euro, my.apc_2011$publisher, sum),
+             tapply(my.apc_2011$euro, my.apc_2011$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+<br /> 
+  
+The final dataset covers publication fees for `r format(nrow(my.apc_2010), big.mark =",")` articles from the 2010 period. Total expenditure amounts to `r sum(my.apc_2010$euro)`€ and the average fee is `r sum(my.apc_2010$euro)/nrow(my.apc_2010)`€:
+
+```{r}
+my.apc_2010$publisher <- factor(my.apc_2010$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc_2010$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc_2010$euro, my.apc_2010$publisher, length),
+             tapply(my.apc_2010$euro, my.apc_2010$publisher, sum),
+             tapply(my.apc_2010$euro, my.apc_2010$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent 3 datasets included, the overall APC data for University of Regensburg now looks as follows: 
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_regensburg-2016-02-24}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_regensburg_year-2016-02-24, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_regensburg_publisher-2016-02-24, echo = FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
