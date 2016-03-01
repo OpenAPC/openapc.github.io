@@ -32,7 +32,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
-- [Technische Universität München](http://www.ub.tum.de/en/publication-fund)
+- [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
@@ -61,13 +61,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 019 641 € for  6 268 articles were paid by the participating unviversities. Average  fee is 1 279.5 € and the median 1 208 €.
+In total,  8 522 358 € for  6 626 articles were paid by the participating unviversities. Average  fee is 1 286.2 € and the median 1 214 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 215 articles in open access journals which charge publication fees. Total expenditure amounts to  7 931 799 €. Average  fee is 1 276.2 € and the median 1 207 €.
+At the moment, the dataset releases information on 6 573 articles in open access journals which charge publication fees. Total expenditure amounts to  8 434 517 €. Average  fee is 1 283.2 € and the median 1 212 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -77,15 +77,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      262|            321475|          1227|   1232|
-|Bochum U                                    |       70|             91951|          1314|   1437|
+|Bochum U                                    |       71|             93546|          1318|   1438|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      104|            139284|          1339|   1283|
-|FZJ - ZB                                    |       94|            109701|          1167|   1091|
-|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|FZJ - ZB                                    |      158|            196869|          1246|   1177|
+|GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      313|            409930|          1310|   1285|
-|Hamburg TUHH                                |       10|             11911|          1191|   1149|
+|Hamburg TUHH                                |       24|             32789|          1366|   1466|
 |Hannover U                                  |       69|             90259|          1308|   1241|
 |Heidelberg U                                |      215|            308348|          1434|   1500|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
@@ -94,12 +94,12 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                  |      223|            304182|          1364|   1342|
 |Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |     2756|           3513989|          1275|   1161|
+|MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
-|Regensburg U                                |      280|            331718|          1185|   1183|
+|Regensburg U                                |      401|            504642|          1258|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
-|TU Dresden                                  |       78|             96046|          1231|   1242|
+|TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |        4|              4043|          1011|   1201|
 |TU Muenchen                                 |      103|            123054|          1195|   1269|
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
