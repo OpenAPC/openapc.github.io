@@ -21,14 +21,14 @@ Contact person is [Dirk Pieper](<mailto:oa.ub@uni-bielefeld.de>).
 
 
 
-The new dataset covers publication fees for 102 articles, which the fund covered in 2015 so far. Total expenditure amounts to 134 178€ and the average fee is 1 315€.
+The new dataset covers publication fees for 103 articles, which the fund covered in 2015 so far. Total expenditure amounts to 135 518€ and the average fee is 1 316€.
 
 The following table shows the payments [Bielefeld University Library](http://www.ub.uni-bielefeld.de/english/) has made to publishers in 2015.
 
 
 |                                                            | Articles| Fees paid in EURO| Mean Fee paid|
 |:-----------------------------------------------------------|--------:|-----------------:|-------------:|
-|Springer Science + Business Media                           |       37|             51579|          1394|
+|Springer Science + Business Media                           |       38|             52919|          1393|
 |Frontiers Media SA                                          |       25|             30529|          1221|
 |Public Library of Science (PLoS)                            |       19|             25694|          1352|
 |MDPI AG                                                     |        5|              5581|          1116|
