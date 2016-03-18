@@ -119,6 +119,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
 |MPG                                         |       40|             63548|          1589|   1669|
+
 ## Use of external sources
 
 External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.

@@ -141,8 +141,8 @@ df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
-
 ```
+
 ## Use of external sources
 
 External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
