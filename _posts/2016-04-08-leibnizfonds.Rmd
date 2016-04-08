@@ -1,0 +1,73 @@
+---
+layout:     post
+author:		Marco Tullney
+title:      Data on first 20 articles from the Leibniz Association's open access fund
+date:       2016-04-08
+summary:    
+categories: general
+comments: true
+---
+
+```{r, echo =FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+APC expenditures from the [Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/) of the Leibniz Association have been made available in a [recent addition](https://github.com/OpenAPC/openapc-de/tree/master/data/leibnizfonds) to the Open APC initiative.
+
+Data is provided by Technische Informationsbibliothek (TIB) – German National Library of Science and Technology. TIB is operating the open access fund together with ZB MED – Leibniz Information Centre for Life Sciences and ZBW – German National Library of Economics – Leibniz Information Centre for Economics.
+
+For 2016, the publishing fund is funded by resources from the strategy fund of the Leibniz Association Executive Board in the amount of  200,000 €. 
+
+### First payments
+
+```{r, cache.lazy = TRUE}
+#' download APC spreadsheet from GitHub (using `curl`)
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+
+#my.apc <- read.csv('/home/marco/dev/openapc-de/data/leibnizfonds/leibnizfonds.csv')
+
+my.apc <- my.apc[my.apc$institution == "Leibniz-Fonds",]
+my.apc <- droplevels(my.apc)
+```
+
+The small initial dataset covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles covered by the fund in 2016 YTD. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+These are the first 20 payments, including taxes. Please note that APCs exceeding 2,000 EUR are shared between the fund and the corresponding Leibniz institution and that this data set only covers payments made via the [central open access publishing fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/).
+
+```{r}
+my.apc$publisher <- factor(my.apc$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
