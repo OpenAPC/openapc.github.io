@@ -38,6 +38,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
@@ -53,6 +54,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 
@@ -61,13 +63,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 536 044 € for  6 638 articles were paid by the participating unviversities. Average  fee is 1 285.9 € and the median 1 214 €.
+In total,  8 598 168 € for  6 682 articles were paid by the participating unviversities. Average  fee is 1 286.8 € and the median 1 216 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 585 articles in open access journals which charge publication fees. Total expenditure amounts to  8 448 203 €. Average  fee is 1 282.9 € and the median 1 212 €.
+At the moment, the dataset releases information on 6 629 articles in open access journals which charge publication fees. Total expenditure amounts to  8 510 327 €. Average  fee is 1 283.8 € and the median 1 214 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -92,10 +94,12 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      293|            345311|          1179|   1176|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
+|Leibniz-Fonds                               |       20|             30182|          1509|   1476|
 |Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
+|Potsdam U                                   |       24|             31942|          1331|   1363|
 |Regensburg U                                |      401|            504642|          1258|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
@@ -193,7 +197,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
