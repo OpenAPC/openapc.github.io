@@ -63,21 +63,21 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 598 168 € for  6 682 articles were paid by the participating unviversities. Average  fee is 1 286.8 € and the median 1 216 €.
+In total,  9 104 493 € for  7 068 articles were paid by the participating unviversities. Average  fee is 1 288.1 € and the median 1 224 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 629 articles in open access journals which charge publication fees. Total expenditure amounts to  8 510 327 €. Average  fee is 1 283.8 € and the median 1 214 €.
+At the moment, the dataset releases information on 7 015 articles in open access journals which charge publication fees. Total expenditure amounts to  9 016 651 €. Average  fee is 1 285.3 € and the median 1 223 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Bamberg U                                   |       16|             15932|           996|    960|
-|Bayreuth U                                  |       57|             64519|          1132|   1104|
+|Bamberg U                                   |       22|             23663|          1076|   1009|
+|Bayreuth U                                  |       92|            105725|          1149|   1200|
 |Bielefeld U                                 |      263|            322815|          1227|   1232|
 |Bochum U                                    |       71|             93546|          1318|   1438|
 |Dortmund TU                                 |        9|              8238|           915|    900|
@@ -92,20 +92,20 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Heidelberg U                                |      215|            308348|          1434|   1500|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
 |Kassel U                                    |       35|             35550|          1016|   1142|
-|KIT                                         |      293|            345311|          1179|   1176|
+|KIT                                         |      428|            524346|          1225|   1239|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
-|Leibniz-Fonds                               |       20|             30182|          1509|   1476|
+|Leibniz-Fonds                               |       26|             40800|          1569|   1522|
 |Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Potsdam U                                   |       24|             31942|          1331|   1363|
-|Regensburg U                                |      401|            504642|          1258|   1207|
+|Regensburg U                                |      400|            503845|          1260|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |       13|             13002|          1000|    986|
-|TU Muenchen                                 |      103|            123054|          1195|   1269|
+|TU Muenchen                                 |      308|            391586|          1271|   1386|
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
