@@ -72,13 +72,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  25 221 602 € for  14 414 articles were paid by the participating unviversities. Average  fee is 1 749.8 € and the median 1 505 €.
+In total,  25 268 345 € for  14 422 articles were paid by the participating unviversities. Average  fee is 1 752.1 € and the median 1 507 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 9 718 articles in open access journals which charge publication fees. Total expenditure amounts to  13 117 606 €. Average  fee is 1 349.8 € and the median 1 264 €.
+At the moment, the dataset releases information on 9 719 articles in open access journals which charge publication fees. Total expenditure amounts to  13 140 259 €. Average  fee is 1 352 € and the median 1 266 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -91,7 +91,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bochum U                                    |       71|             93546|          1318|   1438|
 |Bremen U                                    |      264|            335873|          1272|   1246|
 |Dortmund TU                                 |       28|             26410|           943|    826|
-|Duisburg-Essen U                            |      147|            157261|          1070|   1157|
+|Duisburg-Essen U                            |      147|            178437|          1214|   1212|
 |Erlangen Nuernberg U                        |      402|            551812|          1373|   1424|
 |FU Berlin                                   |      106|            142671|          1346|   1292|
 |FWF - Austrian Science Fund                 |      731|           1016441|          1390|   1271|
@@ -102,7 +102,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hamburg TUHH                                |       24|             32789|          1366|   1466|
 |Hannover U                                  |       69|             90259|          1308|   1241|
 |Heidelberg U                                |      215|            308348|          1434|   1500|
-|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
+|INM - Leibniz-Institut für Neue Materialien |        5|              5744|          1149|   1305|
 |Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      428|            524346|          1225|   1239|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
@@ -126,7 +126,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 4 696 hybrid open access articles. Total expenditure amounts to  12 103 996 €. Average  fee is 2 577.5 € and the median 2 618 €.
+The dataset covers 4 703 hybrid open access articles. Total expenditure amounts to  12 128 086 €. Average  fee is 2 578.8 € and the median 2 618 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -134,9 +134,9 @@ The following institutions have contributed its expenditures for hybrid open acc
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Dortmund TU                                 |        1|              1581|          1581|   1581|
-|Duisburg-Essen U                            |        1|              1309|          1309|   1309|
+|Duisburg-Essen U                            |        1|              2618|          2618|   2618|
 |FWF - Austrian Science Fund                 |     2582|           6170854|          2390|   2515|
-|INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
+|INM - Leibniz-Institut für Neue Materialien |        9|             27020|          3002|   3213|
 |MDC                                         |       18|             42227|          2346|   1996|
 |MPG                                         |       40|             63548|          1589|   1669|
 |TU Chemnitz                                 |        1|               100|           100|    100|
