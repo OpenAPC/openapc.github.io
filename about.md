@@ -11,7 +11,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-## Participating Universities
+## Participating German Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
@@ -65,6 +65,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
+- [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -75,13 +76,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  32 730 111 € for  18 308 articles were paid by the participating unviversities. Average  fee is 1 787.7 € and the median 1 547 €.
+In total,  32 744 017 € for  18 319 articles were paid by the participating unviversities. Average  fee is 1 787.4 € and the median 1 547 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 709 articles in open access journals which charge publication fees. Total expenditure amounts to  15 913 562 €. Average  fee is 1 359.1 € and the median 1 273 €.
+At the moment, the dataset releases information on 11 720 articles in open access journals which charge publication fees. Total expenditure amounts to  15 927 468 €. Average  fee is 1 359 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -122,6 +123,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                  |      130|           175,723|         1,352|  1,415|
 |TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
+|TU Wien                                     |       11|            13,905|         1,264|  1,181|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
 |Ulm U                                       |       65|            92,049|         1,416|  1,285|
 |Wellcome Trust                              |    1,375|         2,367,564|         1,722|  1,602|
@@ -222,7 +224,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
  
 ## Contact
 
