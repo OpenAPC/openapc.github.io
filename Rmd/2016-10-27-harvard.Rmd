@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 We welcome [Harvard University Library](http://library.harvard.edu/) as new contributing institution! The [Office for Scholarly Communication](https://osc.hul.harvard.edu/about/) (OSC) manages the [HOPE Fund](https://osc.hul.harvard.edu/programs/hope/) which provides funds for the reimbursement of article processing fees.
 
-Contact person is [Amanda Cullin](amanda_cullin@harvard.edu).
+Contact person is [Amanda Cullin](mailto:amanda_cullin@harvard.edu).
 
 ## About the dataset
 
