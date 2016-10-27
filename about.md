@@ -72,18 +72,22 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
+## Participating Institutions from the United States:
+
+- [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
+
 ## Dataset
 
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  32 918 621 € for  18 443 articles were paid by the participating unviversities. Average  fee is 1 784.9 € and the median 1 544 €.
+In total,  33 002 414 € for  18 538 articles were paid by the participating unviversities. Average  fee is 1 780.3 € and the median 1 542 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 895 articles in open access journals which charge publication fees. Total expenditure amounts to  16 229 039 €. Average  fee is 1 364.4 € and the median 1 276 €.
+At the moment, the dataset releases information on 11 990 articles in open access journals which charge publication fees. Total expenditure amounts to  16 312 832 €. Average  fee is 1 360.5 € and the median 1 274 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -108,6 +112,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
 |Hannover U                                  |       69|            90,259|         1,308|  1,241|
 |Heidelberg U                                |      215|           308,348|         1,434|  1,500|
+|HOPE Fund - OSC Harvard University Library  |       95|            83,793|           882|    830|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |Kassel U                                    |       35|            35,550|         1,016|  1,142|
@@ -181,22 +186,22 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 ### Distribution over publishers by university
 
-![plot of chunk uni_publisher](/figure/uni_publisher-1.png) 
+![plot of chunk uni_publisher](/figure/uni_publisher-1.png)
 
 
 ### Comparing fees paid by university and research institution
 
-![plot of chunk box_all](/figure/box_all-1.png) 
+![plot of chunk box_all](/figure/box_all-1.png)
 
 
 ### Average fees paid by publisher
 
-![plot of chunk box_publisher](/figure/box_publisher-1.png) 
+![plot of chunk box_publisher](/figure/box_publisher-1.png)
 
 
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
-![plot of chunk box_mpdl_springer](/figure/box_mpdl_springer-1.png) 
+![plot of chunk box_mpdl_springer](/figure/box_mpdl_springer-1.png)
 
 
 For more examples see also [http://openapc.github.io/openapc-de/](http://openapc.github.io/openapc-de/)
@@ -232,7 +237,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
  
 ## Contact
 
