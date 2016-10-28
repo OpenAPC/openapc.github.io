@@ -1,7 +1,7 @@
 # Site settings
 title:       Datasets on fee-based Open Access Publishing
 email:       openapc@uni-bielefeld.de
-author:      Najko Jahn
+author:      INTACT team
 description: "Collecting article processing charges (APC) that German universities and research institions have paid and making them available as Open Data"
 baseurl:     
 url:         "https://openapc.github.io"
@@ -37,3 +37,7 @@ permalink:    pretty
 paginate:     10
 sass:
   compressed: true
+
+# gem 
+
+gems: [jekyll-paginate]
