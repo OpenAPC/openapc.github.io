@@ -40,6 +40,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
@@ -81,13 +82,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  33 002 414 € for  18 538 articles were paid by the participating unviversities. Average  fee is 1 780.3 € and the median 1 542 €.
+In total,  33 049 530 € for  18 583 articles were paid by the participating unviversities. Average  fee is 1 778.5 € and the median 1 542 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 990 articles in open access journals which charge publication fees. Total expenditure amounts to  16 312 832 €. Average  fee is 1 360.5 € and the median 1 274 €.
+At the moment, the dataset releases information on 12 035 articles in open access journals which charge publication fees. Total expenditure amounts to  16 359 949 €. Average  fee is 1 359.4 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -123,6 +124,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MDC                                         |       51|           103,028|         2,020|  1,483|
 |MPG                                         |    3,016|         3,924,332|         1,301|  1,178|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
+|Oldenburg U                                 |       45|            47,117|         1,047|  1,216|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
 |Regensburg U                                |      400|           503,845|         1,260|  1,207|
 |TU Chemnitz                                 |       40|            39,454|           986|  1,056|
@@ -237,13 +239,13 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
- 
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+
 ## Contact
 
 For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
-For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
+For general comments, email openapc at uni-bielefeld.de
 
 ## Disclaimer
 
