@@ -49,7 +49,7 @@ download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
 }
 
 my.apc <- download_apc()
-my.apc <- my.apc[my.apc$institution == "HOPE Fund - OSC Harvard University Library",]
+my.apc <- my.apc[my.apc$institution == "Harvard U",]
 my.apc <- droplevels(my.apc)
 ```
 

@@ -112,8 +112,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Goettingen U                                |      650|           883,918|         1,360|  1,354|
 |Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
 |Hannover U                                  |       69|            90,259|         1,308|  1,241|
+|Harvard U                                   |       95|            83,793|           882|    830|
 |Heidelberg U                                |      215|           308,348|         1,434|  1,500|
-|HOPE Fund - OSC Harvard University Library  |       95|            83,793|           882|    830|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |Kassel U                                    |       35|            35,550|         1,016|  1,142|
