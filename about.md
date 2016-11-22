@@ -69,6 +69,12 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
+## Participating Institutions from the Netherlands
+
+- [LIBER](http://libereurope.eu/blog/2015/02/23/pilot-launched-funding-open-access-for-post-grant-fp7-publications)
+
+LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgrantoapilot), developed in context of the OpenAIRE2020 project.
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -82,13 +88,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  33 049 530 € for  18 583 articles were paid by the participating unviversities. Average  fee is 1 778.5 € and the median 1 542 €.
+In total,  33 830 567 € for  19 119 articles were paid by the participating unviversities. Average  fee is 1 769.5 € and the median 1 539 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 12 035 articles in open access journals which charge publication fees. Total expenditure amounts to  16 359 949 €. Average  fee is 1 359.4 € and the median 1 273 €.
+At the moment, the dataset releases information on 12 572 articles in open access journals which charge publication fees. Total expenditure amounts to  17 143 385 €. Average  fee is 1 363.6 € and the median 1 280 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -103,9 +109,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
+|FP7 Post-Grant OA Pilot                     |      543|           790,821|         1,456|  1,415|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      105|           141,170|         1,344|  1,286|
-|FWF - Austrian Science Fund                 |      753|         1,056,717|         1,403|  1,274|
+|FWF - Austrian Science Fund                 |      754|         1,059,117|         1,405|  1,274|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
 |GFZ-Potsdam                                 |      106|           126,520|         1,194|  1,065|
 |Giessen U                                   |      317|           428,690|         1,352|  1,273|
@@ -122,7 +129,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
 |Leipzig U                                   |      173|           243,873|         1,410|  1,471|
 |MDC                                         |       51|           103,028|         2,020|  1,483|
-|MPG                                         |    3,016|         3,924,332|         1,301|  1,178|
+|MPG                                         |    3,011|         3,917,544|         1,301|  1,178|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
 |Oldenburg U                                 |       45|            47,117|         1,047|  1,216|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
@@ -135,7 +142,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Wien                                     |       11|            13,905|         1,264|  1,181|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
 |Ulm U                                       |       62|            84,310|         1,360|  1,285|
-|Wellcome Trust                              |    1,404|         2,434,923|         1,734|  1,602|
+|Wellcome Trust                              |    1,402|         2,431,927|         1,735|  1,602|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -143,7 +150,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 6 548 hybrid open access articles. Total expenditure amounts to  16 689 582 €. Average  fee is 2 548.8 € and the median 2 590 €.
+The dataset covers 6 547 hybrid open access articles. Total expenditure amounts to  16 687 182 €. Average  fee is 2 548.8 € and the median 2 590 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -154,7 +161,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                 |    2,560|         6,130,578|         2,395|  2,519|
+|FWF - Austrian Science Fund                 |    2,559|         6,128,178|         2,395|  2,521|
 |HZDR                                        |       20|            11,880|           594|    570|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
@@ -239,7 +246,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
