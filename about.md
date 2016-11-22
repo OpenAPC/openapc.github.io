@@ -88,13 +88,13 @@ LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgran
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  33 830 567 € for  19 119 articles were paid by the participating unviversities. Average  fee is 1 769.5 € and the median 1 539 €.
+In total,  33 832 208 € for  19 121 articles were paid by the participating unviversities. Average  fee is 1 769.4 € and the median 1 539 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 12 572 articles in open access journals which charge publication fees. Total expenditure amounts to  17 143 385 €. Average  fee is 1 363.6 € and the median 1 280 €.
+At the moment, the dataset releases information on 12 574 articles in open access journals which charge publication fees. Total expenditure amounts to  17 145 026 €. Average  fee is 1 363.5 € and the median 1 280 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -109,7 +109,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
-|FP7 Post-Grant OA Pilot                     |      543|           790,821|         1,456|  1,415|
+|FP7 Post-Grant OA Pilot                     |      545|           792,462|         1,454|  1,413|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      105|           141,170|         1,344|  1,286|
 |FWF - Austrian Science Fund                 |      754|         1,059,117|         1,405|  1,274|
