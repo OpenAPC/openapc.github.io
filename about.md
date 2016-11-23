@@ -69,12 +69,6 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
-## Participating Institutions from the Netherlands
-
-- [LIBER](http://libereurope.eu/blog/2015/02/23/pilot-launched-funding-open-access-for-post-grant-fp7-publications)
-
-LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgrantoapilot), developed in context of the OpenAIRE2020 project.
-
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -83,18 +77,22 @@ LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgran
 
 - [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
 
+## Supranational participants
+
+- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
+
 ## Dataset
 
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  33 832 208 € for  19 121 articles were paid by the participating unviversities. Average  fee is 1 769.4 € and the median 1 539 €.
+In total,  33 832 448 € for  19 122 articles were paid by the participating unviversities. Average  fee is 1 769.3 € and the median 1 539 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 12 574 articles in open access journals which charge publication fees. Total expenditure amounts to  17 145 026 €. Average  fee is 1 363.5 € and the median 1 280 €.
+At the moment, the dataset releases information on 12 575 articles in open access journals which charge publication fees. Total expenditure amounts to  17 145 266 €. Average  fee is 1 363.4 € and the median 1 280 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -109,7 +107,6 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
-|FP7 Post-Grant OA Pilot                     |      545|           792,462|         1,454|  1,413|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      105|           141,170|         1,344|  1,286|
 |FWF - Austrian Science Fund                 |      754|         1,059,117|         1,405|  1,274|
@@ -132,6 +129,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MPG                                         |    3,011|         3,917,544|         1,301|  1,178|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
 |Oldenburg U                                 |       45|            47,117|         1,047|  1,216|
+|OpenAIRE                                    |      546|           792,703|         1,452|  1,413|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
 |Regensburg U                                |      400|           503,845|         1,260|  1,207|
 |TU Chemnitz                                 |       40|            39,454|           986|  1,056|
