@@ -72,6 +72,32 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
+- [JISC](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/)
+
+Jisc Collections released data on APC payments made by UK higher education institutions (HEIs):
+
+- Bangor University
+- Cranfield University
+- Durham University
+- Imperial College London
+- Loughborough University
+- London School of Hygiene & Tropical Medicine (LSHTM)
+- Newcastle University
+- Plymouth University
+- Queen Mary University of London
+- Royal Holloway, University of London
+- Swansea University
+- University College London (UCL)
+- University of Bath
+- University of Birmingham
+- University of Bristol
+- University of Cambridge
+- University of Glasgow
+- University of Portsmouth
+- University of Salford
+- University of Sheffield
+- University of Sussex
+- University of Warwick
 
 ## Participating Institutions from the United States:
 
@@ -86,13 +112,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  33 885 246 € for  19 165 articles were paid by the participating unviversities. Average  fee is 1 768.1 € and the median 1 538 €.
+In total,  41 176 978 € for  22 795 articles were paid by the participating unviversities. Average  fee is 1 806.4 € and the median 1 608 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 12 618 articles in open access journals which charge publication fees. Total expenditure amounts to  17 198 064 €. Average  fee is 1 363 € and the median 1 279 €.
+At the moment, the dataset releases information on 13 513 articles in open access journals which charge publication fees. Total expenditure amounts to  18 685 068 €. Average  fee is 1 382.7 € and the median 1 285 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -100,18 +126,21 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Bamberg U                                   |       22|            23,663|         1,076|  1,009|
+|Bangor University                           |        9|            14,447|         1,605|  1,654|
 |Bayreuth U                                  |       92|           105,725|         1,149|  1,200|
 |Bielefeld U                                 |      263|           322,815|         1,227|  1,232|
 |Bochum U                                    |       71|            93,546|         1,318|  1,438|
 |Bremen U                                    |      264|           335,873|         1,272|  1,246|
+|Cranfield University                        |       NA|                NA|            NA|     NA|
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
+|Durham University                           |       10|            14,302|         1,430|  1,368|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      105|           141,170|         1,344|  1,286|
 |FWF - Austrian Science Fund                 |      754|         1,059,117|         1,405|  1,274|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
-|GFZ-Potsdam                                 |      106|           126,520|         1,194|  1,065|
+|GFZ-Potsdam                                 |      104|           120,536|         1,159|  1,062|
 |Giessen U                                   |      317|           428,690|         1,352|  1,273|
 |Goettingen U                                |      650|           883,918|         1,360|  1,354|
 |Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
@@ -119,19 +148,27 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Harvard U                                   |       95|            83,793|           882|    830|
 |Heidelberg U                                |      215|           308,348|         1,434|  1,500|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
+|Imperial College London                     |      153|           293,414|         1,918|  1,631|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |Kassel U                                    |       35|            35,550|         1,016|  1,142|
 |KIT                                         |      427|           522,346|         1,223|  1,236|
 |Konstanz U                                  |      222|           302,232|         1,361|  1,333|
 |Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
 |Leipzig U                                   |      173|           243,873|         1,410|  1,471|
+|Loughborough University                     |        1|               980|           980|    980|
+|LSHTM                                       |       44|            65,723|         1,494|  1,517|
 |MDC                                         |       51|           103,028|         2,020|  1,483|
 |MPG                                         |    3,040|         3,954,284|         1,301|  1,180|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
+|Newcastle University                        |       51|            91,101|         1,786|  1,385|
 |Oldenburg U                                 |       59|            63,175|         1,071|  1,247|
 |OpenAIRE                                    |      546|           792,703|         1,452|  1,413|
+|Plymouth University                         |        3|             2,889|           963|  1,010|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
+|Queen Mary, University of London            |       24|            30,528|         1,272|  1,200|
 |Regensburg U                                |      400|           503,845|         1,260|  1,207|
+|Royal Holloway                              |        2|             2,517|         1,258|  1,258|
+|Swansea University                          |        9|            16,097|         1,788|  1,218|
 |TU Chemnitz                                 |       40|            39,454|           986|  1,056|
 |TU Clausthal                                |        8|             6,999|           875|    918|
 |TU Dresden                                  |      130|           175,723|         1,352|  1,415|
@@ -139,8 +176,19 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
 |TU Wien                                     |       11|            13,905|         1,264|  1,181|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
+|UCL                                         |      461|           707,902|         1,536|  1,501|
 |Ulm U                                       |       62|            84,310|         1,360|  1,285|
-|Wellcome Trust                              |    1,402|         2,431,927|         1,735|  1,602|
+|University of Bath                          |       21|            30,539|         1,454|  1,257|
+|University of Birmingham                    |      105|           163,136|         1,554|  1,481|
+|University of Bristol                       |       77|           135,628|         1,761|  1,513|
+|University of Cambridge                     |       84|           134,018|         1,595|  1,462|
+|University of Glasgow                       |        3|             4,528|         1,509|  1,246|
+|University of Portsmouth                    |        5|             7,706|         1,541|  1,354|
+|University of Salford                       |        4|             5,690|         1,423|  1,468|
+|University of Sheffield                     |       33|            52,894|         1,603|  1,325|
+|University of Sussex                        |       13|            26,551|         2,042|  1,253|
+|University of Warwick                       |       30|            63,715|         2,124|  1,330|
+|Wellcome Trust                              |    1,157|         2,060,610|         1,781|  1,634|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -148,27 +196,50 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 6 547 hybrid open access articles. Total expenditure amounts to  16 687 182 €. Average  fee is 2 548.8 € and the median 2 590 €.
+The dataset covers 9 282 hybrid open access articles. Total expenditure amounts to  22 491 910 €. Average  fee is 2 423.2 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Bangor University                           |       25|            68,604|         2,744|  2,659|
+|Cranfield University                        |        5|            12,287|         2,457|  2,532|
 |Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
 |Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
+|Durham University                           |       77|           149,302|         1,939|  1,997|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                 |    2,559|         6,128,178|         2,395|  2,521|
+|GFZ-Potsdam                                 |        2|             5,985|         2,992|  2,992|
 |HZDR                                        |       20|            11,880|           594|    570|
+|Imperial College London                     |      382|           937,573|         2,454|  2,576|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
 |Konstanz U                                  |        1|             1,950|         1,950|  1,950|
+|Loughborough University                     |       76|           170,264|         2,240|  2,172|
+|LSHTM                                       |       80|           197,070|         2,463|  2,261|
 |MDC                                         |       18|            42,227|         2,346|  1,996|
 |MPG                                         |       13|            17,508|         1,347|  1,325|
+|Newcastle University                        |      168|           430,248|         2,561|  2,603|
+|Plymouth University                         |        7|            16,865|         2,409|  2,266|
+|Queen Mary, University of London            |       51|           111,794|         2,192|  2,202|
+|Royal Holloway                              |        3|             5,751|         1,917|  1,971|
+|Swansea University                          |       35|            69,959|         1,999|  1,862|
 |TU Chemnitz                                 |        1|               100|           100|    100|
+|UCL                                         |    1,415|         2,796,186|         1,976|  1,862|
 |Ulm U                                       |       16|            33,672|         2,104|  2,319|
-|Wellcome Trust                              |    3,905|        10,415,309|         2,667|  2,611|
+|University of Bath                          |       79|           158,599|         2,008|  1,978|
+|University of Birmingham                    |      186|           416,606|         2,240|  2,234|
+|University of Bristol                       |      218|           523,705|         2,402|  2,234|
+|University of Cambridge                     |      315|           798,488|         2,535|  2,585|
+|University of Glasgow                       |       30|            65,591|         2,186|  1,928|
+|University of Portsmouth                    |        6|            13,419|         2,236|  2,653|
+|University of Salford                       |        2|             5,892|         2,946|  2,946|
+|University of Sheffield                     |      138|           291,907|         2,115|  2,169|
+|University of Sussex                        |       24|            56,728|         2,364|  2,304|
+|University of Warwick                       |       95|           227,032|         2,390|  2,480|
+|Wellcome Trust                              |    3,221|         8,690,182|         2,698|  2,633|
 
 ## Use of external sources
 
@@ -244,7 +315,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

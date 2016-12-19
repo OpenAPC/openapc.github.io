@@ -1,0 +1,88 @@
+---
+layout:     post
+author:     Christoph Broschinski
+title:      Jisc collections data included into OpenAPC
+date:       2016-12-16 07:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+[Jisc Collections](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/) has been gathering and openly releasing data on APC payments made by UK higher education institutions (HEIs).
+
+One of these datasets (APC data for the 2014 period) has now been included into OpenAPC.
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc_jisc_2014 <- download_apc("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/jisc_collections/final/APCs2014combined_final.csv")
+my.apc_jisc_2015 <- download_apc("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/jisc_collections/final/APCs2014combined_paid_in_2015_final.csv")
+my.apc = rbind(my.apc_jisc_2014, my.apc_jisc_2015)
+my.apc <- my.apc[!is.na(my.apc$institution),]
+
+```
+The ingested data covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published by 22 UK institutions in 2014. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+The following table and plots show a breakdown of the payments.
+
+### Overview
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_jisc_2016_12_16_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_jisc_2016_12_16_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
