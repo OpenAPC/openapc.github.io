@@ -112,13 +112,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  41 272 332 € for  22 864 articles were paid by the participating unviversities. Average  fee is 1 805.1 € and the median 1 607 €.
+In total,  42 376 555 € for  23 805 articles were paid by the participating unviversities. Average  fee is 1 780.2 € and the median 1 593 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 13 582 articles in open access journals which charge publication fees. Total expenditure amounts to  18 780 422 €. Average  fee is 1 382.7 € and the median 1 285 €.
+At the moment, the dataset releases information on 14 477 articles in open access journals which charge publication fees. Total expenditure amounts to  19 791 081 €. Average  fee is 1 367.1 € and the median 1 272 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -174,13 +174,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                  |      130|           175,723|         1,352|  1,415|
 |TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
-|TU Wien                                     |       11|            13,905|         1,264|  1,181|
+|TU Wien                                     |       23|            32,403|         1,409|  1,323|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
 |UCL                                         |      461|           707,902|         1,536|  1,501|
 |Ulm U                                       |       62|            84,310|         1,360|  1,285|
 |University of Bath                          |       21|            30,539|         1,454|  1,257|
 |University of Birmingham                    |      105|           163,136|         1,554|  1,481|
 |University of Bristol                       |       77|           135,628|         1,761|  1,513|
+|University of Calgary                       |      882|           991,153|         1,124|  1,144|
 |University of Cambridge                     |       84|           134,018|         1,595|  1,462|
 |University of Glasgow                       |        3|             4,528|         1,509|  1,246|
 |University of Portsmouth                    |        5|             7,706|         1,541|  1,354|
@@ -188,7 +189,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Sheffield                     |       33|            52,894|         1,603|  1,325|
 |University of Sussex                        |       13|            26,551|         2,042|  1,253|
 |University of Warwick                       |       30|            63,715|         2,124|  1,330|
-|Wellcome Trust                              |    1,157|         2,060,610|         1,781|  1,634|
+|Wellcome Trust                              |    1,158|         2,061,618|         1,780|  1,634|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -196,7 +197,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 282 hybrid open access articles. Total expenditure amounts to  22 491 910 €. Average  fee is 2 423.2 € and the median 2 400 €.
+The dataset covers 9 328 hybrid open access articles. Total expenditure amounts to  22 585 474 €. Average  fee is 2 421.3 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -232,6 +233,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Bath                          |       79|           158,599|         2,008|  1,978|
 |University of Birmingham                    |      186|           416,606|         2,240|  2,234|
 |University of Bristol                       |      218|           523,705|         2,402|  2,234|
+|University of Calgary                       |       47|            94,572|         2,012|  2,182|
 |University of Cambridge                     |      315|           798,488|         2,535|  2,585|
 |University of Glasgow                       |       30|            65,591|         2,186|  1,928|
 |University of Portsmouth                    |        6|            13,419|         2,236|  2,653|
@@ -239,7 +241,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Sheffield                     |      138|           291,907|         2,115|  2,169|
 |University of Sussex                        |       24|            56,728|         2,364|  2,304|
 |University of Warwick                       |       95|           227,032|         2,390|  2,480|
-|Wellcome Trust                              |    3,221|         8,690,182|         2,698|  2,633|
+|Wellcome Trust                              |    3,220|         8,689,174|         2,698|  2,633|
 
 ## Use of external sources
 
