@@ -119,6 +119,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
 
+## Participating Canadian Institutions:
+
+- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
+
 ## Supranational participants
 
 - [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
@@ -352,7 +356,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
