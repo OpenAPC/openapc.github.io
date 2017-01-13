@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      University of Tübingen joins openapc.github.io
+title:      University of Tübingen joins OpenAPC
 date:       2016-07-27 09:00:00
 summary:    
 categories: [general, openAPC]

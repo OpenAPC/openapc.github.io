@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      Technische Universität Wien joins openapc.github.io
+title:      Technische Universität Wien joins OpenAPC
 date:       2016-08-24 11:00:00
 summary:    
 categories: [general, openAPC]

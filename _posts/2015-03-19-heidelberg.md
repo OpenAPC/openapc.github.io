@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:    Najko Jahn
-title:      University Library Heidelberg joins openapc.github.io
+title:      University Library Heidelberg joins OpenAPC
 date:       2015-03-19 09:21:29
 summary:    
 categories: general

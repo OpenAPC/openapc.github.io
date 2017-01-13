@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:    Najko Jahn
-title:      TU Chemnitz joins openapc.github.io
+title:      TU Chemnitz joins OpenAPC
 date:       2015-05-15 19:21:29
 summary:    
 categories: general

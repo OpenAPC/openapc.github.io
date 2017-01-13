@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:		Najko Jahn
-title:      Göttingen State and University Library joins openapc.github.io!
+title:      Göttingen State and University Library joins OpenAPC!
 date:       2015-03-13 11:21:29
 summary:    
 categories: general

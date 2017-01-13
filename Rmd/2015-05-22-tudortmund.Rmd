@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:		Najko Jahn
-title:      TU Dortmund joins openapc.github.io!
+title:      TU Dortmund joins OpenAPC!
 date:       2015-05-22 10:21:29
 summary:    
 categories: general

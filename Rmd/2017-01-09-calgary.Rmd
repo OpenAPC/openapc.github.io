@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      University of Calgary joins openapc.github.io
+title:      University of Calgary joins OpenAPC
 date:       2017-01-09 08:00:00
 summary:    
 categories: [general, openAPC]

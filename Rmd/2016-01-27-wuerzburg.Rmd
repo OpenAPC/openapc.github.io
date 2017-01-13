@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      University of Würzburg joins openapc.github.io
+title:      University of Würzburg joins OpenAPC
 date:       2016-01-27 12:00:00
 summary:    
 categories: [general, openAPC]

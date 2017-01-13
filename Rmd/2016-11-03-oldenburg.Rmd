@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Christoph Broschinski
-title:      University of Oldenburg joins openapc.github.io
+title:      University of Oldenburg joins OpenAPC
 date:       2016-11-03 08:00:00
 summary:    
 categories: [general, openAPC]

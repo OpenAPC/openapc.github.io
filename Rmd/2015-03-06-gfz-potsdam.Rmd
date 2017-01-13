@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:		Najko Jahn
-title:      GFZ Potsdam joins openapc.github.io!
+title:      GFZ Potsdam joins OpenAPC!
 date:       2015-03-06 11:21:29
 summary:    
 categories: general

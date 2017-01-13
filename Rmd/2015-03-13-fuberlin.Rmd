@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:		Najko Jahn
-title:      Free University Library Berlin joins openapc.github.io!
+title:      Free University Library Berlin joins OpenAPC!
 date:       2015-03-13 11:21:29
 summary:    
 categories: general
