@@ -59,9 +59,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
-- [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
+- [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 
 ## Participating Austrian Institutions
@@ -116,13 +117,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  42 414 599 € for  23 834 articles were paid by the participating unviversities. Average  fee is 1 779.6 € and the median 1 591 €.
+In total,  42 472 111 € for  23 860 articles were paid by the participating unviversities. Average  fee is 1 780.1 € and the median 1 593 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 14 506 articles in open access journals which charge publication fees. Total expenditure amounts to  19 829 125 €. Average  fee is 1 367 € and the median 1 273 €.
+At the moment, the dataset releases information on 14 510 articles in open access journals which charge publication fees. Total expenditure amounts to  19 833 034 €. Average  fee is 1 366.9 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -154,6 +155,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
 |Imperial College London                     |      153|           293,414|         1,918|  1,631|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
+|IPN                                         |        4|             3,909|           977|    479|
 |Kassel U                                    |       35|            35,550|         1,016|  1,142|
 |KIT                                         |      427|           522,346|         1,223|  1,236|
 |Konstanz U                                  |      222|           302,232|         1,361|  1,333|
@@ -201,7 +203,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 328 hybrid open access articles. Total expenditure amounts to  22 585 474 €. Average  fee is 2 421.3 € and the median 2 400 €.
+The dataset covers 9 350 hybrid open access articles. Total expenditure amounts to  22 639 077 €. Average  fee is 2 421.3 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -220,6 +222,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |HZDR                                        |       20|            11,880|           594|    570|
 |Imperial College London                     |      382|           937,573|         2,454|  2,576|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
+|IPN                                         |       22|            53,603|         2,437|  2,558|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
 |Konstanz U                                  |        1|             1,950|         1,950|  1,950|
 |Loughborough University                     |       76|           170,264|         2,240|  2,172|
@@ -321,7 +324,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
