@@ -59,6 +59,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
+- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
@@ -117,13 +118,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  42 651 740 € for  23 971 articles were paid by the participating unviversities. Average  fee is 1 779.3 € and the median 1 594 €.
+In total,  42 693 926 € for  24 011 articles were paid by the participating unviversities. Average  fee is 1 778.1 € and the median 1 591 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 14 621 articles in open access journals which charge publication fees. Total expenditure amounts to  20 012 663 €. Average  fee is 1 368.8 € and the median 1 275 €.
+At the moment, the dataset releases information on 14 661 articles in open access journals which charge publication fees. Total expenditure amounts to  20 054 849 €. Average  fee is 1 367.9 € and the median 1 275 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -183,6 +184,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Wien                                     |       23|            32,403|         1,409|  1,323|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
 |UCL                                         |      461|           707,902|         1,536|  1,501|
+|UFZ                                         |       40|            42,186|         1,055|    979|
 |Ulm U                                       |       62|            84,310|         1,360|  1,285|
 |University of Bath                          |       21|            30,539|         1,454|  1,257|
 |University of Birmingham                    |      105|           163,136|         1,554|  1,481|
@@ -324,7 +326,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
