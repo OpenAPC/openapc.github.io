@@ -11,7 +11,7 @@ comments: true
 
 
 
-We welcome the [Eberhard Karls Universität Tübingen](https://www.uni-tuebingen.de/en.html) as new contributing institution! [Tübingen University Library](https://www.uni-tuebingen.de/nc/en/facilities/university-library/home.html) is in charge of the [University's Open Access Publishing Fund](https://www.uni-tuebingen.de/einrichtungen/universitaetsbibliothek/forschen-publizieren/open-access-publikationsfonds.html), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome the [Eberhard Karls Universität Tübingen](https://www.uni-tuebingen.de/en.html) as new contributing institution! [Tübingen University Library](https://www.uni-tuebingen.de/nc/en/facilities/university-library/home.html) is in charge of the [University's Open Access Publishing Fund](https://www.uni-tuebingen.de/einrichtungen/universitaetsbibliothek/forschen-publizieren/open-access-publikationsfonds.html), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Ute Holzwarth](mailto:openaccess@ub.uni-tuebingen.de).
 

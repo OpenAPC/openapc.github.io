@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-We welcome the [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.de/) (FAU) as new contributing institution! The [University Library of Erlangen-Nürnberg](http://www.ub.fau.de/index-en.shtml) is in charge of the [University's Open Access Publishing Fund](http://www.ub.fau.de/open-access/open-access-fonds.shtml), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome the [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.de/) (FAU) as new contributing institution! The [University Library of Erlangen-Nürnberg](http://www.ub.fau.de/index-en.shtml) is in charge of the [University's Open Access Publishing Fund](http://www.ub.fau.de/open-access/open-access-fonds.shtml), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Markus Putnings](mailto:markus.putnings@fau.de).
 

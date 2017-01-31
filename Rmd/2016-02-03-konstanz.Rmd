@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 [Konstanz University Library](http://www.ub.uni-konstanz.de/en/welcome/) has updated its APC expenditures. The recent contribution provides a large dataset for the 2015 period.
 
-The library is in charge of the [central publication fund at the University of Konstanz](http://www.ub.uni-konstanz.de/en/openaccess/open-access-publikationsfond-der-universitaet-konstanz/), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+The library is in charge of the [central publication fund at the University of Konstanz](http://www.ub.uni-konstanz.de/en/openaccess/open-access-publikationsfond-der-universitaet-konstanz/), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Anja Oberländer](https://scikon.uni-konstanz.de/personen/anja.oberlaender/).
 

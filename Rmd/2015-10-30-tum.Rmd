@@ -27,7 +27,7 @@ knitr::knit_hooks$set(inline = function(x) {
 ```
 
 [Technische Universität München (TUM)](https://www.tum.de/en/homepage/) supports the publication of research findings in Open Access journals through its [TUM Open Access Publishing Fund
-](https://www.ub.tum.de/en/publishing-fund). The fund has been financially supported by the DFG [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+](https://www.ub.tum.de/en/publishing-fund). The fund has been financially supported by the DFG [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Agnes Geißelmann <mailto:open-access@ub.tum.de>.
 

@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-[Leibniz Universität Hannover](https://www.uni-hannover.de/en/) has updated its spreadsheet. [Leibniz Universität Hannover’s open access publishing fund](http://www.tib.uni-hannover.de/en/advice-and-service/digital-publishing-and-open-access/financial-support-for-open-access-publications/leibniz-universitaet-hannovers-open-access-publishing-fund.html) have received support from the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html) since 2013.
+[Leibniz Universität Hannover](https://www.uni-hannover.de/en/) has updated its spreadsheet. [Leibniz Universität Hannover’s open access publishing fund](http://www.tib.uni-hannover.de/en/advice-and-service/digital-publishing-and-open-access/financial-support-for-open-access-publications/leibniz-universitaet-hannovers-open-access-publishing-fund.html) have received support from the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/) since 2013.
 
 Contact persons is [Marco Tullney](mailto:marco.tullney@tib.uni-hannover.de).
 

@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [TU Clausthal](http://www.tu-clausthal.de/Welcome.php.en) has updated its APC expenditures. The latest contribution provides data for the 2015 period.
 
-The [Library of Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/) is in charge of the [University's Open Access Publishing Fund](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+The [Library of Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/) is in charge of the [University's Open Access Publishing Fund](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Silke Frank](mailto:silke.frank@tu-clausthal.de).
 

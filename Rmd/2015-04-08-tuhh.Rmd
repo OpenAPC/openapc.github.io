@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-We welcome [University Library of Hamburg University of Technology (TUHH)](https://www.tub.tu-harburg.de/) as our new contributing institution. The library is in charge of the [University's Open Access Publishing Fund](https://www.tub.tu-harburg.de/publizieren/openaccess/open-access-fonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome [University Library of Hamburg University of Technology (TUHH)](https://www.tub.tu-harburg.de/) as our new contributing institution. The library is in charge of the [University's Open Access Publishing Fund](https://www.tub.tu-harburg.de/publizieren/openaccess/open-access-fonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Inken Feldsien-Sudhaus, Head Librarian <mailto:openaccess@tuhh.de>.
 

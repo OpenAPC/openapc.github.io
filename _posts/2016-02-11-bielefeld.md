@@ -13,7 +13,7 @@ comments: true
 
 Same day, another contribution: [Bielefeld University](https://www.uni-bielefeld.de) has also provided its APC expenditures for the 2015 period.
 
-[Bielefeld University Library](http://www.ub.uni-bielefeld.de/english/) is in charge of [Bielefeld University's Open Access Publishing Fund](http://oa.uni-bielefeld.de/en/publikationsfonds.html), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+[Bielefeld University Library](http://www.ub.uni-bielefeld.de/english/) is in charge of [Bielefeld University's Open Access Publishing Fund](http://oa.uni-bielefeld.de/en/publikationsfonds.html), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Dirk Pieper](<mailto:oa.ub@uni-bielefeld.de>).
 

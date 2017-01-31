@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-[Technische Universität Chemnitz](https://www.tu-chemnitz.de/) has contributed its cost information for 2015. Chemnitz University Library is in charge of the [University's Open Access Publishing Fund](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+[Technische Universität Chemnitz](https://www.tu-chemnitz.de/) has contributed its cost information for 2015. Chemnitz University Library is in charge of the [University's Open Access Publishing Fund](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Ute Blumtritt <mailto:ute.blumtritt@bibliothek.tu-chemnitz.de>
 

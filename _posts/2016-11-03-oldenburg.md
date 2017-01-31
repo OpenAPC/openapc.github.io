@@ -11,7 +11,7 @@ comments: true
 
 
 
-We welcome the [Carl von Ossietzky University of Oldenburg](https://www.uni-oldenburg.de/en/) as new contributing institution! The [BIS](http://www.bis.uni-oldenburg.de/en/bishome/) (Library and Information System) is in charge of the [University's Open Access Publishing Fund](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome the [Carl von Ossietzky University of Oldenburg](https://www.uni-oldenburg.de/en/) as new contributing institution! The [BIS](http://www.bis.uni-oldenburg.de/en/bishome/) (Library and Information System) is in charge of the [University's Open Access Publishing Fund](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Kim Braun](mailto:kim.braun@uni-oldenburg.de).
 

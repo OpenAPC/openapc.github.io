@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-[Duisburg-Essen University Library](https://www.uni-due.de/ub/en/eindex.php) has updated its spreadsheet for 2014. The library is in charge of the [central publication  fund at University Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+[Duisburg-Essen University Library](https://www.uni-due.de/ub/en/eindex.php) has updated its spreadsheet for 2014. The library is in charge of the [central publication  fund at University Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact persons are [Frank Lützenkirchen](mailto:frank.luetzenkirchen@uni-due.de) and [Katrin Falkenstein-Feldhoff](mailto:katrin.falkenstein-feldhoff@uni-due.de).
 

@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [TU Chemnitz](https://www.tu-chemnitz.de/) has updated its APC expenditures. The latest contribution provides additional data for the 2015 period.
 
-[Chemnitz University Library](https://www.tu-chemnitz.de/ub/index.html.en) is in charge of the [University's Open Access Publishing Fund](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+[Chemnitz University Library](https://www.tu-chemnitz.de/ub/index.html.en) is in charge of the [University's Open Access Publishing Fund](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html), which is supported by the DFG under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Ute Blumtritt](mailto:ute.blumtritt@bibliothek.tu-chemnitz.de)
 

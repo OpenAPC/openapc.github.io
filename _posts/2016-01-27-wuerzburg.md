@@ -11,7 +11,7 @@ comments: true
 
 
 
-We welcome the [University of Würzburg](https://www.uni-wuerzburg.de) as our new contributing institution! [Würzburg University Library](http://www.bibliothek.uni-wuerzburg.de) is in charge of the [University's Open Access Publishing Fund](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome the [University of Würzburg](https://www.uni-wuerzburg.de) as our new contributing institution! [Würzburg University Library](http://www.bibliothek.uni-wuerzburg.de) is in charge of the [University's Open Access Publishing Fund](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Kristina Hanig <mailto:openaccess@bibliothek.uni-wuerzburg.de>
 

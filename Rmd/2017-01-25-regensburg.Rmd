@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 We are happy to announce our first successful data ingestion via [OAI-PMH](https://www.openarchives.org/pmh/). In a collaboration with [Regensburg University Library](http://www.uni-regensburg.de/library/index.html) our colleagues there managed to include the OpenAPC metadata directly into their [institutional repository](https://epub.uni-regensburg.de/cgi/oai2?verb=ListRecords&metadataPrefix=OpenAPC&set=6F615F747970653D676F6C645F70616964) where it can be harvested using the OAI-PMH protocol.
 This will make submissions via mail or pull requests unnecessary for Regensburg in the future, as OpenAPC will actively harvest the data in regular intervals. 
 
-Regensburg University Library is in charge of the [central publication fund at University of Regensburg](http://oa.uni-regensburg.de/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+Regensburg University Library is in charge of the [central publication fund at University of Regensburg](http://oa.uni-regensburg.de/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Dr. Gernot Deinzer](mailto:gernot.deinzer@bibliothek.uni-regensburg.de).
 

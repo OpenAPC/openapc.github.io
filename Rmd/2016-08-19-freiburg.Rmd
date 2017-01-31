@@ -26,7 +26,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-We welcome the [University of Freiburg](https://www.uni-freiburg.de/start-en.html?set_language=en) as new contributing institution! [Freiburg University Library](https://www.ub.uni-freiburg.de/) is in charge of the [University's Open Access Publishing Fund](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+We welcome the [University of Freiburg](https://www.uni-freiburg.de/start-en.html?set_language=en) as new contributing institution! [Freiburg University Library](https://www.ub.uni-freiburg.de/) is in charge of the [University's Open Access Publishing Fund](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is [Annette Scheiner](mailto:annette.scheiner@ub.uni-freiburg.de).
 

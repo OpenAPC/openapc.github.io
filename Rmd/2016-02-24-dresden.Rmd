@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [Technische Universität Dresden](https://tu-dresden.de/en) has provided its APC expenditures for the 2015 period.
 
-The [Saxon State and University Library Dresden (SLUB)](http://www.slub-dresden.de/en/home/) is in charge of the [Open Access Publication Funds of the TU Dresden](http://www.slub-dresden.de/en/service/writing-publishing/open-access-service/publikationsfonds/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+The [Saxon State and University Library Dresden (SLUB)](http://www.slub-dresden.de/en/home/) is in charge of the [Open Access Publication Funds of the TU Dresden](http://www.slub-dresden.de/en/service/writing-publishing/open-access-service/publikationsfonds/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Gerrit Kuehle <mailto:gerrit.kuehle@slub-dresden.de>
 

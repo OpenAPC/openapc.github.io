@@ -28,7 +28,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 [University of Regensburg](http://www.uni-regensburg.de/index.html.en) has provided its APC expenditures for the 2010, 2011 and 2015 periods.
 
-[Regensburg University Library](http://www.uni-regensburg.de/library/index.html) is in charge of the [central publication  fund at University of Regensburg](http://oa.uni-regensburg.de/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+[Regensburg University Library](http://www.uni-regensburg.de/library/index.html) is in charge of the [central publication  fund at University of Regensburg](http://oa.uni-regensburg.de/), which receives support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact person is Dr. Gernot Deinzer <mailto:gernot.deinzer@bibliothek.uni-regensburg.de>
 
