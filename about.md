@@ -72,6 +72,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
+## Participating Italian Institutions
+
+- [Università degli Studi di Milano](http://www.unimi.it/ENG/)
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -119,13 +123,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  42 796 339 € for  24 089 articles were paid by the participating unviversities. Average  fee is 1 776.6 € and the median 1 588 €.
+In total,  42 886 409 € for  24 146 articles were paid by the participating unviversities. Average  fee is 1 776.1 € and the median 1 588 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 14 731 articles in open access journals which charge publication fees. Total expenditure amounts to  20 145 874 €. Average  fee is 1 367.6 € and the median 1 276 €.
+At the moment, the dataset releases information on 14 779 articles in open access journals which charge publication fees. Total expenditure amounts to  20 220 208 €. Average  fee is 1 368.2 € and the median 1 276 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -166,6 +170,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Loughborough University                     |        1|               980|           980|    980|
 |LSHTM                                       |       44|            65,723|         1,494|  1,517|
 |MDC                                         |       51|           103,028|         2,020|  1,483|
+|Milano U                                    |       48|            74,335|         1,549|  1,357|
 |MPG                                         |    3,076|         3,999,318|         1,300|  1,180|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
 |Newcastle University                        |       51|            91,101|         1,786|  1,385|
@@ -207,7 +212,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 358 hybrid open access articles. Total expenditure amounts to  22 650 465 €. Average  fee is 2 420.4 € and the median 2 400 €.
+The dataset covers 9 367 hybrid open access articles. Total expenditure amounts to  22 666 200 €. Average  fee is 2 419.8 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -232,6 +237,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Loughborough University                     |       76|           170,264|         2,240|  2,172|
 |LSHTM                                       |       80|           197,070|         2,463|  2,261|
 |MDC                                         |       18|            42,227|         2,346|  1,996|
+|Milano U                                    |        9|            15,735|         1,748|  1,969|
 |MPG                                         |       13|            17,508|         1,347|  1,325|
 |Newcastle University                        |      168|           430,248|         2,561|  2,603|
 |Plymouth University                         |        7|            16,865|         2,409|  2,266|
@@ -329,7 +335,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
