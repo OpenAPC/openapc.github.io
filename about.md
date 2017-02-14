@@ -109,6 +109,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from the United States:
 
 - [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
+- [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
 ## Participating Canadian Institutions:
 
@@ -123,13 +124,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  42 886 409 € for  24 146 articles were paid by the participating unviversities. Average  fee is 1 776.1 € and the median 1 588 €.
+In total,  43 068 202 € for  24 308 articles were paid by the participating unviversities. Average  fee is 1 771.8 € and the median 1 579 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 14 779 articles in open access journals which charge publication fees. Total expenditure amounts to  20 220 208 €. Average  fee is 1 368.2 € and the median 1 276 €.
+At the moment, the dataset releases information on 14 943 articles in open access journals which charge publication fees. Total expenditure amounts to  20 404 506 €. Average  fee is 1 365.5 € and the median 1 276 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -149,7 +150,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      174|           236,525|         1,359|  1,391|
-|FWF - Austrian Science Fund                 |      754|         1,059,117|         1,405|  1,274|
+|FWF - Austrian Science Fund                 |      755|         1,061,848|         1,406|  1,275|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
 |GFZ-Potsdam                                 |      104|           120,536|         1,159|  1,062|
 |Giessen U                                   |      317|           428,690|         1,352|  1,273|
@@ -171,7 +172,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |LSHTM                                       |       44|            65,723|         1,494|  1,517|
 |MDC                                         |       51|           103,028|         2,020|  1,483|
 |Milano U                                    |       48|            74,335|         1,549|  1,357|
-|MPG                                         |    3,076|         3,999,318|         1,300|  1,180|
+|MPG                                         |    3,087|         4,015,268|         1,301|  1,184|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
 |Newcastle University                        |       51|            91,101|         1,786|  1,385|
 |Oldenburg U                                 |       59|            63,175|         1,071|  1,247|
@@ -182,7 +183,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Regensburg U                                |      484|           652,522|         1,348|  1,254|
 |Royal Holloway                              |        2|             2,517|         1,258|  1,258|
 |Swansea University                          |        9|            16,097|         1,788|  1,218|
-|TiHo Hannover                               |       68|            88,355|         1,299|  1,396|
+|TiHo Hannover                               |       66|            86,971|         1,318|  1,396|
 |TU Chemnitz                                 |       40|            39,454|           986|  1,056|
 |TU Clausthal                                |        8|             6,999|           875|    918|
 |TU Dresden                                  |      130|           175,723|         1,352|  1,415|
@@ -204,7 +205,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Sheffield                     |       33|            52,894|         1,603|  1,325|
 |University of Sussex                        |       13|            26,551|         2,042|  1,253|
 |University of Warwick                       |       30|            63,715|         2,124|  1,330|
-|Wellcome Trust                              |    1,158|         2,061,618|         1,780|  1,634|
+|Virginia Tech                               |      153|           165,423|         1,081|  1,216|
+|Wellcome Trust                              |    1,159|         2,063,196|         1,780|  1,633|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -212,7 +214,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 367 hybrid open access articles. Total expenditure amounts to  22 666 200 €. Average  fee is 2 419.8 € and the median 2 400 €.
+The dataset covers 9 365 hybrid open access articles. Total expenditure amounts to  22 663 695 €. Average  fee is 2 420 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -226,7 +228,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Durham University                           |       77|           149,302|         1,939|  1,997|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                 |    2,559|         6,128,178|         2,395|  2,521|
+|FWF - Austrian Science Fund                 |    2,558|         6,125,447|         2,395|  2,519|
 |GFZ-Potsdam                                 |        2|             5,985|         2,992|  2,992|
 |HZDR                                        |       20|            11,880|           594|    570|
 |Imperial College London                     |      382|           937,573|         2,454|  2,576|
@@ -238,13 +240,13 @@ The following institutions have contributed its expenditures for hybrid open acc
 |LSHTM                                       |       80|           197,070|         2,463|  2,261|
 |MDC                                         |       18|            42,227|         2,346|  1,996|
 |Milano U                                    |        9|            15,735|         1,748|  1,969|
-|MPG                                         |       13|            17,508|         1,347|  1,325|
+|MPG                                         |        2|             1,558|           779|    779|
 |Newcastle University                        |      168|           430,248|         2,561|  2,603|
 |Plymouth University                         |        7|            16,865|         2,409|  2,266|
 |Queen Mary, University of London            |       51|           111,794|         2,192|  2,202|
 |Royal Holloway                              |        3|             5,751|         1,917|  1,971|
 |Swansea University                          |       35|            69,959|         1,999|  1,862|
-|TiHo Hannover                               |       10|            14,059|         1,406|  1,114|
+|TiHo Hannover                               |        7|            11,334|         1,619|  1,435|
 |TU Chemnitz                                 |        1|               100|           100|    100|
 |UCL                                         |    1,415|         2,796,186|         1,976|  1,862|
 |Ulm U                                       |       16|            33,672|         2,104|  2,319|
@@ -259,7 +261,8 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Sheffield                     |      138|           291,907|         2,115|  2,169|
 |University of Sussex                        |       24|            56,728|         2,364|  2,304|
 |University of Warwick                       |       95|           227,032|         2,390|  2,480|
-|Wellcome Trust                              |    3,220|         8,689,174|         2,698|  2,633|
+|Virginia Tech                               |       14|            20,480|         1,463|  1,256|
+|Wellcome Trust                              |    3,219|         8,687,596|         2,699|  2,633|
 
 ## Use of external sources
 
@@ -335,7 +338,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
