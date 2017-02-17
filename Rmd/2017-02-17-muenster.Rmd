@@ -57,7 +57,7 @@ my.apc <- droplevels(my.apc)
 
 The data covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
 
-The following table and plots show the payments Münster University Library has made to publishers from 2011 2016.
+The following table and plots show the payments Münster University Library has made to publishers from 2011 to 2016.
 
 ```{r}
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
