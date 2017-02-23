@@ -12,7 +12,7 @@ comments: true
 
 Having read Ross Mounce's interesting [article](http://rossmounce.co.uk/2017/02/20/hybrid-open-access-is-unreliable/) on wrongly paywalled Open Access articles in hybrid Elsevier journals, 
 I came up with the idea of throwing a bit more data at the issue. We have a lot of those articles in our OpenAPC data collection ([2630 articles in 670 different journals, to be precise](https://treemaps.intact-project.org/apcdata/openapc/#publisher/Elsevier%20BV/is_hybrid=TRUE)),
-and since the contributing institutions reported their APC costs for all of them, we can be pretty confident that they were all payed for and none should be paywalled.
+and since the contributing institutions reported their APC costs for all of them, we can be pretty confident that they were all paid for and none should be paywalled at the moment.
 
 So, after fiddling around with some regular expressions and the structure of the landing pages at sciencedirect.com, I came up with a small [python script](https://github.com/OpenAPC/openapc-de/blob/master/python/sciencedirect_check_oa.py) which does the following:
 
