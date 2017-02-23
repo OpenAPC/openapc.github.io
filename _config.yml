@@ -2,7 +2,7 @@
 title:       Datasets on fee-based Open Access Publishing
 email:       openapc@uni-bielefeld.de
 author:      INTACT team
-description: "Collecting article processing charges (APC) that German universities and research institions have paid and making them available as Open Data"
+description: "Collecting article processing charges (APC) that universities and research institions have paid and making them available as Open Data"
 baseurl:     
 url:         "https://openapc.github.io"
 
