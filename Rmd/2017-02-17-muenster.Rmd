@@ -30,7 +30,7 @@ We welcome [Münster University](https://www.uni-muenster.de/en/) as new contrib
 [Münster University Library](https://www.ulb.uni-muenster.de/) is in charge of the institution's [Open Access Publication Funds](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/),
 which received support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
-Contact person is [Viola Voß](mailto:voss.viola@uni-muenster.de).
+Contact person is [Viola Voß](mailto:openaccess@uni-muenster.de).
 
 ## About the dataset
 
