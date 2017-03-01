@@ -36,11 +36,11 @@ Here is a detailed overview of the articles in question:
 
 |institution               | period | APCs paid (€)| DOI                                                                          | journal                                |
 |:-------------------------|--------|--------------|------------------------------------------------------------------------------|----------------------------------------|
-|Wellcome Trust            | 2015   | 1829.97      | [10.1016/j.jth.2015.04.502](https://doi.org/10.1016/j.jth.2015.04.502)       | Journal of Transport & Health          |
-|University College London | 2014   | 822.53       | [10.1016/j.jns.2013.01.022](https://doi.org/10.1016/j.jns.2013.01.022)       | Journal of the Neurological Sciences   |
-|University College London | 2014   | 2257.64      | [10.1378/chest.13-0179](https://doi.org/10.1378/chest.13-0179)               | Chest                                  |
+|~~Wellcome Trust~~            | ~~2015~~   | ~~1829.97~~      | ~~[10.1016/j.jth.2015.04.502](https://doi.org/10.1016/j.jth.2015.04.502)~~ [10.1016/j.jth.2015.06.005](https://doi.org/10.1016/j.jth.2015.06.005)       | ~~Journal of Transport & Health~~          |
+|~~University College London~~ | ~~2014~~   | ~~822.53~~       | ~~[10.1016/j.jns.2013.01.022](https://doi.org/10.1016/j.jns.2013.01.022)~~       | ~~Journal of the Neurological Sciences~~   |
+|University College London (_confirmed case_) | 2014   | 2257.64      | [10.1378/chest.13-0179](https://doi.org/10.1378/chest.13-0179)               | Chest                                  |
 |University of Glasgow     | 2014   | 1882.5       | [10.1016/j.renene.2014.11.024](https://doi.org/10.1016/j.renene.2014.11.024) | Renewable Energy                       |
-|University of Cambridge   | 2015   | 2294.44      | [10.1016/j.epsl.2014.11.034](https://doi.org/10.1016/j.epsl.2014.11.034)     | Earth and Planetary Science Letters    |
+|~~University of Cambridge~~   | ~~2015~~   | ~~2294.44~~      | ~~[10.1016/j.epsl.2014.11.034](https://doi.org/10.1016/j.epsl.2014.11.034)~~     | ~~Earth and Planetary Science Letters~~    |
 |University of Milan       | 2016   | 400          | [10.1016/j.puhe.2016.10.024](https://doi.org/10.1016/j.puhe.2016.10.024)     | Public Health                          |
 
 &nbsp; 
@@ -51,3 +51,19 @@ Five of the items in question were part of aggregated data sets (The first one i
 The article from Milan University has only been published this month, so maybe the transaction has not been fully processed yet and the full text will become available in the near future.
 
 Nonetheless, this issue seems worth to investigate further. We will try to contact the involved institutions and see if we can shed some light upon this.
+
+_Update, Mar 1, 2017:_
+
+We have now cleared up 4 of the 6 cases:
+
+* Number 1 turned out to be a false positive: Instead of the article DOI, a DOI belonging to the article abstract had been reported. The article itself is not paywalled. (Thanks to Ross Mounce for pointing this out)
+* Number 2 remains somewhat unclear, but the UCL is positive that no APC has been paid for this article and there's also no UCL affiliated author on it. In any case the data is clearly incorrect and we have removed this entry from our collection.
+* Number 5 is also a false positive: Cambridge had erroneously reported a page/colour charge as APC (Again, thanks to Ross for looking into this).
+
+We have [corrected](https://github.com/OpenAPC/openapc-de/pull/232/commits/0079dd20) all of the entries mentioned above in our data collection.
+
+* Number 3, however, turned out to be a true positive. The institution had paid an APC for this article in March 2014, so it is clearly incorrectly paywalled. The UCL will contact Elsevier and ask them to correct this case. 
+
+As a side note, according to UCL's records the original payment was not payable to Elsevier, but to the [ACCP](https://www.accp.com/), and it seems the journal has moved to Elsevier since then. This is interesting as it identifies changes in journal ownership as another possible source of such mistakes.
+
+
