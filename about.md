@@ -125,13 +125,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  43 596 359 € for  24 742 articles were paid by the participating unviversities. Average  fee is 1 762 € and the median 1 564 €.
+In total,  43 621 198 € for  24 761 articles were paid by the participating unviversities. Average  fee is 1 761.7 € and the median 1 564 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 15 374 articles in open access journals which charge publication fees. Total expenditure amounts to  20 927 891 €. Average  fee is 1 361.3 € and the median 1 272 €.
+At the moment, the dataset releases information on 15 395 articles in open access journals which charge publication fees. Total expenditure amounts to  20 955 848 €. Average  fee is 1 361.2 € and the median 1 272 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -175,9 +175,9 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Milano U                                    |       48|            74,335|         1,549|  1,357|
 |MPG                                         |    3,087|         4,015,268|         1,301|  1,184|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
-|Münster U                                   |      323|           379,974|         1,176|  1,167|
+|Münster U                                   |      325|           381,287|         1,173|  1,159|
 |Newcastle University                        |       51|            91,101|         1,786|  1,385|
-|Oldenburg U                                 |       59|            63,175|         1,071|  1,247|
+|Oldenburg U                                 |       78|            89,818|         1,152|  1,264|
 |OpenAIRE                                    |      546|           792,703|         1,452|  1,413|
 |Plymouth University                         |        3|             2,889|           963|  1,010|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
@@ -216,7 +216,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 368 hybrid open access articles. Total expenditure amounts to  22 668 467 €. Average  fee is 2 419.8 € and the median 2 400 €.
+The dataset covers 9 366 hybrid open access articles. Total expenditure amounts to  22 665 350 €. Average  fee is 2 420 € and the median 2 400 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -250,13 +250,13 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Swansea University                          |       35|            69,959|         1,999|  1,862|
 |TiHo Hannover                               |        7|            11,334|         1,619|  1,435|
 |TU Chemnitz                                 |        1|               100|           100|    100|
-|UCL                                         |    1,415|         2,796,186|         1,976|  1,862|
+|UCL                                         |    1,414|         2,795,364|         1,977|  1,862|
 |Ulm U                                       |       16|            33,672|         2,104|  2,319|
 |University of Bath                          |       79|           158,599|         2,008|  1,978|
 |University of Birmingham                    |      186|           416,606|         2,240|  2,234|
 |University of Bristol                       |      218|           523,705|         2,402|  2,234|
 |University of Calgary                       |       45|            91,902|         2,042|  2,184|
-|University of Cambridge                     |      315|           798,488|         2,535|  2,585|
+|University of Cambridge                     |      314|           796,194|         2,536|  2,585|
 |University of Glasgow                       |       30|            65,591|         2,186|  1,928|
 |University of Portsmouth                    |        6|            13,419|         2,236|  2,653|
 |University of Salford                       |        2|             5,892|         2,946|  2,946|
