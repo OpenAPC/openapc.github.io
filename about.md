@@ -125,13 +125,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  43 640 219 € for  24 774 articles were paid by the participating unviversities. Average  fee is 1 761.5 € and the median 1 564 €.
+In total,  43 731 970 € for  24 829 articles were paid by the participating unviversities. Average  fee is 1 761.3 € and the median 1 564 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 15 408 articles in open access journals which charge publication fees. Total expenditure amounts to  20 974 869 €. Average  fee is 1 361.3 € and the median 1 272 €.
+At the moment, the dataset releases information on 15 463 articles in open access journals which charge publication fees. Total expenditure amounts to  21 066 620 €. Average  fee is 1 362.4 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -142,7 +142,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bangor University                           |        9|            14,447|         1,605|  1,654|
 |Bayreuth U                                  |       92|           105,725|         1,149|  1,200|
 |Bielefeld U                                 |      349|           437,899|         1,255|  1,276|
-|Bochum U                                    |       71|            93,546|         1,318|  1,438|
+|Bochum U                                    |      130|           188,000|         1,446|  1,510|
 |Bremen U                                    |      264|           335,873|         1,272|  1,246|
 |Cranfield University                        |       NA|                NA|            NA|     NA|
 |Dortmund TU                                 |       28|            26,410|           943|    826|
@@ -165,8 +165,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |IPN                                         |        4|             3,909|           977|    479|
 |Kassel U                                    |       55|            59,511|         1,082|  1,129|
-|KIT                                         |      427|           522,346|         1,223|  1,236|
-|Konstanz U                                  |      222|           302,232|         1,361|  1,333|
+|KIT                                         |      425|           521,166|         1,226|  1,242|
+|Konstanz U                                  |      220|           300,709|         1,367|  1,361|
 |Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
 |Leipzig U                                   |      173|           243,873|         1,410|  1,471|
 |Loughborough University                     |        1|               980|           980|    980|
