@@ -3,7 +3,7 @@ layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
 title:      Ruhr Universität Bochum reports its 2016 APC expenditures
-date:       2017-03-07 07:00:00
+date:       2017-03-08 07:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
