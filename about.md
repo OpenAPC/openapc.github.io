@@ -84,28 +84,46 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Jisc Collections released data on APC payments made by UK higher education institutions (HEIs):
 
+- Aston University
 - Bangor University
+- Cardiff University
 - Cranfield University
 - Durham University
 - Imperial College London
+- Institute of Cancer Research (ICR)
+- King's College London
 - Loughborough University
+- London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Newcastle University
+- Northumbria University
 - Plymouth University
 - Queen Mary University of London
+- Queen's University Belfast
 - Royal Holloway, University of London
 - Swansea University
 - University College London (UCL)
+- University of Aberdeen
 - University of Bath
 - University of Birmingham
 - University of Bristol
 - University of Cambridge
 - University of Glasgow
+- University of Huddersfield
+- University of Hull
+- University of Leicester
+- University of Liverpool
+- University of Manchester
+- University of Oxford
 - University of Portsmouth
+- University of Reading
 - University of Salford
 - University of Sheffield
+- University of Surrey
 - University of Sussex
+- University of St Andrews
 - University of Warwick
+- University of York
 
 ## Participating Institutions from the United States:
 
@@ -125,33 +143,35 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  43 731 970 € for  24 829 articles were paid by the participating unviversities. Average  fee is 1 761.3 € and the median 1 564 €.
+In total,  55 346 360 € for  29 679 articles were paid by the participating unviversities. Average  fee is 1 864.8 € and the median 1 661 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 15 463 articles in open access journals which charge publication fees. Total expenditure amounts to  21 066 620 €. Average  fee is 1 362.4 € and the median 1 273 €.
+At the moment, the dataset releases information on 16 873 articles in open access journals which charge publication fees. Total expenditure amounts to  23 642 520 €. Average  fee is 1 401.2 € and the median 1 311 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Aston University                            |       12|            27,424|         2,285|  1,793|
 |Bamberg U                                   |       22|            23,663|         1,076|  1,009|
 |Bangor University                           |        9|            14,447|         1,605|  1,654|
 |Bayreuth U                                  |       92|           105,725|         1,149|  1,200|
 |Bielefeld U                                 |      349|           437,899|         1,255|  1,276|
 |Bochum U                                    |      130|           188,000|         1,446|  1,510|
 |Bremen U                                    |      264|           335,873|         1,272|  1,246|
-|Cranfield University                        |       NA|                NA|            NA|     NA|
+|Cardiff University                          |       55|            98,083|         1,783|  1,638|
+|Cranfield University                        |        5|             6,557|         1,311|  1,688|
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
-|Durham University                           |       10|            14,302|         1,430|  1,368|
+|Durham University                           |       24|            36,423|         1,518|  1,489|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      187|           255,545|         1,367|  1,410|
-|FWF - Austrian Science Fund                 |      755|         1,061,848|         1,406|  1,275|
+|FWF - Austrian Science Fund                 |      754|         1,059,612|         1,405|  1,274|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
 |GFZ-Potsdam                                 |      126|           148,862|         1,181|  1,082|
 |Giessen U                                   |      317|           428,690|         1,352|  1,273|
@@ -161,30 +181,35 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Harvard U                                   |       95|            83,793|           882|    830|
 |Heidelberg U                                |      215|           308,348|         1,434|  1,500|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
-|Imperial College London                     |      153|           293,414|         1,918|  1,631|
+|ICR                                         |       13|            27,313|         2,101|  1,638|
+|Imperial College London                     |      375|           757,675|         2,020|  1,655|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |IPN                                         |        4|             3,909|           977|    479|
 |Kassel U                                    |       55|            59,511|         1,082|  1,129|
+|King's College London                       |       61|           126,369|         2,072|  1,642|
 |KIT                                         |      425|           521,166|         1,226|  1,242|
 |Konstanz U                                  |      220|           300,709|         1,367|  1,361|
 |Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
 |Leipzig U                                   |      173|           243,873|         1,410|  1,471|
 |Loughborough University                     |        1|               980|           980|    980|
-|LSHTM                                       |       44|            65,723|         1,494|  1,517|
+|LSE                                         |       NA|                NA|            NA|     NA|
+|LSHTM                                       |       81|           134,194|         1,657|  1,675|
 |MDC                                         |       51|           103,028|         2,020|  1,483|
 |Milano U                                    |       48|            74,335|         1,549|  1,357|
 |MPG                                         |    3,087|         4,015,268|         1,301|  1,184|
 |Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
 |Münster U                                   |      325|           381,287|         1,173|  1,159|
 |Newcastle University                        |       51|            91,101|         1,786|  1,385|
+|Northumbria University                      |       22|            55,286|         2,513|  1,638|
 |Oldenburg U                                 |       78|            89,818|         1,152|  1,264|
-|OpenAIRE                                    |      546|           792,703|         1,452|  1,413|
-|Plymouth University                         |        3|             2,889|           963|  1,010|
+|OpenAIRE                                    |      544|           789,670|         1,452|  1,413|
+|Plymouth University                         |        8|             9,936|         1,242|  1,220|
 |Potsdam U                                   |       24|            32,128|         1,339|  1,386|
-|Queen Mary, University of London            |       24|            30,528|         1,272|  1,200|
+|Queen Mary, University of London            |       36|            47,197|         1,311|  1,233|
+|Queen's University Belfast                  |       68|           105,959|         1,558|  1,553|
 |Regensburg U                                |      484|           652,522|         1,348|  1,254|
-|Royal Holloway                              |        2|             2,517|         1,258|  1,258|
-|Swansea University                          |        9|            16,097|         1,788|  1,218|
+|Royal Holloway                              |        9|            12,714|         1,413|  1,244|
+|Swansea University                          |       25|            43,634|         1,745|  1,346|
 |TiHo Hannover                               |       66|            86,971|         1,318|  1,396|
 |TU Chemnitz                                 |       40|            39,454|           986|  1,056|
 |TU Clausthal                                |        8|             6,999|           875|    918|
@@ -193,22 +218,33 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
 |TU Wien                                     |       23|            32,403|         1,409|  1,323|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
-|UCL                                         |      461|           707,902|         1,536|  1,501|
+|UCL                                         |      873|         1,391,937|         1,594|  1,501|
 |UFZ                                         |       40|            42,186|         1,055|    979|
 |Ulm U                                       |       62|            84,310|         1,360|  1,285|
+|University of Aberdeen                      |       10|            18,673|         1,867|  1,631|
 |University of Bath                          |       21|            30,539|         1,454|  1,257|
-|University of Birmingham                    |      105|           163,136|         1,554|  1,481|
-|University of Bristol                       |       77|           135,628|         1,761|  1,513|
+|University of Birmingham                    |      234|           396,503|         1,694|  1,638|
+|University of Bristol                       |      193|           343,251|         1,778|  1,638|
 |University of Calgary                       |      884|           993,823|         1,124|  1,145|
-|University of Cambridge                     |       84|           134,018|         1,595|  1,462|
-|University of Glasgow                       |        3|             4,528|         1,509|  1,246|
+|University of Cambridge                     |      190|           368,427|         1,939|  1,789|
+|University of Glasgow                       |       25|            39,711|         1,588|  1,454|
+|University of Huddersfield                  |        3|             3,570|         1,190|  1,260|
+|University of Hull                          |        3|             4,417|         1,472|  1,638|
+|University of Leicester                     |       23|            39,034|         1,697|  1,638|
+|University of Liverpool                     |       46|            87,870|         1,910|  1,798|
+|University of Manchester                    |       75|           149,380|         1,992|  1,650|
+|University of Oxford                        |      146|           275,670|         1,888|  1,638|
 |University of Portsmouth                    |        5|             7,706|         1,541|  1,354|
+|University of Reading                       |       24|            38,180|         1,591|  1,562|
 |University of Salford                       |        4|             5,690|         1,423|  1,468|
-|University of Sheffield                     |       33|            52,894|         1,603|  1,325|
+|University of Sheffield                     |       47|            74,948|         1,595|  1,547|
+|University of St Andrews                    |       47|            86,067|         1,831|  1,638|
+|University of Surrey                        |        3|             4,773|         1,591|  1,638|
 |University of Sussex                        |       13|            26,551|         2,042|  1,253|
-|University of Warwick                       |       30|            63,715|         2,124|  1,330|
+|University of Warwick                       |       73|           146,418|         2,006|  1,641|
+|University of York                          |       31|            57,720|         1,862|  1,638|
 |Virginia Tech                               |      153|           165,423|         1,081|  1,216|
-|Wellcome Trust                              |    1,159|         2,063,196|         1,780|  1,633|
+|Wellcome Trust                              |      770|         1,316,347|         1,710|  1,602|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -216,55 +252,73 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 9 366 hybrid open access articles. Total expenditure amounts to  22 665 350 €. Average  fee is 2 420 € and the median 2 400 €.
+The dataset covers 12 806 hybrid open access articles. Total expenditure amounts to  31 703 840 €. Average  fee is 2 475.7 € and the median 2 469 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Aston University                            |       46|           104,652|         2,275|  2,306|
 |Bangor University                           |       25|            68,604|         2,744|  2,659|
-|Cranfield University                        |        5|            12,287|         2,457|  2,532|
+|Cardiff University                          |      243|           643,956|         2,650|  2,669|
+|Cranfield University                        |       27|            77,790|         2,881|  2,812|
 |Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
 |Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
-|Durham University                           |       77|           149,302|         1,939|  1,997|
+|Durham University                           |      142|           295,653|         2,082|  1,998|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                 |    2,558|         6,125,447|         2,395|  2,519|
+|FWF - Austrian Science Fund                 |    2,559|         6,127,683|         2,395|  2,516|
 |GFZ-Potsdam                                 |        5|            10,756|         2,151|  2,190|
 |HZDR                                        |       20|            11,880|           594|    570|
-|Imperial College London                     |      382|           937,573|         2,454|  2,576|
+|ICR                                         |       37|           115,982|         3,135|  2,812|
+|Imperial College London                     |      875|         2,291,595|         2,619|  2,630|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
 |IPN                                         |       22|            53,603|         2,437|  2,558|
+|King's College London                       |      216|           615,440|         2,849|  2,767|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
 |Konstanz U                                  |        1|             1,950|         1,950|  1,950|
-|Loughborough University                     |       76|           170,264|         2,240|  2,172|
-|LSHTM                                       |       80|           197,070|         2,463|  2,261|
+|Loughborough University                     |      109|           240,228|         2,204|  2,192|
+|LSE                                         |        2|             4,552|         2,276|  2,276|
+|LSHTM                                       |      124|           327,879|         2,644|  2,599|
 |MDC                                         |       18|            42,227|         2,346|  1,996|
 |Milano U                                    |        9|            15,735|         1,748|  1,969|
 |MPG                                         |        2|             1,558|           779|    779|
 |Newcastle University                        |      168|           430,248|         2,561|  2,603|
-|Plymouth University                         |        7|            16,865|         2,409|  2,266|
-|Queen Mary, University of London            |       51|           111,794|         2,192|  2,202|
-|Royal Holloway                              |        3|             5,751|         1,917|  1,971|
-|Swansea University                          |       35|            69,959|         1,999|  1,862|
+|Northumbria University                      |       38|            75,542|         1,988|  1,685|
+|Plymouth University                         |       15|            33,827|         2,255|  2,209|
+|Queen Mary, University of London            |       96|           233,114|         2,428|  2,384|
+|Queen's University Belfast                  |       31|            81,071|         2,615|  2,585|
+|Royal Holloway                              |       10|            21,649|         2,165|  2,068|
+|Swansea University                          |       76|           184,205|         2,424|  2,528|
 |TiHo Hannover                               |        7|            11,334|         1,619|  1,435|
 |TU Chemnitz                                 |        1|               100|           100|    100|
-|UCL                                         |    1,414|         2,795,364|         1,977|  1,862|
+|UCL                                         |    1,922|         4,105,842|         2,136|  1,926|
 |Ulm U                                       |       16|            33,672|         2,104|  2,319|
+|University of Aberdeen                      |       14|            37,817|         2,701|  2,676|
 |University of Bath                          |       79|           158,599|         2,008|  1,978|
-|University of Birmingham                    |      186|           416,606|         2,240|  2,234|
-|University of Bristol                       |      218|           523,705|         2,402|  2,234|
+|University of Birmingham                    |      407|           963,652|         2,368|  2,397|
+|University of Bristol                       |      536|         1,330,898|         2,483|  2,351|
 |University of Calgary                       |       45|            91,902|         2,042|  2,184|
-|University of Cambridge                     |      314|           796,194|         2,536|  2,585|
-|University of Glasgow                       |       30|            65,591|         2,186|  1,928|
+|University of Cambridge                     |      630|         1,694,335|         2,689|  2,608|
+|University of Glasgow                       |       86|           208,568|         2,425|  2,325|
+|University of Huddersfield                  |       26|            33,228|         1,278|    982|
+|University of Hull                          |        7|            22,365|         3,195|  3,134|
+|University of Leicester                     |       39|           107,076|         2,746|  2,585|
+|University of Liverpool                     |       68|           183,475|         2,698|  2,678|
+|University of Manchester                    |      370|           966,466|         2,612|  2,582|
+|University of Oxford                        |      380|         1,167,431|         3,072|  2,804|
 |University of Portsmouth                    |        6|            13,419|         2,236|  2,653|
+|University of Reading                       |      160|           373,528|         2,335|  2,241|
 |University of Salford                       |        2|             5,892|         2,946|  2,946|
-|University of Sheffield                     |      138|           291,907|         2,115|  2,169|
+|University of Sheffield                     |      190|           456,777|         2,404|  2,234|
+|University of St Andrews                    |       64|           145,106|         2,267|  2,212|
+|University of Surrey                        |        5|            15,253|         3,051|  2,807|
 |University of Sussex                        |       24|            56,728|         2,364|  2,304|
-|University of Warwick                       |       95|           227,032|         2,390|  2,480|
+|University of Warwick                       |      263|           665,576|         2,531|  2,585|
+|University of York                          |       57|           155,382|         2,726|  2,662|
 |Virginia Tech                               |       14|            20,480|         1,463|  1,256|
-|Wellcome Trust                              |    3,219|         8,687,596|         2,699|  2,633|
+|Wellcome Trust                              |    2,458|         6,531,204|         2,657|  2,615|
 
 ## Use of external sources
 
