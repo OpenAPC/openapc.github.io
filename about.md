@@ -143,13 +143,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  55 346 360 € for  29 679 articles were paid by the participating unviversities. Average  fee is 1 864.8 € and the median 1 661 €.
+In total,  55 028 017 € for  29 561 articles were paid by the participating unviversities. Average  fee is 1 861.5 € and the median 1 661 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 16 873 articles in open access journals which charge publication fees. Total expenditure amounts to  23 642 520 €. Average  fee is 1 401.2 € and the median 1 311 €.
+At the moment, the dataset releases information on 16 884 articles in open access journals which charge publication fees. Total expenditure amounts to  23 655 203 €. Average  fee is 1 401 € and the median 1 311 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -178,7 +178,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Goettingen U                                |      650|           883,918|         1,360|  1,354|
 |Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
 |Hannover U                                  |       69|            90,259|         1,308|  1,241|
-|Harvard U                                   |       95|            83,793|           882|    830|
+|Harvard U                                   |       94|            82,722|           880|    796|
 |Heidelberg U                                |      215|           308,348|         1,434|  1,500|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
 |ICR                                         |       13|            27,313|         2,101|  1,638|
@@ -211,7 +211,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Royal Holloway                              |        9|            12,714|         1,413|  1,244|
 |Swansea University                          |       25|            43,634|         1,745|  1,346|
 |TiHo Hannover                               |       66|            86,971|         1,318|  1,396|
-|TU Chemnitz                                 |       40|            39,454|           986|  1,056|
+|TU Chemnitz                                 |       55|            60,695|         1,104|  1,374|
 |TU Clausthal                                |        8|             6,999|           875|    918|
 |TU Dresden                                  |      130|           175,723|         1,352|  1,415|
 |TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
@@ -244,7 +244,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Warwick                       |       73|           146,418|         2,006|  1,641|
 |University of York                          |       31|            57,720|         1,862|  1,638|
 |Virginia Tech                               |      153|           165,423|         1,081|  1,216|
-|Wellcome Trust                              |      770|         1,316,347|         1,710|  1,602|
+|Wellcome Trust                              |      767|         1,308,860|         1,706|  1,602|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
@@ -252,7 +252,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 12 806 hybrid open access articles. Total expenditure amounts to  31 703 840 €. Average  fee is 2 475.7 € and the median 2 469 €.
+The dataset covers 12 677 hybrid open access articles. Total expenditure amounts to  31 372 814 €. Average  fee is 2 474.8 € and the median 2 469 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -297,8 +297,8 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Ulm U                                       |       16|            33,672|         2,104|  2,319|
 |University of Aberdeen                      |       14|            37,817|         2,701|  2,676|
 |University of Bath                          |       79|           158,599|         2,008|  1,978|
-|University of Birmingham                    |      407|           963,652|         2,368|  2,397|
-|University of Bristol                       |      536|         1,330,898|         2,483|  2,351|
+|University of Birmingham                    |      405|           960,727|         2,372|  2,397|
+|University of Bristol                       |      534|         1,326,923|         2,485|  2,351|
 |University of Calgary                       |       45|            91,902|         2,042|  2,184|
 |University of Cambridge                     |      630|         1,694,335|         2,689|  2,608|
 |University of Glasgow                       |       86|           208,568|         2,425|  2,325|
@@ -315,10 +315,10 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of St Andrews                    |       64|           145,106|         2,267|  2,212|
 |University of Surrey                        |        5|            15,253|         3,051|  2,807|
 |University of Sussex                        |       24|            56,728|         2,364|  2,304|
-|University of Warwick                       |      263|           665,576|         2,531|  2,585|
+|University of Warwick                       |      261|           662,411|         2,538|  2,585|
 |University of York                          |       57|           155,382|         2,726|  2,662|
 |Virginia Tech                               |       14|            20,480|         1,463|  1,256|
-|Wellcome Trust                              |    2,458|         6,531,204|         2,657|  2,615|
+|Wellcome Trust                              |    2,335|         6,210,243|         2,660|  2,614|
 
 ## Use of external sources
 
