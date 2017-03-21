@@ -1,0 +1,107 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      University of Bremen reports remaining APC expenditures for 2016
+date:       2017-03-21 07:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+The [University of Bremen](http://www.uni-bremen.de/en.html) has updated its APC expenditures. The latest contribution provides remaining data for the 2016 period.
+
+The [State and University Library Bremen](http://www.suub.uni-bremen.de/home-english/) is in charge of the [University's Open Access Publishing Fund](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
+
+Contact person is [Benjamin Ahlborn](mailto:ahlborn@suub.uni-bremen.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "Bremen U",]
+my.apc <- droplevels(my.apc)
+my.apc_2016 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/unibremen/SuUB_OpenAPC_2016_2_enriched.csv"))
+my.apc_2016 <- droplevels(my.apc_2016)
+```
+
+The new dataset covers publication fees for `r format(nrow(my.apc_2016), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc_2016$euro)`€ and the average fee is `r sum(my.apc_2016$euro)/nrow(my.apc_2016)`€.
+
+```{r}
+d_frame = data.frame(table(my.apc_2016$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_2016$publisher <- factor(my.apc_2016$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_2016$euro, my.apc_2016$publisher, length),
+             tapply(my.apc_2016$euro, my.apc_2016$publisher, sum),
+             tapply(my.apc_2016$euro, my.apc_2016$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for Bremen now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_bremen_2017_03_21_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_bremen_2017_03_21_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_bremen_2017_03_21_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 2])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 2 articles)") + ylab("APC")
+```
