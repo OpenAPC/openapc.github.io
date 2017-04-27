@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  57 069 510 € for  30 916 articles were paid by the participating unviversities. Average  fee is 1 846 € and the median 1 657 €.
+In total,  57 145 069 € for  30 964 articles were paid by the participating unviversities. Average  fee is 1 845.5 € and the median 1 657 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 17 971 articles in open access journals which charge publication fees. Total expenditure amounts to  25 129 743 €. Average  fee is 1 398.3 € and the median 1 321 €.
+At the moment, the dataset releases information on 18 017 articles in open access journals which charge publication fees. Total expenditure amounts to  25 200 066 €. Average  fee is 1 398.7 € and the median 1 321 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -172,7 +172,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Cardiff University                          |       55|            98,083|         1,783|  1,638|
 |Cranfield University                        |        5|             6,557|         1,311|  1,688|
 |Dortmund TU                                 |       28|            26,410|           943|    826|
-|Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
+|Duisburg-Essen U                            |      192|           247,364|         1,288|  1,240|
 |Durham University                           |       25|            39,412|         1,576|  1,489|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
 |Freiburg U                                  |      471|           626,480|         1,330|  1,386|
@@ -218,7 +218,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Regensburg U                                |      484|           652,522|         1,348|  1,254|
 |Royal Holloway                              |        9|            12,714|         1,413|  1,244|
 |Swansea University                          |       25|            43,634|         1,745|  1,346|
-|TiHo Hannover                               |       66|            86,971|         1,318|  1,396|
+|TiHo Hannover                               |       67|            88,367|         1,319|  1,396|
 |TU Chemnitz                                 |       55|            60,695|         1,104|  1,374|
 |TU Clausthal                                |        8|             6,999|           875|    918|
 |TU Dresden                                  |      195|           274,112|         1,406|  1,449|
@@ -261,7 +261,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 12 945 hybrid open access articles. Total expenditure amounts to  31 939 767 €. Average  fee is 2 467.3 € and the median 2 469 €.
+The dataset covers 12 947 hybrid open access articles. Total expenditure amounts to  31 945 003 €. Average  fee is 2 467.4 € and the median 2 469 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -273,7 +273,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Cardiff University                          |      252|           665,843|         2,642|  2,670|
 |Cranfield University                        |       27|            77,790|         2,881|  2,812|
 |Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
-|Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
+|Duisburg-Essen U                            |        3|             7,854|         2,618|  2,618|
 |Durham University                           |      145|           301,759|         2,081|  1,999|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
