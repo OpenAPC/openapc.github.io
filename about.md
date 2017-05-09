@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  57 621 042 € for  31 305 articles were paid by the participating unviversities. Average  fee is 1 840.6 € and the median 1 652 €.
+In total,  57 805 549 € for  31 422 articles were paid by the participating unviversities. Average  fee is 1 839.7 € and the median 1 652 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 18 358 articles in open access journals which charge publication fees. Total expenditure amounts to  25 676 040 €. Average  fee is 1 398.6 € and the median 1 328 €.
+At the moment, the dataset releases information on 18 474 articles in open access journals which charge publication fees. Total expenditure amounts to  25 859 808 €. Average  fee is 1 399.8 € and the median 1 332 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -195,7 +195,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |JGU Mainz                                   |      214|           302,179|         1,412|  1,383|
 |Kassel U                                    |       55|            59,511|         1,082|  1,129|
 |King's College London                       |       61|           126,369|         2,072|  1,642|
-|KIT                                         |      425|           521,166|         1,226|  1,242|
+|KIT                                         |      542|           705,673|         1,302|  1,340|
 |Konstanz U                                  |      286|           422,405|         1,477|  1,452|
 |Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
 |Leipzig U                                   |      270|           386,841|         1,433|  1,504|
@@ -247,7 +247,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Reading                       |       24|            38,180|         1,591|  1,562|
 |University of Salford                       |        4|             5,690|         1,423|  1,468|
 |University of Sheffield                     |       47|            74,948|         1,595|  1,547|
-|University of St Andrews                    |       47|            86,067|         1,831|  1,638|
+|University of St Andrews                    |       46|            85,327|         1,855|  1,638|
 |University of Surrey                        |        3|             4,773|         1,591|  1,638|
 |University of Sussex                        |       13|            26,551|         2,042|  1,253|
 |University of Warwick                       |       73|           146,418|         2,006|  1,641|
@@ -261,7 +261,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 12 947 hybrid open access articles. Total expenditure amounts to  31 945 003 €. Average  fee is 2 467.4 € and the median 2 469 €.
+The dataset covers 12 948 hybrid open access articles. Total expenditure amounts to  31 945 742 €. Average  fee is 2 467.2 € and the median 2 469 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -321,7 +321,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Reading                       |      160|           373,528|         2,335|  2,241|
 |University of Salford                       |        5|            13,267|         2,653|  2,663|
 |University of Sheffield                     |      196|           467,242|         2,384|  2,234|
-|University of St Andrews                    |       64|           145,106|         2,267|  2,212|
+|University of St Andrews                    |       65|           145,846|         2,244|  2,211|
 |University of Surrey                        |        5|            15,253|         3,051|  2,807|
 |University of Sussex                        |       25|            59,454|         2,378|  2,327|
 |University of Warwick                       |      263|           666,536|         2,534|  2,585|
