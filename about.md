@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  57 818 676 € for  31 433 articles were paid by the participating unviversities. Average  fee is 1 839.4 € and the median 1 652 €.
+In total,  57 892 755 € for  31 480 articles were paid by the participating unviversities. Average  fee is 1 839 € and the median 1 652 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 18 485 articles in open access journals which charge publication fees. Total expenditure amounts to  25 872 934 €. Average  fee is 1 399.7 € and the median 1 332 €.
+At the moment, the dataset releases information on 18 530 articles in open access journals which charge publication fees. Total expenditure amounts to  25 944 367 €. Average  fee is 1 400.1 € and the median 1 333 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -183,7 +183,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Giessen U                                   |      317|           428,690|         1,352|  1,273|
 |Goettingen U                                |      650|           883,918|         1,360|  1,354|
 |Hamburg TUHH                                |       28|            38,431|         1,373|  1,418|
-|Hannover U                                  |       69|            90,259|         1,308|  1,241|
+|Hannover U                                  |      100|           127,965|         1,280|  1,257|
 |Harvard U                                   |       94|            82,722|           880|    796|
 |Heidelberg U                                |      396|           586,179|         1,480|  1,614|
 |HZDR                                        |       32|            48,303|         1,509|  1,170|
@@ -197,7 +197,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |King's College London                       |       61|           126,369|         2,072|  1,642|
 |KIT                                         |      542|           705,673|         1,302|  1,340|
 |Konstanz U                                  |      286|           422,405|         1,477|  1,452|
-|Leibniz-Fonds                               |      129|           208,581|         1,617|  1,572|
+|Leibniz-Fonds                               |      143|           242,308|         1,694|  1,590|
 |Leipzig U                                   |      270|           386,841|         1,433|  1,504|
 |Loughborough University                     |        1|               980|           980|    980|
 |LSE                                         |       NA|                NA|            NA|     NA|
@@ -261,7 +261,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 12 948 hybrid open access articles. Total expenditure amounts to  31 945 742 €. Average  fee is 2 467.2 € and the median 2 469 €.
+The dataset covers 12 950 hybrid open access articles. Total expenditure amounts to  31 948 388 €. Average  fee is 2 467.1 € and the median 2 469 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -279,6 +279,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                 |    2,559|         6,127,683|         2,395|  2,516|
 |GFZ-Potsdam                                 |        5|            10,756|         2,151|  2,190|
+|Hannover U                                  |        2|             2,646|         1,323|  1,323|
 |HZDR                                        |       20|            11,880|           594|    570|
 |ICR                                         |       37|           115,982|         3,135|  2,812|
 |Imperial College London                     |      875|         2,291,595|         2,619|  2,630|
