@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
-title:      TU Dortmund its 2016 APC expenditures
+title:      TU Dortmund reports its 2016 APC expenditures
 date:       2017-05-10 08:00:00
 summary:    
 categories: [general, openAPC]
