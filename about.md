@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  57 892 755 € for  31 480 articles were paid by the participating unviversities. Average  fee is 1 839 € and the median 1 652 €.
+In total,  58 141 377 € for  31 634 articles were paid by the participating unviversities. Average  fee is 1 837.9 € and the median 1 653 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 18 530 articles in open access journals which charge publication fees. Total expenditure amounts to  25 944 367 €. Average  fee is 1 400.1 € and the median 1 333 €.
+At the moment, the dataset releases information on 18 684 articles in open access journals which charge publication fees. Total expenditure amounts to  26 192 989 €. Average  fee is 1 401.9 € and the median 1 339 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -171,11 +171,11 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bremen U                                    |      299|           389,718|         1,303|  1,285|
 |Cardiff University                          |       55|            98,083|         1,783|  1,638|
 |Cranfield University                        |        5|             6,557|         1,311|  1,688|
-|Dortmund TU                                 |       39|            39,537|         1,014|    952|
+|Dortmund TU                                 |       38|            39,184|         1,031|    962|
 |Duisburg-Essen U                            |      192|           247,364|         1,288|  1,240|
 |Durham University                           |       25|            39,412|         1,576|  1,489|
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
-|Freiburg U                                  |      471|           626,480|         1,330|  1,386|
+|Freiburg U                                  |      623|           871,696|         1,399|  1,449|
 |FU Berlin                                   |      187|           255,545|         1,367|  1,410|
 |FWF - Austrian Science Fund                 |      754|         1,059,612|         1,405|  1,274|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
@@ -192,7 +192,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
 |IPN                                         |        4|             3,909|           977|    479|
 |IST Austria                                 |        6|             9,400|         1,567|  1,556|
-|JGU Mainz                                   |      214|           302,179|         1,412|  1,383|
+|JGU Mainz                                   |      216|           304,319|         1,409|  1,383|
 |Kassel U                                    |       55|            59,511|         1,082|  1,129|
 |King's College London                       |       61|           126,369|         2,072|  1,642|
 |KIT                                         |      542|           705,673|         1,302|  1,340|
@@ -218,6 +218,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Regensburg U                                |      484|           652,522|         1,348|  1,254|
 |Royal Holloway                              |        9|            12,714|         1,413|  1,244|
 |Swansea University                          |       25|            43,634|         1,745|  1,346|
+|TIB                                         |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                               |       67|            88,367|         1,319|  1,396|
 |TU Chemnitz                                 |       55|            60,695|         1,104|  1,374|
 |TU Clausthal                                |        8|             6,999|           875|    918|
