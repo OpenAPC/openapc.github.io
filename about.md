@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  65 784 281 € for  34 891 articles were paid by the participating unviversities. Average  fee is 1 885.4 € and the median 1 677 €.
+In total,  68 086 553 € for  35 906 articles were paid by the participating unviversities. Average  fee is 1 896.2 € and the median 1 691 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 19 886 articles in open access journals which charge publication fees. Total expenditure amounts to  28 480 750 €. Average  fee is 1 432.2 € and the median 1 363 €.
+At the moment, the dataset releases information on 20 258 articles in open access journals which charge publication fees. Total expenditure amounts to  29 102 193 €. Average  fee is 1 436.6 € and the median 1 363 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -177,8 +177,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Erlangen Nuernberg U                        |      401|           550,174|         1,372|  1,424|
 |Freiburg U                                  |      623|           871,696|         1,399|  1,449|
 |FU Berlin                                   |      187|           255,545|         1,367|  1,410|
-|FWF - Austrian Science Fund                 |      755|         1,062,484|         1,407|  1,275|
-|FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
+|FWF - Austrian Science Fund                 |    1,017|         1,542,862|         1,517|  1,398|
+|FZJ - ZB                                    |      266|           336,279|         1,264|  1,165|
 |GFZ-Potsdam                                 |      126|           148,862|         1,181|  1,082|
 |Giessen U                                   |      415|           590,189|         1,422|  1,346|
 |Goettingen U                                |      650|           883,918|         1,360|  1,354|
@@ -213,7 +213,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |OpenAIRE                                    |      544|           789,670|         1,452|  1,413|
 |Plymouth University                         |        8|             9,936|         1,242|  1,220|
 |Potsdam U                                   |       60|            87,242|         1,454|  1,476|
-|Queen Mary, University of London            |       36|            47,197|         1,311|  1,233|
+|Queen Mary, University of London            |       37|            48,024|         1,298|  1,233|
 |Queen's University Belfast                  |       68|           105,959|         1,558|  1,553|
 |Regensburg U                                |      484|           652,522|         1,348|  1,254|
 |Royal Holloway                              |        9|            12,714|         1,413|  1,244|
@@ -251,7 +251,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of St Andrews                    |       46|            85,327|         1,855|  1,638|
 |University of Surrey                        |        3|             4,773|         1,591|  1,638|
 |University of Sussex                        |       13|            26,551|         2,042|  1,253|
-|University of Warwick                       |       73|           146,418|         2,006|  1,641|
+|University of Warwick                       |       74|           147,245|         1,990|  1,639|
 |University of York                          |       31|            57,720|         1,862|  1,638|
 |Virginia Tech                               |      153|           165,423|         1,081|  1,216|
 |Wellcome Trust                              |    1,764|         3,262,045|         1,849|  1,628|
@@ -262,7 +262,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 15 005 hybrid open access articles. Total expenditure amounts to  37 303 531 €. Average  fee is 2 486.1 € and the median 2 469 €.
+The dataset covers 15 648 hybrid open access articles. Total expenditure amounts to  38 984 359 €. Average  fee is 2 491.3 € and the median 2 479 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -278,7 +278,8 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Durham University                           |      145|           301,759|         2,081|  1,999|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                 |    2,558|         6,124,811|         2,394|  2,516|
+|FWF - Austrian Science Fund                 |    3,190|         7,782,419|         2,440|  2,599|
+|FZJ - ZB                                    |       23|            46,887|         2,039|  2,328|
 |GFZ-Potsdam                                 |        5|            10,756|         2,151|  2,190|
 |Hannover U                                  |        2|             2,646|         1,323|  1,323|
 |HZDR                                        |       20|            11,880|           594|    570|
@@ -298,7 +299,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Newcastle University                        |      188|           475,237|         2,528|  2,593|
 |Northumbria University                      |       38|            75,542|         1,988|  1,685|
 |Plymouth University                         |       15|            33,827|         2,255|  2,209|
-|Queen Mary, University of London            |       96|           233,114|         2,428|  2,384|
+|Queen Mary, University of London            |       95|           232,287|         2,445|  2,395|
 |Queen's University Belfast                  |       31|            81,071|         2,615|  2,585|
 |Royal Holloway                              |       12|            25,362|         2,114|  2,068|
 |Swansea University                          |       80|           192,374|         2,405|  2,432|
@@ -326,10 +327,10 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of St Andrews                    |       65|           145,846|         2,244|  2,211|
 |University of Surrey                        |        5|            15,253|         3,051|  2,807|
 |University of Sussex                        |       25|            59,454|         2,378|  2,327|
-|University of Warwick                       |      263|           666,536|         2,534|  2,585|
+|University of Warwick                       |      262|           665,709|         2,541|  2,585|
 |University of York                          |       57|           155,382|         2,726|  2,662|
 |Virginia Tech                               |       14|            20,480|         1,463|  1,256|
-|Wellcome Trust                              |    4,391|        11,568,258|         2,635|  2,565|
+|Wellcome Trust                              |    4,381|        11,546,246|         2,636|  2,565|
 
 ## Use of external sources
 
