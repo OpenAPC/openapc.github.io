@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  68 086 553 € for  35 906 articles were paid by the participating unviversities. Average  fee is 1 896.2 € and the median 1 691 €.
+In total,  68 130 453 € for  35 934 articles were paid by the participating unviversities. Average  fee is 1 896 € and the median 1 690 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 20 258 articles in open access journals which charge publication fees. Total expenditure amounts to  29 102 193 €. Average  fee is 1 436.6 € and the median 1 363 €.
+At the moment, the dataset releases information on 20 285 articles in open access journals which charge publication fees. Total expenditure amounts to  29 143 524 €. Average  fee is 1 436.7 € and the median 1 363 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -186,7 +186,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                  |      100|           127,965|         1,280|  1,257|
 |Harvard U                                   |       94|            82,722|           880|    796|
 |Heidelberg U                                |      396|           586,179|         1,480|  1,614|
-|HZDR                                        |       32|            48,303|         1,509|  1,170|
+|HZDR                                        |       59|            89,634|         1,519|  1,209|
 |ICR                                         |       13|            27,313|         2,101|  1,638|
 |Imperial College London                     |      375|           757,675|         2,020|  1,655|
 |INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
@@ -262,7 +262,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 15 648 hybrid open access articles. Total expenditure amounts to  38 984 359 €. Average  fee is 2 491.3 € and the median 2 479 €.
+The dataset covers 15 649 hybrid open access articles. Total expenditure amounts to  38 986 929 €. Average  fee is 2 491.3 € and the median 2 479 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -282,7 +282,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FZJ - ZB                                    |       23|            46,887|         2,039|  2,328|
 |GFZ-Potsdam                                 |        5|            10,756|         2,151|  2,190|
 |Hannover U                                  |        2|             2,646|         1,323|  1,323|
-|HZDR                                        |       20|            11,880|           594|    570|
+|HZDR                                        |       21|            14,450|           688|    600|
 |ICR                                         |       37|           115,982|         3,135|  2,812|
 |Imperial College London                     |      875|         2,291,595|         2,619|  2,630|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
