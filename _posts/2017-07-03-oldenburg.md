@@ -22,14 +22,14 @@ Contact person is [Kim Braun](mailto:kim.braun@uni-oldenburg.de).
 
 
 
-The new dataset covers publication fees for 32 articles. Total expenditure amounts to 39 529€ and the average fee is 1 235€.
+The new dataset covers publication fees for 34 articles. Total expenditure amounts to 42 758€ and the average fee is 1 258€.
 
 The following table shows the payments the BIS has made to publishers since Oldenburg's last report.
 
 
 |                                              | Articles| Fees paid in EURO| Mean Fee paid|
 |:---------------------------------------------|--------:|-----------------:|-------------:|
-|Frontiers Media SA                            |        9|             15509|          1723|
+|Frontiers Media SA                            |       11|             18738|          1703|
 |MDPI AG                                       |        5|              7323|          1465|
 |Public Library of Science (PLoS)              |        4|              5474|          1368|
 |Royal Society of Chemistry (RSC)              |        2|              1209|           604|
