@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  68 173 212 € for  35 968 articles were paid by the participating unviversities. Average  fee is 1 895.4 € and the median 1 688 €.
+In total,  68 487 127 € for  36 164 articles were paid by the participating unviversities. Average  fee is 1 893.8 € and the median 1 684 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 20 319 articles in open access journals which charge publication fees. Total expenditure amounts to  29 186 282 €. Average  fee is 1 436.4 € and the median 1 363 €.
+At the moment, the dataset releases information on 20 515 articles in open access journals which charge publication fees. Total expenditure amounts to  29 500 197 €. Average  fee is 1 438 € and the median 1 365 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -181,7 +181,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FZJ - ZB                                    |      266|           336,279|         1,264|  1,165|
 |GFZ-Potsdam                                 |      126|           148,862|         1,181|  1,082|
 |Giessen U                                   |      415|           590,189|         1,422|  1,346|
-|Goettingen U                                |      650|           883,918|         1,360|  1,354|
+|Goettingen U                                |      846|         1,197,833|         1,416|  1,423|
 |Hamburg TUHH                                |       28|            38,431|         1,373|  1,418|
 |Hannover U                                  |      100|           127,965|         1,280|  1,257|
 |Harvard U                                   |       94|            82,722|           880|    796|
