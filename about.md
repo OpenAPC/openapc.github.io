@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  68 490 164 € for  36 167 articles were paid by the participating unviversities. Average  fee is 1 893.7 € and the median 1 684 €.
+In total,  68 576 189 € for  36 217 articles were paid by the participating unviversities. Average  fee is 1 893.5 € and the median 1 684 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 20 518 articles in open access journals which charge publication fees. Total expenditure amounts to  29 503 234 €. Average  fee is 1 437.9 € and the median 1 365 €.
+At the moment, the dataset releases information on 20 568 articles in open access journals which charge publication fees. Total expenditure amounts to  29 589 260 €. Average  fee is 1 438.6 € and the median 1 367 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -204,13 +204,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |LSHTM                                       |       81|           134,194|         1,657|  1,675|
 |MDC                                         |       69|           137,459|         1,992|  1,483|
 |Milano U                                    |       59|            90,625|         1,536|  1,483|
-|MPG                                         |    3,138|         4,095,779|         1,305|  1,189|
+|MPG                                         |    3,189|         4,182,944|         1,312|  1,193|
 |Muenchen LMU                                |      407|           533,749|         1,311|  1,342|
 |Münster U                                   |      325|           381,287|         1,173|  1,159|
 |Newcastle University                        |       51|            91,101|         1,786|  1,385|
 |Northumbria University                      |       22|            55,286|         2,513|  1,638|
 |Oldenburg U                                 |      112|           132,576|         1,184|  1,323|
-|OpenAIRE                                    |      544|           789,670|         1,452|  1,413|
+|OpenAIRE                                    |      543|           788,530|         1,452|  1,413|
 |Plymouth University                         |        8|             9,936|         1,242|  1,220|
 |Potsdam U                                   |       60|            87,242|         1,454|  1,476|
 |Queen Mary, University of London            |       37|            48,024|         1,298|  1,233|
