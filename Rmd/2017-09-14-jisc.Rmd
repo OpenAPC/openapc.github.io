@@ -1,0 +1,92 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      New version of Jisc collections data (2013-2016) included into OpenAPC
+date:       2017-09-14 08:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+[Jisc Collections](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/) has been gathering and releasing data on APC payments made by UK higher education institutions (HEIs).
+
+Following the publication of a [new data set](https://figshare.com/articles/APC_data_collected_by_Jisc_2013-2016/5335999) (2013-2016), OpenAPC has decided to replace all its existing Jisc collection data with the new version.
+
+Since the data format employed by Jisc differs from the OpenAPC standard in several ways, a comprehensive pre- and postprocessing had to be conducted. The [README](https://github.com/OpenAPC/openapc-de/tree/master/data/jisc_collections) in the Jisc data folder provides more details.
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/jisc_collections/postprocessed/ALLAPCDATAMERGEDpublicwithnotes_final.csv")
+my.apc <- my.apc[!(is.na(my.apc$institution)),]
+my.apc <- droplevels(my.apc)
+
+```
+
+The ingested data covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published by UK institutions (Since this ingestion replaces 10830 existing Jisc and 2109 existing Wellcome articles, the net increase is only 6157). Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+The following table and plots show a breakdown of the payments.
+
+### Overview
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_jisc_2017_09_14_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_jisc_2017_09_14_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
