@@ -20,3 +20,5 @@ metadata exchange and invoicing. Publishers need to invest in their editorial sy
 practical elements, which should be included in the agreements, were introduced. The paper proposes a [set of recommendations](http://esac-initiative.org/wp-content/uploads/2017/04/ESAC_workflow_recommendations_1st_draft20march2017.pdf)
 for article workflows and services between institutions and publishers, based on a draft document which was produced as part of the 2nd ESAC Offsetting Workshop in March 2017. These recommendations should be seen as a minimum
 set of practical and formal requirements for offsetting agreements and are necessary to make any publication-based open access business model work.
+
+[Read the full article](https://insights.uksg.org/articles/10.1629/uksg.391/)
