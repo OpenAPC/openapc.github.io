@@ -149,13 +149,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  86 008 454 € for  44 425 articles were paid by the participating unviversities. Average  fee is 1 936 € and the median 1 756 €.
+In total,  86 000 320 € for  44 429 articles were paid by the participating unviversities. Average  fee is 1 935.7 € and the median 1 756 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 24 390 articles in open access journals which charge publication fees. Total expenditure amounts to  36 071 376 €. Average  fee is 1 478.9 € and the median 1 386 €.
+At the moment, the dataset releases information on 24 411 articles in open access journals which charge publication fees. Total expenditure amounts to  36 095 627 €. Average  fee is 1 478.7 € and the median 1 386 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -202,7 +202,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |King's College London                       |      169|           345,648|         2,045|  1,593|
 |KIT                                         |      542|           705,673|         1,302|  1,340|
 |Konstanz U                                  |      286|           422,405|         1,477|  1,452|
-|KTH Royal Institute of Technology           |      107|           131,168|         1,226|  1,072|
+|KTH Royal Institute of Technology           |      106|           129,263|         1,219|  1,072|
 |Lancaster University                        |       17|            23,019|         1,354|  1,393|
 |Leibniz-Fonds                               |      143|           242,308|         1,694|  1,590|
 |Leipzig U                                   |      270|           386,841|         1,433|  1,504|
@@ -219,7 +219,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Muenchen LMU                                |      407|           533,749|         1,311|  1,342|
 |Münster U                                   |      325|           381,287|         1,173|  1,159|
 |Northumbria University                      |       20|            29,657|         1,483|  1,387|
-|Oldenburg U                                 |      135|           163,120|         1,208|  1,345|
+|Oldenburg U                                 |      157|           189,277|         1,206|  1,342|
 |OpenAIRE                                    |      539|           782,833|         1,452|  1,413|
 |Plymouth University                         |       10|            13,018|         1,302|  1,279|
 |Potsdam U                                   |       60|            87,242|         1,454|  1,476|
@@ -285,7 +285,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 20 035 hybrid open access articles. Total expenditure amounts to  49 937 078 €. Average  fee is 2 492.5 € and the median 2 444 €.
+The dataset covers 20 018 hybrid open access articles. Total expenditure amounts to  49 904 693 €. Average  fee is 2 493 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -319,7 +319,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |King's College London                       |      505|         1,357,330|         2,688|  2,640|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
 |Konstanz U                                  |        1|             1,950|         1,950|  1,950|
-|KTH Royal Institute of Technology           |       47|            90,580|         1,927|  1,905|
+|KTH Royal Institute of Technology           |       30|            58,195|         1,940|  2,109|
 |Lancaster University                        |       56|           135,977|         2,428|  2,381|
 |Linköping University                        |       33|            69,756|         2,114|  2,132|
 |LSE                                         |       36|            65,882|         1,830|  2,045|
