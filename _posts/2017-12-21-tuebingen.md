@@ -22,14 +22,14 @@ Contact person is [Ute Grimmel-Holzwarth](mailto:openaccess@ub.uni-tuebingen.de)
 
 
 
-The new dataset covers publication fees for 179 articles. Total expenditure amounts to 260 064€ and the average fee is 1 453€.
+The new dataset covers publication fees for 183 articles. Total expenditure amounts to 266 231€ and the average fee is 1 455€.
 
 The following table shows the payments Tübingen University Library has made to publishers in 2016.
 
 
 |                                                            | Articles| Fees paid in EURO| Mean Fee paid|
 |:-----------------------------------------------------------|--------:|-----------------:|-------------:|
-|Springer Nature                                             |       57|             87978|          1543|
+|Springer Nature                                             |       59|             91643|          1553|
 |Public Library of Science (PLoS)                            |       37|             52061|          1407|
 |Frontiers Media SA                                          |       33|             55772|          1690|
 |MDPI AG                                                     |        9|             10330|          1148|
@@ -47,12 +47,14 @@ The following table shows the payments Tübingen University Library has made to 
 |BMJ                                                         |        1|              1160|          1160|
 |British Editorial Society of Bone & Joint Surgery           |        1|              1131|          1131|
 |Dove Medical Press Ltd.                                     |        1|              1698|          1698|
+|e-Century Publishing Corporation                            |        1|              1669|          1669|
 |Ivyspring International Publisher                           |        1|              1624|          1624|
 |JMIR Publications Inc.                                      |        1|              1884|          1884|
 |OMICS Publishing Group                                      |        1|              1915|          1915|
 |PeerJ                                                       |        1|               615|           615|
 |Pensoft Publishers                                          |        1|               340|           340|
 |Schweizerbart                                               |        1|              1950|          1950|
+|Sciaccess Publishers                                        |        1|               832|           832|
 |The Company of Biologists                                   |        1|              1428|          1428|
 |The Royal Society                                           |        1|              1999|          1999|
 |Walter de Gruyter GmbH                                      |        1|               833|           833|
