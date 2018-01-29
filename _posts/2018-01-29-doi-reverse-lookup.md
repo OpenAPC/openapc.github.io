@@ -49,6 +49,7 @@ In our example, the LR between the Crossref title and our search title is 0.97, 
 Now we have everything at hand to put together a [script for automated reverse DOI lookup](https://github.com/OpenAPC/openapc-de/blob/master/python/import_dois.py) which does the following:
 
 For every DOI-less article with a title: 
+
 * query the Crossref API, using the article title as search string
 * for every returned result, calculate the Levenshtein ratio (LR) between the query title and the result title
 * Take the result with the highest LR and do the following:
