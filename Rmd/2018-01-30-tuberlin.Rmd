@@ -29,7 +29,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 We welcome the [Technische Universität Berlin](https://www.tu-berlin.de/menue/home/parameter/en/) as new contributing institution!
 
-The [TU Berlin Library](http://www.ub.tu-berlin.de/) is in charge of the [University's Open Access Publishing Fund](http://www.ub.tu-berlin.de/publikationsfonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
+The [TU Berlin University Library](http://www.ub.tu-berlin.de/en/home/) is in charge of the [University's Open Access Publishing Fund](http://www.ub.tu-berlin.de/en/publishing/open-access/financing-for-publications/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
 Contact Person is [Steffi Grimm](mailto:steffi.grimm@tu-berlin.de).
 
@@ -55,7 +55,7 @@ my.apc <- droplevels(my.apc)
 
 The first dataset provided by the TU covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
 
-The following table shows the payments the TU Berlin Library has made to publishers in 2017.
+The following table shows the payments the TU Berlin University Library has made to publishers in 2017.
 
 ```{r}
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
