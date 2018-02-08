@@ -213,13 +213,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  91 959 074 € for  47 748 articles were paid by the participating unviversities. Average  fee is 1 925.9 € and the median 1 738 €.
+In total,  91 984 860 € for  47 768 articles were paid by the participating unviversities. Average  fee is 1 925.7 € and the median 1 738 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 26 758 articles in open access journals which charge publication fees. Total expenditure amounts to  39 621 778 €. Average  fee is 1 480.7 € and the median 1 396 €.
+At the moment, the dataset releases information on 26 775 articles in open access journals which charge publication fees. Total expenditure amounts to  39 644 291 €. Average  fee is 1 480.6 € and the median 1 396 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -267,7 +267,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
 |IST Austria                                                     |       13|            30,578|         2,352|  1,632|
-|JGU Mainz                                                       |      216|           304,319|         1,409|  1,383|
+|JGU Mainz                                                       |      215|           302,527|         1,407|  1,381|
 |Karolinska Institutet                                           |        7|             4,371|           624|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
@@ -303,7 +303,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Norwegian School of Sport Sciences                              |        2|             1,568|           784|    784|
 |Norwegian University of Life Sciences                           |       53|            72,307|         1,364|  1,449|
 |Norwegian University of Science and Technology                  |      115|           162,119|         1,410|  1,420|
-|Oldenburg U                                                     |      157|           189,277|         1,206|  1,342|
+|Oldenburg U                                                     |      177|           215,062|         1,215|  1,361|
 |OpenAIRE                                                        |      538|           780,991|         1,452|  1,413|
 |Oslo and Akershus university college                            |       36|            45,728|         1,270|  1,252|
 |Oslo University Hospital                                        |      111|           149,777|         1,349|  1,392|
@@ -345,7 +345,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Calgary                                           |      884|           993,823|         1,124|  1,145|
 |University of Cambridge                                         |      527|         1,146,718|         2,176|  1,807|
 |University of Durham                                            |       50|            95,365|         1,907|  1,719|
-|University of Edinburgh                                         |      159|           269,874|         1,697|  1,586|
+|University of Edinburgh                                         |      157|           268,393|         1,710|  1,632|
 |University of Exeter                                            |       59|           103,364|         1,752|  1,395|
 |University of Glasgow                                           |      144|           272,944|         1,895|  1,568|
 |University of Gothenburg                                        |      193|           295,543|         1,531|  1,406|
@@ -383,7 +383,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 20 990 hybrid open access articles. Total expenditure amounts to  52 337 296 €. Average  fee is 2 493.4 € and the median 2 446 €.
+The dataset covers 20 993 hybrid open access articles. Total expenditure amounts to  52 340 569 €. Average  fee is 2 493.2 € and the median 2 446 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -414,6 +414,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Institute of Cancer Research                |       67|           206,220|         3,078|  2,811|
 |IPN                                         |       22|            53,603|         2,437|  2,558|
 |IST Austria                                 |        3|            11,911|         3,970|  3,468|
+|JGU Mainz                                   |        1|             1,792|         1,792|  1,792|
 |Karolinska Institutet                       |       25|            38,269|         1,531|  1,473|
 |Keele University                            |       25|            65,045|         2,602|  2,644|
 |King's College London                       |      547|         1,479,691|         2,705|  2,640|
@@ -453,7 +454,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Calgary                       |       45|            91,902|         2,042|  2,184|
 |University of Cambridge                     |    1,517|         4,237,627|         2,793|  2,683|
 |University of Durham                        |      265|           563,728|         2,127|  2,091|
-|University of Edinburgh                     |      297|           791,922|         2,666|  2,618|
+|University of Edinburgh                     |      299|           793,402|         2,654|  2,618|
 |University of Exeter                        |      101|           269,157|         2,665|  2,669|
 |University of Glasgow                       |      448|         1,120,600|         2,501|  2,467|
 |University of Gothenburg                    |      105|           258,773|         2,465|  2,750|
