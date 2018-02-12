@@ -29,7 +29,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [University of Milan](http://www.unimi.it/ENG/) has updated its APC expenditures for the 2016 period.
 
-Contact person is [Anna Marini](mailto:anna.marini@unimi.it).
+Contact person is [Paola Galimberti](mailto:paola.galimberti@unimi.it).
 
 ## Cost data
 
