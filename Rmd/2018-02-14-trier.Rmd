@@ -74,7 +74,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ## Overview
 
-A detail analysis of the contributed data provides the following overview:
+A detailed analysis of the contributed data provides the following overview:
 
 ### Fees paid per publisher (in EURO)
 
