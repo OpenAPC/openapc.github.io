@@ -213,13 +213,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  92 120 553 € for  47 847 articles were paid by the participating unviversities. Average  fee is 1 925.3 € and the median 1 738 €.
+In total,  92 161 124 € for  47 870 articles were paid by the participating unviversities. Average  fee is 1 925.2 € and the median 1 737 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 26 834 articles in open access journals which charge publication fees. Total expenditure amounts to  39 732 544 €. Average  fee is 1 480.7 € and the median 1 396 €.
+At the moment, the dataset releases information on 26 856 articles in open access journals which charge publication fees. Total expenditure amounts to  39 770 497 €. Average  fee is 1 480.9 € and the median 1 396 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -231,7 +231,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Aston University                                                |       24|            47,259|         1,969|  1,654|
 |Bamberg U                                                       |       36|            39,450|         1,096|  1,116|
 |Bangor University                                               |       20|            46,857|         2,343|  1,638|
-|Bayreuth U                                                      |      128|           148,565|         1,161|  1,202|
+|Bayreuth U                                                      |      128|           148,228|         1,158|  1,202|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
 |Bielefeld U                                                     |      348|           437,899|         1,258|  1,276|
@@ -242,7 +242,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       27|            38,434|         1,423|  1,698|
 |Dortmund TU                                                     |       38|            39,184|         1,031|    962|
-|Duisburg-Essen U                                                |      229|           309,648|         1,352|  1,276|
+|Duisburg-Essen U                                                |      236|           322,744|         1,368|  1,277|
 |Erlangen Nuernberg U                                            |      538|           755,645|         1,405|  1,454|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
@@ -286,7 +286,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Malmö University College                                        |        4|             4,007|         1,002|    890|
 |Manchester Metropolitan University                              |       10|            14,997|         1,500|  1,421|
 |MDC                                                             |       69|           137,459|         1,992|  1,483|
-|Milano U                                                        |      118|           178,878|         1,516|  1,495|
+|Milano U                                                        |      121|           185,356|         1,532|  1,495|
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,458|         4,712,028|         1,363|  1,203|
 |Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
@@ -321,6 +321,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Swedish University of Agricultural Sciences                     |      343|           449,661|         1,311|  1,326|
 |TIB                                                             |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                                                   |      137|           194,193|         1,417|  1,416|
+|Trier U                                                         |       12|            18,716|         1,560|  1,572|
 |TU Berlin                                                       |       30|            34,171|         1,139|  1,189|
 |TU Chemnitz                                                     |       55|            60,695|         1,104|  1,374|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
@@ -383,7 +384,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 013 hybrid open access articles. Total expenditure amounts to  52 388 009 €. Average  fee is 2 493.1 € and the median 2 446 €.
+The dataset covers 21 014 hybrid open access articles. Total expenditure amounts to  52 390 627 €. Average  fee is 2 493.1 € and the median 2 446 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -399,7 +400,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Cranfield University                        |       66|           186,639|         2,828|  2,901|
 |Dalarna University College                  |       13|            33,705|         2,593|  2,690|
 |Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
-|Duisburg-Essen U                            |        7|            18,549|         2,650|  2,618|
+|Duisburg-Essen U                            |        8|            21,167|         2,646|  2,618|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                 |    3,188|         7,778,679|         2,440|  2,599|
@@ -555,7 +556,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
