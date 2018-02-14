@@ -46,6 +46,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
+- [University of Trier](https://www.uni-trier.de/index.php?id=60802)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
 - [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
@@ -76,6 +77,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
+## Participating Swiss Institutions
+
+- [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 
 ## Participating Italian Institutions
 
@@ -213,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  92 161 124 € for  47 870 articles were paid by the participating unviversities. Average  fee is 1 925.2 € and the median 1 737 €.
+In total,  92 675 284 € for  48 171 articles were paid by the participating unviversities. Average  fee is 1 923.9 € and the median 1 734 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 26 856 articles in open access journals which charge publication fees. Total expenditure amounts to  39 770 497 €. Average  fee is 1 480.9 € and the median 1 396 €.
+At the moment, the dataset releases information on 27 099 articles in open access journals which charge publication fees. Total expenditure amounts to  40 165 432 €. Average  fee is 1 482.2 € and the median 1 396 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -319,6 +324,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Stockholm University                                            |       94|           143,268|         1,524|  1,402|
 |Swansea University                                              |       36|            59,942|         1,665|  1,332|
 |Swedish University of Agricultural Sciences                     |      343|           449,661|         1,311|  1,326|
+|Swiss National Science Foundation (SNSF)                        |      244|           395,297|         1,620|  1,361|
 |TIB                                                             |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                                                   |      137|           194,193|         1,417|  1,416|
 |Trier U                                                         |       12|            18,716|         1,560|  1,572|
@@ -359,7 +365,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Newcastle                                         |      149|           304,300|         2,042|  1,716|
 |University of Nottingham                                        |       68|           124,918|         1,837|  1,626|
 |University of Oslo                                              |      218|           339,354|         1,557|  1,522|
-|University of Oxford                                            |      449|           966,280|         2,152|  1,898|
+|University of Oxford                                            |      448|           965,918|         2,156|  1,901|
 |University of Portsmouth                                        |        6|             8,489|         1,415|  1,303|
 |University of Reading                                           |       58|            91,448|         1,577|  1,534|
 |University of Salford                                           |        4|             5,714|         1,429|  1,480|
@@ -384,7 +390,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 014 hybrid open access articles. Total expenditure amounts to  52 390 627 €. Average  fee is 2 493.1 € and the median 2 446 €.
+The dataset covers 21 072 hybrid open access articles. Total expenditure amounts to  52 509 852 €. Average  fee is 2 491.9 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -442,6 +448,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Stockholm University                        |      151|           308,509|         2,043|  2,200|
 |Swansea University                          |      110|           273,581|         2,487|  2,576|
 |Swedish University of Agricultural Sciences |      154|           347,982|         2,260|  2,200|
+|Swiss National Science Foundation (SNSF)    |       58|           119,225|         2,056|  2,153|
 |TiHo Hannover                               |        9|            16,412|         1,824|  1,595|
 |TU Chemnitz                                 |        1|               100|           100|    100|
 |TU Clausthal                                |        3|             7,082|         2,361|  2,500|
@@ -556,7 +563,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
