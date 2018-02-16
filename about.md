@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  92 675 284 € for  48 171 articles were paid by the participating unviversities. Average  fee is 1 923.9 € and the median 1 734 €.
+In total,  92 725 390 € for  48 199 articles were paid by the participating unviversities. Average  fee is 1 923.8 € and the median 1 734 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 099 articles in open access journals which charge publication fees. Total expenditure amounts to  40 165 432 €. Average  fee is 1 482.2 € and the median 1 396 €.
+At the moment, the dataset releases information on 27 127 articles in open access journals which charge publication fees. Total expenditure amounts to  40 215 538 €. Average  fee is 1 482.5 € and the median 1 396 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -293,7 +293,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MDC                                                             |       69|           137,459|         1,992|  1,483|
 |Milano U                                                        |      121|           185,356|         1,532|  1,495|
 |Molde University College                                        |        3|             1,876|           625|    584|
-|MPG                                                             |    3,458|         4,712,028|         1,363|  1,203|
+|MPG                                                             |    3,486|         4,762,134|         1,366|  1,203|
 |Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
 |Münster U                                                       |      325|           381,287|         1,173|  1,159|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
