@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  93 327 334 € for  48 587 articles were paid by the participating unviversities. Average  fee is 1 920.8 € and the median 1 728 €.
+In total,  93 351 291 € for  48 605 articles were paid by the participating unviversities. Average  fee is 1 920.6 € and the median 1 728 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 512 articles in open access journals which charge publication fees. Total expenditure amounts to  40 814 566 €. Average  fee is 1 483.5 € and the median 1 398 €.
+At the moment, the dataset releases information on 27 530 articles in open access journals which charge publication fees. Total expenditure amounts to  40 838 523 €. Average  fee is 1 483.4 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -329,7 +329,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TiHo Hannover                                                   |      137|           194,193|         1,417|  1,416|
 |Trier U                                                         |       12|            18,716|         1,560|  1,572|
 |TU Berlin                                                       |       30|            34,171|         1,139|  1,189|
-|TU Chemnitz                                                     |       55|            60,695|         1,104|  1,374|
+|TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
 |TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
