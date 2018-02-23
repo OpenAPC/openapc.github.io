@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  93 210 952 € for  48 513 articles were paid by the participating unviversities. Average  fee is 1 921.4 € and the median 1 729 €.
+In total,  93 327 334 € for  48 587 articles were paid by the participating unviversities. Average  fee is 1 920.8 € and the median 1 728 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 438 articles in open access journals which charge publication fees. Total expenditure amounts to  40 698 183 €. Average  fee is 1 483.3 € and the median 1 398 €.
+At the moment, the dataset releases information on 27 512 articles in open access journals which charge publication fees. Total expenditure amounts to  40 814 566 €. Average  fee is 1 483.5 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -240,7 +240,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
 |Bielefeld U                                                     |      348|           437,899|         1,258|  1,276|
-|Bochum U                                                        |      130|           188,000|         1,446|  1,510|
+|Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Bremen U                                                        |      299|           389,718|         1,303|  1,285|
 |Cardiff University                                              |      169|           289,389|         1,712|  1,562|
 |Chalmers University of Technology                               |        3|             2,142|           714|    560|
