@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  92 951 542 € for  48 345 articles were paid by the participating unviversities. Average  fee is 1 922.7 € and the median 1 731 €.
+In total,  93 210 952 € for  48 513 articles were paid by the participating unviversities. Average  fee is 1 921.4 € and the median 1 729 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 270 articles in open access journals which charge publication fees. Total expenditure amounts to  40 438 773 €. Average  fee is 1 482.9 € and the median 1 396 €.
+At the moment, the dataset releases information on 27 438 articles in open access journals which charge publication fees. Total expenditure amounts to  40 698 183 €. Average  fee is 1 483.3 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -248,7 +248,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dalarna University College                                      |       27|            38,434|         1,423|  1,698|
 |Dortmund TU                                                     |       38|            39,184|         1,031|    962|
 |Duisburg-Essen U                                                |      236|           322,744|         1,368|  1,277|
-|Erlangen Nuernberg U                                            |      538|           755,645|         1,405|  1,454|
+|Erlangen Nuernberg U                                            |      706|         1,015,055|         1,438|  1,513|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      187|           255,545|         1,367|  1,410|
