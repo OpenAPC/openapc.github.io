@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  93 351 291 € for  48 605 articles were paid by the participating unviversities. Average  fee is 1 920.6 € and the median 1 728 €.
+In total,  93 438 996 € for  48 662 articles were paid by the participating unviversities. Average  fee is 1 920.2 € and the median 1 728 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 530 articles in open access journals which charge publication fees. Total expenditure amounts to  40 838 523 €. Average  fee is 1 483.4 € and the median 1 398 €.
+At the moment, the dataset releases information on 27 587 articles in open access journals which charge publication fees. Total expenditure amounts to  40 926 228 €. Average  fee is 1 483.5 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -248,7 +248,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dalarna University College                                      |       27|            38,434|         1,423|  1,698|
 |Dortmund TU                                                     |       38|            39,184|         1,031|    962|
 |Duisburg-Essen U                                                |      236|           322,744|         1,368|  1,277|
-|Erlangen Nuernberg U                                            |      706|         1,015,055|         1,438|  1,513|
+|Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      187|           255,545|         1,367|  1,410|
@@ -295,7 +295,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,629|         4,985,369|         1,374|  1,207|
 |Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
-|Münster U                                                       |      325|           381,287|         1,173|  1,159|
+|Münster U                                                       |      381|           466,796|         1,225|  1,200|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
 |NILU - Norwegian Institute for Air Research                     |       14|            20,647|         1,475|  1,441|
 |Nord University                                                 |       12|            14,974|         1,248|  1,126|
