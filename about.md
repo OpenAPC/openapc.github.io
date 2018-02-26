@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  93 438 996 € for  48 662 articles were paid by the participating unviversities. Average  fee is 1 920.2 € and the median 1 728 €.
+In total,  93 440 917 € for  48 663 articles were paid by the participating unviversities. Average  fee is 1 920.2 € and the median 1 728 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 587 articles in open access journals which charge publication fees. Total expenditure amounts to  40 926 228 €. Average  fee is 1 483.5 € and the median 1 398 €.
+At the moment, the dataset releases information on 27 588 articles in open access journals which charge publication fees. Total expenditure amounts to  40 928 149 €. Average  fee is 1 483.5 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -295,7 +295,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,629|         4,985,369|         1,374|  1,207|
 |Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
-|Münster U                                                       |      381|           466,796|         1,225|  1,200|
+|Münster U                                                       |      382|           468,717|         1,227|  1,200|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
 |NILU - Norwegian Institute for Air Research                     |       14|            20,647|         1,475|  1,441|
 |Nord University                                                 |       12|            14,974|         1,248|  1,126|
