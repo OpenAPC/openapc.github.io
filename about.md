@@ -218,13 +218,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  93 440 917 € for  48 663 articles were paid by the participating unviversities. Average  fee is 1 920.2 € and the median 1 728 €.
+In total,  93 875 293 € for  48 970 articles were paid by the participating unviversities. Average  fee is 1 917 € and the median 1 722 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 27 588 articles in open access journals which charge publication fees. Total expenditure amounts to  40 928 149 €. Average  fee is 1 483.5 € and the median 1 398 €.
+At the moment, the dataset releases information on 27 896 articles in open access journals which charge publication fees. Total expenditure amounts to  41 363 512 €. Average  fee is 1 482.8 € and the median 1 398 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -321,7 +321,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |SINTEF                                                          |        3|             3,633|         1,211|  1,176|
 |Sørlandet Hospital Trust                                        |        5|             8,453|         1,691|  1,667|
 |St George's, University of London                               |       19|            36,284|         1,910|  1,862|
-|Stockholm University                                            |       94|           143,268|         1,524|  1,402|
+|Stockholm University                                            |       95|           144,255|         1,518|  1,399|
 |Swansea University                                              |       36|            59,942|         1,665|  1,332|
 |Swedish University of Agricultural Sciences                     |      343|           449,661|         1,311|  1,326|
 |Swiss National Science Foundation (SNSF)                        |      244|           395,297|         1,620|  1,361|
@@ -333,7 +333,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
 |TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
-|TU Muenchen                                                     |      551|           713,150|         1,294|  1,439|
+|TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
 |TU Wien                                                         |       23|            32,403|         1,409|  1,323|
 |Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
 |UCL                                                             |    1,645|         2,697,774|         1,640|  1,534|
@@ -390,7 +390,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 075 hybrid open access articles. Total expenditure amounts to  52 512 769 €. Average  fee is 2 491.7 € and the median 2 444 €.
+The dataset covers 21 074 hybrid open access articles. Total expenditure amounts to  52 511 781 €. Average  fee is 2 491.8 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -445,7 +445,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Queen's University Belfast                  |       34|            86,290|         2,538|  2,495|
 |Royal Holloway                              |       34|            79,500|         2,338|  2,079|
 |St George's, University of London           |       23|            67,276|         2,925|  2,756|
-|Stockholm University                        |      151|           308,509|         2,043|  2,200|
+|Stockholm University                        |      150|           307,521|         2,050|  2,200|
 |Swansea University                          |      110|           273,581|         2,487|  2,576|
 |Swedish University of Agricultural Sciences |      154|           347,982|         2,260|  2,200|
 |Swiss National Science Foundation (SNSF)    |       58|           119,225|         2,056|  2,153|
