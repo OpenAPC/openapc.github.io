@@ -220,13 +220,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  94 226 122 € for  49 185 articles were paid by the participating unviversities. Average  fee is 1 915.7 € and the median 1 722 €.
+In total,  94 553 931 € for  49 406 articles were paid by the participating unviversities. Average  fee is 1 913.8 € and the median 1 720 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 28 109 articles in open access journals which charge publication fees. Total expenditure amounts to  41 707 324 €. Average  fee is 1 483.8 € and the median 1 400 €.
+At the moment, the dataset releases information on 28 330 articles in open access journals which charge publication fees. Total expenditure amounts to  42 035 133 €. Average  fee is 1 483.8 € and the median 1 403 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -265,7 +265,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
-|Heidelberg U                                                    |      396|           586,179|         1,480|  1,614|
+|Heidelberg U                                                    |      617|           913,988|         1,481|  1,606|
 |HZDR                                                            |       59|            89,634|         1,519|  1,209|
 |Imperial College London                                         |      572|         1,064,200|         1,860|  1,595|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
