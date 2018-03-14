@@ -220,13 +220,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  94 553 931 € for  49 406 articles were paid by the participating unviversities. Average  fee is 1 913.8 € and the median 1 720 €.
+In total,  94 712 223 € for  49 513 articles were paid by the participating unviversities. Average  fee is 1 912.9 € and the median 1 720 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 28 330 articles in open access journals which charge publication fees. Total expenditure amounts to  42 035 133 €. Average  fee is 1 483.8 € and the median 1 403 €.
+At the moment, the dataset releases information on 28 437 articles in open access journals which charge publication fees. Total expenditure amounts to  42 193 424 €. Average  fee is 1 483.8 € and the median 1 404 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -253,7 +253,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
-|FU Berlin                                                       |      187|           255,545|         1,367|  1,410|
+|FU Berlin                                                       |      294|           413,858|         1,408|  1,506|
 |FWF - Austrian Science Fund                                     |    1,017|         1,542,862|         1,517|  1,398|
 |FZJ - ZB                                                        |      266|           336,279|         1,264|  1,165|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
@@ -265,7 +265,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
-|Heidelberg U                                                    |      617|           913,988|         1,481|  1,606|
+|Heidelberg U                                                    |      617|           913,967|         1,481|  1,606|
 |HZDR                                                            |       59|            89,634|         1,519|  1,209|
 |Imperial College London                                         |      572|         1,064,200|         1,860|  1,595|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
