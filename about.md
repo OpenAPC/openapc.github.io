@@ -220,13 +220,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  94 712 223 € for  49 513 articles were paid by the participating unviversities. Average  fee is 1 912.9 € and the median 1 720 €.
+In total,  94 739 259 € for  49 531 articles were paid by the participating unviversities. Average  fee is 1 912.7 € and the median 1 719 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 28 437 articles in open access journals which charge publication fees. Total expenditure amounts to  42 193 424 €. Average  fee is 1 483.8 € and the median 1 404 €.
+At the moment, the dataset releases information on 28 455 articles in open access journals which charge publication fees. Total expenditure amounts to  42 220 461 €. Average  fee is 1 483.8 € and the median 1 404 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -261,7 +261,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Giessen U                                                       |      415|           590,189|         1,422|  1,346|
 |Goettingen U                                                    |      849|         1,200,870|         1,414|  1,422|
 |Goldsmiths                                                      |        4|             5,385|         1,346|  1,428|
-|Hamburg TUHH                                                    |       28|            38,431|         1,373|  1,418|
+|Hamburg TUHH                                                    |       46|            65,468|         1,423|  1,533|
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
