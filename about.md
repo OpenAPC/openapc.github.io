@@ -220,13 +220,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  94 739 259 € for  49 531 articles were paid by the participating unviversities. Average  fee is 1 912.7 € and the median 1 719 €.
+In total,  95 092 028 € for  49 738 articles were paid by the participating unviversities. Average  fee is 1 911.9 € and the median 1 717 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 28 455 articles in open access journals which charge publication fees. Total expenditure amounts to  42 220 461 €. Average  fee is 1 483.8 € and the median 1 404 €.
+At the moment, the dataset releases information on 28 662 articles in open access journals which charge publication fees. Total expenditure amounts to  42 573 230 €. Average  fee is 1 485.4 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -241,7 +241,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bayreuth U                                                      |      128|           148,228|         1,158|  1,202|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
-|Bielefeld U                                                     |      348|           437,899|         1,258|  1,276|
+|Bielefeld U                                                     |      425|           552,655|         1,300|  1,340|
 |Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
 |Cardiff University                                              |      169|           289,389|         1,712|  1,562|
@@ -319,7 +319,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Potsdam U                                                       |       60|            87,242|         1,454|  1,476|
 |Queen Mary, University of London                                |       53|            89,135|         1,682|  1,250|
 |Queen's University Belfast                                      |      114|           184,597|         1,619|  1,543|
-|Regensburg U                                                    |      484|           652,522|         1,348|  1,254|
+|Regensburg U                                                    |      614|           890,535|         1,450|  1,394|
 |Royal Holloway                                                  |       12|            20,914|         1,743|  1,512|
 |SINTEF                                                          |        3|             3,633|         1,211|  1,176|
 |Sørlandet Hospital Trust                                        |        5|             8,453|         1,691|  1,667|
