@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 author:     Christoph Broschinski and Dirk Pieper
 title:      Analysing the article coverage of offsetting contracts
