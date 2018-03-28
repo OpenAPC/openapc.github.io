@@ -221,13 +221,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  95 463 893 € for  50 029 articles were paid by the participating unviversities. Average  fee is 1 908.2 € and the median 1 712 €.
+In total,  95 618 618 € for  50 133 articles were paid by the participating unviversities. Average  fee is 1 907.3 € and the median 1 710 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 28 954 articles in open access journals which charge publication fees. Total expenditure amounts to  42 945 478 €. Average  fee is 1 483.2 € and the median 1 405 €.
+At the moment, the dataset releases information on 29 058 articles in open access journals which charge publication fees. Total expenditure amounts to  43 100 203 €. Average  fee is 1 483.2 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -275,7 +275,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
 |IST Austria                                                     |       13|            30,578|         2,352|  1,632|
-|JGU Mainz                                                       |      215|           302,527|         1,407|  1,381|
+|JGU Mainz                                                       |      319|           457,252|         1,433|  1,457|
 |Karolinska Institutet                                           |        7|             4,371|           624|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
