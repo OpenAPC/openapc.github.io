@@ -221,13 +221,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  95 618 618 € for  50 133 articles were paid by the participating unviversities. Average  fee is 1 907.3 € and the median 1 710 €.
+In total,  95 669 956 € for  50 170 articles were paid by the participating unviversities. Average  fee is 1 906.9 € and the median 1 710 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 058 articles in open access journals which charge publication fees. Total expenditure amounts to  43 100 203 €. Average  fee is 1 483.2 € and the median 1 406 €.
+At the moment, the dataset releases information on 29 095 articles in open access journals which charge publication fees. Total expenditure amounts to  43 151 541 €. Average  fee is 1 483.1 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -239,7 +239,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Aston University                                                |       24|            47,259|         1,969|  1,654|
 |Bamberg U                                                       |       36|            39,450|         1,096|  1,116|
 |Bangor University                                               |       20|            46,857|         2,343|  1,638|
-|Bayreuth U                                                      |      128|           148,228|         1,158|  1,202|
+|Bayreuth U                                                      |      165|           193,663|         1,174|  1,245|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
 |Bielefeld U                                                     |      425|           552,655|         1,300|  1,340|
@@ -333,7 +333,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TIB                                                             |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                                                   |      137|           194,193|         1,417|  1,416|
 |Trier U                                                         |       12|            18,716|         1,560|  1,572|
-|TU Berlin                                                       |       30|            34,171|         1,139|  1,189|
+|TU Berlin                                                       |       30|            40,074|         1,336|  1,392|
 |TU Braunschweig                                                 |       33|            40,822|         1,237|  1,531|
 |TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
