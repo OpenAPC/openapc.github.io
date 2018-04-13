@@ -34,6 +34,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
+- [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
@@ -221,13 +222,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  95 669 956 € for  50 170 articles were paid by the participating unviversities. Average  fee is 1 906.9 € and the median 1 710 €.
+In total,  95 711 547 € for  50 205 articles were paid by the participating unviversities. Average  fee is 1 906.4 € and the median 1 709 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 095 articles in open access journals which charge publication fees. Total expenditure amounts to  43 151 541 €. Average  fee is 1 483.1 € and the median 1 406 €.
+At the moment, the dataset releases information on 29 130 articles in open access journals which charge publication fees. Total expenditure amounts to  43 193 132 €. Average  fee is 1 482.8 € and the median 1 405 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -337,6 +338,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Braunschweig                                                 |       33|            40,822|         1,237|  1,531|
 |TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
+|TU Darmstadt                                                    |       35|            41,591|         1,188|  1,258|
 |TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
@@ -569,7 +571,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
