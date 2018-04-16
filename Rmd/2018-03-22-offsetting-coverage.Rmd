@@ -55,7 +55,9 @@ So, according to Crossref 1,772 articles have been published in *European Radiol
 | J. of Business Ethics                     |             1316     |           1859           |           119            |       142                    |
 
 
-The results are clear: When it comes to journal metrics (both OA and total), Crossref data is too sketchy to rely on.
+~~The results are clear: When it comes to journal metrics (both OA and total), Crossref data is too sketchy to rely on.~~
+
+(**Update (2018-04-16)**: As Najko Jahn [correctly points out](https://subugoe.github.io/hybrid_oa_dashboard/intact_comments/cr_springer.html), the gap between SpringerLink and Crossref numbers can be explained with filtering issues: Springer journals may contain "Online First" articles which are not assigned to a print issue and therefore won't show up in a search for print publication dates on Crossref. We will have to look more closely into this.)
 
 This brought us directly to our second approach: Using the statistics from SpringerLink instead of Crossref. Technically there are two ways to do this: The first is one is to download search result files from SpringerLink in CSV format and count the the number of entries within, the second one is to make use of [web scraping](https://en.wikipedia.org/wiki/Web_scraping) to directly read the results count from the search page. While this approach lead to an accurate count of articles, it had an unforseen drawback which rendered it unsuable in the end: The time frame of the articles on SpringerLink is not identical to the one in our collection. While the "period" field in the offsetting dataset relates to the acceptance date of an article, the date filter on SpringerLink relates to the print publication date, which usually occurs significantly later, often not until the next calendar year. In our experience there is no possibility to use another type of date as filter on SpringerLink, so simple usage of these numbers would lead to incorrect comparisons and thus is not an option.
 
