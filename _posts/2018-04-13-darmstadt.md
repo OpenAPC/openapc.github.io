@@ -22,20 +22,20 @@ Contact Person is [Gerald Langhanke](mailto:oa-fonds@ulb.tu-darmstadt.de).
 
 
 
-The initial datasets provided by the ULB covers publication fees for 35 articles published in 2017. Total expenditure amounts to 41 591€ and the average fee is 1 188€.
+The initial datasets provided by the ULB covers publication fees for 35 articles published in 2017. Total expenditure amounts to 48 777€ and the average fee is 1 394€.
 
 
 |                                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:--------------------------------|--------:|-----------------:|-------------:|
-|Springer Nature                  |       14|             19032|          1359|
-|MDPI AG                          |       10|              9369|           937|
-|Frontiers Media SA               |        3|              3989|          1330|
-|Public Library of Science (PLoS) |        3|              3834|          1278|
-|Copernicus GmbH                  |        1|              1620|          1620|
-|IOP Publishing                   |        1|              1014|          1014|
-|PeerJ                            |        1|               722|           722|
-|Walter de Gruyter GmbH           |        1|               190|           190|
-|Wiley-Blackwell                  |        1|              1820|          1820|
+|Springer Nature                  |       14|             21933|          1567|
+|MDPI AG                          |       10|             11149|          1115|
+|Frontiers Media SA               |        3|              4747|          1582|
+|Public Library of Science (PLoS) |        3|              4563|          1521|
+|Copernicus GmbH                  |        1|              1928|          1928|
+|IOP Publishing                   |        1|              1207|          1207|
+|PeerJ                            |        1|               860|           860|
+|Walter de Gruyter GmbH           |        1|               226|           226|
+|Wiley-Blackwell                  |        1|              2166|          2166|
 
 ## Overview
 
