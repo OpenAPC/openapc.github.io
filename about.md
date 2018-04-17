@@ -222,13 +222,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  95 711 547 € for  50 205 articles were paid by the participating unviversities. Average  fee is 1 906.4 € and the median 1 709 €.
+In total,  95 943 749 € for  50 350 articles were paid by the participating unviversities. Average  fee is 1 905.5 € and the median 1 706 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 130 articles in open access journals which charge publication fees. Total expenditure amounts to  43 193 132 €. Average  fee is 1 482.8 € and the median 1 405 €.
+At the moment, the dataset releases information on 29 275 articles in open access journals which charge publication fees. Total expenditure amounts to  43 425 334 €. Average  fee is 1 483.4 € and the median 1 408 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -286,7 +286,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |KTH Royal Institute of Technology                               |      106|           129,263|         1,219|  1,072|
 |Lancaster University                                            |       28|            34,167|         1,220|  1,221|
 |Leibniz-Fonds                                                   |      274|           439,562|         1,604|  1,570|
-|Leipzig U                                                       |      270|           386,841|         1,433|  1,504|
+|Leipzig U                                                       |      415|           611,856|         1,474|  1,553|
 |Linköping University                                            |       99|           155,146|         1,567|  1,355|
 |LSE                                                             |       14|            26,721|         1,909|  1,798|
 |LSHTM                                                           |       44|            75,734|         1,721|  1,529|
@@ -338,7 +338,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Braunschweig                                                 |       33|            40,822|         1,237|  1,531|
 |TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
-|TU Darmstadt                                                    |       35|            41,591|         1,188|  1,258|
+|TU Darmstadt                                                    |       35|            48,777|         1,394|  1,497|
 |TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
