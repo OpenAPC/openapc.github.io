@@ -1,0 +1,111 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Helmholtz-Zentrum Dresden-Rossendorf reports its 2017 APC expenditures
+date:       2018-04-18 08:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+The [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de) (HZDR) has updated its APC expenditures, providing data for the 2017 period.
+
+The [HZDR Library](http://www.hzdr.de/db/Cms?pNid=73) manages the HZDR's spending on OA journals.
+
+Contact person is [Edith Reschke](mailto:e.reschke@hzdr.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "HZDR",]
+my.apc <- droplevels(my.apc)
+my.apc_2017 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/hzdr/openapc2017_enriched.csv"))
+my.apc_2017 <- my.apc_2017[!is.na(my.apc_2017$institution),]
+my.apc_2017 <- droplevels(my.apc_2017)
+
+```
+
+The new dataset covers publication fees for `r format(nrow(my.apc_2017), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc_2017$euro)`€ and the average fee is `r sum(my.apc_2017$euro)/nrow(my.apc_2017)`€.
+
+The following table shows the payments the HZDR library has made to publishers in 2017.
+
+```{r}
+d_frame = data.frame(table(my.apc_2017$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_2017$publisher <- factor(my.apc_2017$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_2017$euro, my.apc_2017$publisher, length),
+             tapply(my.apc_2017$euro, my.apc_2017$publisher, sum),
+             tapply(my.apc_2017$euro, my.apc_2017$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for the HZDR now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_hzdr_2018_04_18_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_hzdr_2018_04_18_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_hzdr_2018_04_18_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 2])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 2 articles)") + ylab("APC")
+```
