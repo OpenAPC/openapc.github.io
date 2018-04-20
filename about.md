@@ -222,13 +222,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  95 978 507 € for  50 375 articles were paid by the participating unviversities. Average  fee is 1 905.3 € and the median 1 705 €.
+In total,  96 168 644 € for  50 525 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 299 articles in open access journals which charge publication fees. Total expenditure amounts to  43 458 337 €. Average  fee is 1 483.3 € and the median 1 408 €.
+At the moment, the dataset releases information on 29 394 articles in open access journals which charge publication fees. Total expenditure amounts to  43 539 072 €. Average  fee is 1 481.2 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -257,7 +257,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      294|           413,858|         1,408|  1,506|
 |FWF - Austrian Science Fund                                     |    1,017|         1,542,862|         1,517|  1,398|
-|FZJ - ZB                                                        |      266|           336,279|         1,264|  1,165|
+|FZJ - ZB                                                        |      397|           532,437|         1,341|  1,242|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
 |GFZ-Potsdam                                                     |      172|           225,908|         1,313|  1,224|
 |Giessen U                                                       |      415|           590,189|         1,422|  1,346|
@@ -297,7 +297,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MDC                                                             |       93|           188,106|         2,023|  1,800|
 |Milano U                                                        |      121|           185,356|         1,532|  1,495|
 |Molde University College                                        |        3|             1,876|           625|    584|
-|MPG                                                             |    3,711|         5,103,288|         1,375|  1,207|
+|MPG                                                             |    3,675|         4,987,866|         1,357|  1,207|
 |Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
 |Münster U                                                       |      382|           468,717|         1,227|  1,200|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
@@ -398,7 +398,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 076 hybrid open access articles. Total expenditure amounts to  52 520 170 €. Average  fee is 2 491.9 € and the median 2 444 €.
+The dataset covers 21 131 hybrid open access articles. Total expenditure amounts to  52 629 572 €. Average  fee is 2 490.6 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -418,7 +418,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                 |    3,188|         7,778,679|         2,440|  2,599|
-|FZJ - ZB                                    |       23|            46,887|         2,039|  2,328|
+|FZJ - ZB                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                 |       10|            24,555|         2,455|  2,643|
 |Goldsmiths                                  |        5|            31,696|         6,339|  3,100|
