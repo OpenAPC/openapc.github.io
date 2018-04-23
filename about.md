@@ -67,7 +67,7 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
-- [GIGA - German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
+- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
@@ -223,7 +223,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 193 884 € for  50 537 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
+In total,  96 195 879 € for  50 538 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
 
 ### Open Access Journals
 
@@ -400,7 +400,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 143 hybrid open access articles. Total expenditure amounts to  52 654 812 €. Average  fee is 2 490.4 € and the median 2 444 €.
+The dataset covers 21 144 hybrid open access articles. Total expenditure amounts to  52 656 807 €. Average  fee is 2 490.4 € and the median 2 443 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -423,7 +423,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FZJ - ZB                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                 |       10|            24,555|         2,455|  2,643|
-|GIGA                                        |       12|            25,240|         2,103|  2,151|
+|GIGA                                        |       13|            27,235|         2,095|  2,151|
 |Goldsmiths                                  |        5|            31,696|         6,339|  3,100|
 |Hannover U                                  |        4|             5,824|         1,456|  1,398|
 |HZDR                                        |        3|             5,405|         1,802|  1,755|

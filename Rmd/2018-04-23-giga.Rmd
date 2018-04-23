@@ -27,7 +27,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-We welcome the [German Institute of Global and Area Studies](https://www.giga-hamburg.de/en) (GIGA) as new contributing institution!
+We welcome the [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en) as new contributing institution!
 
 The [GIGA Information Centre](https://www.giga-hamburg.de/en/giga-information-centre) manages the institution's APC expenditures in accordance with the [GIGA Open Access Guidelines](https://www.giga-hamburg.de/en/giga-open-access-guidelines).
 
