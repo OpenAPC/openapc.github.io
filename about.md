@@ -67,6 +67,7 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [GIGA - German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
@@ -74,7 +75,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
-- [Technische Informatonsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
+- [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 
 ## Participating Austrian Institutions
 
@@ -222,7 +223,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 168 644 € for  50 525 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
+In total,  96 193 884 € for  50 537 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
 
 ### Open Access Journals
 
@@ -261,6 +262,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
 |GFZ-Potsdam                                                     |      172|           225,908|         1,313|  1,224|
 |Giessen U                                                       |      415|           590,189|         1,422|  1,346|
+|GIGA                                                            |       NA|                NA|            NA|     NA|
 |Goettingen U                                                    |      849|         1,200,870|         1,414|  1,422|
 |Goldsmiths                                                      |        4|             5,385|         1,346|  1,428|
 |Hamburg TUHH                                                    |       46|            65,468|         1,423|  1,533|
@@ -398,7 +400,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 131 hybrid open access articles. Total expenditure amounts to  52 629 572 €. Average  fee is 2 490.6 € and the median 2 444 €.
+The dataset covers 21 143 hybrid open access articles. Total expenditure amounts to  52 654 812 €. Average  fee is 2 490.4 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -421,6 +423,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FZJ - ZB                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                 |       10|            24,555|         2,455|  2,643|
+|GIGA                                        |       12|            25,240|         2,103|  2,151|
 |Goldsmiths                                  |        5|            31,696|         6,339|  3,100|
 |Hannover U                                  |        4|             5,824|         1,456|  1,398|
 |HZDR                                        |        3|             5,405|         1,802|  1,755|
@@ -571,7 +574,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
