@@ -223,13 +223,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 195 879 € for  50 538 articles were paid by the participating unviversities. Average  fee is 1 903.4 € and the median 1 704 €.
+In total,  96 221 927 € for  50 557 articles were paid by the participating unviversities. Average  fee is 1 903.2 € and the median 1 704 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 394 articles in open access journals which charge publication fees. Total expenditure amounts to  43 539 072 €. Average  fee is 1 481.2 € and the median 1 406 €.
+At the moment, the dataset releases information on 29 413 articles in open access journals which charge publication fees. Total expenditure amounts to  43 565 120 €. Average  fee is 1 481.2 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -239,12 +239,12 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Aberystwyth University                                          |        9|            18,176|         2,020|  1,569|
 |Akershus University Hospital                                    |       11|            15,680|         1,425|  1,290|
 |Aston University                                                |       24|            47,259|         1,969|  1,654|
-|Bamberg U                                                       |       36|            39,450|         1,096|  1,116|
+|Bamberg U                                                       |       50|            56,375|         1,127|  1,266|
 |Bangor University                                               |       20|            46,857|         2,343|  1,638|
 |Bayreuth U                                                      |      165|           193,663|         1,174|  1,245|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
-|Bielefeld U                                                     |      425|           552,655|         1,300|  1,340|
+|Bielefeld U                                                     |      430|           561,779|         1,306|  1,340|
 |Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
 |Cardiff University                                              |      169|           289,389|         1,712|  1,562|
