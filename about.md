@@ -223,13 +223,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 312 178 € for  50 611 articles were paid by the participating unviversities. Average  fee is 1 903 € and the median 1 704 €.
+In total,  96 413 234 € for  50 703 articles were paid by the participating unviversities. Average  fee is 1 901.5 € and the median 1 701 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 466 articles in open access journals which charge publication fees. Total expenditure amounts to  43 654 086 €. Average  fee is 1 481.5 € and the median 1 407 €.
+At the moment, the dataset releases information on 29 558 articles in open access journals which charge publication fees. Total expenditure amounts to  43 755 142 €. Average  fee is 1 480.3 € and the median 1 406 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -351,7 +351,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Ulm U                                                           |      191|           294,038|         1,539|  1,541|
 |Umeå University                                                 |        8|             6,104|           763|    724|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
-|Universitat de Barcelona                                        |      373|           342,602|           919|    862|
+|Universitat de Barcelona                                        |      465|           443,659|           954|    897|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University of Aberdeen                                          |       26|            48,895|         1,881|  1,787|
 |University of Agder                                             |       62|            42,571|           687|    536|
