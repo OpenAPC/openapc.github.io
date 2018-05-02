@@ -223,13 +223,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 428 928 € for  50 710 articles were paid by the participating unviversities. Average  fee is 1 901.6 € and the median 1 701 €.
+In total,  96 618 885 € for  50 836 articles were paid by the participating unviversities. Average  fee is 1 900.6 € and the median 1 700 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 564 articles in open access journals which charge publication fees. Total expenditure amounts to  43 768 515 €. Average  fee is 1 480.5 € and the median 1 406 €.
+At the moment, the dataset releases information on 29 690 articles in open access journals which charge publication fees. Total expenditure amounts to  43 958 473 €. Average  fee is 1 480.6 € and the median 1 407 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -283,7 +283,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
 |King's College London                                           |      198|           401,718|         2,029|  1,591|
-|KIT                                                             |      542|           705,673|         1,302|  1,340|
+|KIT                                                             |      668|           895,631|         1,341|  1,382|
 |Konstanz U                                                      |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                               |      106|           129,263|         1,219|  1,072|
 |Lancaster University                                            |       28|            34,167|         1,220|  1,221|
