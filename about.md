@@ -223,13 +223,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  96 626 937 € for  50 842 articles were paid by the participating unviversities. Average  fee is 1 900.5 € and the median 1 700 €.
+In total,  96 656 179 € for  50 864 articles were paid by the participating unviversities. Average  fee is 1 900.3 € and the median 1 699 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 29 696 articles in open access journals which charge publication fees. Total expenditure amounts to  43 966 524 €. Average  fee is 1 480.6 € and the median 1 407 €.
+At the moment, the dataset releases information on 29 718 articles in open access journals which charge publication fees. Total expenditure amounts to  43 995 766 €. Average  fee is 1 480.4 € and the median 1 407 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -344,7 +344,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
-|TU Wien                                                         |       23|            32,403|         1,409|  1,323|
+|TU Wien                                                         |       45|            61,645|         1,370|  1,323|
 |Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
 |UCL                                                             |    1,645|         2,697,774|         1,640|  1,534|
 |UFZ                                                             |       40|            42,186|         1,055|    979|
