@@ -224,13 +224,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  98 852 832 € for  51 861 articles were paid by the participating unviversities. Average  fee is 1 906.1 € and the median 1 711 €.
+In total,  99 233 730 € for  52 099 articles were paid by the participating unviversities. Average  fee is 1 904.7 € and the median 1 709 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 30 128 articles in open access journals which charge publication fees. Total expenditure amounts to  44 756 646 €. Average  fee is 1 485.5 € and the median 1 411 €.
+At the moment, the dataset releases information on 30 366 articles in open access journals which charge publication fees. Total expenditure amounts to  45 137 544 €. Average  fee is 1 486.5 € and the median 1 415 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -255,7 +255,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                                     |       38|            39,184|         1,031|    962|
 |Duisburg-Essen U                                                |      236|           322,744|         1,368|  1,277|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
-|Fraunhofer Publishing Fund                                      |       41|            55,525|         1,354|  1,346|
+|Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      294|           413,858|         1,408|  1,506|
@@ -265,7 +265,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |GFZ-Potsdam                                                     |      172|           225,908|         1,313|  1,224|
 |Giessen U                                                       |      415|           590,189|         1,422|  1,346|
 |GIGA                                                            |       NA|                NA|            NA|     NA|
-|Goettingen U                                                    |      849|         1,200,870|         1,414|  1,422|
+|Goettingen U                                                    |    1,086|         1,580,249|         1,455|  1,447|
 |Goldsmiths                                                      |        4|             5,385|         1,346|  1,428|
 |Hamburg TUHH                                                    |       46|            65,468|         1,423|  1,533|
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
