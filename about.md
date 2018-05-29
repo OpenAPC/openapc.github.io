@@ -224,13 +224,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  99 233 730 € for  52 099 articles were paid by the participating unviversities. Average  fee is 1 904.7 € and the median 1 709 €.
+In total,  99 350 102 € for  52 179 articles were paid by the participating unviversities. Average  fee is 1 904 € and the median 1 707 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 30 366 articles in open access journals which charge publication fees. Total expenditure amounts to  45 137 544 €. Average  fee is 1 486.5 € and the median 1 415 €.
+At the moment, the dataset releases information on 30 446 articles in open access journals which charge publication fees. Total expenditure amounts to  45 253 916 €. Average  fee is 1 486.4 € and the median 1 415 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -343,7 +343,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
 |TU Darmstadt                                                    |       35|            48,777|         1,394|  1,497|
-|TU Dresden                                                      |      195|           274,112|         1,406|  1,449|
+|TU Dresden                                                      |      275|           390,484|         1,420|  1,500|
 |TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
