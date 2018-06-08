@@ -149,6 +149,21 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - University of Gothenburg
 - Uppsala University
 
+## Institutions from France
+
+The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
+
+- Aix-Marseille Université
+- Université de Bourgogne
+- Hospices Civils de Lyon
+- Institut national de recherche en informatique et en automatique (INRIA)
+- Institut national de la santé et de la recherche médicale (INSERM)
+- Université Lille 1
+- Université Lille 2
+- Université de Rennes 1
+- Université de Toulon
+- Université Pierre et Marie Curie (Paris VI)
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -226,13 +241,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  99 398 615 € for  52 210 articles were paid by the participating unviversities. Average  fee is 1 903.8 € and the median 1 707 €.
+In total,  100 571 873 € for  52 905 articles were paid by the participating unviversities. Average  fee is 1 901 € and the median 1 702 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 30 477 articles in open access journals which charge publication fees. Total expenditure amounts to  45 302 429 €. Average  fee is 1 486.4 € and the median 1 415 €.
+At the moment, the dataset releases information on 31 054 articles in open access journals which charge publication fees. Total expenditure amounts to  46 206 693 €. Average  fee is 1 487.9 € and the median 1 413 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -240,6 +255,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |                                                                | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:---------------------------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Aberystwyth University                                          |        9|            18,176|         2,020|  1,569|
+|Aix-Marseille Université                                        |       63|            92,126|         1,462|  1,215|
 |Akershus University Hospital                                    |       11|            15,680|         1,425|  1,290|
 |Aston University                                                |       24|            47,259|         1,969|  1,654|
 |Bamberg U                                                       |       50|            56,375|         1,127|  1,266|
@@ -255,7 +271,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       27|            38,434|         1,423|  1,698|
 |Dortmund TU                                                     |       38|            39,184|         1,031|    962|
-|Duisburg-Essen U                                                |      236|           322,744|         1,368|  1,277|
+|Duisburg-Essen U                                                |      235|           320,066|         1,362|  1,276|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
@@ -274,10 +290,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
 |Heidelberg U                                                    |      617|           913,967|         1,481|  1,606|
+|Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
-|Imperial College London                                         |      572|         1,064,200|         1,860|  1,595|
+|Imperial College London                                         |      573|         1,064,460|         1,858|  1,594|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
+|INRIA                                                           |       31|            46,138|         1,488|  1,288|
+|INSERM                                                          |      392|           644,693|         1,645|  1,298|
 |Institute of Cancer Research                                    |       20|            43,133|         2,157|  1,673|
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
@@ -286,7 +305,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Karolinska Institutet                                           |        7|             4,371|           624|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
-|King's College London                                           |      198|           401,718|         2,029|  1,591|
+|King's College London                                           |      197|           398,725|         2,024|  1,588|
 |KIT                                                             |      674|           903,682|         1,341|  1,382|
 |Konstanz U                                                      |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                               |      106|           129,263|         1,219|  1,072|
@@ -320,7 +339,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Norwegian University of Life Sciences                           |       53|            72,307|         1,364|  1,449|
 |Norwegian University of Science and Technology                  |      115|           162,119|         1,410|  1,420|
 |Oldenburg U                                                     |      177|           215,062|         1,215|  1,361|
-|OpenAIRE                                                        |      538|           780,991|         1,452|  1,413|
+|OpenAIRE                                                        |      537|           778,991|         1,451|  1,413|
 |Oslo and Akershus university college                            |       36|            45,728|         1,270|  1,252|
 |Oslo University Hospital                                        |      111|           149,777|         1,349|  1,392|
 |Osnabrück U                                                     |       65|            90,046|         1,385|  1,553|
@@ -352,26 +371,32 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
 |Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
-|UCL                                                             |    1,645|         2,697,774|         1,640|  1,534|
+|UCL                                                             |    1,643|         2,695,082|         1,640|  1,534|
 |UFZ                                                             |       40|            42,186|         1,055|    979|
 |Ulm U                                                           |      191|           294,038|         1,539|  1,541|
 |Umeå University                                                 |        8|             6,104|           763|    724|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                        |      465|           443,659|           954|    897|
+|Université de Bourgogne                                         |        7|             9,568|         1,367|  1,285|
+|Université de Rennes 1                                          |       20|            26,569|         1,328|  1,202|
+|Université de Toulon                                            |        2|             5,150|         2,575|  2,575|
+|Université Lille 1                                              |       11|            15,099|         1,373|  1,266|
+|Université Lille 2                                              |       21|            29,150|         1,388|  1,256|
+|Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University of Aberdeen                                          |       26|            48,895|         1,881|  1,787|
 |University of Agder                                             |       62|            42,571|           687|    536|
-|University of Bath                                              |       34|            48,484|         1,426|  1,395|
+|University of Bath                                              |       35|            48,597|         1,388|  1,392|
 |University of Bergen                                            |      156|           242,308|         1,553|  1,549|
 |University of Birmingham                                        |      433|           749,069|         1,730|  1,680|
-|University of Bristol                                           |      198|           342,569|         1,730|  1,607|
+|University of Bristol                                           |      197|           338,408|         1,718|  1,601|
 |University of Calgary                                           |      884|           993,823|         1,124|  1,145|
-|University of Cambridge                                         |      527|         1,146,718|         2,176|  1,807|
+|University of Cambridge                                         |      526|         1,143,562|         2,174|  1,807|
 |University of Durham                                            |       50|            95,365|         1,907|  1,719|
 |University of Edinburgh                                         |      157|           268,393|         1,710|  1,632|
 |University of Exeter                                            |       59|           103,364|         1,752|  1,395|
 |University of Glasgow                                           |      144|           272,944|         1,895|  1,568|
-|University of Gothenburg                                        |      193|           295,543|         1,531|  1,406|
+|University of Gothenburg                                        |      192|           292,079|         1,521|  1,406|
 |University of Huddersfield                                      |        3|             3,452|         1,151|  1,192|
 |University of Hull                                              |        5|             7,548|         1,510|  1,635|
 |University of Leicester                                         |       50|            82,629|         1,653|  1,652|
@@ -406,7 +431,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 733 hybrid open access articles. Total expenditure amounts to  54 096 186 €. Average  fee is 2 489.1 € and the median 2 446 €.
+The dataset covers 21 851 hybrid open access articles. Total expenditure amounts to  54 365 180 €. Average  fee is 2 488 € and the median 2 445 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -414,6 +439,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Aberystwyth University                      |        6|            16,115|         2,686|  2,775|
+|Aix-Marseille Université                    |       10|            22,809|         2,281|  2,397|
 |Aston University                            |       76|           164,750|         2,168|  2,174|
 |Bangor University                           |       39|           106,903|         2,741|  2,714|
 |Bergen University College                   |        1|               503|           503|    503|
@@ -422,7 +448,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Cranfield University                        |       66|           186,639|         2,828|  2,901|
 |Dalarna University College                  |       13|            33,705|         2,593|  2,690|
 |Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
-|Duisburg-Essen U                            |        8|            21,167|         2,646|  2,618|
+|Duisburg-Essen U                            |        9|            23,845|         2,649|  2,618|
 |Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
 |FU Berlin                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                 |    3,775|         9,277,292|         2,458|  2,599|
@@ -432,16 +458,19 @@ The following institutions have contributed its expenditures for hybrid open acc
 |GIGA                                        |       13|            27,235|         2,095|  2,151|
 |Goldsmiths                                  |        4|            12,154|         3,039|  3,100|
 |Hannover U                                  |        4|             5,824|         1,456|  1,398|
+|Hospices Civils de Lyon                     |        3|             8,317|         2,772|  2,677|
 |HZDR                                        |        3|             5,405|         1,802|  1,755|
-|Imperial College London                     |      870|         2,345,319|         2,696|  2,648|
+|Imperial College London                     |      869|         2,345,060|         2,699|  2,648|
 |INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
+|INRIA                                       |        4|             7,211|         1,803|  1,788|
+|INSERM                                      |       81|           174,612|         2,156|  2,090|
 |Institute of Cancer Research                |       67|           206,220|         3,078|  2,811|
 |IPN                                         |       22|            53,603|         2,437|  2,558|
 |IST Austria                                 |        2|             6,499|         3,249|  3,249|
 |JGU Mainz                                   |        1|             1,792|         1,792|  1,792|
 |Karolinska Institutet                       |       25|            38,269|         1,531|  1,473|
 |Keele University                            |       25|            65,045|         2,602|  2,644|
-|King's College London                       |      547|         1,479,691|         2,705|  2,640|
+|King's College London                       |      548|         1,482,684|         2,706|  2,641|
 |KIT                                         |        1|             2,000|         2,000|  2,000|
 |Konstanz U                                  |        3|             5,556|         1,852|  1,950|
 |KTH Royal Institute of Technology           |       30|            58,195|         1,940|  2,109|
@@ -457,6 +486,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Milano U                                    |       28|            62,792|         2,243|  2,300|
 |MPG                                         |       10|             9,179|           918|    958|
 |Northumbria University                      |       30|            67,687|         2,256|  2,135|
+|OpenAIRE                                    |        1|             2,000|         2,000|  2,000|
 |Plymouth University                         |       18|            44,466|         2,470|  2,482|
 |Queen Mary, University of London            |      130|           296,514|         2,281|  2,024|
 |Queen's University Belfast                  |       34|            86,290|         2,538|  2,495|
@@ -469,20 +499,26 @@ The following institutions have contributed its expenditures for hybrid open acc
 |TiHo Hannover                               |        9|            16,412|         1,824|  1,595|
 |TU Chemnitz                                 |        1|               100|           100|    100|
 |TU Clausthal                                |        3|             7,082|         2,361|  2,500|
-|UCL                                         |    2,882|         6,375,210|         2,212|  1,999|
+|UCL                                         |    2,884|         6,377,902|         2,211|  1,997|
 |Ulm U                                       |       17|            35,219|         2,072|  2,319|
 |Umeå University                             |       22|            43,072|         1,958|  2,132|
+|Université de Bourgogne                     |        1|             1,950|         1,950|  1,950|
+|Université de Rennes 1                      |        1|             1,100|         1,100|  1,100|
+|Université de Toulon                        |        1|             1,378|         1,378|  1,378|
+|Université Lille 1                          |        5|            14,411|         2,882|  2,959|
+|Université Lille 2                          |        1|             3,977|         3,977|  3,977|
+|Université Pierre et Marie Curie (Paris VI) |        5|            12,458|         2,492|  2,275|
 |University of Aberdeen                      |       34|           101,418|         2,983|  2,809|
-|University of Bath                          |      147|           317,089|         2,157|  2,049|
+|University of Bath                          |      146|           316,976|         2,171|  2,052|
 |University of Birmingham                    |      571|         1,401,746|         2,455|  2,480|
-|University of Bristol                       |      557|         1,344,586|         2,414|  2,275|
+|University of Bristol                       |      558|         1,348,747|         2,417|  2,275|
 |University of Calgary                       |       45|            91,902|         2,042|  2,184|
-|University of Cambridge                     |    1,517|         4,237,627|         2,793|  2,683|
+|University of Cambridge                     |    1,518|         4,240,782|         2,794|  2,683|
 |University of Durham                        |      265|           563,728|         2,127|  2,091|
 |University of Edinburgh                     |      299|           793,402|         2,654|  2,618|
 |University of Exeter                        |      101|           269,157|         2,665|  2,669|
 |University of Glasgow                       |      448|         1,120,600|         2,501|  2,467|
-|University of Gothenburg                    |      105|           258,773|         2,465|  2,750|
+|University of Gothenburg                    |      106|           262,238|         2,474|  2,755|
 |University of Huddersfield                  |       29|            36,984|         1,275|    968|
 |University of Hull                          |       10|            26,794|         2,679|  2,640|
 |University of Leicester                     |      110|           277,033|         2,518|  2,326|
@@ -580,7 +616,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
