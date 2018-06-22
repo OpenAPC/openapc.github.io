@@ -154,15 +154,21 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
 
 - Aix-Marseille Université
+- Université de Bordeaux
 - Université de Bourgogne
 - Hospices Civils de Lyon
+- Université Grenoble Alpes
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la santé et de la recherche médicale (INSERM)
+- Institut national polytechnique de Toulouse (INTP)
 - Université Lille 1
 - Université Lille 2
+- Université Nice-Sophia-Antipolis
+- Université de Poitiers
 - Université de Rennes 1
 - Université de Toulon
 - Université Pierre et Marie Curie (Paris VI)
+
 
 ## Participating Institutions from the United Kingdom:
 
@@ -241,13 +247,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  100 571 873 € for  52 905 articles were paid by the participating unviversities. Average  fee is 1 901 € and the median 1 702 €.
+In total,  100 626 799 € for  52 945 articles were paid by the participating unviversities. Average  fee is 1 900.6 € and the median 1 701 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 31 054 articles in open access journals which charge publication fees. Total expenditure amounts to  46 206 693 €. Average  fee is 1 487.9 € and the median 1 413 €.
+At the moment, the dataset releases information on 31 090 articles in open access journals which charge publication fees. Total expenditure amounts to  46 254 724 €. Average  fee is 1 487.8 € and the median 1 413 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -297,6 +303,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
 |INRIA                                                           |       31|            46,138|         1,488|  1,288|
 |INSERM                                                          |      392|           644,693|         1,645|  1,298|
+|Institut national polytechnique de Toulouse                     |        3|             4,139|         1,380|  1,845|
 |Institute of Cancer Research                                    |       20|            43,133|         2,157|  1,673|
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
@@ -377,11 +384,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Umeå University                                                 |        8|             6,104|           763|    724|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                        |      465|           443,659|           954|    897|
+|Université de Bordeaux                                          |       19|            27,522|         1,449|  1,258|
 |Université de Bourgogne                                         |        7|             9,568|         1,367|  1,285|
+|Université de Poitiers                                          |        3|             3,392|         1,131|  1,099|
 |Université de Rennes 1                                          |       20|            26,569|         1,328|  1,202|
 |Université de Toulon                                            |        2|             5,150|         2,575|  2,575|
+|Université Grenoble Alpes                                       |        9|            10,378|         1,153|  1,165|
 |Université Lille 1                                              |       11|            15,099|         1,373|  1,266|
 |Université Lille 2                                              |       21|            29,150|         1,388|  1,256|
+|Université Nice-Sophia-Antipolis                                |        2|             2,600|         1,300|  1,300|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University of Aberdeen                                          |       26|            48,895|         1,881|  1,787|
@@ -431,7 +442,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 21 851 hybrid open access articles. Total expenditure amounts to  54 365 180 €. Average  fee is 2 488 € and the median 2 445 €.
+The dataset covers 21 855 hybrid open access articles. Total expenditure amounts to  54 372 075 €. Average  fee is 2 487.9 € and the median 2 444 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -502,9 +513,12 @@ The following institutions have contributed its expenditures for hybrid open acc
 |UCL                                         |    2,884|         6,377,902|         2,211|  1,997|
 |Ulm U                                       |       17|            35,219|         2,072|  2,319|
 |Umeå University                             |       22|            43,072|         1,958|  2,132|
+|Université de Bordeaux                      |        1|             2,709|         2,709|  2,709|
 |Université de Bourgogne                     |        1|             1,950|         1,950|  1,950|
+|Université de Poitiers                      |        2|             3,836|         1,918|  1,918|
 |Université de Rennes 1                      |        1|             1,100|         1,100|  1,100|
 |Université de Toulon                        |        1|             1,378|         1,378|  1,378|
+|Université Grenoble Alpes                   |        1|               350|           350|    350|
 |Université Lille 1                          |        5|            14,411|         2,882|  2,959|
 |Université Lille 2                          |        1|             3,977|         3,977|  3,977|
 |Université Pierre et Marie Curie (Paris VI) |        5|            12,458|         2,492|  2,275|
