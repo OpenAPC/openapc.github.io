@@ -247,13 +247,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  102 770 206 € for  54 183 articles were paid by the participating unviversities. Average  fee is 1 896.7 € and the median 1 698 €.
+In total,  102 848 641 € for  54 236 articles were paid by the participating unviversities. Average  fee is 1 896.3 € and the median 1 698 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 31 816 articles in open access journals which charge publication fees. Total expenditure amounts to  47 255 463 €. Average  fee is 1 485.3 € and the median 1 409 €.
+At the moment, the dataset releases information on 31 869 articles in open access journals which charge publication fees. Total expenditure amounts to  47 333 898 €. Average  fee is 1 485.3 € and the median 1 410 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -354,7 +354,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Oslo University Hospital                                        |      111|           149,777|         1,349|  1,392|
 |Osnabrück U                                                     |       65|            90,046|         1,385|  1,553|
 |Plymouth University                                             |       11|            14,848|         1,350|  1,340|
-|Potsdam U                                                       |       60|            87,242|         1,454|  1,476|
+|Potsdam U                                                       |      113|           165,677|         1,466|  1,529|
 |Queen Mary, University of London                                |       53|            89,135|         1,682|  1,250|
 |Queen's University Belfast                                      |      114|           184,597|         1,619|  1,543|
 |Regensburg U                                                    |      614|           890,535|         1,450|  1,394|
