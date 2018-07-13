@@ -247,13 +247,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  102 848 641 € for  54 236 articles were paid by the participating unviversities. Average  fee is 1 896.3 € and the median 1 698 €.
+In total,  102 875 473 € for  54 254 articles were paid by the participating unviversities. Average  fee is 1 896.2 € and the median 1 697 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 31 869 articles in open access journals which charge publication fees. Total expenditure amounts to  47 333 898 €. Average  fee is 1 485.3 € and the median 1 410 €.
+At the moment, the dataset releases information on 31 887 articles in open access journals which charge publication fees. Total expenditure amounts to  47 360 730 €. Average  fee is 1 485.3 € and the median 1 410 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -277,7 +277,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Chalmers University of Technology                               |        6|             5,817|           970|  1,012|
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       28|            39,181|         1,399|  1,667|
-|Dortmund TU                                                     |       38|            39,184|         1,031|    962|
+|Dortmund TU                                                     |       56|            66,016|         1,179|  1,373|
 |Duisburg-Essen U                                                |      235|           320,066|         1,362|  1,276|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
