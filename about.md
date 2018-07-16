@@ -247,13 +247,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  102 875 473 € for  54 254 articles were paid by the participating unviversities. Average  fee is 1 896.2 € and the median 1 697 €.
+In total,  102 936 630 € for  54 290 articles were paid by the participating unviversities. Average  fee is 1 896.1 € and the median 1 697 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 31 887 articles in open access journals which charge publication fees. Total expenditure amounts to  47 360 730 €. Average  fee is 1 485.3 € and the median 1 410 €.
+At the moment, the dataset releases information on 31 923 articles in open access journals which charge publication fees. Total expenditure amounts to  47 421 887 €. Average  fee is 1 485.5 € and the median 1 410 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -333,7 +333,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MLU Halle-Wittenberg                                            |       17|            36,874|         2,169|  2,142|
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,675|         4,987,866|         1,357|  1,207|
-|Muenchen LMU                                                    |      407|           533,749|         1,311|  1,342|
+|Muenchen LMU                                                    |      443|           594,905|         1,343|  1,404|
 |Münster U                                                       |      382|           468,717|         1,227|  1,200|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
 |NILU - Norwegian Institute for Air Research                     |       14|            20,647|         1,475|  1,441|
