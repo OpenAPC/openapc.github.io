@@ -182,6 +182,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université Clermont Auvergne
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
@@ -190,7 +191,6 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Rennes 1
 - Université de Toulon
 - Université Pierre et Marie Curie (Paris VI)
-
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)

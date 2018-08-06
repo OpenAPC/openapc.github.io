@@ -166,6 +166,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université Clermont Auvergne
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
@@ -174,7 +175,6 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Rennes 1
 - Université de Toulon
 - Université Pierre et Marie Curie (Paris VI)
-
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -252,13 +252,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  103 974 244 € for  54 959 articles were paid by the participating unviversities. Average  fee is 1 891.9 € and the median 1 691 €.
+In total,  103 996 612 € for  54 973 articles were paid by the participating unviversities. Average  fee is 1 891.8 € and the median 1 690 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 504 articles in open access journals which charge publication fees. Total expenditure amounts to  48 270 968 €. Average  fee is 1 485.1 € and the median 1 408 €.
+At the moment, the dataset releases information on 32 518 articles in open access journals which charge publication fees. Total expenditure amounts to  48 293 336 €. Average  fee is 1 485.1 € and the median 1 408 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -393,6 +393,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Umeå University                                                 |       10|            10,604|         1,060|    755|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                        |      464|           443,269|           955|    899|
+|Université Clermont Auvergne                                    |       14|            22,368|         1,598|  1,350|
 |Université de Bordeaux                                          |       18|            25,745|         1,430|  1,258|
 |Université de Bourgogne                                         |        7|             9,568|         1,367|  1,285|
 |Université de Lorraine                                          |       20|            24,914|         1,246|  1,128|
