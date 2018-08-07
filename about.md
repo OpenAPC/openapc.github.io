@@ -252,13 +252,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  103 996 612 € for  54 973 articles were paid by the participating unviversities. Average  fee is 1 891.8 € and the median 1 690 €.
+In total,  104 073 549 € for  55 031 articles were paid by the participating unviversities. Average  fee is 1 891.2 € and the median 1 689 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 518 articles in open access journals which charge publication fees. Total expenditure amounts to  48 293 336 €. Average  fee is 1 485.1 € and the median 1 408 €.
+At the moment, the dataset releases information on 32 576 articles in open access journals which charge publication fees. Total expenditure amounts to  48 370 273 €. Average  fee is 1 484.8 € and the median 1 408 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -388,7 +388,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
 |Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
 |UCL                                                             |    1,643|         2,695,082|         1,640|  1,534|
-|UFZ                                                             |       40|            42,186|         1,055|    979|
+|UFZ                                                             |       98|           119,123|         1,216|  1,258|
 |Ulm U                                                           |      190|           293,342|         1,544|  1,545|
 |Umeå University                                                 |       10|            10,604|         1,060|    755|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
