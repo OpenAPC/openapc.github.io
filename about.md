@@ -236,6 +236,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+- [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
 - [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
@@ -252,13 +253,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 073 549 € for  55 031 articles were paid by the participating unviversities. Average  fee is 1 891.2 € and the median 1 689 €.
+In total,  104 243 167 € for  55 147 articles were paid by the participating unviversities. Average  fee is 1 890.3 € and the median 1 687 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 576 articles in open access journals which charge publication fees. Total expenditure amounts to  48 370 273 €. Average  fee is 1 484.8 € and the median 1 408 €.
+At the moment, the dataset releases information on 32 691 articles in open access journals which charge publication fees. Total expenditure amounts to  48 538 286 €. Average  fee is 1 484.8 € and the median 1 407 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -306,6 +307,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
 |Imperial College London                                         |      573|         1,064,460|         1,858|  1,594|
+|Indiana University - Purdue University Indianapolis (IUPUI)     |      115|           168,012|         1,461|  1,362|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
 |INRIA                                                           |       31|            46,138|         1,488|  1,288|
@@ -454,124 +456,125 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 455 hybrid open access articles. Total expenditure amounts to  55 703 276 €. Average  fee is 2 480.7 € and the median 2 441 €.
+The dataset covers 22 456 hybrid open access articles. Total expenditure amounts to  55 704 881 €. Average  fee is 2 480.6 € and the median 2 441 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
-|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
-|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Aberystwyth University                      |        6|            16,115|         2,686|  2,775|
-|Aix-Marseille Université                    |       10|            22,809|         2,281|  2,397|
-|Aston University                            |       76|           164,750|         2,168|  2,174|
-|Bangor University                           |       39|           106,903|         2,741|  2,714|
-|Bergen University College                   |        1|               503|           503|    503|
-|Borås University College                    |        1|             1,950|         1,950|  1,950|
-|Cardiff University                          |      522|         1,302,192|         2,495|  2,555|
-|Chalmers University of Technology           |        7|            16,723|         2,389|  2,429|
-|CNRS                                        |       93|           191,785|         2,062|  2,200|
-|Cranfield University                        |       66|           186,639|         2,828|  2,901|
-|Dalarna University College                  |       12|            32,958|         2,746|  2,710|
-|Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
-|Duisburg-Essen U                            |        9|            23,845|         2,649|  2,618|
-|Erlangen Nuernberg U                        |        1|             1,638|         1,638|  1,638|
-|FU Berlin                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                 |    3,773|         9,275,605|         2,458|  2,599|
-|FZJ - ZB                                    |       78|           156,289|         2,004|  1,979|
-|GenØk - Centre for Biosafety                |        2|             3,650|         1,825|  1,825|
-|GFZ-Potsdam                                 |       10|            24,555|         2,455|  2,643|
-|GIGA                                        |       13|            27,235|         2,095|  2,151|
-|Goldsmiths                                  |        4|            12,154|         3,039|  3,100|
-|Hannover U                                  |        4|             5,824|         1,456|  1,398|
-|Hospices Civils de Lyon                     |        3|             8,317|         2,772|  2,677|
-|HZDR                                        |        3|             5,405|         1,802|  1,755|
-|Imperial College London                     |      869|         2,345,060|         2,699|  2,648|
-|INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
-|INRIA                                       |        4|             7,211|         1,803|  1,788|
-|INSERM                                      |       81|           174,612|         2,156|  2,090|
-|Institute of Cancer Research                |       67|           206,220|         3,078|  2,811|
-|IPN                                         |       22|            53,603|         2,437|  2,558|
-|IST Austria                                 |        2|             6,499|         3,249|  3,249|
-|JGU Mainz                                   |        1|             1,792|         1,792|  1,792|
-|Karolinska Institutet                       |       24|            37,567|         1,565|  1,774|
-|Keele University                            |       25|            65,045|         2,602|  2,644|
-|King's College London                       |      548|         1,482,684|         2,706|  2,641|
-|KIT                                         |        1|             2,000|         2,000|  2,000|
-|Konstanz U                                  |        3|             5,556|         1,852|  1,950|
-|KTH Royal Institute of Technology           |      136|           248,396|         1,826|  1,848|
-|Lancaster University                        |       88|           200,823|         2,282|  2,221|
-|Linköping University                        |       54|           111,882|         2,072|  2,132|
-|LSE                                         |       44|            86,452|         1,965|  2,067|
-|LSHTM                                       |       79|           199,854|         2,530|  2,287|
-|Luleå University of Technology              |       32|            67,536|         2,110|  2,290|
-|Lund University                             |       39|            77,850|         1,996|  2,132|
-|Malmö University                            |       10|            22,099|         2,210|  2,349|
-|Manchester Metropolitan University          |       16|            34,362|         2,148|  2,198|
-|MDC                                         |       29|            74,019|         2,552|  2,200|
-|Milano U                                    |       28|            62,792|         2,243|  2,300|
-|MPG                                         |       10|             9,179|           918|    958|
-|Northumbria University                      |       30|            67,687|         2,256|  2,135|
-|OpenAIRE                                    |        1|             2,000|         2,000|  2,000|
-|Örebro University                           |       44|            89,852|         2,042|  2,150|
-|Plymouth University                         |       18|            44,466|         2,470|  2,482|
-|Queen Mary, University of London            |      130|           296,514|         2,281|  2,024|
-|Queen's University Belfast                  |       34|            86,290|         2,538|  2,495|
-|Royal Holloway                              |       34|            79,500|         2,338|  2,079|
-|St George's, University of London           |       23|            67,276|         2,925|  2,756|
-|Stockholm University                        |      299|           666,939|         2,231|  2,329|
-|Swansea University                          |      110|           273,581|         2,487|  2,576|
-|Swedish University of Agricultural Sciences |      220|           520,879|         2,368|  2,330|
-|Swiss National Science Foundation (SNSF)    |       58|           119,225|         2,056|  2,153|
-|TiHo Hannover                               |        9|            16,412|         1,824|  1,595|
-|TU Chemnitz                                 |        1|               100|           100|    100|
-|TU Clausthal                                |        3|             7,082|         2,361|  2,500|
-|UCL                                         |    2,884|         6,377,902|         2,211|  1,997|
-|Ulm U                                       |       17|            35,219|         2,072|  2,319|
-|Umeå University                             |       23|            45,340|         1,971|  2,132|
-|Université de Bordeaux                      |        1|             2,709|         2,709|  2,709|
-|Université de Bourgogne                     |        1|             1,950|         1,950|  1,950|
-|Université de Lorraine                      |        1|             1,370|         1,370|  1,370|
-|Université de Poitiers                      |        2|             3,836|         1,918|  1,918|
-|Université de Rennes 1                      |        1|             1,100|         1,100|  1,100|
-|Université de Toulon                        |        1|             1,378|         1,378|  1,378|
-|Université Grenoble Alpes                   |        1|               350|           350|    350|
-|Université Lille 1                          |        5|            14,411|         2,882|  2,959|
-|Université Lille 2                          |        1|             3,977|         3,977|  3,977|
-|Université Pierre et Marie Curie (Paris VI) |        5|            12,458|         2,492|  2,275|
-|University College West                     |        4|             8,395|         2,099|  2,022|
-|University of Aberdeen                      |       34|           101,418|         2,983|  2,809|
-|University of Bath                          |      146|           316,976|         2,171|  2,052|
-|University of Birmingham                    |      571|         1,401,746|         2,455|  2,480|
-|University of Bristol                       |      558|         1,348,747|         2,417|  2,275|
-|University of Calgary                       |       45|            91,902|         2,042|  2,184|
-|University of Cambridge                     |    1,518|         4,240,782|         2,794|  2,683|
-|University of Durham                        |      265|           563,728|         2,127|  2,091|
-|University of Edinburgh                     |      299|           793,402|         2,654|  2,618|
-|University of Exeter                        |      101|           269,157|         2,665|  2,669|
-|University of Glasgow                       |      448|         1,120,600|         2,501|  2,467|
-|University of Gothenburg                    |      197|           479,499|         2,434|  2,523|
-|University of Huddersfield                  |       29|            36,984|         1,275|    968|
-|University of Hull                          |       10|            26,794|         2,679|  2,640|
-|University of Leicester                     |      109|           275,911|         2,531|  2,326|
-|University of Liverpool                     |      425|         1,043,327|         2,455|  2,467|
-|University of Loughborough                  |      153|           322,498|         2,108|  2,190|
-|University of Manchester                    |      836|         2,038,355|         2,438|  2,376|
-|University of Newcastle                     |      354|           972,503|         2,747|  2,629|
-|University of Nottingham                    |      133|           343,025|         2,579|  2,626|
-|University of Oxford                        |    1,057|         3,163,650|         2,993|  2,746|
-|University of Portsmouth                    |        6|            13,412|         2,235|  2,652|
-|University of Reading                       |      234|           537,879|         2,299|  2,308|
-|University of Salford                       |        5|            13,547|         2,709|  2,662|
-|University of Sheffield                     |      419|         1,020,762|         2,436|  2,289|
-|University of Southampton                   |      138|           346,317|         2,510|  2,544|
-|University of St Andrews                    |      125|           283,460|         2,268|  2,152|
-|University of Surrey                        |        5|            15,095|         3,019|  2,769|
-|University of Sussex                        |       97|           236,396|         2,437|  2,335|
-|University of Warwick                       |      267|           679,743|         2,546|  2,574|
-|University of York                          |      148|           365,651|         2,471|  2,389|
-|Uppsala University                          |       26|            53,226|         2,047|  2,132|
-|Virginia Tech                               |       14|            20,480|         1,463|  1,256|
-|Wellcome Trust                              |    2,766|         7,117,071|         2,573|  2,565|
+|                                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-----------------------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Aberystwyth University                                      |        6|            16,115|         2,686|  2,775|
+|Aix-Marseille Université                                    |       10|            22,809|         2,281|  2,397|
+|Aston University                                            |       76|           164,750|         2,168|  2,174|
+|Bangor University                                           |       39|           106,903|         2,741|  2,714|
+|Bergen University College                                   |        1|               503|           503|    503|
+|Borås University College                                    |        1|             1,950|         1,950|  1,950|
+|Cardiff University                                          |      522|         1,302,192|         2,495|  2,555|
+|Chalmers University of Technology                           |        7|            16,723|         2,389|  2,429|
+|CNRS                                                        |       93|           191,785|         2,062|  2,200|
+|Cranfield University                                        |       66|           186,639|         2,828|  2,901|
+|Dalarna University College                                  |       12|            32,958|         2,746|  2,710|
+|Dortmund TU                                                 |        1|             1,581|         1,581|  1,581|
+|Duisburg-Essen U                                            |        9|            23,845|         2,649|  2,618|
+|Erlangen Nuernberg U                                        |        1|             1,638|         1,638|  1,638|
+|FU Berlin                                                   |        1|             1,500|         1,500|  1,500|
+|FWF - Austrian Science Fund                                 |    3,773|         9,275,605|         2,458|  2,599|
+|FZJ - ZB                                                    |       78|           156,289|         2,004|  1,979|
+|GenØk - Centre for Biosafety                                |        2|             3,650|         1,825|  1,825|
+|GFZ-Potsdam                                                 |       10|            24,555|         2,455|  2,643|
+|GIGA                                                        |       13|            27,235|         2,095|  2,151|
+|Goldsmiths                                                  |        4|            12,154|         3,039|  3,100|
+|Hannover U                                                  |        4|             5,824|         1,456|  1,398|
+|Hospices Civils de Lyon                                     |        3|             8,317|         2,772|  2,677|
+|HZDR                                                        |        3|             5,405|         1,802|  1,755|
+|Imperial College London                                     |      869|         2,345,060|         2,699|  2,648|
+|Indiana University - Purdue University Indianapolis (IUPUI) |        1|             1,605|         1,605|  1,605|
+|INM - Leibniz-Institut für Neue Materialien                 |        9|            27,020|         3,002|  3,213|
+|INRIA                                                       |        4|             7,211|         1,803|  1,788|
+|INSERM                                                      |       81|           174,612|         2,156|  2,090|
+|Institute of Cancer Research                                |       67|           206,220|         3,078|  2,811|
+|IPN                                                         |       22|            53,603|         2,437|  2,558|
+|IST Austria                                                 |        2|             6,499|         3,249|  3,249|
+|JGU Mainz                                                   |        1|             1,792|         1,792|  1,792|
+|Karolinska Institutet                                       |       24|            37,567|         1,565|  1,774|
+|Keele University                                            |       25|            65,045|         2,602|  2,644|
+|King's College London                                       |      548|         1,482,684|         2,706|  2,641|
+|KIT                                                         |        1|             2,000|         2,000|  2,000|
+|Konstanz U                                                  |        3|             5,556|         1,852|  1,950|
+|KTH Royal Institute of Technology                           |      136|           248,396|         1,826|  1,848|
+|Lancaster University                                        |       88|           200,823|         2,282|  2,221|
+|Linköping University                                        |       54|           111,882|         2,072|  2,132|
+|LSE                                                         |       44|            86,452|         1,965|  2,067|
+|LSHTM                                                       |       79|           199,854|         2,530|  2,287|
+|Luleå University of Technology                              |       32|            67,536|         2,110|  2,290|
+|Lund University                                             |       39|            77,850|         1,996|  2,132|
+|Malmö University                                            |       10|            22,099|         2,210|  2,349|
+|Manchester Metropolitan University                          |       16|            34,362|         2,148|  2,198|
+|MDC                                                         |       29|            74,019|         2,552|  2,200|
+|Milano U                                                    |       28|            62,792|         2,243|  2,300|
+|MPG                                                         |       10|             9,179|           918|    958|
+|Northumbria University                                      |       30|            67,687|         2,256|  2,135|
+|OpenAIRE                                                    |        1|             2,000|         2,000|  2,000|
+|Örebro University                                           |       44|            89,852|         2,042|  2,150|
+|Plymouth University                                         |       18|            44,466|         2,470|  2,482|
+|Queen Mary, University of London                            |      130|           296,514|         2,281|  2,024|
+|Queen's University Belfast                                  |       34|            86,290|         2,538|  2,495|
+|Royal Holloway                                              |       34|            79,500|         2,338|  2,079|
+|St George's, University of London                           |       23|            67,276|         2,925|  2,756|
+|Stockholm University                                        |      299|           666,939|         2,231|  2,329|
+|Swansea University                                          |      110|           273,581|         2,487|  2,576|
+|Swedish University of Agricultural Sciences                 |      220|           520,879|         2,368|  2,330|
+|Swiss National Science Foundation (SNSF)                    |       58|           119,225|         2,056|  2,153|
+|TiHo Hannover                                               |        9|            16,412|         1,824|  1,595|
+|TU Chemnitz                                                 |        1|               100|           100|    100|
+|TU Clausthal                                                |        3|             7,082|         2,361|  2,500|
+|UCL                                                         |    2,884|         6,377,902|         2,211|  1,997|
+|Ulm U                                                       |       17|            35,219|         2,072|  2,319|
+|Umeå University                                             |       23|            45,340|         1,971|  2,132|
+|Université de Bordeaux                                      |        1|             2,709|         2,709|  2,709|
+|Université de Bourgogne                                     |        1|             1,950|         1,950|  1,950|
+|Université de Lorraine                                      |        1|             1,370|         1,370|  1,370|
+|Université de Poitiers                                      |        2|             3,836|         1,918|  1,918|
+|Université de Rennes 1                                      |        1|             1,100|         1,100|  1,100|
+|Université de Toulon                                        |        1|             1,378|         1,378|  1,378|
+|Université Grenoble Alpes                                   |        1|               350|           350|    350|
+|Université Lille 1                                          |        5|            14,411|         2,882|  2,959|
+|Université Lille 2                                          |        1|             3,977|         3,977|  3,977|
+|Université Pierre et Marie Curie (Paris VI)                 |        5|            12,458|         2,492|  2,275|
+|University College West                                     |        4|             8,395|         2,099|  2,022|
+|University of Aberdeen                                      |       34|           101,418|         2,983|  2,809|
+|University of Bath                                          |      146|           316,976|         2,171|  2,052|
+|University of Birmingham                                    |      571|         1,401,746|         2,455|  2,480|
+|University of Bristol                                       |      558|         1,348,747|         2,417|  2,275|
+|University of Calgary                                       |       45|            91,902|         2,042|  2,184|
+|University of Cambridge                                     |    1,518|         4,240,782|         2,794|  2,683|
+|University of Durham                                        |      265|           563,728|         2,127|  2,091|
+|University of Edinburgh                                     |      299|           793,402|         2,654|  2,618|
+|University of Exeter                                        |      101|           269,157|         2,665|  2,669|
+|University of Glasgow                                       |      448|         1,120,600|         2,501|  2,467|
+|University of Gothenburg                                    |      197|           479,499|         2,434|  2,523|
+|University of Huddersfield                                  |       29|            36,984|         1,275|    968|
+|University of Hull                                          |       10|            26,794|         2,679|  2,640|
+|University of Leicester                                     |      109|           275,911|         2,531|  2,326|
+|University of Liverpool                                     |      425|         1,043,327|         2,455|  2,467|
+|University of Loughborough                                  |      153|           322,498|         2,108|  2,190|
+|University of Manchester                                    |      836|         2,038,355|         2,438|  2,376|
+|University of Newcastle                                     |      354|           972,503|         2,747|  2,629|
+|University of Nottingham                                    |      133|           343,025|         2,579|  2,626|
+|University of Oxford                                        |    1,057|         3,163,650|         2,993|  2,746|
+|University of Portsmouth                                    |        6|            13,412|         2,235|  2,652|
+|University of Reading                                       |      234|           537,879|         2,299|  2,308|
+|University of Salford                                       |        5|            13,547|         2,709|  2,662|
+|University of Sheffield                                     |      419|         1,020,762|         2,436|  2,289|
+|University of Southampton                                   |      138|           346,317|         2,510|  2,544|
+|University of St Andrews                                    |      125|           283,460|         2,268|  2,152|
+|University of Surrey                                        |        5|            15,095|         3,019|  2,769|
+|University of Sussex                                        |       97|           236,396|         2,437|  2,335|
+|University of Warwick                                       |      267|           679,743|         2,546|  2,574|
+|University of York                                          |      148|           365,651|         2,471|  2,389|
+|Uppsala University                                          |       26|            53,226|         2,047|  2,132|
+|Virginia Tech                                               |       14|            20,480|         1,463|  1,256|
+|Wellcome Trust                                              |    2,766|         7,117,071|         2,573|  2,565|
 
 ## Use of external sources
 
@@ -647,7 +650,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
