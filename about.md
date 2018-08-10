@@ -72,6 +72,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
+- [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](http://www.igb-berlin.de/bibliothek)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
@@ -253,13 +254,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 305 891 € for  55 191 articles were paid by the participating unviversities. Average  fee is 1 889.9 € and the median 1 687 €.
+In total,  104 326 867 € for  55 201 articles were paid by the participating unviversities. Average  fee is 1 889.9 € and the median 1 687 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 735 articles in open access journals which charge publication fees. Total expenditure amounts to  48 601 010 €. Average  fee is 1 484.7 € and the median 1 408 €.
+At the moment, the dataset releases information on 32 740 articles in open access journals which charge publication fees. Total expenditure amounts to  48 611 712 €. Average  fee is 1 484.8 € and the median 1 407 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -326,7 +327,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                                      |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                               |      181|           217,262|         1,200|  1,152|
 |Lancaster University                                            |       28|            34,167|         1,220|  1,221|
-|Leibniz-Fonds                                                   |      274|           439,562|         1,604|  1,570|
+|Leibniz-Fonds                                                   |      273|           438,130|         1,605|  1,572|
+|Leibniz-IGB                                                     |        6|            12,134|         2,022|  2,132|
 |Leipzig U                                                       |      415|           611,856|         1,474|  1,553|
 |Linköping University                                            |      167|           262,221|         1,570|  1,357|
 |Linnaeus University                                             |        1|               630|           630|    630|
@@ -456,7 +458,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 456 hybrid open access articles. Total expenditure amounts to  55 704 881 €. Average  fee is 2 480.6 € and the median 2 441 €.
+The dataset covers 22 461 hybrid open access articles. Total expenditure amounts to  55 715 154 €. Average  fee is 2 480.5 € and the median 2 441 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -503,6 +505,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Konstanz U                                                  |        3|             5,556|         1,852|  1,950|
 |KTH Royal Institute of Technology                           |      136|           248,396|         1,826|  1,848|
 |Lancaster University                                        |       88|           200,823|         2,282|  2,221|
+|Leibniz-IGB                                                 |        5|            10,273|         2,055|  2,871|
 |Linköping University                                        |       54|           111,882|         2,072|  2,132|
 |LSE                                                         |       44|            86,452|         1,965|  2,067|
 |LSHTM                                                       |       79|           199,854|         2,530|  2,287|
@@ -650,7 +653,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
