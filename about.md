@@ -79,6 +79,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
+- [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
 ## Participating Austrian Institutions
 
@@ -254,13 +255,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 536 739 € for  55 324 articles were paid by the participating unviversities. Average  fee is 1 889.5 € and the median 1 687 €.
+In total,  104 549 785 € for  55 330 articles were paid by the participating unviversities. Average  fee is 1 889.6 € and the median 1 687 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 863 articles in open access journals which charge publication fees. Total expenditure amounts to  48 821 585 €. Average  fee is 1 485.6 € and the median 1 409 €.
+At the moment, the dataset releases information on 32 867 articles in open access journals which charge publication fees. Total expenditure amounts to  48 829 761 €. Average  fee is 1 485.7 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -285,7 +286,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |CNRS                                                            |      568|           835,780|         1,471|  1,260|
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       28|            39,181|         1,399|  1,667|
-|Dortmund TU                                                     |       56|            66,016|         1,179|  1,373|
+|Dortmund TU                                                     |       61|            75,727|         1,241|  1,426|
 |Duisburg-Essen U                                                |      235|           320,066|         1,362|  1,276|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
@@ -327,7 +328,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                                      |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                               |      181|           217,262|         1,200|  1,152|
 |Lancaster University                                            |       28|            34,167|         1,220|  1,221|
-|Leibniz-Fonds                                                   |      273|           438,130|         1,605|  1,572|
+|Leibniz-Fonds                                                   |      272|           436,595|         1,605|  1,570|
 |Leibniz-IGB                                                     |        6|            12,134|         2,022|  2,132|
 |Leipzig U                                                       |      415|           611,856|         1,474|  1,553|
 |Linköping University                                            |      167|           262,221|         1,570|  1,357|
@@ -450,6 +451,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Vestfold Hospital Trust                                         |        4|             6,134|         1,533|  1,532|
 |Vestre Viken Hospital Trust                                     |        4|             5,796|         1,449|  1,555|
 |Virginia Tech                                                   |      153|           165,423|         1,081|  1,216|
+|Weierstrass Institute for Applied Analysis and Stochastics      |       NA|                NA|            NA|     NA|
 |Wellcome Trust                                                  |    1,016|         1,782,746|         1,755|  1,604|
 |Wuerzburg U                                                     |      685|           958,905|         1,400|  1,436|
 
@@ -458,7 +460,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 461 hybrid open access articles. Total expenditure amounts to  55 715 154 €. Average  fee is 2 480.5 € and the median 2 441 €.
+The dataset covers 22 463 hybrid open access articles. Total expenditure amounts to  55 720 024 €. Average  fee is 2 480.5 € and the median 2 441 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -577,6 +579,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of York                                          |      148|           365,651|         2,471|  2,389|
 |Uppsala University                                          |       26|            53,226|         2,047|  2,132|
 |Virginia Tech                                               |       14|            20,480|         1,463|  1,256|
+|Weierstrass Institute for Applied Analysis and Stochastics  |        2|             4,870|         2,435|  2,435|
 |Wellcome Trust                                              |    2,766|         7,117,071|         2,573|  2,565|
 
 ## Use of external sources
@@ -653,7 +656,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
