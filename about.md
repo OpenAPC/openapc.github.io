@@ -255,13 +255,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 549 785 € for  55 330 articles were paid by the participating unviversities. Average  fee is 1 889.6 € and the median 1 687 €.
+In total,  104 567 944 € for  55 346 articles were paid by the participating unviversities. Average  fee is 1 889.3 € and the median 1 686 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 867 articles in open access journals which charge publication fees. Total expenditure amounts to  48 829 761 €. Average  fee is 1 485.7 € and the median 1 409 €.
+At the moment, the dataset releases information on 32 883 articles in open access journals which charge publication fees. Total expenditure amounts to  48 847 920 €. Average  fee is 1 485.5 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -277,7 +277,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bayreuth U                                                      |      165|           193,663|         1,174|  1,245|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
-|Bielefeld U                                                     |      430|           561,779|         1,306|  1,340|
+|Bielefeld U                                                     |      446|           579,938|         1,300|  1,323|
 |Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Borås University College                                        |       NA|                NA|            NA|     NA|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
