@@ -255,13 +255,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 567 944 € for  55 346 articles were paid by the participating unviversities. Average  fee is 1 889.3 € and the median 1 686 €.
+In total,  104 578 787 € for  55 356 articles were paid by the participating unviversities. Average  fee is 1 889.2 € and the median 1 686 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 883 articles in open access journals which charge publication fees. Total expenditure amounts to  48 847 920 €. Average  fee is 1 485.5 € and the median 1 409 €.
+At the moment, the dataset releases information on 32 893 articles in open access journals which charge publication fees. Total expenditure amounts to  48 858 763 €. Average  fee is 1 485.4 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -388,7 +388,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
 |TU Darmstadt                                                    |       35|            48,777|         1,394|  1,497|
 |TU Dresden                                                      |      275|           390,484|         1,420|  1,500|
-|TU Ilmenau                                                      |       26|            31,545|         1,213|  1,408|
+|TU Ilmenau                                                      |       36|            42,389|         1,177|  1,251|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
 |Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
