@@ -21,12 +21,12 @@ Contact person is [Dr. Jochen Apel](mailto:apel@ub.uni-heidelberg.de).
 
 
 
-The new dataset covers publication fees for 111 articles. Total expenditure amounts to 171 798€ and the average fee is 1 548€.
+The new dataset covers publication fees for 112 articles. Total expenditure amounts to 173 459€ and the average fee is 1 549€.
 
 
 |                                                  | Articles| Fees paid in EURO| Mean Fee paid|
 |:-------------------------------------------------|--------:|-----------------:|-------------:|
-|Springer Nature                                   |       46|             76688|          1667|
+|Springer Nature                                   |       47|             78350|          1667|
 |Frontiers Media SA                                |       21|             36318|          1729|
 |MDPI AG                                           |       10|             12115|          1211|
 |Public Library of Science (PLoS)                  |       10|             14705|          1471|
