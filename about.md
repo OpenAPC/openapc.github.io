@@ -255,13 +255,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 578 787 € for  55 356 articles were paid by the participating unviversities. Average  fee is 1 889.2 € and the median 1 686 €.
+In total,  104 749 395 € for  55 466 articles were paid by the participating unviversities. Average  fee is 1 888.5 € and the median 1 685 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 32 893 articles in open access journals which charge publication fees. Total expenditure amounts to  48 858 763 €. Average  fee is 1 485.4 € and the median 1 409 €.
+At the moment, the dataset releases information on 33 003 articles in open access journals which charge publication fees. Total expenditure amounts to  49 029 371 €. Average  fee is 1 485.6 € and the median 1 410 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -305,7 +305,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
-|Heidelberg U                                                    |      617|           913,967|         1,481|  1,606|
+|Heidelberg U                                                    |      727|         1,084,575|         1,492|  1,630|
 |Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
 |Imperial College London                                         |      573|         1,064,460|         1,858|  1,594|
