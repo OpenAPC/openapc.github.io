@@ -255,13 +255,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 751 057 € for  55 467 articles were paid by the participating unviversities. Average  fee is 1 888.5 € and the median 1 685 €.
+In total,  104 842 463 € for  55 548 articles were paid by the participating unviversities. Average  fee is 1 887.4 € and the median 1 684 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 33 004 articles in open access journals which charge publication fees. Total expenditure amounts to  49 031 032 €. Average  fee is 1 485.6 € and the median 1 410 €.
+At the moment, the dataset releases information on 33 085 articles in open access journals which charge publication fees. Total expenditure amounts to  49 122 439 €. Average  fee is 1 484.7 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -277,7 +277,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bayreuth U                                                      |      165|           193,663|         1,174|  1,245|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
-|Bielefeld U                                                     |      446|           579,938|         1,300|  1,323|
+|Bielefeld U                                                     |      457|           594,984|         1,302|  1,340|
 |Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Borås University College                                        |       NA|                NA|            NA|     NA|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
@@ -308,7 +308,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Heidelberg U                                                    |      728|         1,086,236|         1,492|  1,630|
 |Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
-|Imperial College London                                         |      573|         1,064,460|         1,858|  1,594|
+|Imperial College London                                         |      572|         1,063,736|         1,860|  1,595|
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      115|           168,012|         1,461|  1,362|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
@@ -319,7 +319,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
 |IST Austria                                                     |       13|            30,578|         2,352|  1,632|
-|JGU Mainz                                                       |      318|           456,141|         1,434|  1,458|
+|JGU Mainz                                                       |      389|           533,226|         1,371|  1,386|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
