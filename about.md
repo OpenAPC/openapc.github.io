@@ -176,7 +176,9 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Poitiers
 - Université de Rennes 1
 - Université de Toulon
+- Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -255,13 +257,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 842 463 € for  55 548 articles were paid by the participating unviversities. Average  fee is 1 887.4 € and the median 1 684 €.
+In total,  104 916 987 € for  55 599 articles were paid by the participating unviversities. Average  fee is 1 887 € and the median 1 683 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 33 085 articles in open access journals which charge publication fees. Total expenditure amounts to  49 122 439 €. Average  fee is 1 484.7 € and the median 1 409 €.
+At the moment, the dataset releases information on 33 127 articles in open access journals which charge publication fees. Total expenditure amounts to  49 179 985 €. Average  fee is 1 484.6 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -400,7 +402,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Universitat de Barcelona                                        |      464|           443,269|           955|    899|
 |Université Clermont Auvergne                                    |       14|            22,368|         1,598|  1,350|
 |Université de Bordeaux                                          |       18|            25,745|         1,430|  1,258|
-|Université de Bourgogne                                         |        7|             9,568|         1,367|  1,285|
+|Université de Bourgogne                                         |       14|            19,358|         1,383|  1,275|
 |Université de Lorraine                                          |       20|            24,914|         1,246|  1,128|
 |Université de Poitiers                                          |        2|             2,948|         1,474|  1,474|
 |Université de Rennes 1                                          |       20|            26,569|         1,328|  1,202|
@@ -409,6 +411,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université Lille 1                                              |       11|            15,099|         1,373|  1,266|
 |Université Lille 2                                              |       21|            29,150|         1,388|  1,256|
 |Université Nice-Sophia-Antipolis                                |        1|             1,202|         1,202|  1,202|
+|Université Paris Descartes (Paris V)                            |       35|            47,757|         1,364|  1,301|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University College West                                         |        6|             4,868|           811|    729|
@@ -460,7 +463,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 463 hybrid open access articles. Total expenditure amounts to  55 720 024 €. Average  fee is 2 480.5 € and the median 2 441 €.
+The dataset covers 22 472 hybrid open access articles. Total expenditure amounts to  55 737 002 €. Average  fee is 2 480.3 € and the median 2 440 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -545,6 +548,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université Grenoble Alpes                                   |        1|               350|           350|    350|
 |Université Lille 1                                          |        5|            14,411|         2,882|  2,959|
 |Université Lille 2                                          |        1|             3,977|         3,977|  3,977|
+|Université Paris Descartes (Paris V)                        |        9|            16,978|         1,886|  2,033|
 |Université Pierre et Marie Curie (Paris VI)                 |        5|            12,458|         2,492|  2,275|
 |University College West                                     |        4|             8,395|         2,099|  2,022|
 |University of Aberdeen                                      |       34|           101,418|         2,983|  2,809|
