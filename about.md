@@ -163,9 +163,11 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Bordeaux
 - Université de Bourgogne
 - Centre national de la recherche scientifique (CNRS)
+- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - Institut national de recherche en informatique et en automatique (INRIA)
+- Institut national de la recherche agronomique (INRA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
 - Université Clermont Auvergne
@@ -176,6 +178,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Poitiers
 - Université de Rennes 1
 - Université de Toulon
+- Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
 
@@ -257,13 +260,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  104 916 987 € for  55 599 articles were paid by the participating unviversities. Average  fee is 1 887 € and the median 1 683 €.
+In total,  105 248 525 € for  55 791 articles were paid by the participating unviversities. Average  fee is 1 886.5 € and the median 1 682 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 33 127 articles in open access journals which charge publication fees. Total expenditure amounts to  49 179 985 €. Average  fee is 1 484.6 € and the median 1 409 €.
+At the moment, the dataset releases information on 33 299 articles in open access journals which charge publication fees. Total expenditure amounts to  49 460 913 €. Average  fee is 1 485.4 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -283,14 +286,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bochum U                                                        |      204|           304,382|         1,492|  1,562|
 |Borås University College                                        |       NA|                NA|            NA|     NA|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
-|Cardiff University                                              |      169|           289,389|         1,712|  1,562|
+|Cardiff University                                              |      170|           290,741|         1,710|  1,557|
 |Chalmers University of Technology                               |        6|             5,817|           970|  1,012|
-|CNRS                                                            |      568|           835,780|         1,471|  1,260|
+|CNRS                                                            |      566|           833,311|         1,472|  1,260|
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       28|            39,181|         1,399|  1,667|
 |Dortmund TU                                                     |       61|            75,727|         1,241|  1,426|
 |Duisburg-Essen U                                                |      235|           320,066|         1,362|  1,276|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
+|ESPCI Paris                                                     |        2|             2,330|         1,165|  1,165|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
@@ -314,14 +318,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      115|           168,012|         1,461|  1,362|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
+|INRA                                                            |      124|           200,698|         1,619|  1,404|
 |INRIA                                                           |       31|            46,138|         1,488|  1,288|
-|INSERM                                                          |      391|           643,505|         1,646|  1,300|
+|INSERM                                                          |      393|           646,298|         1,645|  1,305|
 |Institut national polytechnique de Toulouse                     |        3|             4,139|         1,380|  1,845|
 |Institute of Cancer Research                                    |       20|            43,133|         2,157|  1,673|
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
 |IST Austria                                                     |       13|            30,578|         2,352|  1,632|
-|JGU Mainz                                                       |      389|           533,226|         1,371|  1,386|
+|JGU Mainz                                                       |      410|           568,189|         1,386|  1,392|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
@@ -413,6 +418,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université Nice-Sophia-Antipolis                                |        1|             1,202|         1,202|  1,202|
 |Université Paris Descartes (Paris V)                            |       35|            47,757|         1,364|  1,301|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
+|Université Toulouse III - Paul Sabatier                         |       23|            39,591|         1,721|  1,350|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University College West                                         |        6|             4,868|           811|    729|
 |University of Aberdeen                                          |       26|            48,895|         1,881|  1,787|
@@ -434,7 +440,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Liverpool                                         |      262|           445,007|         1,698|  1,693|
 |University of Loughborough                                      |        7|             9,422|         1,346|  1,650|
 |University of Manchester                                        |      246|           479,435|         1,949|  1,666|
-|University of Newcastle                                         |      149|           304,300|         2,042|  1,716|
+|University of Newcastle                                         |      150|           305,970|         2,040|  1,711|
 |University of Nottingham                                        |       68|           124,918|         1,837|  1,626|
 |University of Oslo                                              |      218|           339,354|         1,557|  1,522|
 |University of Oxford                                            |      448|           965,918|         2,156|  1,901|
@@ -463,7 +469,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 472 hybrid open access articles. Total expenditure amounts to  55 737 002 €. Average  fee is 2 480.3 € and the median 2 440 €.
+The dataset covers 22 492 hybrid open access articles. Total expenditure amounts to  55 787 613 €. Average  fee is 2 480.3 € and the median 2 441 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -476,9 +482,9 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Bangor University                                           |       39|           106,903|         2,741|  2,714|
 |Bergen University College                                   |        1|               503|           503|    503|
 |Borås University College                                    |        1|             1,950|         1,950|  1,950|
-|Cardiff University                                          |      522|         1,302,192|         2,495|  2,555|
+|Cardiff University                                          |      521|         1,300,840|         2,497|  2,555|
 |Chalmers University of Technology                           |        7|            16,723|         2,389|  2,429|
-|CNRS                                                        |       93|           191,785|         2,062|  2,200|
+|CNRS                                                        |       92|           190,381|         2,069|  2,200|
 |Cranfield University                                        |       66|           186,639|         2,828|  2,901|
 |Dalarna University College                                  |       12|            32,958|         2,746|  2,710|
 |Dortmund TU                                                 |        1|             1,581|         1,581|  1,581|
@@ -497,8 +503,9 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Imperial College London                                     |      869|         2,345,060|         2,699|  2,648|
 |Indiana University - Purdue University Indianapolis (IUPUI) |        1|             1,605|         1,605|  1,605|
 |INM - Leibniz-Institut für Neue Materialien                 |        9|            27,020|         3,002|  3,213|
+|INRA                                                        |       24|            54,829|         2,285|  2,316|
 |INRIA                                                       |        4|             7,211|         1,803|  1,788|
-|INSERM                                                      |       81|           174,612|         2,156|  2,090|
+|INSERM                                                      |       79|           171,819|         2,175|  2,195|
 |Institute of Cancer Research                                |       67|           206,220|         3,078|  2,811|
 |IPN                                                         |       22|            53,603|         2,437|  2,558|
 |IST Austria                                                 |        2|             6,499|         3,249|  3,249|
@@ -550,6 +557,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université Lille 2                                          |        1|             3,977|         3,977|  3,977|
 |Université Paris Descartes (Paris V)                        |        9|            16,978|         1,886|  2,033|
 |Université Pierre et Marie Curie (Paris VI)                 |        5|            12,458|         2,492|  2,275|
+|Université Toulouse III - Paul Sabatier                     |        1|             3,000|         3,000|  3,000|
 |University College West                                     |        4|             8,395|         2,099|  2,022|
 |University of Aberdeen                                      |       34|           101,418|         2,983|  2,809|
 |University of Bath                                          |      146|           316,976|         2,171|  2,052|
@@ -568,7 +576,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Liverpool                                     |      425|         1,043,327|         2,455|  2,467|
 |University of Loughborough                                  |      153|           322,498|         2,108|  2,190|
 |University of Manchester                                    |      836|         2,038,355|         2,438|  2,376|
-|University of Newcastle                                     |      354|           972,503|         2,747|  2,629|
+|University of Newcastle                                     |      353|           970,833|         2,750|  2,630|
 |University of Nottingham                                    |      133|           343,025|         2,579|  2,626|
 |University of Oxford                                        |    1,057|         3,163,650|         2,993|  2,746|
 |University of Portsmouth                                    |        6|            13,412|         2,235|  2,652|
