@@ -170,17 +170,23 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de la recherche agronomique (INRA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Caen Normandie
 - Université Clermont Auvergne
+- Université de France-Comté
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
 - Université de Rennes 1
+- Université de Strasbourg
 - Université de Toulon
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
+- Université Paris Diderot (Paris VII)
+
 
 ## Participating Institutions from the United Kingdom:
 
@@ -260,13 +266,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  105 248 525 € for  55 791 articles were paid by the participating unviversities. Average  fee is 1 886.5 € and the median 1 682 €.
+In total,  105 337 046 € for  55 850 articles were paid by the participating unviversities. Average  fee is 1 886.1 € and the median 1 681 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 33 299 articles in open access journals which charge publication fees. Total expenditure amounts to  49 460 913 €. Average  fee is 1 485.4 € and the median 1 409 €.
+At the moment, the dataset releases information on 33 352 articles in open access journals which charge publication fees. Total expenditure amounts to  49 538 364 €. Average  fee is 1 485.3 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -288,7 +294,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
 |Cardiff University                                              |      170|           290,741|         1,710|  1,557|
 |Chalmers University of Technology                               |        6|             5,817|           970|  1,012|
-|CNRS                                                            |      566|           833,311|         1,472|  1,260|
+|CNRS                                                            |      565|           832,121|         1,473|  1,260|
 |Cranfield University                                            |       10|            14,348|         1,435|  1,530|
 |Dalarna University College                                      |       28|            39,181|         1,399|  1,667|
 |Dortmund TU                                                     |       61|            75,727|         1,241|  1,426|
@@ -406,17 +412,22 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                        |      464|           443,269|           955|    899|
 |Université Clermont Auvergne                                    |       14|            22,368|         1,598|  1,350|
+|Université d'Avignon et des Pays de Vaucluse                    |        2|             2,310|         1,155|  1,155|
 |Université de Bordeaux                                          |       18|            25,745|         1,430|  1,258|
 |Université de Bourgogne                                         |       14|            19,358|         1,383|  1,275|
+|Université de Caen Normandie                                    |       12|            17,243|         1,437|  1,350|
+|Université de France-Comté                                      |       12|            14,767|         1,231|  1,184|
 |Université de Lorraine                                          |       20|            24,914|         1,246|  1,128|
 |Université de Poitiers                                          |        2|             2,948|         1,474|  1,474|
 |Université de Rennes 1                                          |       20|            26,569|         1,328|  1,202|
+|Université de Strasbourg                                        |       16|            24,672|         1,542|  1,387|
 |Université de Toulon                                            |        2|             5,150|         2,575|  2,575|
 |Université Grenoble Alpes                                       |        9|            10,378|         1,153|  1,165|
 |Université Lille 1                                              |       11|            15,099|         1,373|  1,266|
 |Université Lille 2                                              |       21|            29,150|         1,388|  1,256|
 |Université Nice-Sophia-Antipolis                                |        1|             1,202|         1,202|  1,202|
 |Université Paris Descartes (Paris V)                            |       35|            47,757|         1,364|  1,301|
+|Université Paris Diderot (Paris VII)                            |       12|            19,649|         1,637|  1,388|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
 |Université Toulouse III - Paul Sabatier                         |       23|            39,591|         1,721|  1,350|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
@@ -469,7 +480,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 492 hybrid open access articles. Total expenditure amounts to  55 787 613 €. Average  fee is 2 480.3 € and the median 2 441 €.
+The dataset covers 22 498 hybrid open access articles. Total expenditure amounts to  55 798 682 €. Average  fee is 2 480.2 € and the median 2 440 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -548,14 +559,17 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Umeå University                                             |       23|            45,340|         1,971|  2,132|
 |Université de Bordeaux                                      |        1|             2,709|         2,709|  2,709|
 |Université de Bourgogne                                     |        1|             1,950|         1,950|  1,950|
+|Université de Caen Normandie                                |        1|               750|           750|    750|
 |Université de Lorraine                                      |        1|             1,370|         1,370|  1,370|
 |Université de Poitiers                                      |        2|             3,836|         1,918|  1,918|
 |Université de Rennes 1                                      |        1|             1,100|         1,100|  1,100|
+|Université de Strasbourg                                    |        2|             5,914|         2,957|  2,957|
 |Université de Toulon                                        |        1|             1,378|         1,378|  1,378|
 |Université Grenoble Alpes                                   |        1|               350|           350|    350|
 |Université Lille 1                                          |        5|            14,411|         2,882|  2,959|
 |Université Lille 2                                          |        1|             3,977|         3,977|  3,977|
 |Université Paris Descartes (Paris V)                        |        9|            16,978|         1,886|  2,033|
+|Université Paris Diderot (Paris VII)                        |        3|             4,405|         1,468|  1,500|
 |Université Pierre et Marie Curie (Paris VI)                 |        5|            12,458|         2,492|  2,275|
 |Université Toulouse III - Paul Sabatier                     |        1|             3,000|         3,000|  3,000|
 |University College West                                     |        4|             8,395|         2,099|  2,022|
