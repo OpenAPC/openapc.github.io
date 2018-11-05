@@ -246,6 +246,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Warwick
 - University of York
 
+## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
+
+- [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
+
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
@@ -266,13 +270,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  105 337 046 € for  55 850 articles were paid by the participating unviversities. Average  fee is 1 886.1 € and the median 1 681 €.
+In total,  105 418 498 € for  55 917 articles were paid by the participating unviversities. Average  fee is 1 885.3 € and the median 1 680 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 33 352 articles in open access journals which charge publication fees. Total expenditure amounts to  49 538 364 €. Average  fee is 1 485.3 € and the median 1 409 €.
+At the moment, the dataset releases information on 33 414 articles in open access journals which charge publication fees. Total expenditure amounts to  49 609 815 €. Average  fee is 1 484.7 € and the median 1 409 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -440,6 +444,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Bristol                                           |      197|           338,408|         1,718|  1,601|
 |University of Calgary                                           |      884|           993,823|         1,124|  1,145|
 |University of Cambridge                                         |      526|         1,143,562|         2,174|  1,807|
+|University of Chemistry and Technology, Prague                  |       61|            70,856|         1,162|  1,202|
 |University of Durham                                            |       50|            95,365|         1,907|  1,719|
 |University of Edinburgh                                         |      157|           268,393|         1,710|  1,632|
 |University of Exeter                                            |       59|           103,364|         1,752|  1,395|
@@ -473,14 +478,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Virginia Tech                                                   |      153|           165,423|         1,081|  1,216|
 |Weierstrass Institute for Applied Analysis and Stochastics      |       NA|                NA|            NA|     NA|
 |Wellcome Trust                                                  |    1,016|         1,782,746|         1,755|  1,604|
-|Wuerzburg U                                                     |      685|           958,905|         1,400|  1,436|
+|Wuerzburg U                                                     |      686|           959,500|         1,399|  1,436|
 
 ### Hybrid articles
 
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 22 498 hybrid open access articles. Total expenditure amounts to  55 798 682 €. Average  fee is 2 480.2 € and the median 2 440 €.
+The dataset covers 22 503 hybrid open access articles. Total expenditure amounts to  55 808 683 €. Average  fee is 2 480.1 € and the median 2 440 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -579,6 +584,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Bristol                                       |      558|         1,348,747|         2,417|  2,275|
 |University of Calgary                                       |       45|            91,902|         2,042|  2,184|
 |University of Cambridge                                     |    1,518|         4,240,782|         2,794|  2,683|
+|University of Chemistry and Technology, Prague              |        5|            10,001|         2,000|  2,200|
 |University of Durham                                        |      265|           563,728|         2,127|  2,091|
 |University of Edinburgh                                     |      299|           793,402|         2,654|  2,618|
 |University of Exeter                                        |      101|           269,157|         2,665|  2,669|
@@ -682,7 +688,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
