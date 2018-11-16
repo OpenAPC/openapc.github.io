@@ -286,13 +286,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  136 350 895 € for  69 215 articles were paid by the participating unviversities. Average  fee is 1 970 € and the median 1 779 €.
+In total,  139 478 637 € for  70 430 articles were paid by the participating unviversities. Average  fee is 1 980.4 € and the median 1 792 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 38 514 articles in open access journals which charge publication fees. Total expenditure amounts to  59 511 979 €. Average  fee is 1 545.2 € and the median 1 453 €.
+At the moment, the dataset releases information on 38 901 articles in open access journals which charge publication fees. Total expenditure amounts to  60 361 113 €. Average  fee is 1 551.7 € and the median 1 457 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -508,7 +508,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Vestre Viken Hospital Trust                                     |        4|             5,796|         1,449|  1,555|
 |Virginia Tech                                                   |      153|           165,423|         1,081|  1,216|
 |Weierstrass Institute for Applied Analysis and Stochastics      |       NA|                NA|            NA|     NA|
-|Wellcome Trust                                                  |    1,014|         1,779,474|         1,755|  1,604|
+|Wellcome Trust                                                  |    1,401|         2,628,608|         1,876|  1,662|
 |Wuerzburg U                                                     |      686|           959,500|         1,399|  1,436|
 
 ### Hybrid articles
@@ -516,7 +516,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 30 701 hybrid open access articles. Total expenditure amounts to  76 838 916 €. Average  fee is 2 502.8 € and the median 2 446 €.
+The dataset covers 31 529 hybrid open access articles. Total expenditure amounts to  79 117 524 €. Average  fee is 2 509.4 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -658,7 +658,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Uppsala University                                          |       26|            53,226|         2,047|  2,132|
 |Virginia Tech                                               |       14|            20,480|         1,463|  1,256|
 |Weierstrass Institute for Applied Analysis and Stochastics  |        2|             4,870|         2,435|  2,435|
-|Wellcome Trust                                              |    2,764|         7,113,008|         2,573|  2,565|
+|Wellcome Trust                                              |    3,592|         9,391,616|         2,615|  2,584|
 
 ## Use of external sources
 
