@@ -286,13 +286,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  139 478 637 € for  70 430 articles were paid by the participating unviversities. Average  fee is 1 980.4 € and the median 1 792 €.
+In total,  139 777 126 € for  70 624 articles were paid by the participating unviversities. Average  fee is 1 979.2 € and the median 1 790 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 38 901 articles in open access journals which charge publication fees. Total expenditure amounts to  60 361 113 €. Average  fee is 1 551.7 € and the median 1 457 €.
+At the moment, the dataset releases information on 39 095 articles in open access journals which charge publication fees. Total expenditure amounts to  60 659 602 €. Average  fee is 1 551.6 € and the median 1 457 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -366,7 +366,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |KTH Royal Institute of Technology                               |      181|           217,262|         1,200|  1,152|
 |Lancaster University                                            |       64|           101,253|         1,582|  1,499|
 |Leeds Beckett University                                        |        8|            12,927|         1,616|  1,461|
-|Leibniz-Fonds                                                   |      272|           436,595|         1,605|  1,570|
+|Leibniz-Fonds                                                   |      271|           435,042|         1,605|  1,572|
 |Leibniz-IGB                                                     |        6|            12,134|         2,022|  2,132|
 |Leipzig U                                                       |      415|           611,856|         1,474|  1,553|
 |Linköping University                                            |      167|           262,221|         1,570|  1,357|
@@ -432,7 +432,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Ilmenau                                                      |       36|            42,389|         1,177|  1,251|
 |TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
-|Tuebingen U                                                     |      594|           814,355|         1,371|  1,386|
+|Tuebingen U                                                     |      789|         1,114,397|         1,412|  1,442|
 |UCL                                                             |    2,455|         4,152,533|         1,691|  1,582|
 |UFZ                                                             |       98|           119,123|         1,216|  1,258|
 |Ulm U                                                           |      190|           293,342|         1,544|  1,545|
