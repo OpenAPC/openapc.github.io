@@ -170,8 +170,10 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - Institut de recherche pour le développement (IRD)
+- Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
+- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
 - Université d'Avignon et des Pays de Vaucluse
@@ -292,13 +294,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  141 474 229 € for  71 556 articles were paid by the participating unviversities. Average  fee is 1 977.1 € and the median 1 786 €.
+In total,  141 596 654 € for  71 643 articles were paid by the participating unviversities. Average  fee is 1 976.4 € and the median 1 785 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 39 927 articles in open access journals which charge publication fees. Total expenditure amounts to  62 112 793 €. Average  fee is 1 555.7 € and the median 1 459 €.
+At the moment, the dataset releases information on 40 011 articles in open access journals which charge publication fees. Total expenditure amounts to  62 231 181 €. Average  fee is 1 555.4 € and the median 1 459 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -352,18 +354,20 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Heriot-Watt University                                          |       33|            79,717|         2,416|  2,248|
 |Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
+|IFSTTAR                                                         |       11|            11,320|         1,029|    855|
 |Imperial College London                                         |      996|         1,910,589|         1,918|  1,625|
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      114|           166,599|         1,461|  1,362|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
 |INRA                                                            |      125|           202,935|         1,623|  1,405|
-|INRIA                                                           |       31|            46,138|         1,488|  1,288|
+|INRIA                                                           |       77|           118,761|         1,542|  1,538|
 |INSERM                                                          |      872|         1,575,120|         1,806|  1,495|
 |Institut de recherche pour le développement (IRD)               |       66|            89,007|         1,349|  1,313|
 |Institut national polytechnique de Toulouse                     |       10|            12,710|         1,271|  1,170|
 |Institute of Cancer Research                                    |       20|            43,133|         2,157|  1,673|
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
+|IRSTEA                                                          |       21|            27,516|         1,310|  1,495|
 |IST Austria                                                     |       13|            30,578|         2,352|  1,632|
 |JGU Mainz                                                       |      410|           568,189|         1,386|  1,392|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
@@ -455,7 +459,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Bordeaux                                          |       18|            25,745|         1,430|  1,258|
 |Université de Bourgogne                                         |       29|            46,606|         1,607|  1,534|
 |Université de Caen Normandie                                    |       32|            41,815|         1,307|  1,350|
-|Université de France-Comté                                      |       12|            14,767|         1,231|  1,184|
+|Université de Franche-Comté                                     |       18|            21,696|         1,205|  1,184|
 |Université de Lorraine                                          |       20|            24,914|         1,246|  1,128|
 |Université de Nantes                                            |       24|            36,474|         1,520|  1,495|
 |Université de Poitiers                                          |        7|             9,691|         1,384|  1,099|
@@ -528,7 +532,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 629 hybrid open access articles. Total expenditure amounts to  79 361 436 €. Average  fee is 2 509.1 € and the median 2 453 €.
+The dataset covers 31 632 hybrid open access articles. Total expenditure amounts to  79 365 473 €. Average  fee is 2 509 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -570,7 +574,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Indiana University - Purdue University Indianapolis (IUPUI) |        2|             3,019|         1,509|  1,509|
 |INM - Leibniz-Institut für Neue Materialien                 |        9|            27,020|         3,002|  3,213|
 |INRA                                                        |       24|            54,829|         2,285|  2,316|
-|INRIA                                                       |        4|             7,211|         1,803|  1,788|
+|INRIA                                                       |        6|            10,941|         1,823|  1,865|
 |INSERM                                                      |      137|           321,923|         2,350|  2,350|
 |Institut de recherche pour le développement (IRD)           |        5|             6,375|         1,275|    440|
 |Institute of Cancer Research                                |       67|           206,220|         3,078|  2,811|
@@ -622,6 +626,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université de Bordeaux                                      |        1|             2,709|         2,709|  2,709|
 |Université de Bourgogne                                     |        1|             1,950|         1,950|  1,950|
 |Université de Caen Normandie                                |        1|               750|           750|    750|
+|Université de Franche-Comté                                 |        1|               307|           307|    307|
 |Université de Lorraine                                      |        1|             1,370|         1,370|  1,370|
 |Université de Nantes                                        |        2|             6,191|         3,096|  3,096|
 |Université de Poitiers                                      |        2|             3,836|         1,918|  1,918|
