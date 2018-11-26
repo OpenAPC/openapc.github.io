@@ -294,13 +294,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  141 596 654 € for  71 643 articles were paid by the participating unviversities. Average  fee is 1 976.4 € and the median 1 785 €.
+In total,  141 634 785 € for  71 668 articles were paid by the participating unviversities. Average  fee is 1 976.3 € and the median 1 785 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 011 articles in open access journals which charge publication fees. Total expenditure amounts to  62 231 181 €. Average  fee is 1 555.4 € and the median 1 459 €.
+At the moment, the dataset releases information on 40 036 articles in open access journals which charge publication fees. Total expenditure amounts to  62 269 313 €. Average  fee is 1 555.3 € and the median 1 459 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -411,7 +411,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Norwegian School of Sport Sciences                              |        2|             1,568|           784|    784|
 |Norwegian University of Life Sciences                           |       53|            72,307|         1,364|  1,449|
 |Norwegian University of Science and Technology                  |      115|           162,119|         1,410|  1,420|
-|Oldenburg U                                                     |      221|           277,787|         1,257|  1,387|
+|Oldenburg U                                                     |      246|           315,918|         1,284|  1,396|
 |OpenAIRE                                                        |      536|           776,905|         1,449|  1,411|
 |Örebro University                                               |       64|            84,298|         1,317|  1,342|
 |Oslo and Akershus university college                            |       36|            45,728|         1,270|  1,252|
