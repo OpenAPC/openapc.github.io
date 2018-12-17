@@ -36,6 +36,7 @@ So far, the following German universities have agreed to share information on pa
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
+- [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
@@ -72,6 +73,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 - [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
+
 
 ## Participating Research Society Funds in Germany
 
