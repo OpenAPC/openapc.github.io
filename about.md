@@ -178,10 +178,12 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Museum National d'Histoire Naturelle
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université de France-Comté
 - Université Lille 1
@@ -297,13 +299,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  142 036 379 € for  71 902 articles were paid by the participating unviversities. Average  fee is 1 975.4 € and the median 1 785 €.
+In total,  142 124 051 € for  71 948 articles were paid by the participating unviversities. Average  fee is 1 975.4 € and the median 1 785 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 242 articles in open access journals which charge publication fees. Total expenditure amounts to  62 600 199 €. Average  fee is 1 555.6 € and the median 1 459 €.
+At the moment, the dataset releases information on 40 281 articles in open access journals which charge publication fees. Total expenditure amounts to  62 669 476 €. Average  fee is 1 555.8 € and the median 1 459 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -356,7 +358,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Harvard U                                                       |       94|            82,722|           880|    796|
 |Heidelberg U                                                    |      727|         1,085,891|         1,494|  1,630|
 |Heriot-Watt University                                          |       33|            79,717|         2,416|  2,248|
-|Hospices Civils de Lyon                                         |        4|             5,695|         1,424|  1,320|
+|Hospices Civils de Lyon                                         |       10|            16,128|         1,613|  1,554|
 |HZDR                                                            |       83|           122,636|         1,478|  1,213|
 |IFSTTAR                                                         |       11|            11,320|         1,029|    855|
 |Imperial College London                                         |      996|         1,910,589|         1,918|  1,625|
@@ -403,6 +405,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MPG                                                             |    3,674|         4,987,088|         1,357|  1,207|
 |Muenchen LMU                                                    |      443|           594,905|         1,343|  1,404|
 |Münster U                                                       |      382|           468,717|         1,227|  1,200|
+|Museum National d'Histoire Naturelle                            |       11|            14,515|         1,320|  1,305|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
 |NILU - Norwegian Institute for Air Research                     |       14|            20,647|         1,475|  1,441|
 |Nord University                                                 |       12|            14,974|         1,248|  1,126|
@@ -468,7 +471,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Nantes                                            |       24|            36,474|         1,520|  1,495|
 |Université de Poitiers                                          |        7|             9,691|         1,384|  1,099|
 |Université de Rennes 1                                          |       50|            64,456|         1,289|  1,305|
-|Université de Strasbourg                                        |       16|            24,672|         1,542|  1,387|
+|Université de Strasbourg                                        |       38|            69,001|         1,816|  1,548|
 |Université de Toulon                                            |        7|            11,703|         1,672|  1,495|
 |Université Evry Val-d'Essonne                                   |        2|             4,237|         2,118|  2,118|
 |Université Grenoble Alpes                                       |        9|            10,378|         1,153|  1,165|
@@ -538,7 +541,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 660 hybrid open access articles. Total expenditure amounts to  79 436 180 €. Average  fee is 2 509 € and the median 2 453 €.
+The dataset covers 31 667 hybrid open access articles. Total expenditure amounts to  79 454 575 €. Average  fee is 2 509.1 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -574,7 +577,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Goldsmiths                                                  |        8|            21,665|         2,708|  2,636|
 |Hannover U                                                  |        4|             5,824|         1,456|  1,398|
 |Heriot-Watt University                                      |       41|            95,394|         2,327|  2,319|
-|Hospices Civils de Lyon                                     |        3|             8,317|         2,772|  2,677|
+|Hospices Civils de Lyon                                     |        5|            13,159|         2,632|  2,640|
 |HZDR                                                        |        3|             5,405|         1,802|  1,755|
 |Imperial College London                                     |    1,528|         4,173,924|         2,732|  2,663|
 |Indiana University - Purdue University Indianapolis (IUPUI) |        2|             3,019|         1,509|  1,509|
@@ -608,6 +611,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |MDC                                                         |       29|            74,019|         2,552|  2,200|
 |Milano U                                                    |       28|            62,792|         2,243|  2,300|
 |MPG                                                         |       10|             9,179|           918|    958|
+|Museum National d'Histoire Naturelle                        |        2|             5,003|         2,502|  2,502|
 |Northumbria University                                      |       60|           142,681|         2,378|  2,240|
 |OpenAIRE                                                    |        1|             2,000|         2,000|  2,000|
 |Örebro University                                           |       44|            89,852|         2,042|  2,150|
@@ -637,7 +641,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université de Nantes                                        |        2|             6,191|         3,096|  3,096|
 |Université de Poitiers                                      |        2|             3,836|         1,918|  1,918|
 |Université de Rennes 1                                      |        2|             1,310|           655|    655|
-|Université de Strasbourg                                    |        2|             5,914|         2,957|  2,957|
+|Université de Strasbourg                                    |        5|            14,464|         2,893|  3,000|
 |Université de Toulon                                        |        1|             1,378|         1,378|  1,378|
 |Université Grenoble Alpes                                   |        1|               350|           350|    350|
 |Université Lille 1                                          |        5|            14,411|         2,882|  2,959|
