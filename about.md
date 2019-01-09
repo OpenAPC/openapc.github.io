@@ -297,13 +297,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  141 962 160 € for  71 876 articles were paid by the participating unviversities. Average  fee is 1 975.1 € and the median 1 785 €.
+In total,  142 036 379 € for  71 902 articles were paid by the participating unviversities. Average  fee is 1 975.4 € and the median 1 785 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 230 articles in open access journals which charge publication fees. Total expenditure amounts to  62 569 450 €. Average  fee is 1 555.3 € and the median 1 459 €.
+At the moment, the dataset releases information on 40 242 articles in open access journals which charge publication fees. Total expenditure amounts to  62 600 199 €. Average  fee is 1 555.6 € and the median 1 459 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -372,7 +372,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN                                                             |        4|             3,909|           977|    479|
 |IRSTEA                                                          |       21|            27,516|         1,310|  1,495|
-|IST Austria                                                     |       13|            30,578|         2,352|  1,632|
+|IST Austria                                                     |       25|            61,328|         2,453|  1,872|
 |JGU Mainz                                                       |      410|           568,189|         1,386|  1,392|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
 |Kassel U                                                        |       78|            85,210|         1,092|  1,136|
@@ -538,7 +538,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 646 hybrid open access articles. Total expenditure amounts to  79 392 710 €. Average  fee is 2 508.8 € and the median 2 453 €.
+The dataset covers 31 660 hybrid open access articles. Total expenditure amounts to  79 436 180 €. Average  fee is 2 509 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -585,7 +585,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Institut de recherche pour le développement (IRD)           |        5|             6,375|         1,275|    440|
 |Institute of Cancer Research                                |       67|           206,220|         3,078|  2,811|
 |IPN                                                         |       22|            53,603|         2,437|  2,558|
-|IST Austria                                                 |        2|             6,499|         3,249|  3,249|
+|IST Austria                                                 |       16|            49,968|         3,123|  3,135|
 |JGU Mainz                                                   |        1|             1,792|         1,792|  1,792|
 |Karolinska Institutet                                       |       24|            37,567|         1,565|  1,774|
 |Keele University                                            |       25|            65,045|         2,602|  2,644|
