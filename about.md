@@ -300,13 +300,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  142 404 122 € for  72 087 articles were paid by the participating unviversities. Average  fee is 1 975.4 € and the median 1 785 €.
+In total,  142 562 434 € for  72 198 articles were paid by the participating unviversities. Average  fee is 1 974.6 € and the median 1 784 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 411 articles in open access journals which charge publication fees. Total expenditure amounts to  62 933 514 €. Average  fee is 1 557.3 € and the median 1 460 €.
+At the moment, the dataset releases information on 40 514 articles in open access journals which charge publication fees. Total expenditure amounts to  63 076 425 €. Average  fee is 1 556.9 € and the median 1 459 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -344,7 +344,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      294|           413,858|         1,408|  1,506|
-|FWF - Austrian Science Fund                                     |    1,391|         2,295,863|         1,651|  1,492|
+|FWF - Austrian Science Fund                                     |    1,392|         2,296,447|         1,650|  1,490|
 |FZJ - ZB                                                        |      397|           532,437|         1,341|  1,242|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
 |GFZ-Potsdam                                                     |      170|           224,765|         1,322|  1,231|
@@ -400,7 +400,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Malmö University                                                |       23|            25,942|         1,128|  1,394|
 |Manchester Metropolitan University                              |       17|            27,262|         1,604|  1,567|
 |MDC                                                             |       92|           186,801|         2,030|  1,802|
-|Milano U                                                        |      121|           185,356|         1,532|  1,495|
+|Milano U                                                        |      223|           327,683|         1,469|  1,495|
 |MLU Halle-Wittenberg                                            |       17|            36,874|         2,169|  2,142|
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,674|         4,987,088|         1,357|  1,207|
@@ -543,7 +543,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 676 hybrid open access articles. Total expenditure amounts to  79 470 608 €. Average  fee is 2 508.9 € and the median 2 453 €.
+The dataset covers 31 684 hybrid open access articles. Total expenditure amounts to  79 486 010 €. Average  fee is 2 508.7 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -570,7 +570,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Erlangen Nuernberg U                                        |        1|             1,638|         1,638|  1,638|
 |ESPCI Paris                                                 |        3|             5,574|         1,858|  2,160|
 |FU Berlin                                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                                 |    3,772|         9,274,441|         2,459|  2,599|
+|FWF - Austrian Science Fund                                 |    3,771|         9,273,858|         2,459|  2,599|
 |FZJ - ZB                                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                                 |       10|            24,555|         2,455|  2,643|
@@ -611,7 +611,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Malmö University                                            |       10|            22,099|         2,210|  2,349|
 |Manchester Metropolitan University                          |       23|            51,545|         2,241|  2,412|
 |MDC                                                         |       29|            74,019|         2,552|  2,200|
-|Milano U                                                    |       28|            62,792|         2,243|  2,300|
+|Milano U                                                    |       37|            78,777|         2,129|  2,200|
 |MPG                                                         |       10|             9,179|           918|    958|
 |Museum National d'Histoire Naturelle                        |        2|             5,003|         2,502|  2,502|
 |Northumbria University                                      |       60|           142,681|         2,378|  2,240|
