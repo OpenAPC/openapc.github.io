@@ -33,6 +33,7 @@ So far, the following German universities have agreed to share information on pa
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
@@ -299,13 +300,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  142 400 228 € for  72 083 articles were paid by the participating unviversities. Average  fee is 1 975.5 € and the median 1 785 €.
+In total,  142 404 122 € for  72 087 articles were paid by the participating unviversities. Average  fee is 1 975.4 € and the median 1 785 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 407 articles in open access journals which charge publication fees. Total expenditure amounts to  62 929 620 €. Average  fee is 1 557.4 € and the median 1 460 €.
+At the moment, the dataset releases information on 40 411 articles in open access journals which charge publication fees. Total expenditure amounts to  62 933 514 €. Average  fee is 1 557.3 € and the median 1 460 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -439,6 +440,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Swansea University                                              |       57|            99,199|         1,740|  1,419|
 |Swedish University of Agricultural Sciences                     |      450|           595,056|         1,322|  1,328|
 |Swiss National Science Foundation (SNSF)                        |      370|           655,441|         1,771|  1,434|
+|TH Wildau                                                       |        4|             3,894|           974|  1,057|
 |The Open University                                             |        8|            16,623|         2,078|  1,856|
 |TIB                                                             |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                                                   |      137|           194,193|         1,417|  1,416|
