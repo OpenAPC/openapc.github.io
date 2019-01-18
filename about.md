@@ -300,13 +300,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  142 562 434 € for  72 198 articles were paid by the participating unviversities. Average  fee is 1 974.6 € and the median 1 784 €.
+In total,  142 761 658 € for  72 314 articles were paid by the participating unviversities. Average  fee is 1 974.2 € and the median 1 784 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 40 514 articles in open access journals which charge publication fees. Total expenditure amounts to  63 076 425 €. Average  fee is 1 556.9 € and the median 1 459 €.
+At the moment, the dataset releases information on 40 630 articles in open access journals which charge publication fees. Total expenditure amounts to  63 275 649 €. Average  fee is 1 557.4 € and the median 1 462 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -404,7 +404,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MLU Halle-Wittenberg                                            |       17|            36,874|         2,169|  2,142|
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,674|         4,987,088|         1,357|  1,207|
-|Muenchen LMU                                                    |      443|           594,905|         1,343|  1,404|
+|Muenchen LMU                                                    |      559|           794,129|         1,421|  1,471|
 |Münster U                                                       |      382|           468,717|         1,227|  1,200|
 |Museum National d'Histoire Naturelle                            |       11|            14,515|         1,320|  1,305|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
