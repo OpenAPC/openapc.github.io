@@ -300,13 +300,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  144 149 213 € for  73 061 articles were paid by the participating unviversities. Average  fee is 1 973 € and the median 1 781 €.
+In total,  144 365 611 € for  73 189 articles were paid by the participating unviversities. Average  fee is 1 972.5 € and the median 1 781 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 41 140 articles in open access journals which charge publication fees. Total expenditure amounts to  64 088 444 €. Average  fee is 1 557.8 € and the median 1 461 €.
+At the moment, the dataset releases information on 41 268 articles in open access journals which charge publication fees. Total expenditure amounts to  64 304 841 €. Average  fee is 1 558.2 € and the median 1 462 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -429,7 +429,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Potsdam U                                                       |      112|           165,158|         1,475|  1,530|
 |Queen Mary, University of London                                |       53|            89,135|         1,682|  1,250|
 |Queen's University Belfast                                      |      216|           350,202|         1,621|  1,454|
-|Regensburg U                                                    |      614|           890,535|         1,450|  1,394|
+|Regensburg U                                                    |      742|         1,106,933|         1,492|  1,472|
 |Rhode Island U                                                  |       14|            11,639|           831|    691|
 |Royal Holloway                                                  |       12|            20,914|         1,743|  1,512|
 |SINTEF                                                          |        3|             3,633|         1,211|  1,176|
