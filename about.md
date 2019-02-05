@@ -300,13 +300,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  144 425 787 € for  73 241 articles were paid by the participating unviversities. Average  fee is 1 971.9 € and the median 1 780 €.
+In total,  144 546 912 € for  73 320 articles were paid by the participating unviversities. Average  fee is 1 971.5 € and the median 1 779 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 41 320 articles in open access journals which charge publication fees. Total expenditure amounts to  64 365 017 €. Average  fee is 1 557.7 € and the median 1 461 €.
+At the moment, the dataset releases information on 41 399 articles in open access journals which charge publication fees. Total expenditure amounts to  64 486 142 €. Average  fee is 1 557.7 € and the median 1 462 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -376,7 +376,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |IPN                                                             |        4|             3,909|           977|    479|
 |IRSTEA                                                          |       21|            27,516|         1,310|  1,495|
 |IST Austria                                                     |       25|            61,328|         2,453|  1,872|
-|JGU Mainz                                                       |      410|           568,189|         1,386|  1,392|
+|JGU Mainz                                                       |      489|           689,314|         1,410|  1,434|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
 |Kassel U                                                        |      130|           145,386|         1,118|  1,105|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
