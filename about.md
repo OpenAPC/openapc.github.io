@@ -300,7 +300,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  144 546 912 € for  73 320 articles were paid by the participating unviversities. Average  fee is 1 971.5 € and the median 1 779 €.
+In total,  144 568 881 € for  73 328 articles were paid by the participating unviversities. Average  fee is 1 971.5 € and the median 1 780 €.
 
 ### Open Access Journals
 
@@ -543,7 +543,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 921 hybrid open access articles. Total expenditure amounts to  80 060 769 €. Average  fee is 2 508.1 € and the median 2 452 €.
+The dataset covers 31 929 hybrid open access articles. Total expenditure amounts to  80 082 739 €. Average  fee is 2 508.2 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -574,7 +574,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FZJ - ZB                                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                                 |       10|            24,555|         2,455|  2,643|
-|GIGA                                                        |       13|            27,235|         2,095|  2,151|
+|GIGA                                                        |       21|            49,204|         2,343|  2,463|
 |Glasgow Caledonian University                               |        4|            13,215|         3,304|  3,382|
 |Goldsmiths                                                  |        8|            21,665|         2,708|  2,636|
 |Hannover U                                                  |        4|             5,824|         1,456|  1,398|
