@@ -17,6 +17,7 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Charité - Universitätsmedizin Berlin](https://bibliothek.charite.de/publizieren/open_access)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
@@ -300,13 +301,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  144 568 881 € for  73 328 articles were paid by the participating unviversities. Average  fee is 1 971.5 € and the median 1 780 €.
+In total,  144 950 006 € for  73 560 articles were paid by the participating unviversities. Average  fee is 1 970.5 € and the median 1 779 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 41 399 articles in open access journals which charge publication fees. Total expenditure amounts to  64 486 142 €. Average  fee is 1 557.7 € and the median 1 462 €.
+At the moment, the dataset releases information on 41 631 articles in open access journals which charge publication fees. Total expenditure amounts to  64 867 267 €. Average  fee is 1 558.1 € and the median 1 463 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -329,6 +330,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Brunel University                                               |      171|           237,582|         1,389|  1,336|
 |Cardiff University                                              |      310|           552,666|         1,783|  1,610|
 |Chalmers University of Technology                               |        6|             5,817|           970|  1,012|
+|Charité - Universitätsmedizin Berlin                            |      232|           381,125|         1,643|  1,659|
 |CIRAD                                                           |       42|            62,119|         1,479|  1,449|
 |CNRS                                                            |      564|           830,717|         1,473|  1,260|
 |Cranfield University                                            |       26|            40,286|         1,549|  1,370|
