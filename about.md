@@ -301,13 +301,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  144 950 006 € for  73 560 articles were paid by the participating unviversities. Average  fee is 1 970.5 € and the median 1 779 €.
+In total,  145 063 524 € for  73 623 articles were paid by the participating unviversities. Average  fee is 1 970.4 € and the median 1 778 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 41 631 articles in open access journals which charge publication fees. Total expenditure amounts to  64 867 267 €. Average  fee is 1 558.1 € and the median 1 463 €.
+At the moment, the dataset releases information on 41 689 articles in open access journals which charge publication fees. Total expenditure amounts to  64 969 826 €. Average  fee is 1 558.4 € and the median 1 464 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -463,7 +463,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Umeå University                                                 |       10|            10,604|         1,060|    755|
 |Uni Research                                                    |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                        |      464|           443,269|           955|    899|
-|Université Claude Bernard Lyon 1                                |        9|            13,691|         1,521|  1,253|
+|Université Claude Bernard Lyon 1                                |       31|            58,146|         1,876|  1,646|
 |Université Clermont Auvergne                                    |       40|            66,154|         1,654|  1,350|
 |Université d'Angers                                             |        8|            11,313|         1,414|  1,779|
 |Université d'Avignon et des Pays de Vaucluse                    |        5|             5,930|         1,186|  1,350|
@@ -471,11 +471,12 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Bourgogne                                         |       29|            46,606|         1,607|  1,534|
 |Université de Caen Normandie                                    |       32|            41,815|         1,307|  1,350|
 |Université de Franche-Comté                                     |       18|            21,696|         1,205|  1,184|
+|Université de La Rochelle                                       |        2|             3,905|         1,952|  1,952|
 |Université de Lorraine                                          |       60|            73,787|         1,230|  1,142|
 |Université de Nantes                                            |       24|            36,474|         1,520|  1,495|
 |Université de Poitiers                                          |        7|             9,691|         1,384|  1,099|
 |Université de Rennes 1                                          |       50|            64,456|         1,289|  1,305|
-|Université de Strasbourg                                        |       38|            69,001|         1,816|  1,548|
+|Université de Strasbourg                                        |       37|            67,942|         1,836|  1,600|
 |Université de Toulon                                            |        7|            11,703|         1,672|  1,495|
 |Université Evry Val-d'Essonne                                   |        2|             4,237|         2,118|  2,118|
 |Université Grenoble Alpes                                       |        9|            10,378|         1,153|  1,165|
@@ -483,10 +484,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université Lille 2                                              |       38|            55,024|         1,448|  1,351|
 |Université Nice-Sophia-Antipolis                                |       10|            11,552|         1,155|  1,305|
 |Université Paris Descartes (Paris V)                            |       35|            47,757|         1,364|  1,301|
-|Université Paris Diderot (Paris VII)                            |       12|            19,649|         1,637|  1,388|
+|Université Paris Diderot (Paris VII)                            |       26|            42,941|         1,652|  1,440|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|            50,846|         1,589|  1,396|
 |Université Technologique de Compiègne                           |        3|             2,738|           913|  1,055|
-|Université Toulouse III - Paul Sabatier                         |       23|            39,591|         1,721|  1,350|
+|Université Toulouse III - Paul Sabatier                         |       44|            71,556|         1,626|  1,348|
 |University College of Southeast Norway                          |       19|            19,107|         1,006|    907|
 |University College West                                         |        6|             4,868|           811|    729|
 |University of Aberdeen                                          |       26|            48,895|         1,881|  1,787|
@@ -545,7 +546,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 929 hybrid open access articles. Total expenditure amounts to  80 082 739 €. Average  fee is 2 508.2 € and the median 2 453 €.
+The dataset covers 31 934 hybrid open access articles. Total expenditure amounts to  80 093 698 €. Average  fee is 2 508.1 € and the median 2 453 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -636,7 +637,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |UCL                                                         |    3,929|         8,701,026|         2,215|  2,092|
 |Ulm U                                                       |       17|            35,219|         2,072|  2,319|
 |Umeå University                                             |       23|            45,340|         1,971|  2,132|
-|Université Claude Bernard Lyon 1                            |        1|             1,875|         1,875|  1,875|
+|Université Claude Bernard Lyon 1                            |        2|             5,060|         2,530|  2,530|
 |Université Clermont Auvergne                                |        2|             2,702|         1,351|  1,351|
 |Université de Bordeaux                                      |        4|             8,815|         2,204|  2,195|
 |Université de Bourgogne                                     |        1|             1,950|         1,950|  1,950|
@@ -653,9 +654,9 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université Lille 2                                          |        4|            12,659|         3,165|  3,089|
 |Université Nice-Sophia-Antipolis                            |        1|             2,000|         2,000|  2,000|
 |Université Paris Descartes (Paris V)                        |        9|            16,978|         1,886|  2,033|
-|Université Paris Diderot (Paris VII)                        |        3|             4,405|         1,468|  1,500|
+|Université Paris Diderot (Paris VII)                        |        5|             7,180|         1,436|  1,500|
 |Université Pierre et Marie Curie (Paris VI)                 |        5|            12,458|         2,492|  2,275|
-|Université Toulouse III - Paul Sabatier                     |        1|             3,000|         3,000|  3,000|
+|Université Toulouse III - Paul Sabatier                     |        3|             8,000|         2,667|  2,600|
 |University College West                                     |        4|             8,395|         2,099|  2,022|
 |University of Aberdeen                                      |       34|           101,418|         2,983|  2,809|
 |University of Bath                                          |      239|           551,271|         2,307|  2,191|
