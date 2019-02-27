@@ -53,13 +53,13 @@ So far, the following German universities have agreed to share information on pa
 - [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
+- [University of Rostock](https://www.ub.uni-rostock.de/wissenschaftliche-services/open-access/open-access-publizieren/)
 - [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/)
 - [University of Trier](https://www.uni-trier.de/index.php?id=60802)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
 - [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 - [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
-
 
 ## Participating Research Society Funds in Germany
 
@@ -84,6 +84,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
+
 
 ## Participating Austrian Institutions
 
@@ -188,6 +189,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université de France-Comté
+- Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
@@ -201,7 +203,6 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
-
 
 ## Participating Institutions from the United Kingdom:
 
@@ -276,7 +277,6 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Warwick
 - University of York
 
-
 ## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
 
 - [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
@@ -301,13 +301,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  145 143 383 € for  73 664 articles were paid by the participating unviversities. Average  fee is 1 970.3 € and the median 1 779 €.
+In total,  146 364 354 € for  74 571 articles were paid by the participating unviversities. Average  fee is 1 962.8 € and the median 1 769 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 41 698 articles in open access journals which charge publication fees. Total expenditure amounts to  64 980 118 €. Average  fee is 1 558.4 € and the median 1 464 €.
+At the moment, the dataset releases information on 42 587 articles in open access journals which charge publication fees. Total expenditure amounts to  66 178 113 €. Average  fee is 1 554 € and the median 1 463 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -389,7 +389,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Lancaster University                                            |       64|           101,253|         1,582|  1,499|
 |Leeds Beckett University                                        |        8|            12,927|         1,616|  1,461|
 |Leibniz-Fonds                                                   |      271|           435,042|         1,605|  1,572|
-|Leibniz-IGB                                                     |        6|            12,134|         2,022|  2,132|
+|Leibniz-IGB                                                     |       21|            28,056|         1,336|  1,096|
 |Leipzig U                                                       |      415|           611,856|         1,474|  1,553|
 |Linköping University                                            |      241|           386,993|         1,606|  1,413|
 |Linnaeus University                                             |       20|            28,354|         1,418|  1,335|
@@ -407,7 +407,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Molde University College                                        |        3|             1,876|           625|    584|
 |MPG                                                             |    3,674|         4,987,088|         1,357|  1,207|
 |Muenchen LMU                                                    |      558|           792,468|         1,420|  1,471|
-|Münster U                                                       |      382|           468,717|         1,227|  1,200|
+|Münster U                                                       |      467|           596,568|         1,277|  1,230|
 |Museum National d'Histoire Naturelle                            |       11|            14,515|         1,320|  1,305|
 |Nansen Environmental and Remote Sensing Center                  |        6|             5,298|           883|    775|
 |NILU - Norwegian Institute for Air Research                     |       14|            20,647|         1,475|  1,441|
@@ -433,12 +433,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Queen's University Belfast                                      |      216|           350,202|         1,621|  1,454|
 |Regensburg U                                                    |      742|         1,106,933|         1,492|  1,472|
 |Rhode Island U                                                  |       14|            11,639|           831|    691|
+|Rostock U                                                       |      140|           183,565|         1,311|  1,421|
 |Royal Holloway                                                  |       12|            20,914|         1,743|  1,512|
 |SINTEF                                                          |        3|             3,633|         1,211|  1,176|
 |Sørlandet Hospital Trust                                        |        5|             8,453|         1,691|  1,667|
 |St George's, University of London                               |       19|            36,284|         1,910|  1,862|
 |Stockholm University                                            |      271|           412,471|         1,522|  1,350|
-|Stuttgart U                                                     |      210|           254,329|         1,211|  1,261|
+|Stuttgart U                                                     |      272|           342,537|         1,259|  1,305|
 |Swansea University                                              |       57|            99,199|         1,740|  1,419|
 |Swedish University of Agricultural Sciences                     |      450|           595,056|         1,322|  1,328|
 |Swiss National Science Foundation (SNSF)                        |      369|           653,627|         1,771|  1,426|
@@ -447,14 +448,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TIB                                                             |        1|             1,619|         1,619|  1,619|
 |TiHo Hannover                                                   |      218|           315,780|         1,449|  1,428|
 |Trier U                                                         |       12|            18,716|         1,560|  1,572|
-|TU Berlin                                                       |       30|            40,074|         1,336|  1,392|
-|TU Braunschweig                                                 |       33|            40,822|         1,237|  1,531|
-|TU Chemnitz                                                     |       73|            84,652|         1,160|  1,289|
+|TU Berlin                                                       |       90|           118,840|         1,320|  1,382|
+|TU Braunschweig                                                 |       96|           115,424|         1,202|  1,244|
+|TU Chemnitz                                                     |       98|           113,365|         1,157|  1,249|
 |TU Clausthal                                                    |       12|            11,023|           919|    918|
 |TU Darmstadt                                                    |       35|            48,777|         1,394|  1,497|
 |TU Dresden                                                      |      275|           390,484|         1,420|  1,500|
 |TU Ilmenau                                                      |       36|            42,389|         1,177|  1,251|
-|TU Muenchen                                                     |      858|         1,147,525|         1,337|  1,462|
+|TU Muenchen                                                     |    1,222|         1,662,099|         1,360|  1,483|
 |TU Wien                                                         |       45|            61,645|         1,370|  1,323|
 |Tuebingen U                                                     |      789|         1,114,397|         1,412|  1,442|
 |UCL                                                             |    2,454|         4,150,875|         1,691|  1,582|
@@ -472,7 +473,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Caen Normandie                                    |       32|            41,815|         1,307|  1,350|
 |Université de Franche-Comté                                     |       18|            21,696|         1,205|  1,184|
 |Université de La Rochelle                                       |        2|             3,905|         1,952|  1,952|
-|Université de Lorraine                                          |       60|            73,787|         1,230|  1,142|
+|Université de Lorraine                                          |      135|           159,582|         1,182|  1,105|
 |Université de Nantes                                            |       24|            36,474|         1,520|  1,495|
 |Université de Poitiers                                          |        7|             9,691|         1,384|  1,099|
 |Université de Rennes 1                                          |       50|            64,456|         1,289|  1,305|
@@ -546,7 +547,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 31 966 hybrid open access articles. Total expenditure amounts to  80 163 265 €. Average  fee is 2 507.8 € and the median 2 452 €.
+The dataset covers 31 984 hybrid open access articles. Total expenditure amounts to  80 186 241 €. Average  fee is 2 507.1 € and the median 2 451 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -603,7 +604,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |KTH Royal Institute of Technology                           |      137|           250,396|         1,828|  1,848|
 |Lancaster University                                        |      169|           355,779|         2,105|  2,052|
 |Leeds Beckett University                                    |        1|             2,406|         2,406|  2,406|
-|Leibniz-IGB                                                 |        5|            10,273|         2,055|  2,871|
+|Leibniz-IGB                                                 |        7|            14,513|         2,073|  2,200|
 |Linköping University                                        |       70|           146,434|         2,092|  2,132|
 |Linnaeus University                                         |       19|            42,280|         2,225|  2,105|
 |Liverpool John Moores University                            |        2|             6,793|         3,396|  3,396|
@@ -634,6 +635,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |TiHo Hannover                                               |       14|            30,735|         2,195|  2,019|
 |TU Chemnitz                                                 |        1|               100|           100|    100|
 |TU Clausthal                                                |        3|             7,082|         2,361|  2,500|
+|TU Muenchen                                                 |       15|            18,136|         1,209|  1,209|
 |UCL                                                         |    3,929|         8,701,026|         2,215|  2,092|
 |Ulm U                                                       |       17|            35,219|         2,072|  2,319|
 |Umeå University                                             |       23|            45,340|         1,971|  2,132|
@@ -643,7 +645,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université de Bourgogne                                     |        1|             1,950|         1,950|  1,950|
 |Université de Caen Normandie                                |        1|               750|           750|    750|
 |Université de Franche-Comté                                 |        1|               307|           307|    307|
-|Université de Lorraine                                      |        3|             5,256|         1,752|  1,370|
+|Université de Lorraine                                      |        4|             5,856|         1,464|  1,121|
 |Université de Nantes                                        |        2|             6,191|         3,096|  3,096|
 |Université de Poitiers                                      |        2|             3,836|         1,918|  1,918|
 |Université de Rennes 1                                      |        2|             1,310|           655|    655|
@@ -775,7 +777,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
