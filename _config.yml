@@ -5,6 +5,7 @@ author:      INTACT team
 description: "Collecting article processing charges (APC) that universities and research institions have paid and making them available as Open Data"
 baseurl:     
 url:         "https://openapc.github.io"
+encoding:    UTF-8
 
 # Google analytics
 google_analytics:
