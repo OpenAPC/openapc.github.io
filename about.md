@@ -304,13 +304,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  147 409 457 € for  75 187 articles were paid by the participating unviversities. Average  fee is 1 960.6 € and the median 1 766 €.
+In total,  147 640 205 € for  75 334 articles were paid by the participating unviversities. Average  fee is 1 959.8 € and the median 1 765 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 43 181 articles in open access journals which charge publication fees. Total expenditure amounts to  67 171 476 €. Average  fee is 1 555.6 € and the median 1 466 €.
+At the moment, the dataset releases information on 43 328 articles in open access journals which charge publication fees. Total expenditure amounts to  67 402 225 €. Average  fee is 1 555.6 € and the median 1 467 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -362,7 +362,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                       |       94|            82,722|           880|    796|
-|Heidelberg U                                                    |      727|         1,085,891|         1,494|  1,630|
+|Heidelberg U                                                    |      874|         1,316,640|         1,506|  1,658|
 |Heriot-Watt University                                          |       33|            79,717|         2,416|  2,248|
 |Hospices Civils de Lyon                                         |       10|            16,128|         1,613|  1,554|
 |HZDR                                                            |      115|           169,577|         1,475|  1,287|
