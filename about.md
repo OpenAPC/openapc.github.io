@@ -305,13 +305,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  147 881 112 € for  75 482 articles were paid by the participating unviversities. Average  fee is 1 959.2 € and the median 1 764 €.
+In total,  148 072 958 € for  75 598 articles were paid by the participating unviversities. Average  fee is 1 958.7 € and the median 1 764 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 43 476 articles in open access journals which charge publication fees. Total expenditure amounts to  67 643 131 €. Average  fee is 1 555.9 € and the median 1 469 €.
+At the moment, the dataset releases information on 43 598 articles in open access journals which charge publication fees. Total expenditure amounts to  67 841 679 €. Average  fee is 1 556.1 € and the median 1 470 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -349,8 +349,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
-|FU Berlin                                                       |      294|           413,858|         1,408|  1,506|
-|FWF - Austrian Science Fund                                     |    1,392|         2,296,447|         1,650|  1,490|
+|FU Berlin                                                       |      411|           607,797|         1,479|  1,571|
+|FWF - Austrian Science Fund                                     |    1,393|         2,297,299|         1,649|  1,489|
 |FZJ - ZB                                                        |      397|           532,437|         1,341|  1,242|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
 |GFZ-Potsdam                                                     |      170|           224,765|         1,322|  1,231|
@@ -368,7 +368,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hospices Civils de Lyon                                         |       10|            16,128|         1,613|  1,554|
 |HZDR                                                            |      115|           169,577|         1,475|  1,287|
 |IFSTTAR                                                         |       11|            11,320|         1,029|    855|
-|Imperial College London                                         |      996|         1,910,589|         1,918|  1,625|
+|Imperial College London                                         |      997|         1,911,344|         1,917|  1,624|
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      114|           166,599|         1,461|  1,362|
 |INM - Leibniz-Institut für Neue Materialien                     |        5|             5,744|         1,149|  1,305|
 |Innlandet Hospital Trust                                        |        3|             5,174|         1,725|  1,917|
@@ -513,7 +513,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Durham                                            |       50|            95,365|         1,907|  1,719|
 |University of East Anglia                                       |       29|            47,521|         1,639|  1,535|
 |University of Edinburgh                                         |      546|         1,027,649|         1,882|  1,592|
-|University of Exeter                                            |      152|           287,533|         1,892|  1,532|
+|University of Exeter                                            |      153|           287,837|         1,881|  1,531|
 |University of Glasgow                                           |      268|           542,753|         2,025|  1,674|
 |University of Gothenburg                                        |      336|           498,884|         1,485|  1,406|
 |University of Huddersfield                                      |       18|            27,045|         1,502|  1,578|
@@ -531,7 +531,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Portsmouth                                        |        6|             8,489|         1,415|  1,303|
 |University of Reading                                           |      125|           196,774|         1,574|  1,543|
 |University of Salford                                           |        4|             5,714|         1,429|  1,480|
-|University of Sheffield                                         |      256|           454,301|         1,775|  1,533|
+|University of Sheffield                                         |      257|           456,203|         1,775|  1,535|
 |University of Southampton                                       |      278|           515,110|         1,853|  1,595|
 |University of St Andrews                                        |      174|           318,843|         1,832|  1,520|
 |University of Stavanger                                         |        1|               709|           709|    709|
@@ -548,7 +548,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Vestre Viken Hospital Trust                                     |        4|             5,796|         1,449|  1,555|
 |Virginia Tech                                                   |      153|           165,423|         1,081|  1,216|
 |Weierstrass Institute for Applied Analysis and Stochastics      |       NA|                NA|            NA|     NA|
-|Wellcome Trust                                                  |    1,401|         2,628,608|         1,876|  1,662|
+|Wellcome Trust                                                  |    1,402|         2,629,403|         1,875|  1,662|
 |Wuerzburg U                                                     |      686|           959,500|         1,399|  1,436|
 
 ### Hybrid articles
@@ -556,7 +556,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 32 006 hybrid open access articles. Total expenditure amounts to  80 237 980 €. Average  fee is 2 507 € and the median 2 451 €.
+The dataset covers 32 000 hybrid open access articles. Total expenditure amounts to  80 231 279 €. Average  fee is 2 507.2 € and the median 2 451 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -583,7 +583,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Erlangen Nuernberg U                                        |        1|             1,638|         1,638|  1,638|
 |ESPCI Paris                                                 |        3|             5,574|         1,858|  2,160|
 |FU Berlin                                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                                 |    3,770|         9,272,358|         2,460|  2,599|
+|FWF - Austrian Science Fund                                 |    3,769|         9,271,505|         2,460|  2,599|
 |FZJ - ZB                                                    |       78|           156,289|         2,004|  1,979|
 |GenØk - Centre for Biosafety                                |        2|             3,650|         1,825|  1,825|
 |GFZ-Potsdam                                                 |       10|            24,555|         2,455|  2,643|
@@ -594,7 +594,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Heriot-Watt University                                      |       41|            95,394|         2,327|  2,319|
 |Hospices Civils de Lyon                                     |        5|            13,159|         2,632|  2,640|
 |HZDR                                                        |        3|             5,405|         1,802|  1,755|
-|Imperial College London                                     |    1,528|         4,173,924|         2,732|  2,663|
+|Imperial College London                                     |    1,527|         4,173,169|         2,733|  2,663|
 |Indiana University - Purdue University Indianapolis (IUPUI) |        2|             3,019|         1,509|  1,509|
 |INM - Leibniz-Institut für Neue Materialien                 |        9|            27,020|         3,002|  3,213|
 |INRA                                                        |       24|            54,829|         2,285|  2,316|
@@ -646,7 +646,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |TU Chemnitz                                                 |        1|               100|           100|    100|
 |TU Clausthal                                                |        3|             7,082|         2,361|  2,500|
 |TU Muenchen                                                 |       15|            18,136|         1,209|  1,209|
-|UCL                                                         |    3,929|         8,701,026|         2,215|  2,092|
+|UCL                                                         |    3,928|         8,698,934|         2,215|  2,093|
 |Ulm U                                                       |       18|            37,646|         2,091|  2,319|
 |Umeå University                                             |       23|            45,340|         1,971|  2,132|
 |Université Claude Bernard Lyon 1                            |        2|             5,060|         2,530|  2,530|
@@ -682,7 +682,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Durham                                        |      265|           563,728|         2,127|  2,091|
 |University of East Anglia                                   |       61|           138,852|         2,276|  2,088|
 |University of Edinburgh                                     |      898|         2,360,785|         2,629|  2,513|
-|University of Exeter                                        |      287|           784,591|         2,734|  2,669|
+|University of Exeter                                        |      286|           784,288|         2,742|  2,673|
 |University of Glasgow                                       |      682|         1,785,849|         2,619|  2,489|
 |University of Gothenburg                                    |      198|           481,259|         2,431|  2,522|
 |University of Huddersfield                                  |       44|            64,318|         1,462|    990|
@@ -699,7 +699,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Portsmouth                                    |        6|            13,412|         2,235|  2,652|
 |University of Reading                                       |      341|           770,786|         2,260|  2,283|
 |University of Salford                                       |        5|            13,547|         2,709|  2,662|
-|University of Sheffield                                     |      708|         1,768,933|         2,498|  2,355|
+|University of Sheffield                                     |      707|         1,767,030|         2,499|  2,356|
 |University of Southampton                                   |      352|           883,747|         2,511|  2,528|
 |University of St Andrews                                    |      191|           426,334|         2,232|  2,147|
 |University of Strathclyde                                   |      148|           284,785|         1,924|  1,940|
@@ -712,7 +712,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Uppsala University                                          |      200|           490,457|         2,452|  2,429|
 |Virginia Tech                                               |       14|            20,480|         1,463|  1,256|
 |Weierstrass Institute for Applied Analysis and Stochastics  |        2|             4,870|         2,435|  2,435|
-|Wellcome Trust                                              |    3,591|         9,391,005|         2,615|  2,584|
+|Wellcome Trust                                              |    3,590|         9,390,209|         2,616|  2,585|
 
 ## Use of external sources
 
