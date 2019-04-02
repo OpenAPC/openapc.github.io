@@ -49,6 +49,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/en/openaccess_foerderung.shtml)
 - [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
+- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/services/scholarly-publishing-and-open-access/open-access-publication-funds/)
 - [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
@@ -99,6 +100,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Participating Italian Institutions
 
+- [Free University of Bozen-Bolzano](https://www.unibz.it/)
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
 ## Institutions from Norway:
@@ -296,6 +298,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
 
+## Participating Institutions from Qatar:
+
+- [Qatar National Library](https://www.qnl.qa/en) 
+
 ## Supranational participants
 
 - [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
@@ -305,13 +311,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  150 406 809 € for  76 951 articles were paid by the participating unviversities. Average  fee is 1 954.6 € and the median 1 757 €.
+In total,  150 621 066 € for  77 096 articles were paid by the participating unviversities. Average  fee is 1 953.7 € and the median 1 756 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 44 796 articles in open access journals which charge publication fees. Total expenditure amounts to  69 809 537 €. Average  fee is 1 558.4 € and the median 1 471 €.
+At the moment, the dataset releases information on 44 929 articles in open access journals which charge publication fees. Total expenditure amounts to  69 997 670 €. Average  fee is 1 558 € and the median 1 471 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -327,7 +333,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bayreuth U                                                      |      164|           192,958|         1,177|  1,245|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
-|Bielefeld U                                                     |      457|           594,984|         1,302|  1,340|
+|Bielefeld U                                                     |      566|           755,208|         1,334|  1,386|
 |Bochum U                                                        |      305|           459,765|         1,507|  1,576|
 |Borås University College                                        |       NA|                NA|            NA|     NA|
 |Bremen U                                                        |      390|           552,016|         1,415|  1,345|
@@ -347,9 +353,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |ESPCI Paris                                                     |       10|            18,132|         1,813|  1,404|
 |Frankfurt U                                                     |       77|           133,747|         1,737|  1,630|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
+|Free University of Bozen-Bolzano                                |        9|             7,550|           839|    561|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
-|FU Berlin                                                       |      411|           607,797|         1,479|  1,571|
+|FU Berlin                                                       |      411|           606,276|         1,475|  1,571|
 |FWF - Austrian Science Fund                                     |    1,393|         2,297,299|         1,649|  1,489|
 |FZJ - ZB                                                        |      397|           532,437|         1,341|  1,242|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
@@ -359,6 +366,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Glasgow Caledonian University                                   |        3|             4,732|         1,577|  1,867|
 |Goettingen U                                                    |    1,086|         1,580,249|         1,455|  1,447|
 |Goldsmiths                                                      |       10|            14,065|         1,406|  1,437|
+|Greifswald U                                                    |       15|            21,880|         1,459|  1,588|
 |Hamburg TUHH                                                    |       66|            93,538|         1,417|  1,498|
 |Hannover U                                                      |      138|           181,409|         1,315|  1,392|
 |Harstad University College                                      |        2|             2,024|         1,012|  1,012|
@@ -556,7 +564,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 32 155 hybrid open access articles. Total expenditure amounts to  80 597 273 €. Average  fee is 2 506.5 € and the median 2 450 €.
+The dataset covers 32 167 hybrid open access articles. Total expenditure amounts to  80 623 395 €. Average  fee is 2 506.4 € and the median 2 450 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -582,6 +590,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Edinburgh Napier University                                 |        1|             3,155|         3,155|  3,155|
 |Erlangen Nuernberg U                                        |        1|             1,638|         1,638|  1,638|
 |ESPCI Paris                                                 |        3|             5,574|         1,858|  2,160|
+|Free University of Bozen-Bolzano                            |       12|            26,122|         2,177|  2,396|
 |FU Berlin                                                   |        1|             1,500|         1,500|  1,500|
 |FWF - Austrian Science Fund                                 |    3,769|         9,271,505|         2,460|  2,599|
 |FZJ - ZB                                                    |       78|           156,289|         2,004|  1,979|
@@ -788,7 +797,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
