@@ -311,13 +311,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  150 621 066 € for  77 096 articles were paid by the participating unviversities. Average  fee is 1 953.7 € and the median 1 756 €.
+In total,  151 024 426 € for  77 357 articles were paid by the participating unviversities. Average  fee is 1 952.3 € and the median 1 755 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 44 929 articles in open access journals which charge publication fees. Total expenditure amounts to  69 997 670 €. Average  fee is 1 558 € and the median 1 471 €.
+At the moment, the dataset releases information on 45 190 articles in open access journals which charge publication fees. Total expenditure amounts to  70 401 030 €. Average  fee is 1 557.9 € and the median 1 472 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -351,9 +351,9 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Edinburgh Napier University                                     |        4|             6,222|         1,556|  1,297|
 |Erlangen Nuernberg U                                            |      707|         1,017,252|         1,439|  1,514|
 |ESPCI Paris                                                     |       10|            18,132|         1,813|  1,404|
-|Frankfurt U                                                     |       77|           133,747|         1,737|  1,630|
+|Frankfurt U                                                     |      176|           302,799|         1,720|  1,630|
 |Fraunhofer-Gesellschaft Publishing Fund                         |       42|            57,044|         1,358|  1,361|
-|Free University of Bozen-Bolzano                                |        9|             7,550|           839|    561|
+|Free University of Bozen-Bolzano                                |       11|             8,709|           792|    561|
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      411|           606,276|         1,475|  1,571|
@@ -395,7 +395,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                                        |      130|           145,386|         1,118|  1,105|
 |Keele University                                                |       19|            31,431|         1,654|  1,644|
 |King's College London                                           |      410|           833,628|         2,033|  1,628|
-|KIT                                                             |      674|           903,682|         1,341|  1,382|
+|KIT                                                             |      834|         1,136,832|         1,363|  1,386|
 |Konstanz U                                                      |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                               |      180|           215,262|         1,196|  1,131|
 |Lancaster University                                            |       64|           101,253|         1,582|  1,499|
