@@ -311,13 +311,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  151 391 601 € for  77 578 articles were paid by the participating unviversities. Average  fee is 1 951.5 € and the median 1 755 €.
+In total,  151 439 696 € for  77 608 articles were paid by the participating unviversities. Average  fee is 1 951.3 € and the median 1 755 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 45 362 articles in open access journals which charge publication fees. Total expenditure amounts to  70 663 468 €. Average  fee is 1 557.8 € and the median 1 471 €.
+At the moment, the dataset releases information on 45 392 articles in open access journals which charge publication fees. Total expenditure amounts to  70 711 563 €. Average  fee is 1 557.8 € and the median 1 472 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -440,7 +440,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Örebro University                                               |       63|            83,868|         1,331|  1,346|
 |Oslo and Akershus university college                            |       36|            45,728|         1,270|  1,252|
 |Oslo University Hospital                                        |      111|           149,777|         1,349|  1,392|
-|Osnabrück U                                                     |       65|            90,046|         1,385|  1,553|
+|Osnabrück U                                                     |       95|           138,141|         1,454|  1,553|
 |Plymouth University                                             |       26|            37,850|         1,456|  1,438|
 |Potsdam U                                                       |      112|           165,158|         1,475|  1,530|
 |Qatar National Library                                          |       30|            49,771|         1,659|  1,411|
