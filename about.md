@@ -311,13 +311,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  151 439 696 € for  77 608 articles were paid by the participating unviversities. Average  fee is 1 951.3 € and the median 1 755 €.
+In total,  151 501 641 € for  77 654 articles were paid by the participating unviversities. Average  fee is 1 951 € and the median 1 754 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 45 392 articles in open access journals which charge publication fees. Total expenditure amounts to  70 711 563 €. Average  fee is 1 557.8 € and the median 1 472 €.
+At the moment, the dataset releases information on 45 438 articles in open access journals which charge publication fees. Total expenditure amounts to  70 773 508 €. Average  fee is 1 557.6 € and the median 1 471 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -330,7 +330,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Aston University                                                |       36|            70,678|         1,963|  1,700|
 |Bamberg U                                                       |       50|            56,375|         1,127|  1,266|
 |Bangor University                                               |       20|            33,800|         1,690|  1,572|
-|Bayreuth U                                                      |      164|           192,958|         1,177|  1,245|
+|Bayreuth U                                                      |      211|           255,626|         1,212|  1,266|
 |Bergen University College                                       |       13|            19,984|         1,537|  1,713|
 |BI Norwegian Business School                                    |        4|             2,761|           690|    724|
 |Bielefeld U                                                     |      566|           755,208|         1,334|  1,386|
@@ -413,7 +413,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Lund University                                                 |       24|            32,295|         1,346|  1,410|
 |Malmö University                                                |       41|            48,108|         1,173|  1,394|
 |Manchester Metropolitan University                              |       17|            27,262|         1,604|  1,567|
-|Marburg U                                                       |      149|           241,611|         1,622|  1,669|
+|Marburg U                                                       |      148|           240,888|         1,628|  1,673|
 |MDC                                                             |       92|           186,801|         2,030|  1,802|
 |Milano U                                                        |      223|           327,683|         1,469|  1,495|
 |Mines ParisTech                                                 |        1|             1,260|         1,260|  1,260|
