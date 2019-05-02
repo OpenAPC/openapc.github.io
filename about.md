@@ -312,13 +312,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  152 121 040 € for  78 059 articles were paid by the participating unviversities. Average  fee is 1 948.8 € and the median 1 751 €.
+In total,  152 243 919 € for  78 104 articles were paid by the participating unviversities. Average  fee is 1 949.2 € and the median 1 752 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 45 812 articles in open access journals which charge publication fees. Total expenditure amounts to  71 354 703 €. Average  fee is 1 557.6 € and the median 1 473 €.
+At the moment, the dataset releases information on 45 847 articles in open access journals which charge publication fees. Total expenditure amounts to  71 440 763 €. Average  fee is 1 558.2 € and the median 1 473 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -416,7 +416,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Malmö University                                                |       41|            48,108|         1,173|  1,394|
 |Manchester Metropolitan University                              |       17|            27,262|         1,604|  1,567|
 |Marburg U                                                       |      148|           240,888|         1,628|  1,673|
-|MDC                                                             |       92|           186,801|         2,030|  1,802|
+|MDC                                                             |      127|           272,861|         2,149|  1,936|
 |Milano U                                                        |      223|           327,683|         1,469|  1,495|
 |Mines ParisTech                                                 |        1|             1,260|         1,260|  1,260|
 |MLU Halle-Wittenberg                                            |       17|            36,874|         2,169|  2,142|
@@ -567,7 +567,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 32 247 hybrid open access articles. Total expenditure amounts to  80 766 337 €. Average  fee is 2 504.6 € and the median 2 450 €.
+The dataset covers 32 257 hybrid open access articles. Total expenditure amounts to  80 803 156 €. Average  fee is 2 505 € and the median 2 450 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -637,7 +637,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Lund University                                             |       39|            77,850|         1,996|  2,132|
 |Malmö University                                            |       16|            32,555|         2,035|  2,141|
 |Manchester Metropolitan University                          |       23|            51,545|         2,241|  2,412|
-|MDC                                                         |       29|            74,019|         2,552|  2,200|
+|MDC                                                         |       39|           110,838|         2,842|  2,778|
 |Milano U                                                    |       37|            78,777|         2,129|  2,200|
 |Mines ParisTech                                             |        3|             7,657|         2,552|  2,500|
 |MPG                                                         |       10|             9,179|           918|    958|
@@ -773,7 +773,7 @@ For more examples see also [http://openapc.github.io/openapc-de/](http://openapc
 
 ## How to contribute?
 
-In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
+In collaboration with the [DINI working group Electronic Publishing](https://dini.de/ag/e-pub/), a [wiki page](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
 
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
