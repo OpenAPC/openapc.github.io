@@ -24,6 +24,7 @@ So far, the following German universities have agreed to share information on pa
 - [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
+- [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch/open-access-publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
@@ -82,7 +83,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
@@ -311,13 +312,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  152 066 668 € for  78 013 articles were paid by the participating unviversities. Average  fee is 1 949.2 € and the median 1 752 €.
+In total,  152 121 040 € for  78 059 articles were paid by the participating unviversities. Average  fee is 1 948.8 € and the median 1 751 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 45 788 articles in open access journals which charge publication fees. Total expenditure amounts to  71 316 260 €. Average  fee is 1 557.5 € and the median 1 473 €.
+At the moment, the dataset releases information on 45 812 articles in open access journals which charge publication fees. Total expenditure amounts to  71 354 703 €. Average  fee is 1 557.6 € and the median 1 473 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -374,6 +375,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Heidelberg U                                                    |      874|         1,316,640|         1,506|  1,658|
 |Heriot-Watt University                                          |       33|            79,717|         2,416|  2,248|
 |Hospices Civils de Lyon                                         |       10|            16,128|         1,613|  1,554|
+|HU Berlin                                                       |       24|            38,443|         1,602|  1,731|
 |HZDR                                                            |      115|           169,577|         1,475|  1,287|
 |IFSTTAR                                                         |       11|            11,320|         1,029|    855|
 |Imperial College London                                         |      997|         1,911,344|         1,917|  1,624|
@@ -565,7 +567,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 32 225 hybrid open access articles. Total expenditure amounts to  80 750 408 €. Average  fee is 2 505.8 € and the median 2 450 €.
+The dataset covers 32 247 hybrid open access articles. Total expenditure amounts to  80 766 337 €. Average  fee is 2 504.6 € and the median 2 450 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -603,6 +605,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Hannover U                                                  |        4|             5,824|         1,456|  1,398|
 |Heriot-Watt University                                      |       41|            95,394|         2,327|  2,319|
 |Hospices Civils de Lyon                                     |        5|            13,159|         2,632|  2,640|
+|HU Berlin                                                   |       22|            15,929|           724|    677|
 |HZDR                                                        |        3|             5,405|         1,802|  1,755|
 |Imperial College London                                     |    1,527|         4,173,169|         2,733|  2,663|
 |Indiana University - Purdue University Indianapolis (IUPUI) |        2|             3,019|         1,509|  1,509|
