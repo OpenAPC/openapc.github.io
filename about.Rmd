@@ -104,6 +104,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
+## Other German Research Institutions
+
+- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](http://www.iab.de/en/publikationen.aspx)
 
 ## Participating Austrian Institutions
 
@@ -303,6 +306,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
 
 - [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
+
+## Participating Institutions from Hungary
+
+- [University of Debrecen](https://unideb.hu/en)
 
 ## Participating Institutions from the United States:
 
