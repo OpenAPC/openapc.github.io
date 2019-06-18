@@ -6,8 +6,8 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-        {% if post.categories contains "ESAC" %}
-        {% comment %} ESAC posts are not shown on the OpenAPC blog, but they are still exported to the INTACT site {% endcomment %}
+        {% if post.categories contains "ESAC" or post.categories contains "special" %}
+        {% comment %} ESAC and special posts are not shown on the OpenAPC blog (but they are still exported to the INTACT site) {% endcomment %}
         {% else if %}
           <div class="post">
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
