@@ -1,0 +1,112 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Publisher plots
+date:       2019-06-17 09:00:00
+summary:    
+categories: [special]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+create_plot <- function(data, caption, file_name) {
+    cat("\n\n####", caption, "\n\n")
+    cat("Number of articles: ", nrow(data), "\n\n")
+    q <- ggplot(data, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+    q <- q +  ylab("Fees paid (€)") + theme(legend.position="top") + theme_bw(base_size = 18)
+    q <- q + xlab("period") + ylab("APC")
+    ggsave(file_name, q, "png", path = "../special_figures")
+    # Return the file path
+    paste("/special_figures/", file_name, sep = "")
+}
+
+require(dplyr)
+require(magrittr)
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
+my.apc <- my.apc[my.apc$period %in% c(2015, 2016, 2017 ,2018),]
+#my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+
+countries <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-olap/master/static/institutions.csv")) %>% select(institution, country)
+
+my.apc <- left_join(my.apc, countries)
+my.apc <- droplevels(my.apc)
+
+```
+
+## Plots
+
+Hybrid journals, filtered to period 2015 - 2018.
+
+
+```{r echo = FALSE, results='asis', message = FALSE}
+
+require(ggplot2)
+
+for (publisher_name in c("Elsevier BV", "Wiley-Blackwell", "Springer Nature")) {
+    cat("\n\n### ", publisher_name, "\n\n")
+    apc_pub <- my.apc[my.apc$publisher == publisher_name,]
+    
+    pub_name <- tolower(publisher_name)
+    pub_name <- sub(" ", "_", pub_name)
+    
+    file_name <- paste(pub_name, "total.png", sep = "_")
+    path = create_plot(apc_pub, "Total", file_name)
+    cat("![](",path,")", sep = "")
+    
+    my.apc_deu <- apc_pub[apc_pub$country == "DEU",]
+    file_name <- paste(pub_name, "germany.png", sep = "_")
+    path = create_plot(my.apc_deu, "Germany", file_name)
+    cat("![](",path,")", sep = "")
+    
+    my.apc_gbr <- apc_pub[apc_pub$country == "GBR",]
+    file_name <- paste(pub_name, "uk.png", sep = "_")
+    path = create_plot(my.apc_gbr, "United Kingdom", file_name)
+    cat("![](",path,")", sep = "")
+    
+    mfj <- apc_pub %>% 
+        group_by(journal_full_title) %>% 
+        summarise(count = n()) %>%
+        arrange(desc(count)) %>%
+        .[1:1,] %>% extract2("journal_full_title") %>% as.character()
+    
+    caption <- paste("Most frequent journal:", mfj)
+    
+    my.apc_mfj <- apc_pub[apc_pub$journal_full_title == mfj,]
+    file_name <- paste(pub_name, "mfj.png", sep = "_")
+    path = create_plot(my.apc_mfj, caption, file_name)
+    cat("![](",path,")", sep = "")
+}
+```
+
