@@ -82,7 +82,7 @@ Number of articles:  213
 
 #### Total 
 
-Number of articles:  1342 
+Number of articles:  1337 
 
 ![](/special_figures/springer_nature_hybrid_total.png)
 
@@ -100,7 +100,7 @@ Number of articles:  918
 
 #### Most frequent journal: Nature Communications 
 
-Number of articles:  112 
+Number of articles:  107 
 
 ![](/special_figures/springer_nature_hybrid_mfj.png)
 
@@ -172,7 +172,7 @@ Number of articles:  269
 
 #### Total 
 
-Number of articles:  11612 
+Number of articles:  11617 
 
 ![](/special_figures/springer_nature_gold_oa_total.png)
 
