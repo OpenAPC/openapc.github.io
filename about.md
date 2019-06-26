@@ -324,13 +324,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  156 144 778 € for  80 368 articles were paid by the participating unviversities. Average  fee is 1 942.9 € and the median 1 749 €.
+In total,  158 020 768 € for  81 199 articles were paid by the participating unviversities. Average  fee is 1 946.1 € and the median 1 752 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 46 798 articles in open access journals which charge publication fees. Total expenditure amounts to  72 918 716 €. Average  fee is 1 558.2 € and the median 1 476 €.
+At the moment, the dataset releases information on 47 207 articles in open access journals which charge publication fees. Total expenditure amounts to  73 697 904 €. Average  fee is 1 561.2 € and the median 1 478 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -370,7 +370,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Freiburg U                                                      |      623|           871,696|         1,399|  1,449|
 |Fridtjof Nansen Institute                                       |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                       |      411|           606,276|         1,475|  1,571|
-|FWF - Austrian Science Fund                                     |    1,393|         2,297,299|         1,649|  1,489|
+|FWF - Austrian Science Fund                                     |    1,798|         3,061,310|         1,703|  1,566|
 |FZJ - ZB                                                        |      569|           794,874|         1,397|  1,302|
 |GenØk - Centre for Biosafety                                    |        5|             5,295|         1,059|  1,109|
 |GEOMAR                                                          |      152|           270,887|         1,782|  1,490|
@@ -405,7 +405,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Institute of Marine Research                                    |       14|            20,153|         1,440|  1,404|
 |IPN - Leibniz Kiel                                              |       13|            14,201|         1,092|  1,092|
 |IRSTEA                                                          |       21|            27,516|         1,310|  1,495|
-|IST Austria                                                     |       25|            61,328|         2,453|  1,872|
+|IST Austria                                                     |       28|            72,505|         2,589|  1,989|
 |JGU Mainz                                                       |      489|           689,314|         1,410|  1,434|
 |Jyväskylä U                                                     |       26|            42,283|         1,626|  1,569|
 |Karolinska Institutet                                           |        8|             5,073|           634|    755|
@@ -432,7 +432,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Manchester Metropolitan University                              |       17|            27,262|         1,604|  1,567|
 |Marburg U                                                       |      148|           240,888|         1,628|  1,673|
 |MDC                                                             |      127|           272,861|         2,149|  1,936|
-|Milano U                                                        |      222|           326,483|         1,471|  1,495|
+|Milano U                                                        |      223|           330,483|         1,482|  1,495|
 |Mines ParisTech                                                 |        1|             1,260|         1,260|  1,260|
 |MLU Halle-Wittenberg                                            |       77|           143,472|         1,863|  1,713|
 |Molde University College                                        |        3|             1,876|           625|    584|
@@ -583,7 +583,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 33 570 hybrid open access articles. Total expenditure amounts to  83 226 062 €. Average  fee is 2 479.2 € and the median 2 433 €.
+The dataset covers 33 992 hybrid open access articles. Total expenditure amounts to  84 322 863 €. Average  fee is 2 480.7 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -611,7 +611,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |ESPCI Paris                                                 |        3|             5,574|         1,858|  2,160|
 |Free University of Bozen-Bolzano                            |       12|            26,122|         2,177|  2,396|
 |FU Berlin                                                   |        1|             1,500|         1,500|  1,500|
-|FWF - Austrian Science Fund                                 |    3,769|         9,271,505|         2,460|  2,599|
+|FWF - Austrian Science Fund                                 |    4,198|        10,392,676|         2,476|  2,618|
 |FZJ - ZB                                                    |      127|           261,027|         2,055|  2,000|
 |GenØk - Centre for Biosafety                                |        2|             3,650|         1,825|  1,825|
 |GEOMAR                                                      |       56|           134,700|         2,405|  2,480|
@@ -634,7 +634,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Institut für Arbeitsmarkt- und Berufsforschung              |       10|            25,816|         2,582|  2,618|
 |Institute of Cancer Research                                |       67|           206,220|         3,078|  2,811|
 |IPN - Leibniz Kiel                                          |       54|           123,170|         2,281|  2,388|
-|IST Austria                                                 |       16|            49,968|         3,123|  3,135|
+|IST Austria                                                 |       12|            33,408|         2,784|  2,871|
 |JGU Mainz                                                   |        1|             1,792|         1,792|  1,792|
 |Jyväskylä U                                                 |       31|            32,655|         1,053|    860|
 |Karolinska Institutet                                       |       24|            37,567|         1,565|  1,774|
@@ -646,7 +646,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Lancaster University                                        |      189|           387,490|         2,050|  1,997|
 |Leeds Beckett University                                    |        2|             4,288|         2,144|  2,144|
 |Leibniz-IGB                                                 |        7|            14,513|         2,073|  2,200|
-|Linköping University                                        |       70|           146,434|         2,092|  2,132|
+|Linköping University                                        |       69|           145,038|         2,102|  2,132|
 |Linnaeus University                                         |       19|            42,280|         2,225|  2,105|
 |Liverpool John Moores University                            |        2|             6,793|         3,396|  3,396|
 |Liverpool School of Tropical Medicine                       |       15|            45,259|         3,017|  2,965|
@@ -657,7 +657,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Malmö University                                            |       16|            32,555|         2,035|  2,141|
 |Manchester Metropolitan University                          |       26|            57,585|         2,215|  2,428|
 |MDC                                                         |       39|           110,838|         2,842|  2,778|
-|Milano U                                                    |       37|            78,777|         2,129|  2,200|
+|Milano U                                                    |       36|            74,777|         2,077|  2,200|
 |Mines ParisTech                                             |        3|             7,657|         2,552|  2,500|
 |MPG                                                         |       10|             9,179|           918|    958|
 |Museum National d'Histoire Naturelle                        |        2|             5,003|         2,502|  2,502|
@@ -670,7 +670,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Queen's University Belfast                                  |       77|           184,209|         2,392|  2,139|
 |Royal Holloway                                              |       43|           101,773|         2,367|  2,173|
 |St George's, University of London                           |       23|            67,276|         2,925|  2,756|
-|Stockholm University                                        |      298|           666,448|         2,236|  2,330|
+|Stockholm University                                        |      297|           664,033|         2,236|  2,329|
 |Swansea University                                          |      159|           407,768|         2,565|  2,624|
 |Swedish University of Agricultural Sciences                 |      220|           520,879|         2,368|  2,330|
 |Swiss National Science Foundation (SNSF)                    |       67|           135,258|         2,019|  2,146|
