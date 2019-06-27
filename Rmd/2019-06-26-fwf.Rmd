@@ -59,6 +59,8 @@ The following table shows the APC payments the FWF has made to publishers in 201
 
 Please note that the report provided by the FWF also contained a number of articles published under transformative agreements (with calculated cost data). Those records did not become part of the OpenAPC core data file, but were integrated into our [Transformative Agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) collection instead. To view summarised cost information for both collections, have a look at our [combined treemap visualisation](https://treemaps.intact-project.org/apcdata/combined/#institution/FWF%20-%20Austrian%20Science%20Fund/).
 
+In 2014, the FWF introduced price caps for gold OA (EUR 2500) and for hybrid OA (EUR 1500). Whenever costs exceed those caps, FWF funded authors can use other sources to cover the additional costs. In order to avoid distortions regarding mean values in the OpenAPC data set the FWF set does not include articles where these caps apply and where the additional costs were paid by other sources. For a full overview of FWF funded articles in 2018 please see [https://doi.org/10.5281/zenodo.3047009](https://doi.org/10.5281/zenodo.3047009).
+
 
 ```{r}
 d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
