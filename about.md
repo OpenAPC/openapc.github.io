@@ -325,13 +325,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  158 204 363 € for  81 304 articles were paid by the participating unviversities. Average  fee is 1 945.8 € and the median 1 752 €.
+In total,  159 073 815 € for  81 707 articles were paid by the participating unviversities. Average  fee is 1 946.9 € and the median 1 752 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 47 300 articles in open access journals which charge publication fees. Total expenditure amounts to  73 852 731 €. Average  fee is 1 561.4 € and the median 1 478 €.
+At the moment, the dataset releases information on 47 699 articles in open access journals which charge publication fees. Total expenditure amounts to  74 713 420 €. Average  fee is 1 566.4 € and the median 1 481 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -357,7 +357,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Charité - Universitätsmedizin Berlin                                 |      235|           386,319|         1,644|  1,656|
 |CIRAD                                                                |       42|            62,119|         1,479|  1,449|
 |CNRS                                                                 |    1,480|         2,368,250|         1,600|  1,365|
-|Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       73|           127,366|         1,745|  1,500|
+|Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       75|           135,506|         1,807|  1,538|
 |Cranfield University                                                 |       26|            40,286|         1,549|  1,370|
 |Dalarna University College                                           |       42|            58,641|         1,396|  1,458|
 |Dortmund TU                                                          |       82|           102,584|         1,251|  1,391|
@@ -466,7 +466,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Qatar National Library                                               |       30|            49,771|         1,659|  1,411|
 |Queen Mary, University of London                                     |       53|            89,135|         1,682|  1,250|
 |Queen's University Belfast                                           |      216|           350,202|         1,621|  1,454|
-|Regensburg U                                                         |      742|         1,106,933|         1,492|  1,472|
+|Regensburg U                                                         |      827|         1,263,410|         1,528|  1,522|
 |Rhode Island U                                                       |       14|            11,639|           831|    691|
 |Rostock U                                                            |      140|           183,565|         1,311|  1,421|
 |Royal Holloway                                                       |       12|            20,914|         1,743|  1,512|
@@ -477,7 +477,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Stuttgart U                                                          |      272|           342,537|         1,259|  1,305|
 |Swansea University                                                   |       57|            99,199|         1,740|  1,419|
 |Swedish University of Agricultural Sciences                          |      450|           595,056|         1,322|  1,328|
-|Swiss National Science Foundation (SNSF)                             |      369|           653,627|         1,771|  1,426|
+|Swiss National Science Foundation (SNSF)                             |      638|         1,276,657|         2,001|  1,592|
 |TH Wildau                                                            |        4|             3,894|           974|  1,057|
 |The Open University                                                  |        8|            16,623|         2,078|  1,856|
 |TIB                                                                  |        1|             1,619|         1,619|  1,619|
@@ -495,7 +495,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Tuebingen U                                                          |      789|         1,114,397|         1,412|  1,442|
 |UCL                                                                  |    2,476|         4,174,439|         1,686|  1,579|
 |UFZ                                                                  |      146|           188,467|         1,291|  1,269|
-|Ulm U                                                                |      271|           443,958|         1,638|  1,598|
+|Ulm U                                                                |      314|           516,999|         1,646|  1,569|
 |Umeå University                                                      |       10|            10,604|         1,060|    755|
 |Uni Research                                                         |       19|            28,070|         1,477|  1,474|
 |Universitat de Barcelona                                             |      464|           443,269|           955|    899|
@@ -585,7 +585,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 004 hybrid open access articles. Total expenditure amounts to  84 351 632 €. Average  fee is 2 480.6 € and the median 2 436 €.
+The dataset covers 34 008 hybrid open access articles. Total expenditure amounts to  84 360 395 €. Average  fee is 2 480.6 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -676,7 +676,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Stockholm University                                                 |      297|           664,033|         2,236|  2,329|
 |Swansea University                                                   |      159|           407,768|         2,565|  2,624|
 |Swedish University of Agricultural Sciences                          |      220|           520,879|         2,368|  2,330|
-|Swiss National Science Foundation (SNSF)                             |       67|           135,258|         2,019|  2,146|
+|Swiss National Science Foundation (SNSF)                             |       71|           144,021|         2,028|  2,146|
 |The Open University                                                  |       27|            66,541|         2,464|  2,852|
 |TiHo Hannover                                                        |       14|            30,735|         2,195|  2,019|
 |TU Chemnitz                                                          |        1|               100|           100|    100|
