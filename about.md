@@ -97,6 +97,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
+- [University of Salzburg](https://www.uni-salzburg.at/index.php?id=67089&L=1)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
 ## Participating Swiss Institutions
@@ -325,13 +326,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  159 254 052 € for  81 857 articles were paid by the participating unviversities. Average  fee is 1 945.5 € and the median 1 751 €.
+In total,  159 351 366 € for  81 925 articles were paid by the participating unviversities. Average  fee is 1 945.1 € and the median 1 750 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 47 848 articles in open access journals which charge publication fees. Total expenditure amounts to  74 891 112 €. Average  fee is 1 565.2 € and the median 1 481 €.
+At the moment, the dataset releases information on 47 915 articles in open access journals which charge publication fees. Total expenditure amounts to  74 986 030 €. Average  fee is 1 565 € and the median 1 481 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -470,6 +471,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Rhode Island U                                                       |       14|            11,639|           831|    691|
 |Rostock U                                                            |      140|           183,565|         1,311|  1,421|
 |Royal Holloway                                                       |       12|            20,914|         1,743|  1,512|
+|Salzburg U                                                           |       67|            94,918|         1,417|  1,398|
 |SINTEF                                                               |        3|             3,633|         1,211|  1,176|
 |Sørlandet Hospital Trust                                             |        5|             8,453|         1,691|  1,667|
 |St George's, University of London                                    |       19|            36,284|         1,910|  1,862|
@@ -585,7 +587,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 009 hybrid open access articles. Total expenditure amounts to  84 362 939 €. Average  fee is 2 480.6 € and the median 2 436 €.
+The dataset covers 34 010 hybrid open access articles. Total expenditure amounts to  84 365 335 €. Average  fee is 2 480.6 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -672,6 +674,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Queen Mary, University of London                                     |      130|           296,514|         2,281|  2,024|
 |Queen's University Belfast                                           |       77|           184,209|         2,392|  2,139|
 |Royal Holloway                                                       |       43|           101,773|         2,367|  2,173|
+|Salzburg U                                                           |        1|             2,396|         2,396|  2,396|
 |St George's, University of London                                    |       23|            67,276|         2,925|  2,756|
 |Stockholm University                                                 |      297|           664,033|         2,236|  2,329|
 |Swansea University                                                   |      159|           407,768|         2,565|  2,624|
@@ -825,7 +828,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Gabriele Pendorf, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young
 
 ## Contact
 
