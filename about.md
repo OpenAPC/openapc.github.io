@@ -325,13 +325,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  159 073 815 € for  81 707 articles were paid by the participating unviversities. Average  fee is 1 946.9 € and the median 1 752 €.
+In total,  159 254 052 € for  81 857 articles were paid by the participating unviversities. Average  fee is 1 945.5 € and the median 1 751 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 47 699 articles in open access journals which charge publication fees. Total expenditure amounts to  74 713 420 €. Average  fee is 1 566.4 € and the median 1 481 €.
+At the moment, the dataset releases information on 47 848 articles in open access journals which charge publication fees. Total expenditure amounts to  74 891 112 €. Average  fee is 1 565.2 € and the median 1 481 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -414,7 +414,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                                             |      130|           145,386|         1,118|  1,105|
 |Keele University                                                     |       19|            31,431|         1,654|  1,644|
 |King's College London                                                |      410|           833,628|         2,033|  1,628|
-|KIT                                                                  |      834|         1,136,832|         1,363|  1,386|
+|KIT                                                                  |      833|         1,136,712|         1,365|  1,386|
 |Konstanz U                                                           |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                                    |      180|           215,262|         1,196|  1,131|
 |Lancaster University                                                 |       64|           101,253|         1,582|  1,499|
@@ -477,7 +477,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Stuttgart U                                                          |      272|           342,537|         1,259|  1,305|
 |Swansea University                                                   |       57|            99,199|         1,740|  1,419|
 |Swedish University of Agricultural Sciences                          |      450|           595,056|         1,322|  1,328|
-|Swiss National Science Foundation (SNSF)                             |      638|         1,276,657|         2,001|  1,592|
+|Swiss National Science Foundation (SNSF)                             |      644|         1,290,397|         2,004|  1,605|
 |TH Wildau                                                            |        4|             3,894|           974|  1,057|
 |The Open University                                                  |        8|            16,623|         2,078|  1,856|
 |TIB                                                                  |        1|             1,619|         1,619|  1,619|
@@ -488,7 +488,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Chemnitz                                                          |       98|           113,365|         1,157|  1,249|
 |TU Clausthal                                                         |       12|            11,023|           919|    918|
 |TU Darmstadt                                                         |       35|            48,777|         1,394|  1,497|
-|TU Dresden                                                           |      275|           390,484|         1,420|  1,500|
+|TU Dresden                                                           |      419|           554,557|         1,324|  1,468|
 |TU Ilmenau                                                           |       55|            66,566|         1,210|  1,285|
 |TU Muenchen                                                          |    1,224|         1,663,430|         1,359|  1,479|
 |TU Wien                                                              |       45|            61,645|         1,370|  1,323|
@@ -585,7 +585,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 008 hybrid open access articles. Total expenditure amounts to  84 360 395 €. Average  fee is 2 480.6 € and the median 2 436 €.
+The dataset covers 34 009 hybrid open access articles. Total expenditure amounts to  84 362 939 €. Average  fee is 2 480.6 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -676,9 +676,9 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Stockholm University                                                 |      297|           664,033|         2,236|  2,329|
 |Swansea University                                                   |      159|           407,768|         2,565|  2,624|
 |Swedish University of Agricultural Sciences                          |      220|           520,879|         2,368|  2,330|
-|Swiss National Science Foundation (SNSF)                             |       71|           144,021|         2,028|  2,146|
+|Swiss National Science Foundation (SNSF)                             |       73|           148,000|         2,027|  2,126|
 |The Open University                                                  |       27|            66,541|         2,464|  2,852|
-|TiHo Hannover                                                        |       14|            30,735|         2,195|  2,019|
+|TiHo Hannover                                                        |       13|            29,300|         2,254|  2,103|
 |TU Chemnitz                                                          |        1|               100|           100|    100|
 |TU Clausthal                                                         |        3|             7,082|         2,361|  2,500|
 |TU Muenchen                                                          |       15|            18,136|         1,209|  1,209|
