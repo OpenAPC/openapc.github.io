@@ -329,13 +329,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  162 249 219 € for  83 493 articles were paid by the participating unviversities. Average  fee is 1 943.3 € and the median 1 747 €.
+In total,  162 327 350 € for  83 540 articles were paid by the participating unviversities. Average  fee is 1 943.1 € and the median 1 747 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 48 856 articles in open access journals which charge publication fees. Total expenditure amounts to  76 384 502 €. Average  fee is 1 563.5 € and the median 1 478 €.
+At the moment, the dataset releases information on 48 903 articles in open access journals which charge publication fees. Total expenditure amounts to  76 462 633 €. Average  fee is 1 563.6 € and the median 1 479 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -411,7 +411,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |IPN - Leibniz Kiel                                                   |       13|            14,201|         1,092|  1,092|
 |IRSTEA                                                               |       21|            27,516|         1,310|  1,495|
 |IST Austria                                                          |       28|            72,505|         2,589|  1,989|
-|JGU Mainz                                                            |      489|           689,314|         1,410|  1,434|
+|JGU Mainz                                                            |      536|           767,445|         1,432|  1,479|
 |Jyväskylä U                                                          |       26|            42,283|         1,626|  1,569|
 |Karlstad University                                                  |       51|            57,319|         1,124|  1,157|
 |Karolinska Institutet                                                |        8|             5,073|           634|    755|
