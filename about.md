@@ -331,13 +331,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  162 347 968 € for  83 552 articles were paid by the participating unviversities. Average  fee is 1 943.1 € and the median 1 747 €.
+In total,  163 067 833 € for  84 058 articles were paid by the participating unviversities. Average  fee is 1 939.9 € and the median 1 745 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 48 915 articles in open access journals which charge publication fees. Total expenditure amounts to  76 483 251 €. Average  fee is 1 563.6 € and the median 1 479 €.
+At the moment, the dataset releases information on 49 421 articles in open access journals which charge publication fees. Total expenditure amounts to  77 203 115 €. Average  fee is 1 562.2 € and the median 1 480 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -374,7 +374,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Frankfurt U                                                          |      175|           302,577|         1,729|  1,630|
 |Fraunhofer-Gesellschaft Publishing Fund                              |       94|           123,235|         1,311|  1,323|
 |Free University of Bozen-Bolzano                                     |       11|             8,709|           792|    561|
-|Freiburg U                                                           |      623|           871,696|         1,399|  1,449|
+|Freiburg U                                                           |      949|         1,380,528|         1,455|  1,525|
 |Fridtjof Nansen Institute                                            |        4|             5,062|         1,265|  1,303|
 |FU Berlin                                                            |      411|           606,276|         1,475|  1,571|
 |FWF - Austrian Science Fund                                          |    1,798|         3,061,310|         1,703|  1,566|
@@ -461,7 +461,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Norwegian School of Sport Sciences                                   |        2|             1,568|           784|    784|
 |Norwegian University of Life Sciences                                |       53|            72,307|         1,364|  1,449|
 |Norwegian University of Science and Technology                       |      115|           162,119|         1,410|  1,420|
-|Oldenburg U                                                          |      267|           348,699|         1,306|  1,396|
+|Oldenburg U                                                          |      323|           435,178|         1,347|  1,416|
 |OpenAIRE                                                             |      536|           776,905|         1,449|  1,411|
 |Örebro University                                                    |       93|           128,190|         1,378|  1,350|
 |Oslo and Akershus university college                                 |       36|            45,728|         1,270|  1,252|
@@ -497,7 +497,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Chemnitz                                                          |       98|           113,365|         1,157|  1,249|
 |TU Clausthal                                                         |       12|            11,023|           919|    918|
 |TU Darmstadt                                                         |       35|            48,777|         1,394|  1,497|
-|TU Dresden                                                           |      424|           559,042|         1,318|  1,451|
+|TU Dresden                                                           |      548|           683,594|         1,247|  1,386|
 |TU Ilmenau                                                           |       55|            66,566|         1,210|  1,285|
 |TU Muenchen                                                          |    1,224|         1,663,430|         1,359|  1,479|
 |TU Wien                                                              |       45|            61,645|         1,370|  1,323|
