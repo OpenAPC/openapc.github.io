@@ -177,6 +177,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Institutions from Finland:
 
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
+- [University of Turku](https://utuguides.fi/openaccess)
 
 ## Institutions from France
 
@@ -331,13 +332,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  163 067 833 € for  84 058 articles were paid by the participating unviversities. Average  fee is 1 939.9 € and the median 1 745 €.
+In total,  163 570 353 € for  84 317 articles were paid by the participating unviversities. Average  fee is 1 939.9 € and the median 1 745 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 49 421 articles in open access journals which charge publication fees. Total expenditure amounts to  77 203 115 €. Average  fee is 1 562.2 € and the median 1 480 €.
+At the moment, the dataset releases information on 49 571 articles in open access journals which charge publication fees. Total expenditure amounts to  77 460 012 €. Average  fee is 1 562.6 € and the median 1 481 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -497,7 +498,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Chemnitz                                                          |       98|           113,365|         1,157|  1,249|
 |TU Clausthal                                                         |       12|            11,023|           919|    918|
 |TU Darmstadt                                                         |       35|            48,777|         1,394|  1,497|
-|TU Dresden                                                           |      548|           683,594|         1,247|  1,386|
+|TU Dresden                                                           |      548|           684,661|         1,249|  1,386|
 |TU Ilmenau                                                           |       55|            66,566|         1,210|  1,285|
 |TU Muenchen                                                          |    1,224|         1,663,430|         1,359|  1,479|
 |TU Wien                                                              |       45|            61,645|         1,370|  1,323|
@@ -579,6 +580,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Sussex                                                 |       96|           199,394|         2,077|  1,637|
 |University of the West of England                                    |        5|             4,902|           980|    926|
 |University of Tromsø - The Arctic University of Norway               |      179|           252,462|         1,410|  1,523|
+|University of Turku                                                  |      150|           255,830|         1,706|  1,615|
 |University of Ulster                                                 |        4|             4,012|         1,003|    919|
 |University of Warwick                                                |       74|           146,885|         1,985|  1,639|
 |University of York                                                   |      183|           322,592|         1,763|  1,559|
@@ -596,7 +598,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 637 hybrid open access articles. Total expenditure amounts to  85 864 717 €. Average  fee is 2 479 € and the median 2 436 €.
+The dataset covers 34 746 hybrid open access articles. Total expenditure amounts to  86 110 341 €. Average  fee is 2 478.3 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -757,6 +759,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Surrey                                                 |       62|           159,829|         2,578|  2,463|
 |University of Sussex                                                 |      169|           403,926|         2,390|  2,339|
 |University of the West of England                                    |       17|            45,132|         2,655|  2,744|
+|University of Turku                                                  |      109|           245,623|         2,253|  2,160|
 |University of Ulster                                                 |       13|            27,113|         2,086|  2,236|
 |University of Warwick                                                |      267|           679,743|         2,546|  2,574|
 |University of York                                                   |      325|           774,034|         2,382|  2,327|
@@ -840,7 +843,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
 
 ## Contact
 
