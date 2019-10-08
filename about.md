@@ -332,13 +332,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  163 720 197 € for  84 425 articles were paid by the participating unviversities. Average  fee is 1 939.2 € and the median 1 743 €.
+In total,  163 745 791 € for  84 440 articles were paid by the participating unviversities. Average  fee is 1 939.2 € and the median 1 743 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 49 668 articles in open access journals which charge publication fees. Total expenditure amounts to  77 579 499 €. Average  fee is 1 562 € and the median 1 480 €.
+At the moment, the dataset releases information on 49 682 articles in open access journals which charge publication fees. Total expenditure amounts to  77 602 363 €. Average  fee is 1 562 € and the median 1 480 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -517,7 +517,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Bourgogne                                              |       29|            46,606|         1,607|  1,534|
 |Université de Caen Normandie                                         |       32|            41,815|         1,307|  1,350|
 |Université de Franche-Comté                                          |       18|            21,696|         1,205|  1,184|
-|Université de La Réunion                                             |        9|             9,534|         1,059|    995|
+|Université de La Réunion                                             |       23|            32,398|         1,409|  1,389|
 |Université de La Rochelle                                            |        2|             3,905|         1,952|  1,952|
 |Université de Lorraine                                               |      186|           221,305|         1,190|  1,183|
 |Université de Montpellier                                            |       22|            37,534|         1,706|  1,783|
@@ -598,7 +598,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 757 hybrid open access articles. Total expenditure amounts to  86 140 698 €. Average  fee is 2 478.4 € and the median 2 436 €.
+The dataset covers 34 758 hybrid open access articles. Total expenditure amounts to  86 143 428 €. Average  fee is 2 478.4 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -706,6 +706,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université de Bourgogne                                              |        1|             1,950|         1,950|  1,950|
 |Université de Caen Normandie                                         |        1|               750|           750|    750|
 |Université de Franche-Comté                                          |        1|               307|           307|    307|
+|Université de La Réunion                                             |        1|             2,730|         2,730|  2,730|
 |Université de Lorraine                                               |       14|            33,419|         2,387|  2,640|
 |Université de Montpellier                                            |        1|             3,583|         3,583|  3,583|
 |Université de Nantes                                                 |        2|             6,191|         3,096|  3,096|
