@@ -332,13 +332,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  163 570 353 € for  84 317 articles were paid by the participating unviversities. Average  fee is 1 939.9 € and the median 1 745 €.
+In total,  163 720 197 € for  84 425 articles were paid by the participating unviversities. Average  fee is 1 939.2 € and the median 1 743 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 49 571 articles in open access journals which charge publication fees. Total expenditure amounts to  77 460 012 €. Average  fee is 1 562.6 € and the median 1 481 €.
+At the moment, the dataset releases information on 49 668 articles in open access journals which charge publication fees. Total expenditure amounts to  77 579 499 €. Average  fee is 1 562 € and the median 1 480 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -475,7 +475,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Queen Mary, University of London                                     |       53|            89,135|         1,682|  1,250|
 |Queen's University Belfast                                           |      216|           350,202|         1,621|  1,454|
 |Regensburg U                                                         |      827|         1,263,410|         1,528|  1,522|
-|Rhode Island U                                                       |       14|            11,639|           831|    691|
+|Rhode Island U                                                       |       27|            27,835|         1,031|  1,068|
 |Rostock U                                                            |      140|           183,565|         1,311|  1,421|
 |Royal Holloway                                                       |       12|            20,914|         1,743|  1,512|
 |Salzburg U                                                           |       67|            94,918|         1,417|  1,398|
@@ -501,7 +501,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                                           |      548|           684,661|         1,249|  1,386|
 |TU Ilmenau                                                           |       55|            66,566|         1,210|  1,285|
 |TU Muenchen                                                          |    1,224|         1,663,430|         1,359|  1,479|
-|TU Wien                                                              |       45|            61,645|         1,370|  1,323|
+|TU Wien                                                              |       79|           106,006|         1,342|  1,333|
 |Tuebingen U                                                          |      789|         1,114,397|         1,412|  1,442|
 |UCL                                                                  |    2,476|         4,174,439|         1,686|  1,579|
 |UFZ                                                                  |      146|           188,467|         1,291|  1,269|
@@ -519,7 +519,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Université de Franche-Comté                                          |       18|            21,696|         1,205|  1,184|
 |Université de La Réunion                                             |        9|             9,534|         1,059|    995|
 |Université de La Rochelle                                            |        2|             3,905|         1,952|  1,952|
-|Université de Lorraine                                               |      135|           159,582|         1,182|  1,105|
+|Université de Lorraine                                               |      186|           221,305|         1,190|  1,183|
 |Université de Montpellier                                            |       22|            37,534|         1,706|  1,783|
 |Université de Nantes                                                 |       24|            36,474|         1,520|  1,495|
 |Université de Poitiers                                               |        7|             9,691|         1,384|  1,099|
@@ -547,7 +547,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Calgary                                                |      883|           993,318|         1,125|  1,145|
 |University of Cambridge                                              |      877|         1,943,729|         2,216|  1,832|
 |University of Chemistry and Technology, Prague                       |       61|            70,856|         1,162|  1,202|
-|University of Debrecen                                               |      100|           154,134|         1,541|  1,655|
+|University of Debrecen                                               |       99|           151,340|         1,529|  1,626|
 |University of Dundee                                                 |       39|            83,879|         2,151|  1,971|
 |University of Durham                                                 |       50|            95,365|         1,907|  1,719|
 |University of East Anglia                                            |       29|            47,521|         1,639|  1,535|
@@ -598,7 +598,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 746 hybrid open access articles. Total expenditure amounts to  86 110 341 €. Average  fee is 2 478.3 € and the median 2 436 €.
+The dataset covers 34 757 hybrid open access articles. Total expenditure amounts to  86 140 698 €. Average  fee is 2 478.4 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -706,7 +706,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Université de Bourgogne                                              |        1|             1,950|         1,950|  1,950|
 |Université de Caen Normandie                                         |        1|               750|           750|    750|
 |Université de Franche-Comté                                          |        1|               307|           307|    307|
-|Université de Lorraine                                               |        4|             5,856|         1,464|  1,121|
+|Université de Lorraine                                               |       14|            33,419|         2,387|  2,640|
 |Université de Montpellier                                            |        1|             3,583|         3,583|  3,583|
 |Université de Nantes                                                 |        2|             6,191|         3,096|  3,096|
 |Université de Poitiers                                               |        2|             3,836|         1,918|  1,918|
@@ -729,7 +729,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Calgary                                                |       46|            92,407|         2,009|  2,183|
 |University of Cambridge                                              |    2,192|         6,040,932|         2,756|  2,659|
 |University of Chemistry and Technology, Prague                       |        5|            10,001|         2,000|  2,200|
-|University of Debrecen                                               |       14|            19,938|         1,424|  1,138|
+|University of Debrecen                                               |       15|            22,732|         1,515|  1,147|
 |University of Dundee                                                 |      119|           301,349|         2,532|  2,485|
 |University of Durham                                                 |      272|           573,557|         2,109|  2,089|
 |University of East Anglia                                            |       68|           157,028|         2,309|  2,091|
