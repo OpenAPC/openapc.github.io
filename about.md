@@ -332,13 +332,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  163 745 791 € for  84 440 articles were paid by the participating unviversities. Average  fee is 1 939.2 € and the median 1 743 €.
+In total,  163 913 346 € for  84 594 articles were paid by the participating unviversities. Average  fee is 1 937.6 € and the median 1 741 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 49 682 articles in open access journals which charge publication fees. Total expenditure amounts to  77 602 363 €. Average  fee is 1 562 € and the median 1 480 €.
+At the moment, the dataset releases information on 49 833 articles in open access journals which charge publication fees. Total expenditure amounts to  77 766 429 €. Average  fee is 1 560.5 € and the median 1 478 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -396,7 +396,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Heidelberg U                                                         |      874|         1,316,640|         1,506|  1,658|
 |Heriot-Watt University                                               |       33|            79,717|         2,416|  2,248|
 |Hospices Civils de Lyon                                              |       10|            16,128|         1,613|  1,554|
-|HU Berlin                                                            |       23|            37,215|         1,618|  1,831|
+|HU Berlin                                                            |       24|            38,443|         1,602|  1,731|
 |HZDR                                                                 |      113|           158,572|         1,403|  1,285|
 |IFSTTAR                                                              |       11|            11,320|         1,029|    855|
 |Imperial College London                                              |    1,001|         1,917,696|         1,916|  1,624|
@@ -504,7 +504,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Wien                                                              |       79|           106,006|         1,342|  1,333|
 |Tuebingen U                                                          |      789|         1,114,397|         1,412|  1,442|
 |UCL                                                                  |    2,476|         4,174,439|         1,686|  1,579|
-|UFZ                                                                  |      146|           188,467|         1,291|  1,269|
+|UFZ                                                                  |      145|           187,249|         1,291|  1,270|
 |Ulm U                                                                |      314|           516,999|         1,646|  1,569|
 |Umeå University                                                      |       10|            10,604|         1,060|    755|
 |Uni Research                                                         |       19|            28,070|         1,477|  1,474|
@@ -588,7 +588,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Uppsala University                                                   |      615|           964,611|         1,568|  1,416|
 |Vestfold Hospital Trust                                              |        4|             6,134|         1,533|  1,532|
 |Vestre Viken Hospital Trust                                          |        4|             5,796|         1,449|  1,555|
-|Virginia Tech                                                        |      153|           165,423|         1,081|  1,216|
+|Virginia Tech                                                        |      304|           329,478|         1,084|  1,224|
 |Weierstrass Institute for Applied Analysis and Stochastics           |       NA|                NA|            NA|     NA|
 |Wellcome Trust                                                       |    1,402|         2,628,658|         1,875|  1,662|
 |Wuerzburg U                                                          |      813|         1,162,219|         1,430|  1,476|
@@ -598,7 +598,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 758 hybrid open access articles. Total expenditure amounts to  86 143 428 €. Average  fee is 2 478.4 € and the median 2 436 €.
+The dataset covers 34 761 hybrid open access articles. Total expenditure amounts to  86 146 917 €. Average  fee is 2 478.3 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -766,7 +766,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of York                                                   |      325|           774,034|         2,382|  2,327|
 |University West                                                      |        4|             8,395|         2,099|  2,022|
 |Uppsala University                                                   |      361|           925,100|         2,563|  2,521|
-|Virginia Tech                                                        |       14|            20,480|         1,463|  1,256|
+|Virginia Tech                                                        |       17|            23,968|         1,410|  1,271|
 |Weierstrass Institute for Applied Analysis and Stochastics           |        2|             4,870|         2,435|  2,435|
 |Wellcome Trust                                                       |    3,567|         9,337,593|         2,618|  2,586|
 
