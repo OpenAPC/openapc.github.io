@@ -332,13 +332,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  163 913 346 € for  84 594 articles were paid by the participating unviversities. Average  fee is 1 937.6 € and the median 1 741 €.
+In total,  164 364 555 € for  84 902 articles were paid by the participating unviversities. Average  fee is 1 935.9 € and the median 1 739 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 49 833 articles in open access journals which charge publication fees. Total expenditure amounts to  77 766 429 €. Average  fee is 1 560.5 € and the median 1 478 €.
+At the moment, the dataset releases information on 50 115 articles in open access journals which charge publication fees. Total expenditure amounts to  78 153 104 €. Average  fee is 1 559.5 € and the median 1 476 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -346,7 +346,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |                                                                     | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:--------------------------------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Aberystwyth University                                               |       42|            88,324|         2,103|  1,895|
-|Aix-Marseille Université                                             |      123|           181,635|         1,477|  1,305|
+|Aix-Marseille Université                                             |      406|           568,668|         1,401|  1,276|
 |Akershus University Hospital                                         |       11|            15,680|         1,425|  1,290|
 |Aston University                                                     |       36|            70,678|         1,963|  1,700|
 |Bamberg U                                                            |       58|            64,419|         1,111|  1,231|
@@ -362,7 +362,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Chalmers University of Technology                                    |        6|             5,817|           970|  1,012|
 |Charité - Universitätsmedizin Berlin                                 |      235|           386,319|         1,644|  1,656|
 |CIRAD                                                                |       42|            62,119|         1,479|  1,449|
-|CNRS                                                                 |    1,480|         2,368,250|         1,600|  1,365|
+|CNRS                                                                 |    1,479|         2,367,891|         1,601|  1,368|
 |Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       75|           135,506|         1,807|  1,538|
 |Cranfield University                                                 |       26|            40,286|         1,549|  1,370|
 |Dalarna University                                                   |       50|            70,423|         1,408|  1,493|
@@ -598,7 +598,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 34 761 hybrid open access articles. Total expenditure amounts to  86 146 917 €. Average  fee is 2 478.3 € and the median 2 436 €.
+The dataset covers 34 787 hybrid open access articles. Total expenditure amounts to  86 211 451 €. Average  fee is 2 478.3 € and the median 2 436 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -606,7 +606,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |                                                                     | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:--------------------------------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Aberystwyth University                                               |       26|            62,923|         2,420|  2,593|
-|Aix-Marseille Université                                             |       16|            39,152|         2,447|  2,446|
+|Aix-Marseille Université                                             |       42|           103,687|         2,469|  2,430|
 |Aston University                                                     |       97|           214,016|         2,206|  2,237|
 |Bangor University                                                    |       40|           108,131|         2,703|  2,706|
 |Bergen University College                                            |        1|               503|           503|    503|
