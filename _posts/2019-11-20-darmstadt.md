@@ -16,7 +16,7 @@ The [Technische Universität Darmstadt](https://www.tu-darmstadt.de) has updated
 
 The [University and State Library Darmstadt ](https://www.ulb.tu-darmstadt.de/service/start/index.en.jsp) (ULB) is in charge of the [University's Open Access Publishing Fund](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
-Contact Person is [Gerald Langhanke](mailto:oa-fonds@ulb.tu-darmstadt.de).
+Contact Person is [Nicole Rosenke](mailto:oa-fonds@ulb.tu-darmstadt.de).
 
 ## Cost Data
 
