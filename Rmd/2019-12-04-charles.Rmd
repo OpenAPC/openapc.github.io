@@ -31,7 +31,7 @@ We welcome [Charles University](https://cuni.cz/UKEN-1.html) as new contributing
 
 [Charles University Library](https://cuni.cz/UKEN-219.html) collected data on APCs paid for by faculties budgets at Charles University and has provided an initial data set to OpenAPC.
 
-Contact Person is [Tereza Simandlova](mailto: admin-oa@cuni.cz).
+Contact Person is [Tereza Simandlová](mailto: admin-oa@cuni.cz).
 
 ## Cost data
 
