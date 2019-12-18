@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
-title:      TH Wildau reports its 2018 APC expenditures
+title:      TH Wildau reports its 2019 APC expenditures
 date:       2019-12-18 11:00:00
 summary:    
 categories: [general, openAPC]
@@ -27,7 +27,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-The [Technische Hochschule Wildau](https://www.th-wildau.de/) has updated its APC expenditures.
+The [Technische Hochschule Wildau](https://www.th-wildau.de/) has updated its APC expenditures, the latest contribution provides data for the 2019 period.
 
 [Wildau University Library](https://en.th-wildau.de/university/central-facilities/university-library/) is in charge of the [University's Open Access Publishing Fund](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/), which is supported under the [DFG's Open Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access/).
 
