@@ -340,13 +340,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  193 605 980 € for  97 646 articles were paid by the participating unviversities. Average  fee is 1 982.7 € and the median 1 787 €.
+In total,  193 680 714 € for  97 689 articles were paid by the participating unviversities. Average  fee is 1 982.6 € and the median 1 786 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 55 958 articles in open access journals which charge publication fees. Total expenditure amounts to  89 365 642 €. Average  fee is 1 597 € and the median 1 503 €.
+At the moment, the dataset releases information on 56 001 articles in open access journals which charge publication fees. Total expenditure amounts to  89 440 376 €. Average  fee is 1 597.1 € and the median 1 503 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -486,7 +486,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Qatar National Library                                               |       30|            49,771|         1,659|  1,411|
 |Queen Mary, University of London                                     |      106|           204,509|         1,929|  1,594|
 |Queen's University Belfast                                           |      320|           504,471|         1,576|  1,377|
-|Regensburg U                                                         |      827|         1,263,410|         1,528|  1,522|
+|Regensburg U                                                         |      870|         1,338,144|         1,538|  1,525|
 |Rhode Island U                                                       |       27|            27,835|         1,031|  1,068|
 |Rostock U                                                            |      140|           183,565|         1,311|  1,421|
 |Royal Holloway                                                       |       12|            20,914|         1,743|  1,512|
