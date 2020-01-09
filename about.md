@@ -340,13 +340,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  193 680 714 € for  97 689 articles were paid by the participating unviversities. Average  fee is 1 982.6 € and the median 1 786 €.
+In total,  193 810 594 € for  97 772 articles were paid by the participating unviversities. Average  fee is 1 982.3 € and the median 1 786 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 56 001 articles in open access journals which charge publication fees. Total expenditure amounts to  89 440 376 €. Average  fee is 1 597.1 € and the median 1 503 €.
+At the moment, the dataset releases information on 56 084 articles in open access journals which charge publication fees. Total expenditure amounts to  89 570 255 €. Average  fee is 1 597.1 € and the median 1 503 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -363,7 +363,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bergen University College                                            |       13|            19,984|         1,537|  1,713|
 |Bern University of Applied Sciences                                  |       11|            16,386|         1,490|  1,364|
 |BI Norwegian Business School                                         |        4|             2,761|           690|    724|
-|Bielefeld U                                                          |      566|           755,208|         1,334|  1,386|
+|Bielefeld U                                                          |      649|           885,087|         1,364|  1,396|
 |Bochum U                                                             |      305|           459,765|         1,507|  1,576|
 |Bremen U                                                             |      390|           552,016|         1,415|  1,345|
 |Brunel University                                                    |      214|           293,529|         1,372|  1,341|
