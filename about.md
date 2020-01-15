@@ -170,6 +170,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - Malmö University
 - Örebro University
 - Swedish University of Agricultural Sciences
+- Södertörns University
 - Stockholm University
 - Umeå University
 - Uppsala University
@@ -177,6 +178,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Institutions from Finland:
 
+- [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
 - [Tampere University](https://libguides.tuni.fi/openaccess)
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
@@ -340,13 +342,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  193 810 594 € for  97 772 articles were paid by the participating unviversities. Average  fee is 1 982.3 € and the median 1 786 €.
+In total,  194 993 360 € for  98 478 articles were paid by the participating unviversities. Average  fee is 1 980.1 € and the median 1 784 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 56 084 articles in open access journals which charge publication fees. Total expenditure amounts to  89 570 255 €. Average  fee is 1 597.1 € and the median 1 503 €.
+At the moment, the dataset releases information on 56 663 articles in open access journals which charge publication fees. Total expenditure amounts to  90 445 092 €. Average  fee is 1 596.2 € and the median 1 503 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -365,7 +367,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |BI Norwegian Business School                                         |        4|             2,761|           690|    724|
 |Bielefeld U                                                          |      649|           885,087|         1,364|  1,396|
 |Bochum U                                                             |      305|           459,765|         1,507|  1,576|
-|Bremen U                                                             |      390|           552,016|         1,415|  1,345|
+|Bremen U                                                             |      634|           946,703|         1,493|  1,428|
 |Brunel University                                                    |      214|           293,529|         1,372|  1,341|
 |Cardiff University                                                   |      507|           929,040|         1,832|  1,643|
 |Chalmers University of Technology                                    |        6|             5,817|           970|  1,012|
@@ -435,12 +437,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                                           |      345|           524,743|         1,521|  1,506|
 |KTH Royal Institute of Technology                                    |      210|           255,437|         1,216|  1,181|
 |Lancaster University                                                 |       65|           102,557|         1,578|  1,492|
+|Laurea University of Applied Sciences                                |       NA|                NA|            NA|     NA|
 |Leeds Beckett University                                             |        8|            12,927|         1,616|  1,461|
 |Leibniz-Fonds                                                        |      271|           435,042|         1,605|  1,572|
 |Leibniz-IGB                                                          |       20|            27,570|         1,379|  1,096|
 |Leipzig U                                                            |      566|           834,928|         1,475|  1,568|
-|Linköping University                                                 |      239|           384,347|         1,608|  1,413|
-|Linnaeus University                                                  |       20|            28,354|         1,418|  1,335|
+|Linköping University                                                 |      319|           504,136|         1,580|  1,423|
+|Linnaeus University                                                  |       51|            77,058|         1,511|  1,424|
 |Liverpool John Moores University                                     |        2|             1,815|           908|    908|
 |Liverpool School of Tropical Medicine                                |       52|            88,727|         1,706|  1,636|
 |London South Bank University                                         |       18|            24,051|         1,336|  1,470|
@@ -473,7 +476,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Norwegian School of Sport Sciences                                   |        2|             1,568|           784|    784|
 |Norwegian University of Life Sciences                                |       53|            72,307|         1,364|  1,449|
 |Norwegian University of Science and Technology                       |      115|           162,119|         1,410|  1,420|
-|Oldenburg U                                                          |      323|           435,178|         1,347|  1,416|
+|Oldenburg U                                                          |      362|           496,534|         1,372|  1,440|
 |OpenAIRE                                                             |      536|           776,905|         1,449|  1,411|
 |Örebro University                                                    |       93|           128,190|         1,378|  1,350|
 |Oslo and Akershus university college                                 |       36|            45,728|         1,270|  1,252|
@@ -493,14 +496,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Salzburg U                                                           |       67|            94,918|         1,417|  1,398|
 |SINTEF                                                               |        3|             3,633|         1,211|  1,176|
 |SOAS                                                                 |        1|             1,197|         1,197|  1,197|
+|Södertörns University                                                |        7|             6,111|           873|    900|
 |Sørlandet Hospital Trust                                             |        5|             8,453|         1,691|  1,667|
 |St George's, University of London                                    |       19|            36,284|         1,910|  1,862|
-|Stockholm University                                                 |      469|           715,351|         1,525|  1,350|
+|Stockholm University                                                 |      468|           713,959|         1,526|  1,350|
 |Stuttgart U                                                          |      272|           342,537|         1,259|  1,305|
 |Swansea University                                                   |       73|           125,868|         1,724|  1,494|
-|Swedish School of Sport and Health Sciences                          |        7|            11,776|         1,682|  1,364|
-|Swedish University of Agricultural Sciences                          |      450|           595,056|         1,322|  1,328|
-|Swiss National Science Foundation (SNSF)                             |      644|         1,290,397|         2,004|  1,605|
+|Swedish School of Sport and Health Sciences                          |        8|            13,276|         1,660|  1,422|
+|Swedish University of Agricultural Sciences                          |      590|           791,488|         1,342|  1,338|
+|Swiss National Science Foundation (SNSF)                             |      643|         1,288,583|         2,004|  1,603|
 |Tampere University                                                   |       56|            79,937|         1,427|  1,445|
 |TH Wildau                                                            |       12|            14,275|         1,190|  1,288|
 |The Open University                                                  |        8|            16,623|         2,078|  1,856|
@@ -557,7 +561,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Belgrade                                               |       34|            30,328|           892|    858|
 |University of Bergen                                                 |      156|           242,308|         1,553|  1,549|
 |University of Birmingham                                             |      944|         1,654,675|         1,753|  1,594|
-|University of Borås                                                  |       NA|                NA|            NA|     NA|
+|University of Borås                                                  |       14|            18,377|         1,313|  1,310|
 |University of Bristol                                                |      197|           338,408|         1,718|  1,601|
 |University of Calgary                                                |      883|           993,318|         1,125|  1,145|
 |University of Cambridge                                              |    1,173|         2,660,767|         2,268|  1,853|
@@ -600,8 +604,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |University of Ulster                                                 |        4|             4,012|         1,003|    919|
 |University of Warwick                                                |       74|           146,885|         1,985|  1,639|
 |University of York                                                   |      259|           469,684|         1,813|  1,588|
-|University West                                                      |        6|             4,868|           811|    729|
-|Uppsala University                                                   |      615|           964,611|         1,568|  1,416|
+|University West                                                      |       30|            35,686|         1,190|  1,136|
+|Uppsala University                                                   |      616|           964,880|         1,566|  1,415|
 |Vestfold Hospital Trust                                              |        4|             6,134|         1,533|  1,532|
 |Vestre Viken Hospital Trust                                          |        4|             5,796|         1,449|  1,555|
 |Virginia Tech                                                        |      304|           329,478|         1,084|  1,224|
@@ -614,7 +618,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 41 688 hybrid open access articles. Total expenditure amounts to  104 240 338 €. Average  fee is 2 500.5 € and the median 2 454 €.
+The dataset covers 41 815 hybrid open access articles. Total expenditure amounts to  104 548 268 €. Average  fee is 2 500.3 € and the median 2 454 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -670,7 +674,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |IST Austria                                                          |       12|            33,408|         2,784|  2,871|
 |JGU Mainz                                                            |        1|             1,792|         1,792|  1,792|
 |Jyväskylä U                                                          |       31|            32,655|         1,053|    860|
-|Karlstad University                                                  |       42|            73,837|         1,758|  1,733|
+|Karlstad University                                                  |       41|            73,663|         1,797|  1,738|
 |Karolinska Institutet                                                |       24|            37,567|         1,565|  1,774|
 |Keele University                                                     |       25|            65,045|         2,602|  2,644|
 |King's College London                                                |    1,233|         3,354,770|         2,721|  2,648|
@@ -678,10 +682,11 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Konstanz U                                                           |        3|             5,556|         1,852|  1,950|
 |KTH Royal Institute of Technology                                    |      171|           320,662|         1,875|  1,848|
 |Lancaster University                                                 |      188|           386,186|         2,054|  1,998|
+|Laurea University of Applied Sciences                                |        3|             3,430|         1,143|    810|
 |Leeds Beckett University                                             |        2|             4,288|         2,144|  2,144|
 |Leibniz-IGB                                                          |        7|            14,513|         2,073|  2,200|
-|Linköping University                                                 |       69|           145,038|         2,102|  2,132|
-|Linnaeus University                                                  |       19|            42,280|         2,225|  2,105|
+|Linköping University                                                 |       95|           201,723|         2,123|  2,150|
+|Linnaeus University                                                  |       28|            58,518|         2,090|  2,099|
 |Liverpool John Moores University                                     |        2|             6,793|         3,396|  3,396|
 |Liverpool School of Tropical Medicine                                |       33|            91,829|         2,783|  2,945|
 |London South Bank University                                         |        1|             2,459|         2,459|  2,459|
@@ -707,11 +712,12 @@ The following institutions have contributed its expenditures for hybrid open acc
 |Royal Holloway                                                       |       43|           101,773|         2,367|  2,173|
 |Salzburg U                                                           |        1|             2,396|         2,396|  2,396|
 |SOAS                                                                 |       11|            15,154|         1,378|    638|
+|Södertörns University                                                |        7|            18,789|         2,684|  2,476|
 |St George's, University of London                                    |       23|            67,276|         2,925|  2,756|
 |Stockholm University                                                 |      431|           970,710|         2,252|  2,275|
 |Swansea University                                                   |      202|           532,477|         2,636|  2,634|
 |Swedish School of Sport and Health Sciences                          |        3|             7,110|         2,370|  2,500|
-|Swedish University of Agricultural Sciences                          |      220|           520,879|         2,368|  2,330|
+|Swedish University of Agricultural Sciences                          |      288|           700,640|         2,433|  2,480|
 |Swiss National Science Foundation (SNSF)                             |       73|           148,000|         2,027|  2,126|
 |Tampere University                                                   |       30|            61,063|         2,035|  2,262|
 |The Open University                                                  |       27|            66,541|         2,464|  2,852|
@@ -747,7 +753,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Aberdeen                                               |       81|           210,109|         2,594|  2,626|
 |University of Bath                                                   |      330|           777,839|         2,357|  2,200|
 |University of Birmingham                                             |    1,034|         2,634,038|         2,547|  2,531|
-|University of Borås                                                  |        1|             1,950|         1,950|  1,950|
+|University of Borås                                                  |        4|             8,003|         2,001|  2,225|
 |University of Bristol                                                |      558|         1,348,747|         2,417|  2,275|
 |University of Calgary                                                |       46|            92,407|         2,009|  2,183|
 |University of Cambridge                                              |    2,637|         7,354,408|         2,789|  2,671|
@@ -787,7 +793,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |University of Ulster                                                 |       13|            27,113|         2,086|  2,236|
 |University of Warwick                                                |      267|           679,743|         2,546|  2,574|
 |University of York                                                   |      462|         1,107,714|         2,398|  2,341|
-|University West                                                      |        4|             8,395|         2,099|  2,022|
+|University West                                                      |       16|            35,544|         2,221|  2,383|
 |Uppsala University                                                   |      361|           925,100|         2,563|  2,521|
 |Virginia Tech                                                        |       17|            23,968|         1,410|  1,271|
 |Weierstrass Institute for Applied Analysis and Stochastics           |        2|             4,870|         2,435|  2,435|
@@ -867,7 +873,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
 
 ## Contact
 
