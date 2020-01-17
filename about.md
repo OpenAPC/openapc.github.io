@@ -178,6 +178,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Institutions from Finland:
 
+- [Hanken School of Economics](https://www.hanken.fi/en)
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
 - [Tampere University](https://libguides.tuni.fi/openaccess)
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
@@ -342,13 +343,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  194 993 360 € for  98 478 articles were paid by the participating unviversities. Average  fee is 1 980.1 € and the median 1 784 €.
+In total,  194 999 140 € for  98 484 articles were paid by the participating unviversities. Average  fee is 1 980 € and the median 1 784 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 56 663 articles in open access journals which charge publication fees. Total expenditure amounts to  90 445 092 €. Average  fee is 1 596.2 € and the median 1 503 €.
+At the moment, the dataset releases information on 56 664 articles in open access journals which charge publication fees. Total expenditure amounts to  90 446 649 €. Average  fee is 1 596.2 € and the median 1 503 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -402,6 +403,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Goldsmiths                                                           |       13|            21,491|         1,653|  1,519|
 |Greifswald U                                                         |       15|            21,880|         1,459|  1,588|
 |Hamburg TUHH                                                         |       66|            93,538|         1,417|  1,498|
+|Hanken School of Economics                                           |        1|             1,557|         1,557|  1,557|
 |Hannover U                                                           |      214|           294,035|         1,374|  1,459|
 |Harstad University College                                           |        2|             2,024|         1,012|  1,012|
 |Harvard U                                                            |       94|            82,722|           880|    796|
@@ -618,7 +620,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 41 815 hybrid open access articles. Total expenditure amounts to  104 548 268 €. Average  fee is 2 500.3 € and the median 2 454 €.
+The dataset covers 41 820 hybrid open access articles. Total expenditure amounts to  104 552 491 €. Average  fee is 2 500.1 € and the median 2 454 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -656,6 +658,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |GIGA                                                                 |       21|            49,204|         2,343|  2,463|
 |Glasgow Caledonian University                                        |        4|            13,215|         3,304|  3,382|
 |Goldsmiths                                                           |        9|            22,312|         2,479|  2,281|
+|Hanken School of Economics                                           |        5|             4,223|           845|    494|
 |Hannover U                                                           |        4|             5,824|         1,456|  1,398|
 |Heriot-Watt University                                               |       62|           147,648|         2,381|  2,394|
 |Hospices Civils de Lyon                                              |        5|            13,159|         2,632|  2,640|
@@ -873,7 +876,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 
