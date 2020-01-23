@@ -55,6 +55,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/open-access-publication-fund/)
 - [University of Mannheim](https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/)
 - [University of Oldenburg](https://uol.de/en/bis/teachingresearchingpublishing/open-access/open-access-publication-fund/)
+- [University of Passau](https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds-der-ub-passau/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Rostock](https://www.ub.uni-rostock.de/en/support-for-researchers/open-access/open-access-publizieren/)
@@ -343,13 +344,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  194 999 140 € for  98 484 articles were paid by the participating unviversities. Average  fee is 1 980 € and the median 1 784 €.
+In total,  195 152 601 € for  98 575 articles were paid by the participating unviversities. Average  fee is 1 979.7 € and the median 1 783 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 56 664 articles in open access journals which charge publication fees. Total expenditure amounts to  90 446 649 €. Average  fee is 1 596.2 € and the median 1 503 €.
+At the moment, the dataset releases information on 56 738 articles in open access journals which charge publication fees. Total expenditure amounts to  90 563 440 €. Average  fee is 1 596.2 € and the median 1 503 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -395,7 +396,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FZJ - ZB                                                             |      569|           794,874|         1,397|  1,302|
 |GenØk - Centre for Biosafety                                         |        5|             5,295|         1,059|  1,109|
 |GEOMAR                                                               |      151|           269,463|         1,785|  1,490|
-|GFZ-Potsdam                                                          |      225|           306,753|         1,363|  1,257|
+|GFZ-Potsdam                                                          |      274|           394,666|         1,440|  1,348|
 |Giessen U                                                            |      655|           990,314|         1,512|  1,503|
 |GIGA                                                                 |       NA|                NA|            NA|     NA|
 |Glasgow Caledonian University                                        |        3|             4,732|         1,577|  1,867|
@@ -485,6 +486,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Oslo University Hospital                                             |      111|           149,777|         1,349|  1,392|
 |Osnabrück U                                                          |       95|           138,141|         1,454|  1,553|
 |Oxford Brookes University                                            |        7|            12,440|         1,777|  1,960|
+|Passau U                                                             |        6|             6,816|         1,136|  1,122|
 |PIK-Potsdam                                                          |       48|            80,429|         1,676|  1,539|
 |Plymouth University                                                  |       37|            60,367|         1,632|  1,505|
 |Potsdam U                                                            |      173|           253,313|         1,464|  1,531|
@@ -516,7 +518,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Berlin                                                            |       90|           118,840|         1,320|  1,382|
 |TU Braunschweig                                                      |       97|           116,277|         1,199|  1,232|
 |TU Chemnitz                                                          |       98|           113,365|         1,157|  1,249|
-|TU Clausthal                                                         |       12|            11,023|           919|    918|
+|TU Clausthal                                                         |       31|            33,085|         1,067|  1,044|
 |TU Darmstadt                                                         |       75|            92,365|         1,232|  1,307|
 |TU Dresden                                                           |      548|           684,661|         1,249|  1,386|
 |TU Ilmenau                                                           |       55|            66,566|         1,210|  1,285|
@@ -620,7 +622,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 41 820 hybrid open access articles. Total expenditure amounts to  104 552 491 €. Average  fee is 2 500.1 € and the median 2 454 €.
+The dataset covers 41 837 hybrid open access articles. Total expenditure amounts to  104 589 160 €. Average  fee is 2 499.9 € and the median 2 454 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -654,7 +656,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |FZJ - ZB                                                             |      127|           261,027|         2,055|  2,000|
 |GenØk - Centre for Biosafety                                         |        2|             3,650|         1,825|  1,825|
 |GEOMAR                                                               |       56|           134,700|         2,405|  2,480|
-|GFZ-Potsdam                                                          |       18|            44,680|         2,482|  2,618|
+|GFZ-Potsdam                                                          |       28|            71,355|         2,548|  2,633|
 |GIGA                                                                 |       21|            49,204|         2,343|  2,463|
 |Glasgow Caledonian University                                        |        4|            13,215|         3,304|  3,382|
 |Goldsmiths                                                           |        9|            22,312|         2,479|  2,281|
@@ -726,7 +728,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |The Open University                                                  |       27|            66,541|         2,464|  2,852|
 |TiHo Hannover                                                        |       13|            29,300|         2,254|  2,103|
 |TU Chemnitz                                                          |        1|               100|           100|    100|
-|TU Clausthal                                                         |        3|             7,082|         2,361|  2,500|
+|TU Clausthal                                                         |       10|            17,076|         1,708|  1,565|
 |TU Muenchen                                                          |       15|            18,136|         1,209|  1,209|
 |UCL                                                                  |    5,175|        11,369,264|         2,197|  2,100|
 |Ulm U                                                                |       18|            37,646|         2,091|  2,319|
@@ -876,7 +878,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 
