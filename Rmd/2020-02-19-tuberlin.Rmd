@@ -55,7 +55,7 @@ my.apc_new <- my.apc_new[my.apc_new$institution == "TU Berlin",]
 my.apc_new <- droplevels(my.apc_new)
 ```
 
-The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€.
+The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles (86 articles funded in 2019, 2 articles funded in 2018). Total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€.
 
 The following table shows the payments the TU Berlin has made to publishers in 2019.
 
