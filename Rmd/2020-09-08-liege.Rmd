@@ -31,7 +31,7 @@ We welcome the [University of Liège](https://www.uliege.be/cms/c_8699436/en/uli
 
 The [Liège University Library](https://explore.lib.uliege.be/discovery/search?vid=32ULG_INST:ULIEGE&lang=en) has collected data on institutional APC expenditures and provided an initial data set to OpenAPC.
 
-Contact Person is [Myriam Bastin](mailto:Myriam.Bastin@uliege.be).
+Contact Person is [Paul Thirion](mailto:Paul.Thirion@uliege.be).
 
 ## Cost data
 
