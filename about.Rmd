@@ -29,7 +29,7 @@ The aim of this repository is:
 
 ## Participating German Universities
 
-So far, the following German universities have agreed to share information on paid author processing charges (APC):
+So far, the following German universities have agreed to share information on paid article processing charges (APC):
 
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
