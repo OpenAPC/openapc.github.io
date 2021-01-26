@@ -1,0 +1,104 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      TH Wildau reports its 2020 APC expenditures
+date:       2021-01-26 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+The [Technische Hochschule Wildau](https://www.th-wildau.de/) has updated its APC expenditures, the latest contribution provides data for the 2020 period.
+
+[Wildau University Library](https://en.th-wildau.de/university/central-facilities/university-library/) is in charge of the [University's Open Access Publishing Fund](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/), which is supported under the [DFG's Open Access Publishing Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/index.html#4).
+
+Contact Person is [Friederike Borchert](mailto:fborchert@th-wildau.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "TH Wildau",]
+my.apc <- droplevels(my.apc)
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc_new <- my.apc[my.apc$period == 2020,]
+my.apc_new <- droplevels(my.apc_new)
+```
+
+The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€.
+
+The following table shows the payments Wildau University Library has made to publishers in 2020 (including taxes and discounts).
+
+```{r}
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for Wildau now looks as follows:
+
+###  Average costs per year (in EURO)
+
+```{r box_wildau_2021_01_26_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+
+###  Average costs per publisher (in EURO)
+
+```{r box_wildau_2021_01_26_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
