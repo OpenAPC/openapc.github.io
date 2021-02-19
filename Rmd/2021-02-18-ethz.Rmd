@@ -29,7 +29,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 We welcome the [ETH Zurich](https://ethz.ch/en.html) as new contributing institution!
 
-The [ETh Library](https://library.ethz.ch/en/) provides [funding for Open Access publishing](https://documentation.library.ethz.ch/display/OA/APC+Funding) and has provided an initial data set on funded articles to OpenAPC.
+The [ETH Library](https://library.ethz.ch/en/) provides [funding for Open Access publishing](https://documentation.library.ethz.ch/display/OA/APC+Funding) and has provided an initial data set on funded articles to OpenAPC.
 
 Contact Person is [Dr. Rainer Rees-Mertins](mailto:rainer.rees@library.ethz.ch).
 
