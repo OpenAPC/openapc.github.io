@@ -1,0 +1,110 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Freie Universität Berlin reports additional 2020 BPC expenditures
+date:       2021-02-23 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+The [Freie Universität Berlin](http://www.fu-berlin.de/en) has provided more BPC expenditures for the 2020 period.
+
+The data originates from a [dedicated fund](https://www.fu-berlin.de/en/sites/open_access/finanzierung/monogr-sammelbaende/index.html) operated by [University Library of Freie Universität Berlin](https://www.ub.fu-berlin.de/en/), which supports the publication of open-access monographs and edited volumes.
+
+Contact person is [Birgit Schlegel](mailto:birgit.schlegel@fu-berlin.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download BPC spreadsheet from github which requires to Curl installed
+
+download_bpc <- function(path = NULL, dir = "tmp", file = "bpc.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/bpc.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.bpc <- download_bpc()
+my.bpc <- my.bpc[my.bpc$institution == "FU Berlin",]
+my.bpc <- droplevels(my.bpc)
+my.bpc_new <- download_bpc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/fuberlin/BPC_FU_Bielefeld_2020_enriched.csv"))
+my.bpc_new <- my.bpc_new[my.bpc_new$institution == "FU Berlin",]
+my.bpc_new <- droplevels(my.bpc_new)
+```
+
+The new data set covers publication fees for `r format(nrow(my.bpc_new), big.mark =",")` books. Total expenditure amounts to `r sum(my.bpc_new$euro)`€ and the average fee is `r sum(my.bpc_new$euro)/nrow(my.bpc_new)`€.
+
+The following tables provides an overview of the reported BPC payments.
+
+```{r}
+d_frame = data.frame(table(my.bpc_new$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.bpc_new$publisher <- factor(my.bpc_new$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.bpc_new$euro, my.bpc_new$publisher, length),
+             tapply(my.bpc_new$euro, my.bpc_new$publisher, sum),
+             tapply(my.bpc_new$euro, my.bpc_new$publisher, mean))
+
+colnames(df.summary) <- c("Books", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall BPC data for the FU Berlin now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_fuberlin_2021_02_23_bpc_full}
+tt <- aggregate(my.bpc$euro, by = list(my.bpc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_fuberlin_2021_02_23_bpc_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.bpc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_fuberlin_2021_02_23_bpc_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.bpc_reduced = my.bpc[my.bpc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.bpc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("BPC")
+```
