@@ -31,7 +31,7 @@ We welcome the [University of Bonn](https://www.uni-bonn.de/the-university?set_l
 
 The [Bonn University and State Library](https://www.ulb.uni-bonn.de/en?set_language=en) manages services related to [Open Access](https://www.open-access.uni-bonn.de) and has provided a data set on articles published under the [Wiley DEAL](https://www.projekt-deal.de/wiley-contract/) to OpenAPC.
 
-Contact Person is [Dr. Christina Hemme](mailto:christina.hemme@ulb.uni-bonn.de).
+Contact Person is [Dr. Daniel Rudolf](mailto:openaccess@ulb.uni-bonn.de).
 
 ## Cost data
 
