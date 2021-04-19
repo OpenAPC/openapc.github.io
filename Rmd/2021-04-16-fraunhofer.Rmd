@@ -27,11 +27,11 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-The [Fraunhofer Society](https://www.fraunhofer.de/en.html) has updated its APC expenditures, providing data for the 2019 and 2020 period.
+[Fraunhofer](https://www.fraunhofer.de/en.html) has updated its APC expenditures, providing data for the 2019 and 2020 period.
 
 Since 2017 the [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html) provides central funding for Gold OA publications, this data has now been made available to OpenAPC. Please note that this data set does not contain APCs funded locally by Fraunhofer institutes. 
 
-In addition, the Fraunhofer Society has also reported cost data on hybrid articles published under the [DEAL agreement](https://www.projekt-deal.de/wiley-contract/) with Wiley.
+In addition, Fraunhofer has also reported cost data on hybrid articles published under the [DEAL agreement](https://www.projekt-deal.de/wiley-contract/) with Wiley.
 
 Contact Person is [Kakia Katsinika](mailto:kakia.katsinika@zv.fraunhofer.de).
 
