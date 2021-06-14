@@ -1,0 +1,133 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Couperin.org provides additional APC data for 13 institutions
+date:       2021-06-14 16:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+The [Couperin consortium](https://couperin.org) collects data on APC expenditures from universities and other research institutions in France. 
+
+APC expenditures for 13 different institutions have now been made available to OpenAPC, with 9 of them reporting for the first time.
+
+Contact Persons for Couperin are [Valerie Larroque](mailto:valerie.larroque@couperin.org) and [Sandrine Malotaux](mailto:sandrine.malotaux@inp-toulouse.fr).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc_1 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/auvergne/OpenAPC_donn%C3%A9es_2020_auvergne_enriched.csv"))
+my.apc_2 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/poitiers/OpenAPC_donn%C3%A9es_2018-20_Poitiers_enriched.csv"))
+my.apc_3 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/inria/OpenAPC_donn%C3%A9es2018-2020_INRIA_enriched.csv"))
+my.apc_4 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/cirad/OpenAPC_donn%C3%A9es_2020_CIRAD_enriched.csv"))
+my.apc_5 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/lille/OpenAPC_donn%C3%A9es_Lille_2017-20_enriched.csv"))
+my.apc_6 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/lne/OpenAPC_donn%C3%A9es_LNE_2017-20_enriched.csv"))
+my.apc_7 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/le-mans/OpenAPC_donn%C3%A9es2017-2020_LeMans_enriched.csv"))
+my.apc_8 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/nouvelle-caledonie/OpenAPC_donn%C3%A9es_2017-20_Nouvelle_Caledonie_enriched.csv"))
+my.apc_9 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/onera/OpenAPC_donn%C3%A9es_ONERA_enriched.csv"))
+my.apc_10 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/paris-8/OpenAPC_donn%C3%A9es2017-2020_Paris8_enriched.csv"))
+my.apc_11 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/savoie/OpenAPC_donn%C3%A9es2017-2020_Savoie_enriched.csv"))
+my.apc_12 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/tours/OpenAPC_donn%C3%A9es2017-2020_Tours_enriched.csv"))
+my.apc_13 <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/couperin/ulco/OpenAPC_donn%C3%A9es_2017-20_ULCO_enriched.csv"))
+
+
+my.apc <- rbind(my.apc_1, my.apc_2, my.apc_3, my.apc_4, my.apc_5, my.apc_6, my.apc_7, my.apc_8, my.apc_9, my.apc_10, my.apc_11, my.apc_12, my.apc_13 )
+my.apc$publisher <- gsub("American Society for Biochemistry & Molecular Biology \\(ASBMB\\)", "ASBMB", my.apc$publisher)
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc <- my.apc[my.apc$institution != "",]
+my.apc <- droplevels(my.apc)
+```
+
+The new data set provided by Couperin covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published between 2017 and 2020. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+The data originates from the following institutions:
+
+- Université du Littoral Côte d'Opale (new)
+- Université de Tours (new)
+- Université Savoie Mont Blanc (new)
+- Paris 8 Vincennes - Saint-Denis (new)
+- ONERA (new)
+- Université de Nouvelle Calédonie (new)
+- Le Mans Université (new)
+- Laboratoire national d'essais (new)
+- Université de Lille (new)
+- CIRAD
+- INRIA
+- Université de Poitiers
+- Université Clermont Auvergne
+
+
+## Overview
+
+A detailed analysis of the contributed data sets provides the following overview:
+
+### Breakdown by publisher
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_couperin_2021_06_14_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_couperin_2021_06_14_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 3])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 3 articles)") + ylab("APC")
+```
