@@ -39,6 +39,6 @@ paginate:     10
 sass:
   compressed: true
 
-# gem 
+# plugins 
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

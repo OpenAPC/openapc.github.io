@@ -3,6 +3,7 @@ _site
 .DS_Store
 .Rhistory
 .jekyll-metadata
+.jekyll-cache
 # Ignore the config file that's used for gh-pages.
 _config.gh-pages.yml
 #ignore tmps
