@@ -54,7 +54,7 @@ my.bpc <- droplevels(my.bpc)
 
 The new data set covers publication fees for `r format(nrow(my.bpc), big.mark =",")` books. Total expenditure amounts to `r sum(my.bpc$euro)`€ and the average fee is `r sum(my.bpc$euro)/nrow(my.bpc)`€.
 
-The following tables and plots provide an overview of the payments the University Library of HU Berlin has made to book publishers from 2018 to 2021.
+The following tables and plots provide an overview of the payments made to book publishers from 2018 to 2021 for the publication of open access books that were funded or partly funded by the University Library of HU Berlin.
 
 ```{r}
 d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 

@@ -24,7 +24,7 @@ Institutional contact for the data set is the [HU Library Open Access Team](mail
 
 The new data set covers publication fees for 36 books. Total expenditure amounts to 207 860€ and the average fee is 5 774€.
 
-The following tables and plots provide an overview of the payments the University Library of HU Berlin has made to book publishers from 2018 to 2021.
+The following tables and plots provide an overview of the payments made to book publishers from 2018 to 2021 for the publication of open access books that were funded or partly funded by the University Library of HU Berlin.
 
 
 |                                       | Articles| Fees paid in EURO| Mean Fee paid|
