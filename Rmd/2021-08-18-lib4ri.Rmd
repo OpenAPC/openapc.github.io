@@ -1,0 +1,230 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Lib4RI reports 2021 APC expenditures
+date:       2021-08-18 10:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+[Lib4RI](https://www.lib4ri.ch/) (Library for the Research Institutes within the ETH Domain) has updated its APC expenditures, the latest contribution provides data for the 2021 period.
+
+Lib4RI provides APC data for four institutes: [Eawag](https://www.eawag.ch/en/) (Swiss Federal Institute of Aquatic Science and Technology), [Empa](https://www.empa.ch/) (Swiss Federal Laboratories for Materials Science and Technology), [PSI](https://www.psi.ch/en) (Paul Scherrer Institute) and [WSL](https://www.wsl.ch/en/index.html) (Swiss Federal Institute for Forest, Snow and Landscape Research).
+
+Contact persons are [Jochen Bihn and Sarah Last](mailto:openaccess@lib4ri.ch).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution %in% c("Empa - Swiss Federal Laboratories for Materials Science and Technology", "Eawag - Swiss Federal Institute of Aquatic Science and Technology", "WSL - Swiss Federal Institute for Forest, Snow and Landscape Research", "PSI - Paul Scherrer Institute"),]
+my.apc <- my.apc[my.apc$period == 2021,]
+my.apc$publisher <- gsub("American Association for the Advancement of Science \\(AAAS\\)", "AAAS", my.apc$publisher)
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+my.apc_empa <- my.apc[my.apc$institution == "Empa - Swiss Federal Laboratories for Materials Science and Technology",]
+my.apc_empa <- droplevels(my.apc_empa)
+my.apc_eawag <- my.apc[my.apc$institution == "Eawag - Swiss Federal Institute of Aquatic Science and Technology",]
+my.apc_eawag <- droplevels(my.apc_eawag)
+my.apc_psi <- my.apc[my.apc$institution == "PSI - Paul Scherrer Institute",]
+my.apc_psi <- droplevels(my.apc_psi)
+my.apc_wsl <- my.apc[my.apc$institution == "WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",]
+my.apc_wsl <- droplevels(my.apc_wsl)
+```
+
+The new data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published at Empa, Eawag, WSL and PSI in 2021. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. The following tables and plots provide more details.
+
+### Empa - Swiss Federal Laboratories for Materials Science and Technology
+
+```{r}
+d_frame = data.frame(table(my.apc_empa$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_empa$publisher <- factor(my.apc_empa$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_empa$euro, my.apc_empa$publisher, length),
+             tapply(my.apc_empa$euro, my.apc_empa$publisher, sum),
+             tapply(my.apc_empa$euro, my.apc_empa$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+#### Fees paid per publisher (in EURO)
+
+```{r tree_lib4ri_empa_2021_08_18_full}
+tt <- aggregate(my.apc_empa$euro, by = list(my.apc_empa$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+
+####  Average costs per publisher (in EURO)
+
+```{r box_lib4ri_empa_2021_08_18_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc_empa$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_empa_reduced = my.apc_empa[my.apc_empa$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_empa_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
+
+### Eawag - Swiss Federal Institute of Aquatic Science and Technology
+
+```{r}
+d_frame = data.frame(table(my.apc_eawag$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_eawag$publisher <- factor(my.apc_eawag$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_eawag$euro, my.apc_eawag$publisher, length),
+             tapply(my.apc_eawag$euro, my.apc_eawag$publisher, sum),
+             tapply(my.apc_eawag$euro, my.apc_eawag$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+#### Fees paid per publisher (in EURO)
+
+```{r tree_lib4ri_eawag_2021_08_18_full}
+tt <- aggregate(my.apc_eawag$euro, by = list(my.apc_eawag$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+
+####  Average costs per publisher (in EURO)
+
+```{r box_lib4ri_eawag_2021_08_18_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc_eawag$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_eawag_reduced = my.apc_eawag[my.apc_eawag$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_eawag_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
+
+### PSI - Paul Scherrer Institute
+
+```{r}
+d_frame = data.frame(table(my.apc_psi$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_psi$publisher <- factor(my.apc_psi$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_psi$euro, my.apc_psi$publisher, length),
+             tapply(my.apc_psi$euro, my.apc_psi$publisher, sum),
+             tapply(my.apc_psi$euro, my.apc_psi$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+#### Fees paid per publisher (in EURO)
+
+```{r tree_lib4ri_psi_2021_08_18_full}
+tt <- aggregate(my.apc_psi$euro, by = list(my.apc_psi$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+
+####  Average costs per publisher (in EURO)
+
+```{r box_lib4ri_psi_2021_08_18_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc_psi$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_psi_reduced = my.apc_psi[my.apc_psi$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_psi_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
+
+### WSL - Swiss Federal Institute for Forest, Snow and Landscape Research
+
+```{r}
+d_frame = data.frame(table(my.apc_wsl$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_wsl$publisher <- factor(my.apc_wsl$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_wsl$euro, my.apc_wsl$publisher, length),
+             tapply(my.apc_wsl$euro, my.apc_wsl$publisher, sum),
+             tapply(my.apc_wsl$euro, my.apc_wsl$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+#### Fees paid per publisher (in EURO)
+
+```{r tree_lib4ri_wsl_2021_08_18_full}
+tt <- aggregate(my.apc_wsl$euro, by = list(my.apc_wsl$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+
+####  Average costs per publisher (in EURO)
+
+```{r box_lib4ri_wsl_2021_08_18_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc_wsl$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_wsl_reduced = my.apc_wsl[my.apc_wsl$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_wsl_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
