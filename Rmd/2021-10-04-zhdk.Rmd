@@ -1,0 +1,127 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Zurich University of the Arts joins OpenAPC
+date:       2021-10-04 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+We welcome [Zurich University of the Arts](https://www.zhdk.ch) (ZHdK) as new contributing institution!
+
+The ZHdK provides a dedicated [Open Access publishing budget](https://www.zhdk.ch/en/miz/open-access-1823) to support Gold Open Access publishing.
+
+Contact Person is [Esther Zaugg](mailto:esther.zaugg@zhdk.ch).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+  
+download_bpc <- function(path = NULL, dir = "tmp", file = "bpc.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/bpc.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "Zurich University of the Arts",]
+my.apc <- droplevels(my.apc)
+
+my.bpc <- download_bpc()
+my.bpc <- my.bpc[my.bpc$institution == "Zurich University of the Arts",]
+my.bpc <- droplevels(my.bpc)
+
+```
+
+The initial data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` article and `r format(nrow(my.bpc), big.mark =",")` books published in 2020.
+
+### Overview: Journal Articles
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Overview: Books
+
+```{r}
+d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.bpc$publisher <- factor(my.bpc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.bpc$euro, my.bpc$publisher, length),
+             tapply(my.bpc$euro, my.bpc$publisher, sum),
+             tapply(my.bpc$euro, my.bpc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+#### BPCs paid per publisher (in EURO)
+
+```{r tree_zhdk_2021_10_04_bpc_full}
+tt <- aggregate(my.bpc$euro, by = list(my.bpc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+####  BPC average costs per publisher (in EURO)
+
+```{r box_zhdk_2021_10_04_bpc_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.bpc_reduced = my.bpc[my.bpc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.bpc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("BPC")
+```
+
