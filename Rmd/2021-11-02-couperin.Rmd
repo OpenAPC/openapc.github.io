@@ -1,0 +1,127 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      Couperin.org provides additional APC data for 19 institutions
+date:       2021-11-02 08:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+The [Couperin consortium](https://couperin.org) collects data on APC expenditures from universities and other research institutions in France. 
+
+APC expenditures for 19 different institutions have now been made available to OpenAPC, with 10 of them reporting for the first time.
+
+Contact Persons for Couperin are [Valerie Larroque](mailto:valerie.larroque@couperin.org) and [Sandrine Malotaux](mailto:sandrine.malotaux@inp-toulouse.fr).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[139128:139937,]
+
+my.apc$publisher <- gsub("American Society for Biochemistry & Molecular Biology \\(ASBMB\\)", "ASBMB", my.apc$publisher)
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc$publisher <- gsub("American Association for the Advancement of Science \\(AAAS\\)", "AAAS", my.apc$publisher)
+my.apc <- my.apc[my.apc$institution != "",]
+my.apc <- droplevels(my.apc)
+
+```
+
+The new data set provided by Couperin covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published mostly between 2018 and 2020. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+
+The data originates from the following institutions:
+
+- AgroParisTech (**new**)
+- Aix-Marseille Université
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Bordeaux
+- Université de Bourgogne
+- ENGEES (**new**)
+- ENSTA Bretagne (**new**)
+- ESPCI Paris
+- Université de Franche-Comté
+- Université de Haute-Alsace (**new**)
+- IFREMER (**new**)
+- IFSTTAR
+- Université du Havre (**new**)
+- Université Paris 1 Panthéon-Sorbonne (**new**)
+- Université Paris Nanterre (**new**)
+- Université de Perpignan - Via Domitia  (**new**)
+- Sciences Po Paris (**new**)
+- Sorbonne Université
+- Université de Toulon
+
+## Overview
+
+A detailed analysis of the contributed data sets provides the following overview:
+
+### Breakdown by publisher
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_couperin_2021_11_02_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_couperin_2021_11_02_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 3])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 3 articles)") + ylab("APC")
+```
