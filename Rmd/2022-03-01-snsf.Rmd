@@ -57,19 +57,27 @@ my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-
 my.apc_new <- my.apc_new[my.apc_new$institution == "Swiss National Science Foundation (SNSF)",]
 my.apc_new <- droplevels(my.apc_new)
 
+my.apc_2021 <- my.apc[my.apc$period == 2021,]
+my.apc_2021 <- droplevels(my.apc_2021)
+
 ```
 
-The updated data set provided by the SNSF covers more publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles published in 2021. Total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. The following table provides an overview:
+The new data set provided by the SNSF covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` additional articles.
+
+In total, the SNSF paid for `r format(nrow(my.apc_2021), big.mark =",")` articles in 2021, with an aggreagted expenditure of `r sum(my.apc_2021$euro)`€ and an average fee of `r sum(my.apc_2021$euro)/nrow(my.apc_2021)`€.
+
+
+The following table provides an overview of all 2021 data:
 
 ```{r}
-d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = data.frame(table(my.apc_2021$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
                                     
-my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+my.apc_2021$publisher <- factor(my.apc_2021$publisher, levels =  d_frame$Publisher)
 
-df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
-             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
-             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+df.summary <-cbind(tapply(my.apc_2021$euro, my.apc_2021$publisher, length),
+             tapply(my.apc_2021$euro, my.apc_2021$publisher, sum),
+             tapply(my.apc_2021$euro, my.apc_2021$publisher, mean))
 
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
