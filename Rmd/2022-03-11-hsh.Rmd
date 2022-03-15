@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
-title:      HSH joins OpenAPC
+title:      HsH joins OpenAPC
 date:       2022-03-11 09:00:00
 summary:    
 categories: [general, openAPC]
@@ -27,9 +27,11 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-We welcome the [Hochschule Hannover - University of Applied Sciences and Arts](https://www.hs-hannover.de/) (HSH) as new contributing institution!
+We welcome the [Hochschule Hannover - University of Applied Sciences and Arts](https://www.hs-hannover.de/) (HsH) as new contributing institution!
 
-The [HSH Library](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/) is in charge of the [University's Open Access Publishing Fund](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/), which received supports by the DFG under its [Open-Access Publishing Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/index.html#4) until 2020.
+The [HsH Library](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/) is in charge of the [University's Open Access Publishing Fund](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/), which received supports by the DFG under its [Open-Access Publishing Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/index.html#4) until 2020.
+
+Contact persons are [Nicolas Semrau and Andrea Hofmann](<mailto:serwiss@hs-hannover.de>).
 
 ## Cost data
 
@@ -60,7 +62,7 @@ my.apc <- droplevels(my.apc)
 
 ```
 
-The initial data set provided by the HSH covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in 2020 and 2021, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. The contribution also provided cost data on one article published under the DEAL agreement with Springer Nature in 2020 which is not included in this list.
+The initial data set provided by the HsH covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in 2020 and 2021, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. The contribution also provided cost data on one article published under the DEAL agreement with Springer Nature in 2020 which is not included in this list.
 
 
 ```{r}
