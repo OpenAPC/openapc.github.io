@@ -1,8 +1,8 @@
 ---
 layout:     post
-author:     Julia Bartski
-author_lnk: https://github.com/cbroschinski
-title:      Leibniz Association's open access fund reports 2019 to 2021 APC expenditures
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      Leibniz Association's open access fund reports 2021 APC expenditures
 date:       2022-03-29 12:00:00
 summary:    
 categories: [general, openAPC]
@@ -12,15 +12,15 @@ comments: true
 
 
 
-The [Open Access Publishing Fund](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access/journal-publishing-fund.html) of the Leibniz Association has reported its APC expenditures for the 2019 to 2021 period.
+The [Open Access Publishing Fund](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access/journal-publishing-fund.html) of the Leibniz Association has reported its APC expenditures for the 2021 period.
 
-Data is provided by Technische Informationsbibliothek (TIB - German National Library of Science and Technology). TIB is operating the open access fund together with ZB MED (Leibniz Information Centre for Life Sciences) and ZBW (German National Library of Economics – Leibniz Information Centre for Economics).
+Data is provided by Technische Informationsbibliothek (TIB - German National Library of Science and Technology).
 
 ## Cost data
 
 
 
-The new data set covers publication fees for 182 articles. Total expenditure amounts to 286 596€ and the average fee is 1 575€.
+The new data set covers publication fees for 183 articles. Total expenditure amounts to 287 048€ and the average fee is 1 569€.
 
 To interpret the cost data correctly, please have a look at the [funding policy](https://github.com/OpenAPC/openapc-de/blob/master/data/leibnizfonds/README.md) of the Leibniz Association's open access fund.
 
@@ -46,6 +46,7 @@ To interpret the cost data correctly, please have a look at the [funding policy]
 |Wageningen Academic Publishers                              |        2|              2618|          1309|
 |Acoustical Society of America (ASA)                         |        1|               743|           743|
 |BioScientifica                                              |        1|              1969|          1969|
+|Brill                                                       |        1|               452|           452|
 |Estonian University of Life Sciences                        |        1|               298|           298|
 |F1000 Research, Ltd.                                        |        1|              1000|          1000|
 |Hogrefe Publishing Group                                    |        1|              1972|          1972|

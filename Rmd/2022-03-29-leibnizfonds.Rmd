@@ -1,8 +1,8 @@
 ---
 layout:     post
-author:     Julia Bartski
-author_lnk: https://github.com/cbroschinski
-title:      Leibniz Association's open access fund reports 2019 to 2021 APC expenditures
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      Leibniz Association's open access fund reports 2021 APC expenditures
 date:       2022-03-29 12:00:00
 summary:    
 categories: [general, openAPC]
@@ -27,9 +27,9 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-The [Open Access Publishing Fund](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access/journal-publishing-fund.html) of the Leibniz Association has reported its APC expenditures for the 2019 to 2021 period.
+The [Open Access Publishing Fund](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access/journal-publishing-fund.html) of the Leibniz Association has reported its APC expenditures for the 2021 period.
 
-Data is provided by Technische Informationsbibliothek (TIB - German National Library of Science and Technology). TIB is operating the open access fund together with ZB MED (Leibniz Information Centre for Life Sciences) and ZBW (German National Library of Economics – Leibniz Information Centre for Economics).
+Data is provided by Technische Informationsbibliothek (TIB - German National Library of Science and Technology).
 
 ## Cost data
 
