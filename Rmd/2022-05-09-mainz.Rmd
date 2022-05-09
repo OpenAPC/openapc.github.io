@@ -1,0 +1,95 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      JGU Mainz reports additional 2020 Springer APC expenditures
+date:       2022-05-09 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+The [JGU Mainz](https://www.uni-mainz.de/eng/) has updated its APC expenditures, providing data on articles published under the German DEAL agreement with Springer Nature in the 2020 period.
+
+[Mainz University Library](https://www.ub.uni-mainz.de/) is in charge of the institution's [Open Access Publication Funds](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access),
+which received support by the Deutsche Forschungsgemeinschaft (DFG) under its [Open-Access Publishing Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/index.html#4) until 2019.
+
+Contact person is [Karin Eckert](mailto:K.Eckert@ub.uni-mainz.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "JGU Mainz",]
+my.apc$publisher <- gsub("Association for Research in Vision and Ophthalmology \\(ARVO\\)", "ARVO", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/unimainz/mainz_deal_springer_gold_2020_enriched.csv"))
+my.apc_new <- my.apc_new[my.apc_new$institution == "JGU Mainz",]
+my.apc_new <- droplevels(my.apc_new)
+```
+
+The new data covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles published in Springer Nature Gold OA journals, total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. Please note that articles published in **hybrid** journals under the DEAL agreement are not included in this list, as they are aggregated in OpenAPC's [transformative agreements data set](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements).
+
+## Overview
+
+With the recent contribution included, the overall APC data for Mainz now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_mainz_2022_05_09_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_mainz_2022_05_09_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_mainz_2022_05_09_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 5])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 5 articles)") + ylab("APC")
+```
