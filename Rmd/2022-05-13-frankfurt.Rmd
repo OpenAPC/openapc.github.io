@@ -3,7 +3,7 @@ layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
 title:      University of Frankfurt reports its 2021 APC expenditures
-date:       2022-05-03 10:00:00
+date:       2022-05-13 10:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
