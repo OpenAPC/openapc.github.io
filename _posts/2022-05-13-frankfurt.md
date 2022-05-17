@@ -22,14 +22,14 @@ Contact Person is [Roland Wagner](mailto:r.wagner@ub.uni-frankfurt.de).
 
 
 
-The new data set covers publication fees for 482 articles, total expenditure amounts to 932 676€ and the average fee is 1 935€.
+The new data set covers publication fees for 482 articles, total expenditure amounts to 921 324€ and the average fee is 1 911€.
 
 The following table provides an overview:
 
 
 |                                                            | Articles| Fees paid in EURO| Mean Fee paid|
 |:-----------------------------------------------------------|--------:|-----------------:|-------------:|
-|MDPI AG                                                     |      136|            245145|          1803|
+|MDPI AG                                                     |      136|            233794|          1719|
 |Frontiers Media SA                                          |      117|            218010|          1863|
 |Springer Nature                                             |      102|            235324|          2307|
 |Public Library of Science (PLoS)                            |       23|             40003|          1739|
