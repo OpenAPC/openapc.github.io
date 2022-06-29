@@ -3,7 +3,7 @@ layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
 title:      TU Clausthal reports its 2020 and 2021 APC expenditures
-date:       2022-06-29 15:00:00
+date:       2022-06-29 12:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
