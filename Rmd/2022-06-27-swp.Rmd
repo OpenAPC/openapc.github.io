@@ -51,9 +51,9 @@ my.apc <- my.apc[my.apc$institution == "SWP - German Institute for International
 my.apc <- droplevels(my.apc)
 ```
 
-The data covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles paid for in 2019. Total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+The data covers publication fees for `r format(nrow(my.apc), big.mark =",")` article paid for in 2019. Total expenditure amounts to `r sum(my.apc$euro)`€.
 
-The following table and plots show the payments the SWP has made to publishers in 2019.
+The following table shows the payments the SWP has made to publishers in 2019.
 
 ```{r}
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
@@ -70,25 +70,4 @@ colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 knitr::kable(as.data.frame(df.summary), digits = 2)
 ```
 
-### Fees paid per publisher (in EURO)
 
-```{r tree_swp_2022_06_27_full}
-tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
-colnames(tt) <- c("Publisher", "Euro")
-treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
-```
-
-###  Average costs per publisher (in EURO)
-
-```{r box_swp_2022_06_27_publisher_full, echo = FALSE, message = FALSE}
-require(ggplot2)
-d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
-d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
-publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
-my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
-
-  
-q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
-q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
-q + xlab("Publisher") + ylab("APC")
-```
