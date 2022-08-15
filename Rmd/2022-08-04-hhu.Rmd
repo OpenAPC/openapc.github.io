@@ -52,7 +52,7 @@ my.apc <- my.apc[my.apc$institution == "HHU Düsseldorf",]
 my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
 my.apc <- droplevels(my.apc)
 my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv"))
-my.apc_new <- my.apc_new[163305:163518,]
+my.apc_new <- my.apc_new[163291:163506,]
 my.apc_new <- my.apc_new[my.apc_new$institution == "HHU Düsseldorf",]
 my.apc_new <- droplevels(my.apc_new)
 
@@ -84,7 +84,7 @@ With the recent contribution included, the overall APC data for the HHU Düsseld
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_hhu_düsseldorf_2022_08_04_full}
+```{r tree_hhu_düsseldorf_2022_08_15_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -92,7 +92,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_hhu_düsseldorf_2022_08_04_year_full, echo=FALSE, message = FALSE}
+```{r box_hhu_düsseldorf_2022_08_15_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -101,7 +101,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_hhu_düsseldorf_2022_08_04_publisher_full, echo = FALSE, message = FALSE}
+```{r box_hhu_düsseldorf_2022_08_15_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
