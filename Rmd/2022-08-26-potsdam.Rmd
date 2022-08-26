@@ -2,7 +2,7 @@
 layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
-title:      University of Potsdam reports its 2022 APC expenditures
+title:      University of Potsdam reports its 2021 APC expenditures
 date:       2022-08-26 10:00:00
 summary:    
 categories: [general, openAPC]
