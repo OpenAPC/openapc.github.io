@@ -22,7 +22,7 @@ Contact Person is [Larissa Gordon](mailto:Larissa.Gordon@jefferson.edu).
 
 
 
-The new data set covers publication fees for 50 articles. Total expenditure amounts to 89,327€ and the average fee is 1,787€.
+The new data set covers publication fees for 51 articles. Total expenditure amounts to 92,890€ and the average fee is 1,821€.
 
 The following table provides an overview of the new data:
 
@@ -34,8 +34,8 @@ The following table provides an overview of the new data:
 |Frontiers Media SA                                |        6|             14560|          2427|
 |MDPI AG                                           |        4|              6726|          1681|
 |Elsevier BV                                       |        3|              3370|          1123|
+|Informa UK Limited                                |        3|              7123|          2374|
 |Public Library of Science (PLoS)                  |        3|              5758|          1919|
-|Informa UK Limited                                |        2|              3560|          1780|
 |Ovid Technologies (Wolters Kluwer Health)         |        2|              3555|          1777|
 |Oxford University Press (OUP)                     |        2|              4124|          2062|
 |Wiley-Blackwell                                   |        2|              3016|          1508|
@@ -56,12 +56,12 @@ With the recent contribution included, the overall APC data for the Thomas Jeffe
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_jefferson_2022_08_24_full](/figure/tree_jefferson_2022_08_24_full-1.png)
+![plot of chunk tree_jefferson_2022_08_26_full](/figure/tree_jefferson_2022_08_26_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_jefferson_2022_08_24_year_full](/figure/box_jefferson_2022_08_24_year_full-1.png)
+![plot of chunk box_jefferson_2022_08_26_year_full](/figure/box_jefferson_2022_08_26_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_jefferson_2022_08_24_publisher_full](/figure/box_jefferson_2022_08_24_publisher_full-1.png)
+![plot of chunk box_jefferson_2022_08_26_publisher_full](/figure/box_jefferson_2022_08_26_publisher_full-1.png)
