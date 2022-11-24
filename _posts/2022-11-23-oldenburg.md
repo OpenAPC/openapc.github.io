@@ -22,7 +22,7 @@ Contact person is [Kim Braun](mailto:kim.braun@uni-oldenburg.de).
 
 
 
-The new data set covers publication fees for 116 articles, total expenditure amounts to 222 643€ and the average fee is 1 919€.
+The new data set covers publication fees for 117 articles, total expenditure amounts to 223 629€ and the average fee is 1 911€.
 
 The following table shows the payments the BIS has made to publishers since Oldenburg's last report.
 
@@ -44,6 +44,7 @@ The following table shows the payments the BIS has made to publishers since Olde
 |German Medical Science                                 |        1|               400|           400|
 |Institute of Electrical & Electronics Engineers (IEEE) |        1|              1844|          1844|
 |JMIR Publications Inc.                                 |        1|              1968|          1968|
+|Lupine Publishers                                      |        1|               986|           986|
 |Modestum Limited                                       |        1|               720|           720|
 |Optica Publishing Group                                |        1|              3960|          3960|
 |Scientific Research Publishing, Inc.                   |        1|               908|           908|
@@ -55,12 +56,12 @@ With the recent contribution included, the overall APC data for the University o
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_oldenburg_2022_11_23_full](/figure/tree_oldenburg_2022_11_23_full-1.png)
+![plot of chunk tree_oldenburg_2022_11_24_full](/figure/tree_oldenburg_2022_11_24_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_oldenburg_2022_11_23_year_full](/figure/box_oldenburg_2022_11_23_year_full-1.png)
+![plot of chunk box_oldenburg_2022_11_24_year_full](/figure/box_oldenburg_2022_11_24_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_oldenburg_2022_11_23_publisher_full](/figure/box_oldenburg_2022_11_23_publisher_full-1.png)
+![plot of chunk box_oldenburg_2022_11_24_publisher_full](/figure/box_oldenburg_2022_11_24_publisher_full-1.png)
