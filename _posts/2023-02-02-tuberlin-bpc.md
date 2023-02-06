@@ -15,7 +15,7 @@ The [Technische Universität Berlin](https://www.tu.berlin/en/) has provided BPC
 
 The [TU Berlin University Library](http://www.ub.tu-berlin.de/en/home/) is in charge of the University's [Open Access Publishing Fund](http://www.ub.tu-berlin.de/en/publishing/open-access/financing-for-publications/), which also supports publishing of OA monographs.
 
-Contact person is [Michaela Voigt](mailto:openaccess@ub.tu-berlin.de).
+Contact person is [Elena Di Rosa](mailto:dirosa@tu-berlin.de).
 
 ## Cost data
 
