@@ -1,0 +1,143 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      Pädagogische Hochschule Zürich reports its 2022 APC and BPC expenditures
+date:       2023-02-28 15:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+The [Pädagogische Hochschule Zürich](https://phzh.ch/en/) (PHZH, Zurich University of Teacher Education) has provided both APC and BPC expenditures for the 2022 period.
+
+The [PHZH Library](https://phzh.ch/de/Dienstleistungen/Bibliothek/) collects data on institutional APC and BPC expenditures and kindly provides this data to OpenAPC.
+
+Contact Person is [Jan Steiner](mailto:jan.steiner@phzh.ch).
+
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_bpc <- function(path = NULL, dir = "tmp", file = "bpc.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/bpc.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.bpc <- download_bpc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/phzh/OpenBPC_PHZH_2022_enriched.csv"))
+my.bpc <- droplevels(my.bpc)
+
+my.apc <- download_bpc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/phzh/OpenAPC_PHZH_2022_enriched.csv"))
+my.apc$publisher <- gsub("Association for Research in Vision and Ophthalmology \\(ARVO\\)", "ARVO", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+
+```
+
+The new data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles and `r format(nrow(my.bpc), big.mark =",")` books. Total expenditure for articles amounts to `r sum(my.apc$euro)`€ and the average APC is `r sum(my.apc$euro)/nrow(my.apc)`€, while the total expenditures for books is `r sum(my.bpc$euro)`€ with an average BPC of `r sum(my.bpc$euro)/nrow(my.bpc)`€.
+
+The following tables and plots provide an overview of the payments PHZH Library has made to publishers in 2022.
+
+## Articles
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_phzh_2023_02_28_apc_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_phzh_2023_02_28_apc_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("apc")
+```
+
+## Books
+
+```{r}
+d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.bpc$publisher <- factor(my.bpc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.bpc$euro, my.bpc$publisher, length),
+             tapply(my.bpc$euro, my.bpc$publisher, sum),
+             tapply(my.bpc$euro, my.bpc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_phzh_2023_02_28_bpc_full}
+tt <- aggregate(my.bpc$euro, by = list(my.bpc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_phzh_2023_02_28_bpc_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.bpc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.bpc_reduced = my.bpc[my.bpc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.bpc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("BPC")
+```
+
