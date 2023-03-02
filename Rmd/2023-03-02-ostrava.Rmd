@@ -62,14 +62,14 @@ The following table provides an overview:
 
 
 ```{r}
-d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
                                     
-my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
 
-df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
-             tapply(my.apc$euro, my.apc$publisher, sum),
-             tapply(my.apc$euro, my.apc$publisher, mean))
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
 
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
