@@ -27,7 +27,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-The [University of Eastern Finland](https://www.uef.fi/en/etusivu) has updated its APC expenditures, the latest contribution provides data for the 2022 period and some remaining articles für 2021.
+The [University of Eastern Finland](https://www.uef.fi/en/etusivu) has updated its APC expenditures, the latest contribution provides data for the 2022 period and some remaining articles for 2021.
 
 The [UEF Library](http://www.uef.fi/en/web/kirjasto) collects data on institutional APC expenditures and kindly provides it to OpenAPC.
 
