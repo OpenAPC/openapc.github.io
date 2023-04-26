@@ -3,7 +3,7 @@ layout:     post
 author:     Julia Bartlewski
 author_lnk: https://github.com/jbartlewski
 title:      TU Berlin reports its 2022 APC expenditures and TA data
-date:       2023-04-04 07:00:00
+date:       2023-04-26 07:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
@@ -80,7 +80,7 @@ With the recent contribution included, the overall APC data for the TU Berlin no
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_tuberlin_2023_04_06_full}
+```{r tree_tuberlin_2023_04_26_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -88,7 +88,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_tuberlin_2023_04_06_year_full, echo=FALSE, message = FALSE}
+```{r box_tuberlin_2023_04_26_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -97,7 +97,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_tuberlin_2023_04_06_publisher_full, echo = FALSE, message = FALSE}
+```{r box_tuberlin_2023_04_26_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
