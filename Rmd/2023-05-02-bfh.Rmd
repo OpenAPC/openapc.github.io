@@ -2,7 +2,7 @@
 layout:     post
 author:     Julia Bartlewski
 author_lnk: https://github.com/jbartlewski
-title:      Bern University of Applied Sciences reports it 2019 APC expenditures
+title:      Bern University of Applied Sciences reports its 2019 APC expenditures
 date:       2023-05-02 11:00:00
 summary:    
 categories: [general, openAPC]
