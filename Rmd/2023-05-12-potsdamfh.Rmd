@@ -29,7 +29,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 We welcome the [University of Applied Sciences Potsdam](https://www.fh-potsdam.de/en) as new contributing institution!
 
-The [Library of the University of Applied Sciences Potsdam](https://www.fh-potsdam.de/en/campus-services/library) manage services related to [Open Access](https://www.fh-potsdam.de/en/campus-services/library/open-access-publishing).
+The [Library of the University of Applied Sciences Potsdam](https://www.fh-potsdam.de/en/campus-services/library) manages services related to [Open Access](https://www.fh-potsdam.de/en/campus-services/library/open-access-publishing).
 
 An initial data set on APC expenditures for the 2022 period and on articles published under the German DEAL agreements with Wiley and Springer Nature in 2021 has been kindly made available to OpenAPC.
 
