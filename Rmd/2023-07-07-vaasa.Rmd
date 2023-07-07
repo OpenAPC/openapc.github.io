@@ -77,7 +77,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ## Overview
 
-With the recent contribution included, the overall APC data for Marburg now looks as follows:
+With the recent contribution included, the overall APC data for Vaasa now looks as follows:
 
 ### Fees paid per publisher (in EURO)
 
