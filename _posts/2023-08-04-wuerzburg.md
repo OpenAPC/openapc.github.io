@@ -22,7 +22,7 @@ Contact person is [Claudia Schober](<mailto:openaccess@uni-wuerzburg.de>).
 
 
 
-The new dataset covers publication fees for 313 articles. Total expenditure amounts to 715 503€ and the average fee is 2 286€.
+The new dataset covers publication fees for 317 articles. Total expenditure amounts to 723 041€ and the average fee is 2 281€.
 
 The following table shows the payments Würzburg University Library has made to publishers in 2022.
 
@@ -31,8 +31,8 @@ The following table shows the payments Würzburg University Library has made to 
 |                                                            | Articles| Fees paid in EURO| Mean Fee paid|
 |:-----------------------------------------------------------|--------:|-----------------:|-------------:|
 |Springer Nature                                             |       86|            196842|          2289|
-|MDPI AG                                                     |       79|            166933|          2113|
-|Frontiers Media SA                                          |       75|            186821|          2491|
+|MDPI AG                                                     |       80|            168220|          2103|
+|Frontiers Media SA                                          |       78|            193072|          2475|
 |Wiley-Blackwell                                             |       19|             37415|          1969|
 |Public Library of Science (PLoS)                            |       12|             25856|          2155|
 |Elsevier BV                                                 |       10|             25157|          2516|
@@ -66,12 +66,12 @@ With the recent contribution included, the overall APC data for the University o
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_wuerzburg_2023_08_04_full](/figure/tree_wuerzburg_2023_08_04_full-1.png)
+![plot of chunk tree_wuerzburg_2023_08_09_full](/figure/tree_wuerzburg_2023_08_09_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_wuerzburg_2023_08_04_year_full](/figure/box_wuerzburg_2023_08_04_year_full-1.png)
+![plot of chunk box_wuerzburg_2023_08_09_year_full](/figure/box_wuerzburg_2023_08_09_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_wuerzburg_2023_08_04_publisher_full](/figure/box_wuerzburg_2023_08_04_publisher_full-1.png)
+![plot of chunk box_wuerzburg_2023_08_09_publisher_full](/figure/box_wuerzburg_2023_08_09_publisher_full-1.png)
