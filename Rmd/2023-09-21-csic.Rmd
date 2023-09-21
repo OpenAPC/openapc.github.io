@@ -29,13 +29,13 @@ knitr::knit_hooks$set(inline = function(x) {
 
 We welcome the [Spanish National Research Council](https://www.csic.es/en/csic) (CSIC) as a new contributing institution!
 
-The CSIC, Spain's largest public research institution, has kindly decided to join the Open APC initiative and share its expenditures on Open Access publications.
+CSIC, Spain's largest public research institution, has kindly decided to join the Open APC initiative and share its expenditures on Open Access publications.
 
 Contact Person is [Karina Barros Ferradás](mailto:karina.barros@bib.csic.es).
 
 ## About the dataset
 
-The initial data set contributed by the CSIC contains information on publication fees paid from 2015 to 2023. 
+The initial data set contributed by CSIC contains information on publication fees paid from 2015 to 2023. 
 
 ## Cost data
 
