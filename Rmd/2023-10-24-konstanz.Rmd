@@ -1,0 +1,111 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      University of Konstanz reports its 2021 APC and BPC expenditures
+date:       2023-10-24 11:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+The [University of Konstanz](https://www.uni-konstanz.de/en/) has provided its APC and BPC expenditures for the 2021 period.
+
+The [Communication, Information, Media Centre (KIM)](https://www.kim.uni-konstanz.de/en/) is in charge of the University's [Open Access Publishing Fund](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/), which receives support under the [DFG's Open Access Publication Funding Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/).
+
+Contact person is [Andreas Kirchner](mailto:open.access@uni-konstanz.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "Konstanz U",]
+my.apc$publisher <- gsub("American Association for the Advancement of Science \\(AAAS\\)", "AAAS", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/unikonstanz/Uni_Konstanz_Meldung_OpenAPC_2021_enriched.csv"))
+my.apc_new <- my.apc_new[my.apc_new$institution == "Konstanz U",]
+my.apc_new <- droplevels(my.apc_new)
+```
+
+The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€.
+
+The following table provides an overview. Please note that BPCs are not included in this list, as they are aggregated in OpenAPC's [BPC](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv) dataset.
+
+```{r}
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for Konstanz now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_konstanz_2023_10_24_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_konstanz_2023_10_24_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_konstanz_2023_10_24_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 5])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 5 articles)") + ylab("APC")
+```
