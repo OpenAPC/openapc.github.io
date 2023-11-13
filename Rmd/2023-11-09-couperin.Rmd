@@ -78,7 +78,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_couperin_2023_11_09_full}
+```{r tree_couperin_2023_11_13_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -87,7 +87,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_couperin_2023_11_09_publisher_full, echo = FALSE, message = FALSE}
+```{r box_couperin_2023_11_13_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
