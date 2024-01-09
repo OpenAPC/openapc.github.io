@@ -1,0 +1,71 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      Hertie School joins OpenAPC
+date:       2024-01-09 11:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+The Forschungszentrum Jülich collects publication cost data from German institutions as part of the DFG programme "[Open Access Publication Funding](https://www.fz-juelich.de/en/zb/open-science/open-access/monitoring-dfg-oa-publication-funding)".
+
+When reporting their publication costs, the [Hertie School](https://www.hertie-school.org/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the university participate in OpenAPC for the first time.
+
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "Hertie School",]
+my.apc <- droplevels(my.apc)
+
+```
+
+The initial data set provided by the Hertie School, covers publication fees for `r format(nrow(my.apc), big.mark =",")` article.
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
