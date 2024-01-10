@@ -31,6 +31,10 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Hertie School](https://www.hertie-school.org/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the university participate in OpenAPC for the first time.
 
+The [Hertie School Library](https://www.hertie-school.org/en/library/) manages the institution's APC expenditures and operates the institutional Open Access repository.
+
+Contact person is [Christopher Landes](mailto:landes@hertie-school.org).
+
 
 ## Cost data
 
