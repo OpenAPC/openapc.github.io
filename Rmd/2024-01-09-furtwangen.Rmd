@@ -31,6 +31,9 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Furtwangen University](https://www.hs-furtwangen.de/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+[HFU libraries](https://www.hs-furtwangen.de/en/central-services/libraries/) are in charge of the University's [Open Access Publishing Fund](https://www.hs-furtwangen.de/en/search-for-books-and-media/), which receives support under the [DFG's Open Access Publication Funding Programme](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/infrastructure_funding/).
+
+Contact persons is [Sabine Vetter-Hauser](mailto:Sabine.Vetter-Hauser@hfu.eu).
 
 ## Cost data
 
