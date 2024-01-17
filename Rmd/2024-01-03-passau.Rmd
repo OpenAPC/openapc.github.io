@@ -31,7 +31,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 [Passau University Library](https://www.ub.uni-passau.de/en/) operates the University's [Open Access Publishing Funds](https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds).
 
-Contact Person is [Lisa Spindler](mailto:lisa.spindler@uni-passau.de).
+Contact Person is [Michael Zweier](mailto:Michael.Zweier@uni-passau.de).
 
 ## Cost data
 
