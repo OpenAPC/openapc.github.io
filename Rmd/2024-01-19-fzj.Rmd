@@ -33,7 +33,7 @@ Participating institutions may opt-in to provide their data to OpenAPC as well, 
 
 The [Central Library(ZB)](http://www.fz-juelich.de/zb/EN/Home/home_node.html) of the [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html) is responsible for the management of publication cost data.
 
-Contact person is [Nadja Kalinna](mailto:zb-copyright@fz-juelich.de).
+Contact person is [Linda McGrath](mailto:zb-copyright@fz-juelich.de).
 
 ## Cost data
 
