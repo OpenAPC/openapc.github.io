@@ -54,7 +54,7 @@ my.apc <- droplevels(my.apc)
 
 ```
 
-The initial data set provided by the IPK covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€.
+The initial data set provided by the IPK covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements data set](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements).
 
 ```{r}
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
