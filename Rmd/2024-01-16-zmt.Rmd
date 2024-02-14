@@ -31,6 +31,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Leibniz-Zentrum für Marine Tropenforschung (ZMT)](https://www.leibniz-zmt.de/de/) (Leibniz Centre for Tropical Marine Research) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the ZMT is [Clara Bruns](mailto:clara.bruns@leibniz-zmt.de).
+
 
 ## Cost data
 
