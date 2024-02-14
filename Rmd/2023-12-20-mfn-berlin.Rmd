@@ -31,6 +31,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Natural History Museum Berlin](https://www.museumfuernaturkunde.berlin/en) (Museum für Naturkunde) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the Natural History Museum Berlin is [Stefanie Paß](mailto:Stefanie.Pass@mfn.berlin).
+
 
 ## Cost data
 

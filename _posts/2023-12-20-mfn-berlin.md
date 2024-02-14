@@ -16,12 +16,15 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Natural History Museum Berlin](https://www.museumfuernaturkunde.berlin/en) (Museum für Naturkunde) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the Natural History Museum Berlin is [Stefanie Paß](mailto:Stefanie.Pass@mfn.berlin).
+
 
 ## Cost data
 
 
 
 The initial data set provided by the Natural History Museum Berlin covers publication fees for 6 articles, total expenditure amounts to 8,014€ and the average fee is 1,336€.
+
 
 
 |                   | Articles| Fees paid in EURO| Mean Fee paid|
@@ -31,6 +34,8 @@ The initial data set provided by the Natural History Museum Berlin covers public
 |Pensoft Publishers |        1|               835|           835|
 |The Royal Society  |        1|              1020|          1020|
 |Wiley-Blackwell    |        1|              1631|          1631|
+
+
 
 ## Overview
 
