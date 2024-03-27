@@ -16,12 +16,15 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Bergische Universität Wuppertal](https://www.uni-wuppertal.de/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the university participate in OpenAPC for the first time.
 
+Contact person for Wuppertal is [Dr. Christian Schäffer](mailto:schaeffer@uni-wuppertal.de).
+
 
 ## Cost data
 
 
 
 The initial data set provided by the Bergische Universität Wuppertal covers publication fees for 29 articles, total expenditure amounts to 57,403€ and the average fee is 1,979€.
+
 
 
 |                                                     | Articles| Fees paid in EURO| Mean Fee paid|
@@ -34,6 +37,8 @@ The initial data set provided by the Bergische Universität Wuppertal covers pub
 |Public Library of Science (PLoS)                     |        1|              1859|          1859|
 |Scandinavian Journal of Work, Environment and Health |        1|              2737|          2737|
 |Wiley-Blackwell                                      |        1|               952|           952|
+
+
 
 ## Overview
 

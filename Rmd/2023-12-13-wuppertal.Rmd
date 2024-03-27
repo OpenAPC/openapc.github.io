@@ -31,6 +31,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Bergische Universität Wuppertal](https://www.uni-wuppertal.de/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the university participate in OpenAPC for the first time.
 
+Contact person for Wuppertal is [Dr. Christian Schäffer](mailto:schaeffer@uni-wuppertal.de).
+
 
 ## Cost data
 
