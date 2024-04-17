@@ -1,0 +1,118 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      University of Hohenheim joins OpenAPC
+date:       2024-04-17 12:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+We welcome the [University of Hohenheim](https://www.uni-hohenheim.de/en/english) as new contributing institution!
+
+Data is provided by the [Communication, Information and Media Center (KIM)](https://kim.uni-hohenheim.de/en), which manages services related to [Open Access](https://kim.uni-hohenheim.de/en/openaccess).
+
+Contact person is [Dr. Andreas Janßen](mailto:ejournals@uni-hohenheim.de).
+
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+  
+download_bpc <- function(path = NULL, dir = "tmp", file = "bpc.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/bpc.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc$publisher <- gsub("Journal of Liberty and International Affairs, Institute for Research and European Studies - Bitola", "Institute for Research and European Studies", my.apc$publisher)
+my.apc <- my.apc[my.apc$institution == "Hohenheim U",]
+my.apc <- droplevels(my.apc)
+
+```
+
+The initial data set provided by the University of Hohenheim covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles published in Springer Nature and Wiley Gold OA journals from 2020 to 2023, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements data set](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements).
+
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_hohenheim_2024_04_17_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_hohenheim_2024_04_17_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_hohenheim_2024_04_17_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
+
