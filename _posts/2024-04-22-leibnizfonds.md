@@ -20,7 +20,7 @@ Data is provided by Technische Informationsbibliothek (TIB - German National Lib
 
 
 
-The new data set covers publication fees for 71 articles. Total expenditure amounts to 90 584€ and the average fee is 1 276€.
+The new data set covers publication fees for 71 articles. Total expenditure amounts to 107 795€ and the average fee is 1 518€.
 
 To interpret the cost data correctly, please have a look at the [funding policy](https://github.com/OpenAPC/openapc-de/blob/master/data/leibnizfonds/README.md) of the Leibniz Association's open access fund.
 
@@ -28,23 +28,23 @@ To interpret the cost data correctly, please have a look at the [funding policy]
 
 |                                                           | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------------------------------------------------|--------:|-----------------:|-------------:|
-|Copernicus GmbH                                            |       16|             22823|          1426|
-|MDPI AG                                                    |       15|             22423|          1495|
-|Frontiers Media SA                                         |       13|             18264|          1405|
-|Elsevier BV                                                |        5|              4645|           929|
-|Ubiquity Press, Ltd.                                       |        4|              2286|           572|
-|Pensoft Publishers                                         |        3|              3099|          1033|
-|SAGE Publications                                          |        3|              2311|           770|
-|Oekom Publishers GmbH                                      |        2|               536|           268|
-|Public Library of Science (PLoS)                           |        2|              3325|          1662|
-|eLife Sciences Publications, Ltd                           |        1|              1702|          1702|
-|Informa UK Limited                                         |        1|              1695|          1695|
-|International Food and Agribusiness Management Association |        1|              1300|          1300|
-|Oxford University Press (OUP)                              |        1|              1441|          1441|
-|Resilience Alliance, Inc.                                  |        1|              1068|          1068|
-|Royal Society of Chemistry (RSC)                           |        1|               992|           992|
-|The Royal Society                                          |        1|              1800|          1800|
-|University of California Press                             |        1|               874|           874|
+|Copernicus GmbH                                            |       16|             27160|          1697|
+|MDPI AG                                                    |       15|             26683|          1779|
+|Frontiers Media SA                                         |       13|             21734|          1672|
+|Elsevier BV                                                |        5|              5528|          1106|
+|Ubiquity Press, Ltd.                                       |        4|              2720|           680|
+|Pensoft Publishers                                         |        3|              3688|          1229|
+|SAGE Publications                                          |        3|              2750|           917|
+|Oekom Publishers GmbH                                      |        2|               637|           319|
+|Public Library of Science (PLoS)                           |        2|              3957|          1978|
+|eLife Sciences Publications, Ltd                           |        1|              2026|          2026|
+|Informa UK Limited                                         |        1|              2017|          2017|
+|International Food and Agribusiness Management Association |        1|              1547|          1547|
+|Oxford University Press (OUP)                              |        1|              1715|          1715|
+|Resilience Alliance, Inc.                                  |        1|              1271|          1271|
+|Royal Society of Chemistry (RSC)                           |        1|              1180|          1180|
+|The Royal Society                                          |        1|              2142|          2142|
+|University of California Press                             |        1|              1040|          1040|
 
 
 
@@ -54,12 +54,12 @@ With the recent contribution included, the overall APC data for the Leibniz Asso
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_leibnizfonds_2024_04_22_full](/figure/tree_leibnizfonds_2024_04_22_full-1.png)
+![plot of chunk tree_leibnizfonds_2024_05_06_full](/figure/tree_leibnizfonds_2024_05_06_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_leibnizfonds_2024_04_22_year_full](/figure/box_leibnizfonds_2024_04_22_year_full-1.png)
+![plot of chunk box_leibnizfonds_2024_05_06_year_full](/figure/box_leibnizfonds_2024_05_06_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_leibnizfonds_2024_04_22_publisher_full](/figure/box_leibnizfonds_2024_04_22_publisher_full-1.png)
+![plot of chunk box_leibnizfonds_2024_05_06_publisher_full](/figure/box_leibnizfonds_2024_05_06_publisher_full-1.png)

@@ -49,7 +49,7 @@ my.apc <- download_apc()
 my.apc <- my.apc[my.apc$institution == "Leibniz-Fonds",]
 my.apc <- droplevels(my.apc)
 my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/leibnizfonds/leibnizfonds-enriched.csv"))
-my.apc_new <- my.apc_new[1103:1174,]
+my.apc_new <- my.apc_new[1102:1173,]
 my.apc_new <- my.apc_new[my.apc_new$institution == "Leibniz-Fonds",]
 my.apc_new <- droplevels(my.apc_new)
 
@@ -80,7 +80,7 @@ With the recent contribution included, the overall APC data for the Leibniz Asso
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_leibnizfonds_2024_04_22_full}
+```{r tree_leibnizfonds_2024_05_06_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -88,7 +88,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_leibnizfonds_2024_04_22_year_full, echo=FALSE, message = FALSE}
+```{r box_leibnizfonds_2024_05_06_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -97,7 +97,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_leibnizfonds_2024_04_22_publisher_full, echo = FALSE, message = FALSE}
+```{r box_leibnizfonds_2024_05_06_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
