@@ -21,7 +21,7 @@ Contact Person is [Malin Fredriksson](mailto:Malin.Fredriksson@abo.fi).
 
 
 
-The new data set covers publication fees for 76 articles. Total expenditure amounts to 140,896€ and the average fee is 1,854€.
+The new data set covers publication fees for 77 articles. Total expenditure amounts to 143,587€ and the average fee is 1,865€.
 
 The following table provides an overview of the new APC data. Please note that BPCs are not included in this list, as they are aggregated in OpenAPC's [BPC](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv) dataset.
 
@@ -35,7 +35,7 @@ The following table provides an overview of the new APC data. Please note that B
 |Public Library of Science (PLoS)                              |        5|              8875|          1775|
 |Wiley-Blackwell                                               |        5|             11301|          2260|
 |Informa UK Limited                                            |        4|              7515|          1879|
-|Springer Nature                                               |        3|              3914|          1305|
+|Springer Nature                                               |        4|              6605|          1651|
 |American Physiological Society                                |        1|              2102|          2102|
 |American Psychological Association (APA)                      |        1|              3408|          3408|
 |BMJ                                                           |        1|              2121|          2121|
@@ -67,12 +67,12 @@ With the recent contribution included, the overall APC data for the Åbo Akademi
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_aboakademi_2024_05_06_full](/figure/tree_aboakademi_2024_05_06_full-1.png)
+![plot of chunk tree_aboakademi_2024_05_08_full](/figure/tree_aboakademi_2024_05_08_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_aboakademi_2024_05_06_year_full](/figure/box_aboakademi_2024_05_06_year_full-1.png)
+![plot of chunk box_aboakademi_2024_05_08_year_full](/figure/box_aboakademi_2024_05_08_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_aboakademi_2024_05_06_publisher_full](/figure/box_aboakademi_2024_05_06_publisher_full-1.png)
+![plot of chunk box_aboakademi_2024_05_08_publisher_full](/figure/box_aboakademi_2024_05_08_publisher_full-1.png)
