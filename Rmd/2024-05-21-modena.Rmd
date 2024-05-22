@@ -29,7 +29,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [Università degli Studi di Modena e Reggio Emilia](https://international.unimore.it/) (Unimore) has updated its APC expenditures, providing data for the 2022-2023 period.
 
-The [Unimore Libraries](https://www.libraries.unimore.it/site/home.html) manage services related to [Open Access](https://www.pop.unimore.it/open-access/).
+The [Unimore Libraries](https://www.libraries.unimore.it/site/home.html) manage services related to [Open Access](https://www.pop-en.unimore.it/open-access/).
 
 Contact Person is [Andrea Solieri](mailto:andrea.solieri@unimore.it).
 
@@ -62,14 +62,14 @@ The new data set covers publication fees for `r format(nrow(my.apc_new), big.mar
 The following table provides an overview of the new data:
 
 ```{r}
-d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
                                     
-my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
 
-df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
-             tapply(my.apc$euro, my.apc$publisher, sum),
-             tapply(my.apc$euro, my.apc$publisher, mean))
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
 
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
