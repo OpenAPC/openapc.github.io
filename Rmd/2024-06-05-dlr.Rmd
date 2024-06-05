@@ -1,0 +1,116 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      DLR reports its 2023 APC expenditures
+date:       2024-06-05 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+The [German Aerospace Center](https://www.dlr.de/EN/Home/home_node.html) (DLR - Deutsches Zentrum für Luft- und Raumfahrt) has updated its APC expenditures, the latest contribution provides data for the 2023 period.
+
+The [DLR Library](https://www.dlr.de/en/dlr/about-us/organisation/science-information/dlr-library) is responsible for compiling data sets on institutional APC expenditures and kindly provides them to OpenAPC.
+
+Contact Person is [Martin Wimmer](mailto:Bibliotheken@dlr.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "DLR",]
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc$publisher <- gsub("American Institute of Aeronautics and Astronautics \\(AIAA\\)", "AIAA", my.apc$publisher)
+my.apc$publisher <- gsub("Optical Society of America \\(OSA\\)", "OSA", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/dlr/DLRopenAPC_2023_enriched.csv"))
+my.apc_new <- my.apc_new[my.apc_new$institution == "DLR",]
+my.apc_new <- droplevels(my.apc_new)
+
+```
+
+The new data sets cover publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles. Total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements data set](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements).
+
+The following table provides an overview:
+
+```{r}
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for the DLR now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_dlr_2024_06_05_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_dlr_2024_06_05_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_dlr_2024_06_05_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 7])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 7 articles)") + ylab("APC")
+```
