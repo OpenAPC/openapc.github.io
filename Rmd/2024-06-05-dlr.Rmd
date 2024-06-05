@@ -3,7 +3,7 @@ layout:     post
 author:     Julia Bartlewski
 author_lnk: https://github.com/jbartlewski
 title:      DLR reports its 2023 APC expenditures
-date:       2024-06-05 09:00:00
+date:       2024-06-05 11:00:00
 summary:    
 categories: [general, openAPC]
 comments: true
