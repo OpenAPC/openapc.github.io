@@ -29,9 +29,9 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [University of Zurich](https://www.uzh.ch/en.html) has updated its APC and BPC expenditures, the recent contribution provides data for the 2022 and 2023 period.
 
-The [Zurich University Main Library](https://www.ub.uzh.ch/en/wissenschaftlich-arbeiten/publizieren/Publikation-finanzieren.html) collects data on institutional APC and BPC expenditures and kindly provides them to OpenAPC.
+The [University Library Zurich](https://www.ub.uzh.ch/en/wissenschaftlich-arbeiten/publizieren/Publikation-finanzieren.html) collects data on institutional APC and BPC expenditures and kindly provides them to OpenAPC.
 
-Contact person is [Samuel Weber-Martin](mailto: oa@ub.uzh.ch).
+Contact via the [Open Science Services](mailto: oa@ub.uzh.ch).
 
 ## Cost data
 
