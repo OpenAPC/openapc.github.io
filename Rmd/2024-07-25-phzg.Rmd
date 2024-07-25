@@ -1,0 +1,72 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      PH Zug joins OpenAPC
+date:       2024-07-25 09:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+We welcome the [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug) (PH Zug) as new contributing institution!
+
+The [University Library](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/ph-zug/mediothek/repository-zuro-open-access) collects data on institutional APC and BPC expenditures.
+An initial data set on APCs for 2022 and BPCs for 2021-2022 has been kindly made available to OpenAPC.
+
+Contact Person is [Ibrahim Aközel-Bussmann](mailto:openaccess@phzg.ch).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "University of Teacher Education Zug",]
+my.apc <- droplevels(my.apc)
+
+```
+
+The initial data set covers publication fees for `r format(nrow(my.apc), big.mark =",")` article. Please note that BPCs are not included in this list, as they are aggregated in OpenAPC's [BPC](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv) dataset.
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
