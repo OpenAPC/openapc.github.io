@@ -14,7 +14,7 @@ comments: true
 
 We welcome the [Zentralbibliothek Zürich](https://www.zb.uzh.ch/en) as new contributing institution!
 
-The [Open Access publication fund (Bretscher Fund)](https://www.zb.uzh.ch/en/services/forschungsforderung#Bretscher) supports and partially funds Gold OA publications on 20th-century social and intellectual history at the [Universität Zürich (UZH)](https://www.uzh.ch/cmsssl/en.html).
+The [Open Access publication fund (Bretscher Fund)](https://www.zb.uzh.ch/en/services/forschungsforderung#Bretscher) supports and funds Gold OA publications on 20th-century social and intellectual history at the [Universität Zürich (UZH)](https://www.uzh.ch/cmsssl/en.html).
 
 An initial data set on BPC expenditures for the 2023 period has been kindly made available to OpenAPC.
 
