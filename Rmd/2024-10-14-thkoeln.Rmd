@@ -1,0 +1,113 @@
+---
+layout:     post
+author:     Julia Bartlewski
+author_lnk: https://github.com/jbartlewski
+title:      TH Köln joins OpenAPC
+date:       2024-10-14 12:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo = FALSE}
+
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 12,
+  fig.height = 8
+)
+options(scipen = 999, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=",")
+})
+```
+
+We welcome the [TH Köln - University of Applied Sciences](https://www.th-koeln.de/en/) as new contributing institution!
+
+The [University Library](https://www.th-koeln.de/en/university-library_71012.php) is in charge of the [University's Publishing Fund](https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php).
+
+An initial data set on on APCs, BPCs, and hybrid OA articles published under the Springer and Wiley DEAL agreements for the 2023 period has been kindly made available to OpenAPC.
+
+Contact Person is [Kerstin Klein](mailto:kerstin.klein1@th-koeln.de).
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+  
+download_bpc <- function(path = NULL, dir = "tmp", file = "bpc.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/bpc.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "TH Köln",]
+my.apc <- droplevels(my.apc)
+
+```
+
+The initial data set provided by the TH Köln covers publication fees for `r format(nrow(my.apc), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc$euro)`€ and the average fee is `r sum(my.apc$euro)/nrow(my.apc)`€. Please note that neither articles published in **hybrid** journals under the DEAL agreement nor BPCs are included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) and [BPC](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv) datasets, respectively.
+
+
+```{r}
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc$euro, my.apc$publisher, length),
+             tapply(my.apc$euro, my.apc$publisher, sum),
+             tapply(my.apc$euro, my.apc$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_thkoeln_2024_10_14_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+
+###  Average costs per publisher (in EURO)
+
+```{r box_thkoeln_2024_10_14_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+require(tidyverse)
+my.apc <- my.apc %>%
+  mutate(publisher = str_replace(publisher, ".+\\((\\w+)\\)", "\\1"))
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 0])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher") + ylab("APC")
+```
