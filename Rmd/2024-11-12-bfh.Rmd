@@ -31,7 +31,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 The [BFH libraries](https://www.bfh.ch/de/ueber-die-bfh/standorte-infrastruktur/bibliotheken/) collect data on institutional APC expenditures and kindly provide the data sets to OpenAPC.
 
-Contact Person is [Laura Tobler](mailto:laura.tobler@bfh.ch).
+Institutional contact for the data set is the [BFH libraries "eRessourcen" Team](mailto:eressourcen@bfh.ch).
 
 ## Cost data
 
