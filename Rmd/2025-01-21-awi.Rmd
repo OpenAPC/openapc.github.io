@@ -31,6 +31,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung (AWI)](https://www.awi.de/en/) (Alfred Wegener Institute for Polar and Marine Research) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the AWI is [Tore Hoffmann](mailto:oa@awi.de).
+
 
 
 ## Cost data
@@ -77,7 +79,7 @@ A detailed analysis of the contributed data provides the following overview:
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_awi_2025_01_21_full}
+```{r tree_awi_2025_01_22_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -85,7 +87,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_ioer_2025_01_21_publisher_full, echo = FALSE, message = FALSE}
+```{r box_ioer_2025_01_22_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
