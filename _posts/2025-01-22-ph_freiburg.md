@@ -16,7 +16,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Pädagogische Hochschule Freiburg](https://www.ph-freiburg.de/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
-
+Contact person for the PH Freiburg data is [Christian Berger ](mailto:openaccess@ph-freiburg.de).
 
 ## Cost data
 
