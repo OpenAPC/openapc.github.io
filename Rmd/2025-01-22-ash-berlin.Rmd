@@ -31,7 +31,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Alice Salomon University of Applied Sciences Berlin](https://www.ash-berlin.eu/en/) (ASH Berlin) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-
+Contact person for the ASH Berlin data is [Claudia Voigtländer](mailto:openaccess@ash-berlin.eu).
 
 ## Cost data
 
@@ -56,7 +56,7 @@ my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-
 my.apc_new <- droplevels(my.apc_new)
 ```
 
-The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. 
+The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) data set.
 
 The following table provides an overview of the reported APCs: 
 
@@ -82,7 +82,7 @@ With the recent contribution included, the overall APC data for the Alice Salomo
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_ash_2025_01_22_full}
+```{r tree_ash_2025_01_23_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -90,7 +90,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_ash_2025_01_22_year_full, echo=FALSE, message = FALSE}
+```{r box_ash_2025_01_23_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -99,7 +99,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_ash_2025_01_22_publisher_full, echo = FALSE, message = FALSE}
+```{r box_ash_2025_01_23_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%

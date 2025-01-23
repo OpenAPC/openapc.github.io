@@ -16,13 +16,13 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Alice Salomon University of Applied Sciences Berlin](https://www.ash-berlin.eu/en/) (ASH Berlin) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-
+Contact person for the ASH Berlin data is [Claudia Voigtländer](mailto:openaccess@ash-berlin.eu).
 
 ## Cost data
 
 
 
-The new data set covers publication fees for 3 articles, total expenditure amounts to 5,979€ and the average fee is 1,993€. 
+The new data set covers publication fees for 3 articles, total expenditure amounts to 5,979€ and the average fee is 1,993€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) data set.
 
 The following table provides an overview of the reported APCs: 
 
@@ -43,12 +43,12 @@ With the recent contribution included, the overall APC data for the Alice Salomo
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_ash_2025_01_22_full](/figure/tree_ash_2025_01_22_full-1.png)
+![plot of chunk tree_ash_2025_01_23_full](/figure/tree_ash_2025_01_23_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_ash_2025_01_22_year_full](/figure/box_ash_2025_01_22_year_full-1.png)
+![plot of chunk box_ash_2025_01_23_year_full](/figure/box_ash_2025_01_23_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_ash_2025_01_22_publisher_full](/figure/box_ash_2025_01_22_publisher_full-1.png)
+![plot of chunk box_ash_2025_01_23_publisher_full](/figure/box_ash_2025_01_23_publisher_full-1.png)
