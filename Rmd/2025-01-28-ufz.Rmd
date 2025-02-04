@@ -31,7 +31,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [UFZ](https://www.ufz.de/index.php?en=33573) (Helmholtz Centre for Environmental Research) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-Contact person is [Ilka Rudolf](mailto:ilka.rudolf@ufz.de).
+Contact person is [Paul Meißner](mailto:paul.meissner@ufz.de).
 
 ## Cost data
 
