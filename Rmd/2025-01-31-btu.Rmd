@@ -31,7 +31,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Brandenburg University of Technology Cottbus-Senftenberg](https://www.b-tu.de/en/) (BTU)  had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
-
+Contact person for the BTU data is [Charlotte Meixner](mailto:openaccess@lists.b-tu.de).
 
 ## Cost data
 
@@ -77,7 +77,7 @@ A detailed analysis of the contributed data provides the following overview:
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_btu_2025_01_31_full}
+```{r tree_btu_2025_02_05_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -85,7 +85,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_btu_2025_01_31_publisher_full, echo = FALSE, message = FALSE}
+```{r box_btu_2025_02_05_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
@@ -128,7 +128,7 @@ apc_ac_grouped <- apc_ac_long %>%
 The data also contained additional cost information for `r format(nrow(ac_apc_join), big.mark =",")` publications. The following plot shows the distribution between APCs and additional costs for these `r format(nrow(ac_apc_join), big.mark =",")` articles, grouped by publishers:
 
 
-```{r additional_costs_btu_2025_01_31_full, echo = FALSE, message = FALSE}
+```{r additional_costs_btu_2025_02_05_full, echo = FALSE, message = FALSE}
 p <- ggplot(data = apc_ac_grouped, mapping = aes(x = publisher, y = value, fill=cost_type)) +
   geom_col(position = position_stack(reverse = TRUE)) + 
   xlab('Publisher') + 
