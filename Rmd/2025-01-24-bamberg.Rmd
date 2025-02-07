@@ -52,7 +52,7 @@ my.apc <- download_apc()
 my.apc <- my.apc[my.apc$institution == "Bamberg U",]
 my.apc <- droplevels(my.apc)
 
-my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v4.141.3-3-0/data/unibamberg/oapk_2023_bamberg_u_enriched.csv"))
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v4.144.4-4-1-fixed/data/unibamberg/oapk_2023_bamberg_u_enriched.csv"))
 my.apc_new <- my.apc_new[my.apc_new$institution == "Bamberg U",]
 my.apc_new <- droplevels(my.apc_new)
 ```
@@ -83,7 +83,7 @@ With the recent contribution included, the overall APC data for Bamberg now look
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_bamberg_2025_01_24_full}
+```{r tree_bamberg_2025_02_07_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -91,7 +91,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_bamberg_2025_01_24_year_full, echo=FALSE, message = FALSE}
+```{r box_bamberg_2025_02_07_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -100,7 +100,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_bamberg_2025_01_24_publisher_full, echo = FALSE, message = FALSE}
+```{r box_bamberg_2025_02_07_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
