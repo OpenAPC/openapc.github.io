@@ -16,7 +16,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Hochschule Darmstadt University of Applied Sciences](https://h-da.de/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
-Contact Person is [Katharina Emig](mailto:open-access.bib@h-da.de).
+Contact person is [Katharina Emig](mailto:open-access.bib@h-da.de).
 
 
 ## Cost data
