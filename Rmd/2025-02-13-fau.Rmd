@@ -31,6 +31,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.eu/) (FAU) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
+Contact person is [Tonka Stoyanova](mailto:ub-open-access@fau.de).
+
 
 ## Cost data
 
