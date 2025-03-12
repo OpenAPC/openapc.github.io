@@ -1,0 +1,118 @@
+---
+layout:     post
+author:     Christoph Broschinski
+author_lnk: https://github.com/cbroschinski
+title:      University of Stuttgart 2023 OAPK data integrated
+date:       2025-03-12 10:00:00
+summary:    
+categories: [general, openAPC]
+comments: true
+---
+
+
+```{r, echo =FALSE}
+knitr::opts_knit$set(base.url = "/")
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 9,
+  fig.height = 6
+)
+options(scipen = 1, digits = 2)
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark=" ")
+})
+```
+
+The Forschungszentrum Jülich collects publication cost data from German institutions as part of the DFG programme "[Open Access Publication Funding](https://www.fz-juelich.de/en/zb/open-science/open-access/monitoring-dfg-oa-publication-funding)".
+
+When reporting their publication costs, the [University of Stuttgart](https://www.uni-stuttgart.de/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
+
+Contact Person is [Stefan Drößler](mailto:stefan.droessler@ub.uni-stuttgart.de).
+
+
+## Cost data
+
+```{r, cache.lazy = TRUE}
+#' Download APC spreadsheet from github which requires to Curl installed
+
+download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
+  if(is.null(path)) {
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/apc_de.csv")
+    } 
+  dir.create(dir) 
+  download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
+  read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
+}
+
+my.apc <- download_apc()
+my.apc <- my.apc[my.apc$institution == "Stuttgart U",]
+my.apc$publisher <- gsub("Institute of Electrical & Electronics Engineers \\(IEEE\\)", "IEEE", my.apc$publisher)
+my.apc <- droplevels(my.apc)
+
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v4.147.8-6-1/data/unistuttgart/oapk_2023_stuttgart_u_enriched.csv"))
+my.apc_new <- my.apc_new[my.apc_new$institution == "Stuttgart U",]
+my.apc_new <- droplevels(my.apc_new)
+```
+
+The new data set covers publication fees for `r format(nrow(my.apc_new), big.mark =",")` articles, total expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€. Please note that articles published in **hybrid** journals under the DEAL agreements are not included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) data set.
+
+The following table provides an overview of the reported APCs: 
+
+
+```{r}
+d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+
+df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
+             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
+             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+## Overview
+
+With the recent contribution included, the overall APC data for the University of Stuttgart now looks as follows:
+
+### Fees paid per publisher (in EURO)
+
+```{r tree_stuttgart_2025_03_12_full}
+tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
+colnames(tt) <- c("Publisher", "Euro")
+treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
+```
+
+###  Average costs per year (in EURO)
+
+```{r box_stuttgart_2025_03_12_year_full, echo=FALSE, message = FALSE}
+require(ggplot2)
+q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
+q + xlab("Funding period") + ylab("APC")
+```
+
+###  Average costs per publisher (in EURO)
+
+```{r box_stuttgart_2025_03_12_publisher_full, echo = FALSE, message = FALSE}
+require(ggplot2)
+require(tidyverse)
+my.apc <- my.apc %>%
+  mutate(publisher = str_replace(publisher, ".+\\((\\w+)\\)", "\\1"))
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
+publishers = as.character(d_frame$Publisher[d_frame$Freq > 5])
+my.apc_reduced = my.apc[my.apc$publisher %in% publishers,]
+
+  
+q <- ggplot(my.apc_reduced, aes(publisher, euro)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18) + coord_flip()
+q + xlab("Publisher (> 5 articles)") + ylab("APC")
+```
