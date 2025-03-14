@@ -31,7 +31,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Technische Universität Berlin](https://www.tu.berlin/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-Contact Person is [Michaela Voigt](mailto:openaccess@ub.tu-berlin.de).
+Contact Person is [Katharina Drescher](mailto:transformation@ub.tu-berlin.de).
 
 
 ## Cost data
