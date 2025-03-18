@@ -78,7 +78,7 @@ With the recent contribution included, the overall APC data for the TUHH now loo
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_tuhh_2025_03_07_full}
+```{r tree_tuhh_2025_03_18_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -86,7 +86,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_tuhh_2025_03_07_year_full, echo=FALSE, message = FALSE}
+```{r box_tuhh_2025_03_18_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -95,7 +95,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_tuhh_2025_03_07_publisher_full, echo = FALSE, message = FALSE}
+```{r box_tuhh_2025_03_18_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
