@@ -22,7 +22,7 @@ Contact person is [Isabo Schick](mailto:openaccess@uni-hohenheim.de).
 
 
 
-The new data set covers publication fees for 105 articles, total expenditure amounts to 255 156€ and the average fee is 2 430€. 
+The new data set covers publication fees for 105 articles, total expenditure amounts to 252 531€ and the average fee is 2 405€. 
 
 The following table provides an overview: 
 
@@ -31,11 +31,11 @@ The following table provides an overview:
 
 |                                                                        | Articles| Fees paid in EURO| Mean Fee paid|
 |:-----------------------------------------------------------------------|--------:|-----------------:|-------------:|
-|Elsevier BV                                                             |       18|             37949|          2108|
+|Elsevier BV                                                             |       18|             37105|          2061|
 |MDPI AG                                                                 |       17|             51698|          3041|
-|Springer Nature                                                         |       17|             36085|          2123|
+|Springer Nature                                                         |       17|             34958|          2056|
 |Frontiers Media SA                                                      |        9|             30375|          3375|
-|Wiley-Blackwell                                                         |        9|             18010|          2001|
+|Wiley-Blackwell                                                         |        9|             17355|          1928|
 |Oxford University Press (OUP)                                           |        6|             21595|          3599|
 |Informa UK Limited                                                      |        4|              6582|          1646|
 |American Dairy Science Association                                      |        3|              7266|          2422|
@@ -62,7 +62,7 @@ The following table provides an overview:
 The new data also contained additional cost information for 1 publication. The following plot shows the distribution between APCs and additional costs for this article:
 
 
-![plot of chunk additional_costs_hohenheim_2025_04_02_full](/figure/additional_costs_hohenheim_2025_04_02_full-1.png)
+![plot of chunk additional_costs_hohenheim_2025_04_28_full](/figure/additional_costs_hohenheim_2025_04_28_full-1.png)
 
 
 ## Overview
@@ -71,12 +71,12 @@ With the recent contribution included, the overall APC data for the University o
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_hohenheim_2025_04_02_full](/figure/tree_hohenheim_2025_04_02_full-1.png)
+![plot of chunk tree_hohenheim_2025_04_28_full](/figure/tree_hohenheim_2025_04_28_full-1.png)
 
 ###  Average costs per year (in EURO)
 
-![plot of chunk box_hohenheim_2025_04_02_year_full](/figure/box_hohenheim_2025_04_02_year_full-1.png)
+![plot of chunk box_hohenheim_2025_04_28_year_full](/figure/box_hohenheim_2025_04_28_year_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_hohenheim_2025_04_02_publisher_full](/figure/box_hohenheim_2025_04_02_publisher_full-1.png)
+![plot of chunk box_hohenheim_2025_04_28_publisher_full](/figure/box_hohenheim_2025_04_28_publisher_full-1.png)

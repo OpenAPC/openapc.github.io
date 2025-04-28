@@ -103,7 +103,7 @@ apc_ac_grouped <- apc_ac_long %>%
 The new data also contained additional cost information for `r format(nrow(ac_apc_join), big.mark =",")` publication. The following plot shows the distribution between APCs and additional costs for this article:
 
 
-```{r additional_costs_hohenheim_2025_04_02_full, echo = FALSE, message = FALSE}
+```{r additional_costs_hohenheim_2025_04_28_full, echo = FALSE, message = FALSE}
 p <- ggplot(data = apc_ac_grouped, mapping = aes(x = publisher, y = value, fill=cost_type)) +
   geom_col(position = position_stack(reverse = TRUE)) + 
   xlab('Publisher') + 
@@ -126,7 +126,7 @@ With the recent contribution included, the overall APC data for the University o
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_hohenheim_2025_04_02_full}
+```{r tree_hohenheim_2025_04_28_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -134,7 +134,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_hohenheim_2025_04_02_year_full, echo=FALSE, message = FALSE}
+```{r box_hohenheim_2025_04_28_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -143,7 +143,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_hohenheim_2025_04_02_publisher_full, echo = FALSE, message = FALSE}
+```{r box_hohenheim_2025_04_28_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
