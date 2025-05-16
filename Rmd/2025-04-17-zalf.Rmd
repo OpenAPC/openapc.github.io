@@ -32,6 +32,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de/en/Pages/ZALF.aspx) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact via the [ZALF library](mailto:bib@zalf.de).
+
 ## Cost data
 
 ```{r, cache.lazy = TRUE}
