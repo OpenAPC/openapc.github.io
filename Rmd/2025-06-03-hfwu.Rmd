@@ -32,6 +32,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [HFWU](https://hfwu.de) (Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen - Nürtingen-Geislingen University of Applied Science) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the HFWU data is [Elena Kubein](mailto:openaccess@hfwu.de).
+
 ## Cost data
 
 ```{r, cache.lazy = TRUE}
