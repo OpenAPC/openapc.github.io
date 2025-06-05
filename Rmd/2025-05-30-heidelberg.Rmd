@@ -74,6 +74,49 @@ df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
+
+```
+### Additional Costs
+
+```{r}
+require(ggplot2)
+require(tidyverse)
+
+my.ac <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/apc_de_additional_costs.csv"))
+
+my.apc_euro_only <- my.apc_new %>% mutate(apc = euro) %>% select(doi, apc)
+
+ac_apc_join <- my.ac %>%
+  inner_join(my.apc_euro_only)
+
+apc_ac_long <- ac_apc_join %>%
+  pivot_longer(!doi, names_to = "cost_type", values_to = "value", values_drop_na = TRUE)
+
+apc_ac_grouped <- apc_ac_long %>%
+  left_join(my.apc_new) %>%
+  mutate(publisher = str_replace(publisher, ".+\\((\\w+)\\)", "\\1")) %>%
+  mutate(cost_type = factor(cost_type), publisher = factor(publisher)) %>%
+  group_by(cost_type, publisher) %>%
+  summarize(value = sum(value), articles = n())
+```
+
+The new data also contained additional cost information for `r format(nrow(ac_apc_join), big.mark =",")` publication. The following plot shows the distribution between APCs and additional costs for this article:
+
+
+```{r additional_costs_heidelberg_2025_05_30_full, echo = FALSE, message = FALSE}
+p <- ggplot(data = apc_ac_grouped, mapping = aes(x = publisher, y = value, fill=cost_type)) +
+  geom_col(position = position_stack(reverse = TRUE)) + 
+  xlab('Publisher') + 
+  ylab("Summarized Costs (€)") +
+  guides(fill = guide_legend(title = "Cost Type")) + 
+  scale_fill_manual(
+    values = c("darkolivegreen3", "orange", "red", "magenta2", "darkslategray", "blue", "darkgreen", "yellow", "cyan"),
+  #  labels = c("APC", "Colour Charges", "Cover Charge", "Other", "Page Charge", "Payment Fee", "Permission", "Reprint", "Submission Fee")
+  ) + 
+  theme(text = element_text(size = 16)) +
+  coord_flip()
+p
+
 ```
 
 ## Overview

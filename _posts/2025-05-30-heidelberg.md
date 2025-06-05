@@ -76,6 +76,14 @@ The following table provides an overview of the reported APCs:
 |Ubiquity Press, Ltd.                                       |        1|              1006|          1006|
 
 
+### Additional Costs
+
+
+
+The new data also contained additional cost information for 7 publication. The following plot shows the distribution between APCs and additional costs for this article:
+
+
+![plot of chunk additional_costs_heidelberg_2025_05_30_full](/figure/additional_costs_heidelberg_2025_05_30_full-1.png)
 
 ## Overview
 
