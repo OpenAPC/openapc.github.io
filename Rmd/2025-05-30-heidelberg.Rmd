@@ -100,7 +100,7 @@ apc_ac_grouped <- apc_ac_long %>%
   summarize(value = sum(value), articles = n())
 ```
 
-The new data also contained additional cost information for `r format(nrow(ac_apc_join), big.mark =",")` publication. The following plot shows the distribution between APCs and additional costs for this article:
+The new data also contained additional cost information for `r format(nrow(ac_apc_join), big.mark =",")` publications. The following plot shows the distribution between APCs and additional costs for these articles:
 
 
 ```{r additional_costs_heidelberg_2025_05_30_full, echo = FALSE, message = FALSE}

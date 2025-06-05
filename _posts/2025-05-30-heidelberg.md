@@ -80,7 +80,7 @@ The following table provides an overview of the reported APCs:
 
 
 
-The new data also contained additional cost information for 7 publication. The following plot shows the distribution between APCs and additional costs for this article:
+The new data also contained additional cost information for 7 publications. The following plot shows the distribution between APCs and additional costs for these articles:
 
 
 ![plot of chunk additional_costs_heidelberg_2025_05_30_full](/figure/additional_costs_heidelberg_2025_05_30_full-1.png)
