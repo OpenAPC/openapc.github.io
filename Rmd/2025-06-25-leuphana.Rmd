@@ -32,6 +32,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Leuphana University Lüneburg](https://www.leuphana.de/en/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
+Contact person for the Leuphana data is [Gesa Baron](mailto:gesa.baron@leuphana.de).
+
 
 ## Cost data
 
