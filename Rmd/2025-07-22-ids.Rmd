@@ -32,6 +32,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, [Leibniz Institute for the German Language (IDS)](https://www.ids-mannheim.de/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
+Contact person for the IDS is [Monika Pohlschmidt](mailto:oa@ids-mannheim.de).
 
 ## Cost data
 
@@ -75,7 +76,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ###  Distribution of costs (in EURO)
 
-```{r box_ids_2025_07_22_publisher_full, echo = FALSE, message = FALSE}
+```{r box_ids_2025_07_29_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
