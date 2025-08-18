@@ -40,14 +40,14 @@ Contact Person for the CSC is [Ville Hämäläinen](mailto:virta-julkaisutietopa
 
 download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
   if(is.null(path)) {
-    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/v4.163.10-5-4/data/apc_de.csv")
+    path <- c("https://raw.githubusercontent.com/OpenAPC/openapc-de/v4.163.11-8-5-fixed/data/apc_de.csv")
     } 
   dir.create(dir) 
   download.file(url = path, destfile = paste(dir, file, sep = "/"), method = "curl")
   read.csv(paste(dir, file, sep = "/"), header = T,sep =",")
 }
 
-my.apc <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v4.163.10-5-4/data/csc/journals_enriched.csv"))
+my.apc <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v4.163.11-8-5-fixed/data/csc/journals_enriched.csv"))
 
 my.apc <- my.apc[my.apc$institution != "",]
 my.apc <- droplevels(my.apc)
@@ -78,7 +78,7 @@ A detailed analysis of the contributed data provides the following overview:
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_csc_2025_07_31_full}
+```{r tree_csc_2025_08_18_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -86,7 +86,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_csc_2025_07_31_year_full, echo=FALSE, message = FALSE}
+```{r box_csc_2025_08_18_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -95,7 +95,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_csc_2025_07_31_full, echo = FALSE, message = FALSE}
+```{r box_csc_2025_08_18_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
