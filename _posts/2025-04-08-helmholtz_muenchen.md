@@ -16,18 +16,20 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/) (Helmholtz Munich) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person is [Markus Hagemann](mailto:markus.hagemann@helmholtz-muenchen.de).
+
 ## Cost data
 
 
 
-The initial data set covers publication fees for 78 articles, total expenditure amounts to 245,297€ and the average fee is 3,145€. Please note that articles published in **hybrid** journals under the DEAL agreement are not included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) data set.
+The initial data set covers publication fees for 79 articles, total expenditure amounts to 248,582€ and the average fee is 3,147€. Please note that articles published in **hybrid** journals under the DEAL agreement are not included in this list, as they are aggregated in OpenAPC's [transformative agreements](https://github.com/OpenAPC/openapc-de/tree/master/data/transformative_agreements) data set.
 
 
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid|
 |:-------------------------------------------|--------:|-----------------:|-------------:|
-|Springer Nature                             |       26|             97631|          3755|
+|Springer Nature                             |       27|            100916|          3738|
 |Elsevier BV                                 |       17|             56764|          3339|
 |Frontiers Media SA                          |       14|             39956|          2854|
 |Wiley-Blackwell                             |        5|             14025|          2805|
@@ -47,8 +49,8 @@ The initial data set covers publication fees for 78 articles, total expenditure 
 
 ### Fees paid per publisher (in EURO)
 
-![plot of chunk tree_hmgu_2025_04_08_full](/figure/tree_hmgu_2025_04_08_full-1.png)
+![plot of chunk tree_hmgu_2025_10_24_full](/figure/tree_hmgu_2025_10_24_full-1.png)
 
 ###  Average costs per publisher (in EURO)
 
-![plot of chunk box_hmgu_2025_04_08_publisher_full](/figure/box_hmgu_2025_04_08_publisher_full-1.png)
+![plot of chunk box_hmgu_2025_10_24_publisher_full](/figure/box_hmgu_2025_10_24_publisher_full-1.png)

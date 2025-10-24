@@ -32,6 +32,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/) (Helmholtz Munich) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person is [Markus Hagemann](mailto:markus.hagemann@helmholtz-muenchen.de).
+
 ## Cost data
 
 ```{r, cache.lazy = TRUE}
@@ -74,7 +76,7 @@ knitr::kable(as.data.frame(df.summary), digits = 2)
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_hmgu_2025_04_08_full}
+```{r tree_hmgu_2025_10_24_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -82,7 +84,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_hmgu_2025_04_08_publisher_full, echo = FALSE, message = FALSE}
+```{r box_hmgu_2025_10_24_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 require(tidyverse)
 my.apc <- my.apc %>%
