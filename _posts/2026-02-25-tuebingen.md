@@ -4,7 +4,7 @@
 layout:     post
 author:     Christoph Broschinski
 author_lnk: https://github.com/cbroschinski
-title:      Tuebingen U 2024 data integrated
+title:      Tuebingen U 2023 data integrated
 date:       2026-02-25 13:00:00
 summary:    
 categories: [general, openAPC]
