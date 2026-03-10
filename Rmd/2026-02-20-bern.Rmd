@@ -50,7 +50,7 @@ download_apc <- function(path = NULL, dir = "tmp", file = "apc_de.csv"){
 my.apc <- download_apc()
 my.apc <- my.apc[my.apc$institution == "University of Bern",]
 my.apc <- droplevels(my.apc)
-my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/v5.0.3-0-1/data/unibern/Reporting_University_of_Bern_OpenAPC_2025_enriched.csv"))
+my.apc_new <- download_apc(c("https://raw.githubusercontent.com/OpenAPC/openapc-de/master/data/unibern/Reporting_University_of_Bern_OpenAPC_2025_enriched.csv"))
 my.apc_new <- my.apc_new[my.apc_new$institution != "",]
 my.apc_new <- droplevels(my.apc_new)
 
@@ -80,7 +80,7 @@ With the recent contribution included, the overall APC data for Bern now looks a
 
 ### Fees paid per publisher (in EURO)
 
-```{r tree_bern_2026_02_20_full}
+```{r tree_bern_2026_03_10_full}
 tt <- aggregate(my.apc$euro, by = list(my.apc$publisher), sum)
 colnames(tt) <- c("Publisher", "Euro")
 treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
@@ -88,7 +88,7 @@ treemap::treemap(tt, index = c("Publisher"), vSize = "Euro", palette = "Paired")
 
 ###  Average costs per year (in EURO)
 
-```{r box_bern_2026_02_20_year_full, echo=FALSE, message = FALSE}
+```{r box_bern_2026_03_10_year_full, echo=FALSE, message = FALSE}
 require(ggplot2)
 q <- ggplot(my.apc, aes(factor(period), euro)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw(base_size = 18)
@@ -97,7 +97,7 @@ q + xlab("Funding period") + ylab("APC")
 
 ###  Average costs per publisher (in EURO)
 
-```{r box_bern_2026_02_20_publisher_full, echo = FALSE, message = FALSE}
+```{r box_bern_2026_03_10_publisher_full, echo = FALSE, message = FALSE}
 require(ggplot2)
 d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]
