@@ -76,37 +76,54 @@ Contact person for the data set is `r paste("[",CONTACT,"](mailto:",CONTACT_MAIL
 
 #' Download APC spreadsheet from github which requires to Curl installed
 
-
 my.apc_de <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/apc_de.csv", sep="")))
 my.ta <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/transformative_agreements.csv", sep="")))
 my.apc_ta_joined <- bind_rows(my.apc_de, my.ta)
 my.apc <- my.apc_ta_joined %>% filter(!is.na(euro)) %>% filter(institution == INSTITUTION)
 my.apc <- droplevels(my.apc)
 
-my.apc_new <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/",ins[1,7],"/",NEW_APC_FILE, sep="")))
-my.apc_new <- my.apc_new %>% filter(!is.na(institution))
+if(!is.na(NEW_APC_FILE)) {
+  my.apc_new <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/",ins[1,7],"/",NEW_APC_FILE, sep="")))
+  my.apc_new <- my.apc_new %>% filter(!is.na(institution))
+  my.apc_new_count <- format(nrow(my.apc_new), big.mark =",")
+} else {
+  my.apc_new <- NA
+  my.apc_new_count <- 'None'
+}
 
-my.ta_apc_new <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/",ins[1,7],"/",NEW_TA_FILE, sep="")))
-my.ta_apc_new <- my.ta_apc_new %>% filter(!is.na(euro)) %>% filter(!is.na(institution))
+if(!is.na(NEW_TA_FILE)) {
+  my.ta_apc_new <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/",ins[1,7],"/",NEW_TA_FILE, sep="")))
+  my.ta_apc_new <- my.ta_apc_new %>% filter(!is.na(euro)) %>% filter(!is.na(institution))
+  my.ta_apc_new_count <- format(nrow(my.ta_apc_new), big.mark =",")
+} else {
+  my.ta_apc_new <- NA
+  my.ta_apc_new_count <- 'none'
+}
 
-my.all_apc_new <- bind_rows(my.apc_new, my.ta_apc_new)
+if (typeof(my.apc_new) == "logical") {
+  my.all_apc_new <- my.ta_apc_new
+} else if (typeof(my.ta_apc_new) == "logical") {
+  my.all_apc_new <- my.apc_new
+} else {
+  my.all_apc_new <- bind_rows(my.apc_new, my.ta_apc_new)
+}
 my.all_apc_new <- droplevels(my.all_apc_new)
 ```
 
-The new data covers APCs for `r format(nrow(my.all_apc_new), big.mark =",")` articles (`r format(nrow(my.apc_new), big.mark =",")` not related to any agreement, `r format(nrow(my.ta_apc_new), big.mark =",")` published under an agreement like DEAL). Total APC expenditure amounts to `r sum(my.apc_new$euro)`€ and the average fee is `r sum(my.apc_new$euro)/nrow(my.apc_new)`€.
+The new data covers APCs for `r format(nrow(my.all_apc_new), big.mark =",")` articles (`r my.apc_new_count` unrelated to any agreement, `r my.ta_apc_new_count` published under an agreement like DEAL). Total APC expenditure amounts to `r sum(my.all_apc_new$euro)`€ and the average fee is `r sum(my.all_apc_new$euro)/nrow(my.all_apc_new)`€.
 
 The following table provides an overview. `r ifelse(HAS_BPC == "TRUE", "Please note that BPCs are not included in this list, as they are aggregated in OpenAPC's [BPC](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv) dataset.", " ")`
 
 
 ```{r}
-d_frame = data.frame(table(my.apc_new$publisher,  dnn="Publisher"))                 
+d_frame = data.frame(table(my.all_apc_new$publisher,  dnn="Publisher"))                 
 d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
                                     
-my.apc_new$publisher <- factor(my.apc_new$publisher, levels =  d_frame$Publisher)
+my.all_apc_new$publisher <- factor(my.all_apc_new$publisher, levels =  d_frame$Publisher)
 
-df.summary <-cbind(tapply(my.apc_new$euro, my.apc_new$publisher, length),
-             tapply(my.apc_new$euro, my.apc_new$publisher, sum),
-             tapply(my.apc_new$euro, my.apc_new$publisher, mean))
+df.summary <-cbind(tapply(my.all_apc_new$euro, my.all_apc_new$publisher, length),
+             tapply(my.all_apc_new$euro, my.all_apc_new$publisher, sum),
+             tapply(my.all_apc_new$euro, my.all_apc_new$publisher, mean))
 
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
