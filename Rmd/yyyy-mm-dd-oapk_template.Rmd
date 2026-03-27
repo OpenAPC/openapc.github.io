@@ -37,7 +37,7 @@ CONTACT <- "Ute Grimmel-Holzwarth"
 CONTACT_MAIL <- "openaccess@ub.uni-tuebingen.de"
 HAS_BPC <- FALSE
 
-institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/institutions.csv", sep="")))
+institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/institutions.csv", sep="")))
 ins <- institutions %>% filter(institution == INSTITUTION)
 
 date_only <- str_split_1(DATE, " ")[1]
