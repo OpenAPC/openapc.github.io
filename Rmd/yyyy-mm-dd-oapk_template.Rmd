@@ -84,7 +84,7 @@ my.apc <- droplevels(my.apc)
 
 if(!is.na(NEW_APC_FILE)) {
   my.apc_new <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/",ins[1,7],"/",NEW_APC_FILE, sep="")))
-  my.apc_new <- my.apc_new %>% filter(!is.na(institution))
+  my.apc_new <- my.apc_new %>% filter(!is.na(euro)) %>% filter(!is.na(institution))
   my.apc_new_count <- format(nrow(my.apc_new), big.mark =",")
 } else {
   my.apc_new <- NA
