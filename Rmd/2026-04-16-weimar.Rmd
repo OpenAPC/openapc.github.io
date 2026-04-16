@@ -77,7 +77,8 @@ Contact person for the data set is `r paste("[",CONTACT,"](mailto:",CONTACT_MAIL
 #' Download APC spreadsheet from github which requires to Curl installed
 
 my.apc_de <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/apc_de.csv", sep="")))
-my.ta <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/transformative_agreements.csv", sep="")))
+my.ta <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/tags/",VERSION,"/data/transformative_agreements/transformative_agreements.csv", sep="")))
+
 my.apc_ta_joined <- bind_rows(my.apc_de, my.ta)
 my.apc <- my.apc_ta_joined %>% filter(!is.na(euro)) %>% filter(institution == INSTITUTION)
 my.apc <- droplevels(my.apc)
@@ -129,6 +130,7 @@ df.summary <-cbind(tapply(my.all_apc_new$euro, my.all_apc_new$publisher, length)
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
+
 ```
 
 
