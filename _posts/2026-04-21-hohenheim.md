@@ -18,7 +18,7 @@ The [University of Hohenheim](https://www.uni-hohenheim.de/en/english) has updat
 
 Data is provided by the [Communication, Information and Media Center (KIM)](https://kim.uni-hohenheim.de/en), which manages services related to [Open Access](https://kim.uni-hohenheim.de/en/openaccess).
 
-Contact person is [Isabo Schick](mailto:openaccess@uni-hohenheim.de).
+Contact person is [Isabo Gerstner](mailto:openaccess@uni-hohenheim.de).
 
 
 ## Cost data

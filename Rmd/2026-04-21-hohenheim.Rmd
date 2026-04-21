@@ -33,7 +33,7 @@ INSTITUTION <- "Hohenheim U"
 NEW_APC_FILE <- "apc_hohenheim_2025_enriched.csv"
 NEW_TA_FILE <- "ta_artikel_hohenheim_2025_enriched.csv"
 DATE <- "2026-04-21 11:00:00"
-CONTACT <- "Isabo Schick"
+CONTACT <- "Isabo  Gerstner"
 CONTACT_MAIL <- "openaccess@uni-hohenheim.de"
 HAS_BPC <- TRUE
 
@@ -68,7 +68,7 @@ The [University of Hohenheim](https://www.uni-hohenheim.de/en/english) has updat
 
 Data is provided by the [Communication, Information and Media Center (KIM)](https://kim.uni-hohenheim.de/en), which manages services related to [Open Access](https://kim.uni-hohenheim.de/en/openaccess).
 
-Contact person is [Isabo Schick](mailto:openaccess@uni-hohenheim.de).
+Contact person is [Isabo Gerstner](mailto:openaccess@uni-hohenheim.de).
 
 
 ## Cost data
