@@ -33,8 +33,8 @@ INSTITUTION <- "TU Dresden"
 NEW_APC_FILE <- "oapk_2024_tu_dresden_enriched.csv"
 NEW_TA_FILE <- "oapk_2024_tu_dresden_TA_enriched.csv"
 DATE <- "2026-05-06 010:00:00"
-CONTACT <- "Michael Wohlgemuth"
-CONTACT_MAIL <- "openaccess@slub-dresden.de"
+CONTACT <- "Sebastian Schaarschmidt"
+CONTACT_MAIL <- "Sebastian.Schaarschmidt@slub-dresden.de"
 HAS_BPC <- FALSE
 
 institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/institutions.csv", sep="")))

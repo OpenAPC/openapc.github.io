@@ -18,7 +18,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [Technische Universität Dresden](https://www.slub-dresden.de/veroeffentlichen/open-access) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-Contact person for the data set is [Michael Wohlgemuth](mailto:openaccess@slub-dresden.de).
+Contact person for the data set is [Sebastian Schaarschmidt](mailto:Sebastian.Schaarschmidt@slub-dresden.de).
 
 ## Cost data
 
