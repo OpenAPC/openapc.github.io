@@ -33,8 +33,8 @@ INSTITUTION <- "Stuttgart U"
 NEW_APC_FILE <- "oapk_2024_stuttgart_u_enriched.csv"
 NEW_TA_FILE <- "oapk_2024_stuttgart_u_TA_enriched.csv"
 DATE <- "2026-06-03 15:00:00"
-CONTACT <- "Stefan Drößler"
-CONTACT_MAIL <- "stefan.droessler@ub.uni-stuttgart.de"
+CONTACT <- "Maren Wurtscheid"
+CONTACT_MAIL <- "oa@ub.uni-stuttgart.de"
 HAS_BPC <- TRUE
 
 institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/institutions.csv", sep="")))

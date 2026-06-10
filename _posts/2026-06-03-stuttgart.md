@@ -18,7 +18,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/) had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated.
 
-Contact person for the data set is [Stefan Drößler](mailto:stefan.droessler@ub.uni-stuttgart.de).
+Contact person for the data set is [Maren Wurtscheid](mailto:oa@ub.uni-stuttgart.de).
 
 ## Cost data
 
