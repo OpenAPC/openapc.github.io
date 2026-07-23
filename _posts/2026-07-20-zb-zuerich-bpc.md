@@ -13,7 +13,7 @@ comments: true
 
 The [Zentralbibliothek Zürich](https://www.zb.uzh.ch/en) has updated its BPC expenditures, the latest contribution provides data for the 2025 period.
 
-The [Open Access publication fund (Bretscher Fund)](https://www.zb.uzh.ch/en/services/forschungsforderung#Bretscher) supports and funds Gold OA publications on 20th-century social and intellectual history at the [Universität Zürich (UZH)](https://www.uzh.ch/cmsssl/en.html).
+The [Willy Bretscher Open Access Publication Fund](https://www.zb.uzh.ch/en/services/forschungsforderung#Bretscher) supports and funds Gold OA publications on 20th-century social and intellectual history at the [Universität Zürich (UZH)](https://www.uzh.ch/cmsssl/en.html).
 
 Contact Person is [Samuel Nussbaum](mailto:samuel.nussbaum@zb.uzh.ch).
 
