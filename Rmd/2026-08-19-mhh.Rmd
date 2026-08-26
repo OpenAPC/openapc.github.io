@@ -33,8 +33,8 @@ INSTITUTION <- "Medizinische Hochschule Hannover"
 NEW_APC_FILE <- "oapk_2024_medizinische_hochschule_hannover_enriched.csv"
 NEW_TA_FILE <- "oapk_2024_medizinische_hochschule_hannover_TA_enriched.csv"
 DATE <- "2026-08-19 09:00:00"
-CONTACT <- NA
-CONTACT_MAIL <- NA
+CONTACT <- "Markus Schmiel"
+CONTACT_MAIL <- "bibliothek.publikationsberatung@mh-hannover.de"
 HAS_BPC <- FALSE
 
 institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/institutions.csv", sep="")))
@@ -68,6 +68,7 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the `r paste("[",ins[1,3],"](",ins[1,11],")", sep="")` had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact person for the data set is `r paste("[",CONTACT,"](mailto:",CONTACT_MAIL,")", sep="")`.
 
 ## Cost data
 
