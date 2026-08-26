@@ -33,8 +33,8 @@ INSTITUTION <- "Leibniz-FLI"
 NEW_APC_FILE <- NA
 NEW_TA_FILE <- "oapk_2024_leibniz-fli_TA_enriched.csv"
 DATE <- "2026-08-19 12:00:00"
-CONTACT <- NA
-CONTACT_MAIL <- NA
+CONTACT <- "Magdalena Rose"
+CONTACT_MAIL <- "Magdalena.Rose@leibniz-fli.de"
 HAS_BPC <- FALSE
 
 institutions <- download_apc(c(paste("https://raw.githubusercontent.com/OpenAPC/openapc-de/refs/heads/master/data/institutions.csv", sep="")))
@@ -67,6 +67,8 @@ knitr::knit_hooks$set(inline = function(x) {
 The Forschungszentrum Jülich collects publication cost data from German institutions as part of the DFG programme "[Open Access Publication Funding](https://www.fz-juelich.de/en/zb/open-science/open-access/monitoring-dfg-oa-publication-funding)".
 
 When reporting their publication costs, the `r paste("[",ins[1,3],"](",ins[1,11],")", sep="")` had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
+
+Contact person for the data set is `r paste("[",CONTACT,"](mailto:",CONTACT_MAIL,")", sep="")`.
 
 
 ## Cost data
