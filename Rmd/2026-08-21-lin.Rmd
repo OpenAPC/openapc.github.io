@@ -68,6 +68,8 @@ The Forschungszentrum Jülich collects publication cost data from German institu
 
 When reporting their publication costs, the `r paste("[",ins[1,3],"](",ins[1,11],")", sep="")` had agreed to share the data with OpenAPC as well. This data has now been transferred and integrated, making the institution participate in OpenAPC for the first time.
 
+Contact Persons for the data sets are [Elke Behrends](mailto:Elke.Behrends@lin-magdeburg.de) and [Christina Spilker](mailto:christina.spilker@lin-magdeburg.de).
+
 
 ## Cost data
 
