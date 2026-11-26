@@ -48,7 +48,7 @@ file_part <- paste(ins[1,2],"_","date_lower", sep="")
 layout:     post
 author:     `r ifelse(AUTHOR == "J", "Julia Bartlewski")`
 author_lnk: `r ifelse(AUTHOR == "J", "https://github.com/jbartlewski")`
-title:      `r paste(INSTITUTION," 2024 data integrated", sep="")`
+title:      `r paste(INSTITUTION," reports its 2025 expenditures", sep="")`
 date:       `r DATE`
 summary:    
 categories: [general, openAPC]
